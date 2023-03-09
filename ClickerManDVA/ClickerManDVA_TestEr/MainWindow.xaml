@@ -36,27 +36,27 @@
         </WrapPanel>
         
         <WrapPanel Name="wpRow2" Grid.Row="1">
-            <Button Height="{Binding ElementName=wpRow2, Path=ActualHeight}" Width="75" Content="~`Ё"/>
-            <Button Width="75" Content="!1"/>
-            <Button Width="75" Content="@2"/>
-            <Button Width="75" Content="#№3"/>
-            <Button Width="75" Content="$;4"/>
-            <Button Width="75" Content="%5"/>
-            <Button Width="75" Content="^:6"/>
-            <Button Width="75" Content="?7"/>
-            <Button Width="75" Content="*8"/>
-            <Button Width="75" Content="(9"/>
-            <Button Width="75" Content=")0"/>
-            <Button Width="75" Content="_-"/>
-            <Button Width="75" Content="+="/>
-            <Button Width="75" Content="Backspace"/>
-            <Button Width="75" Content="Insert"/>
-            <Button Width="75" Content="Home"/>
-            <Button Width="75" Content="Page Up"/>
-            <Button Width="75" Content="NumLock"/>
-            <Button Width="75" Content="/"/>
-            <Button Width="75" Content="*"/>
-            <Button Width="75" Content="-"/>
+            <Button Name="Btn21" Height="{Binding ElementName=wpRow2, Path=ActualHeight}" Width="75" Content="~`Ё"/>
+            <Button Name="Btn22" Width="75" Content="!1"/>
+            <Button Name="Btn23" Width="75" Content="@2"/>
+            <Button Name="Btn24" Width="75" Content="#№3"/>
+            <Button Name="Btn25" Width="75" Content="$;4"/>
+            <Button Name="Btn26" Width="75" Content="%5"/>
+            <Button Name="Btn27" Width="75" Content="^:6"/>
+            <Button Name="Btn28" Width="75" Content="?7"/>
+            <Button Name="Btn29" Width="75" Content="*8"/>
+            <Button Name="Btn210" Width="75" Content="(9"/>
+            <Button Name="Btn211" Width="75" Content=")0"/>
+            <Button Name="Btn212" Width="75" Content="_-"/>
+            <Button Name="Btn213" Width="75" Content="+="/>
+            <Button Name="Btn214" Width="75" Content="Backspace"/>
+            <Button Name="Btn215" Width="75" Content="Insert"/>
+            <Button Name="Btn216" Width="75" Content="Home"/>
+            <Button Name="Btn217" Width="75" Content="Page Up"/>
+            <Button Name="Btn218" Width="75" Content="NumLock"/>
+            <Button Name="Btn219" Width="75" Content="/"/>
+            <Button Name="Btn220" Width="75" Content="*"/>
+            <Button Name="Btn221" Width="75" Content="-"/>
         </WrapPanel>
         
         <WrapPanel Name="wpRow3" Grid.Row="2">
@@ -84,22 +84,22 @@
         </WrapPanel>
         
         <WrapPanel Name="wpRow4" Grid.Row="3">
-            <Button Height="{Binding ElementName=wpRow2, Path=ActualHeight}" Width="75" Content="CapsLock"/>
-            <Button Width="75" Content="A"/>
-            <Button Width="75" Content="S"/>
-            <Button Width="75" Content="D"/>
-            <Button Width="75" Content="F"/>
-            <Button Width="75" Content="G"/>
-            <Button Width="75" Content="H"/>
-            <Button Width="75" Content="J"/>
-            <Button Width="75" Content="K"/>
-            <Button Width="75" Content="L"/>
-            <Button Width="75" Content=":;"/>
-            <Button Width="75" Content="'"/>
-            <Button Width="75" Content="Enter"/>
-            <Button Width="75" Content="4"/>
-            <Button Width="75" Content="5"/>
-            <Button Width="75" Content="6"/>
+            <Button Name="Btn41" Height="{Binding ElementName=wpRow2, Path=ActualHeight}" Width="75" Content="CapsLock"/>
+            <Button Name="Btn42" Width="75" Content="A"/>
+            <Button Name="Btn43" Width="75" Content="S"/>
+            <Button Name="Btn44" Width="75" Content="D"/>
+            <Button Name="Btn45" Width="75" Content="F"/>
+            <Button Name="Btn46" Width="75" Content="G"/>
+            <Button Name="Btn47" Width="75" Content="H"/>
+            <Button Name="Btn48" Width="75" Content="J"/>
+            <Button Name="Btn49" Width="75" Content="K"/>
+            <Button Name="Btn410" Width="75" Content="L"/>
+            <Button Name="Btn411" Width="75" Content=":;"/>
+            <Button Name="Btn412" Width="75" Content="'"/>
+            <Button Name="Btn413" Width="75" Content="Enter"/>
+            <Button Name="Btn414" Width="75" Content="4"/>
+            <Button Name="Btn415" Width="75" Content="5"/>
+            <Button Name="Btn416" Width="75" Content="6"/>
         </WrapPanel>
         <WrapPanel Name="wpRow5" Grid.Row="4">
             <Button Height="{Binding ElementName=wpRow5, Path=ActualHeight}" Width="75" Content="Shift"/>
@@ -121,17 +121,16 @@
             <Button Width="75" Content="Enter"/>
         </WrapPanel>
         <WrapPanel Name="wpRow6" Grid.Row="5">
-            <Button Height="{Binding ElementName=wpRow6, Path=ActualHeight}" Width="75" Content="Ctrl"/>
-            <Button Width="75" Content="Win"/>
-            <Button Width="75" Content="Alt"/>
-            <Button Width="450" Content="Space"/>
-            <Button Width="75" Content="Alt"/>
-            <Button Width="75" Content="Win"/>
-            <Button Width="75" Content="Ctrl"/>
-            <Button Width="75" Content="←"/>
-            <Button Width="75" Content="↓"/>
-            <Button Width="75" Content="→"/>
-
+            <Button Name="Btn61" Height="{Binding ElementName=wpRow6, Path=ActualHeight}" Width="75" Content="Ctrl"/>
+            <Button Name="Btn62" Width="75" Content="Win"/>
+            <Button Name="Btn63" Width="75" Content="Alt"/>
+            <Button Name="Btn64" Width="450" Content="Space"/>
+            <Button Name="Btn65" Width="75" Content="Alt"/>
+            <Button Name="Btn66" Width="75" Content="Win"/>
+            <Button Name="Btn67" Width="75" Content="Ctrl"/>
+            <Button Name="Btn68" Width="75" Content="←"/>
+            <Button Name="Btn69" Width="75" Content="↓"/>
+            <Button Name="Btn610" Width="75" Content="→"/>
         </WrapPanel>
 
     </Grid>
