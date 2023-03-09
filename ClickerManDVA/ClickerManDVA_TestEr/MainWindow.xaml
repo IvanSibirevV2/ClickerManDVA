@@ -36,27 +36,27 @@
         </WrapPanel>
         
         <WrapPanel Name="wpRow2" Grid.Row="1">
-            <Button Name="Btn21" Height="{Binding ElementName=wpRow2, Path=ActualHeight}" Width="75" Content="~`Ё"/>
-            <Button Name="Btn22" Width="75" Content="!1"/>
-            <Button Name="Btn23" Width="75" Content="@2"/>
-            <Button Name="Btn24" Width="75" Content="#№3"/>
-            <Button Name="Btn25" Width="75" Content="$;4"/>
-            <Button Name="Btn26" Width="75" Content="%5"/>
-            <Button Name="Btn27" Width="75" Content="^:6"/>
-            <Button Name="Btn28" Width="75" Content="?7"/>
-            <Button Name="Btn29" Width="75" Content="*8"/>
-            <Button Name="Btn210" Width="75" Content="(9"/>
-            <Button Name="Btn211" Width="75" Content=")0"/>
-            <Button Name="Btn212" Width="75" Content="_-"/>
-            <Button Name="Btn213" Width="75" Content="+="/>
-            <Button Name="Btn214" Width="75" Content="Backspace"/>
-            <Button Name="Btn215" Width="75" Content="Insert"/>
-            <Button Name="Btn216" Width="75" Content="Home"/>
-            <Button Name="Btn217" Width="75" Content="Page Up"/>
-            <Button Name="Btn218" Width="75" Content="NumLock"/>
-            <Button Name="Btn219" Width="75" Content="/"/>
-            <Button Name="Btn220" Width="75" Content="*"/>
-            <Button Name="Btn221" Width="75" Content="-"/>
+            <Button Name="Btn21" Height="{Binding ElementName=wpRow2, Path=ActualHeight}" Width="75" Content="~`Ё" PreviewMouseLeftButtonDown="Btn21_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn21_PreviewMouseLeftButtonUp"/>
+            <Button Name="Btn22" Width="75" Content="!1" PreviewMouseLeftButtonDown="Btn22_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn22_PreviewMouseLeftButtonUp"/>
+            <Button Name="Btn23" Width="75" Content="@2" PreviewMouseLeftButtonDown="Btn23_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn23_PreviewMouseLeftButtonUp"/>
+            <Button Name="Btn24" Width="75" Content="#№3" PreviewMouseLeftButtonDown="Btn24_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn24_PreviewMouseLeftButtonUp"/>
+            <Button Name="Btn25" Width="75" Content="$;4" PreviewMouseLeftButtonDown="Btn25_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn25_PreviewMouseLeftButtonUp"/>
+            <Button Name="Btn26" Width="75" Content="%5"  PreviewMouseLeftButtonDown="Btn26_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn26_PreviewMouseLeftButtonUp"/>
+            <Button Name="Btn27" Width="75" Content="^:6"  PreviewMouseLeftButtonDown="Btn27_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn27_PreviewMouseLeftButtonUp"/>
+            <Button Name="Btn28" Width="75" Content="?7" PreviewMouseLeftButtonDown="Btn28_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn28_PreviewMouseLeftButtonUp"/>
+            <Button Name="Btn29" Width="75" Content="*8" PreviewMouseLeftButtonDown="Btn29_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn29_PreviewMouseLeftButtonUp"/>
+            <Button Name="Btn210" Width="75" Content="(9" PreviewMouseLeftButtonDown="Btn210_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn210_PreviewMouseLeftButtonUp"/>
+            <Button Name="Btn211" Width="75" Content=")0" PreviewMouseLeftButtonDown="Btn211_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn211_PreviewMouseLeftButtonUp"/>
+            <Button Name="Btn212" Width="75" Content="_-" PreviewMouseLeftButtonDown="Btn212_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn212_PreviewMouseLeftButtonUp"/>
+            <Button Name="Btn213" Width="75" Content="+=" PreviewMouseLeftButtonDown="Btn213_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn213_PreviewMouseLeftButtonUp"/>
+            <Button Name="Btn214" Width="75" Content="Backspace" PreviewMouseLeftButtonDown="Btn214_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn214_PreviewMouseLeftButtonUp"/>
+            <Button Name="Btn215" Width="75" Content="Insert" PreviewMouseLeftButtonDown="Btn215_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn215_PreviewMouseLeftButtonUp"/>
+            <Button Name="Btn216" Width="75" Content="Home" PreviewMouseLeftButtonDown="Btn216_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn216_PreviewMouseLeftButtonUp"/>
+            <Button Name="Btn217" Width="75" Content="Page Up" PreviewMouseLeftButtonDown="Btn217_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn217_PreviewMouseLeftButtonUp"/>
+            <Button Name="Btn218" Width="75" Content="NumLock" PreviewMouseLeftButtonDown="Btn218_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn218_PreviewMouseLeftButtonUp"/>
+            <Button Name="Btn219" Width="75" Content="/" PreviewMouseLeftButtonDown="Btn219_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn219_PreviewMouseLeftButtonUp"/>
+            <Button Name="Btn220" Width="75" Content="*" PreviewMouseLeftButtonDown="Btn220_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn220_PreviewMouseLeftButtonUp"/>
+            <Button Name="Btn221" Width="75" Content="-" PreviewMouseLeftButtonDown="Btn221_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn221_PreviewMouseLeftButtonUp"/>
         </WrapPanel>
         
         <WrapPanel Name="wpRow3" Grid.Row="2">
@@ -84,22 +84,22 @@
         </WrapPanel>
         
         <WrapPanel Name="wpRow4" Grid.Row="3">
-            <Button Name="Btn41" Height="{Binding ElementName=wpRow2, Path=ActualHeight}" Width="75" Content="CapsLock"/>
-            <Button Name="Btn42" Width="75" Content="A"/>
-            <Button Name="Btn43" Width="75" Content="S"/>
-            <Button Name="Btn44" Width="75" Content="D"/>
-            <Button Name="Btn45" Width="75" Content="F"/>
-            <Button Name="Btn46" Width="75" Content="G"/>
-            <Button Name="Btn47" Width="75" Content="H"/>
-            <Button Name="Btn48" Width="75" Content="J"/>
-            <Button Name="Btn49" Width="75" Content="K"/>
-            <Button Name="Btn410" Width="75" Content="L"/>
-            <Button Name="Btn411" Width="75" Content=":;"/>
-            <Button Name="Btn412" Width="75" Content="'"/>
-            <Button Name="Btn413" Width="75" Content="Enter"/>
-            <Button Name="Btn414" Width="75" Content="4"/>
-            <Button Name="Btn415" Width="75" Content="5"/>
-            <Button Name="Btn416" Width="75" Content="6"/>
+            <Button Name="Btn41" Height="{Binding ElementName=wpRow2, Path=ActualHeight}" Width="75" Content="CapsLock" PreviewMouseLeftButtonDown="Btn41_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn41_PreviewMouseLeftButtonUp"/>
+            <Button Name="Btn42" Width="75" Content="A" PreviewMouseLeftButtonDown="Btn42_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn42_PreviewMouseLeftButtonUp"/>
+            <Button Name="Btn43" Width="75" Content="S" PreviewMouseLeftButtonDown="Btn43_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn43_PreviewMouseLeftButtonUp"/>
+            <Button Name="Btn44" Width="75" Content="D" PreviewMouseLeftButtonDown="Btn44_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn44_PreviewMouseLeftButtonUp"/>
+            <Button Name="Btn45" Width="75" Content="F" PreviewMouseLeftButtonDown="Btn45_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn45_PreviewMouseLeftButtonUp"/>
+            <Button Name="Btn46" Width="75" Content="G" PreviewMouseLeftButtonDown="Btn46_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn46_PreviewMouseLeftButtonUp"/>
+            <Button Name="Btn47" Width="75" Content="H" PreviewMouseLeftButtonDown="Btn47_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn47_PreviewMouseLeftButtonUp"/>
+            <Button Name="Btn48" Width="75" Content="J" PreviewMouseLeftButtonDown="Btn48_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn48_PreviewMouseLeftButtonUp"/>
+            <Button Name="Btn49" Width="75" Content="K" PreviewMouseLeftButtonDown="Btn49_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn49_PreviewMouseLeftButtonUp"/>
+            <Button Name="Btn410" Width="75" Content="L" PreviewMouseLeftButtonDown="Btn410_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn410_PreviewMouseLeftButtonUp"/>
+            <Button Name="Btn411" Width="75" Content=":;" PreviewMouseLeftButtonDown="Btn411_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn411_PreviewMouseLeftButtonUp"/>
+            <Button Name="Btn412" Width="75" Content="'" PreviewMouseLeftButtonDown="Btn412_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn412_PreviewMouseLeftButtonUp"/>
+            <Button Name="Btn413" Width="75" Content="Enter" PreviewMouseLeftButtonDown="Btn413_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn413_PreviewMouseLeftButtonUp"/>
+            <Button Name="Btn414" Width="75" Content="4" PreviewMouseLeftButtonDown="Btn414_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn414_PreviewMouseLeftButtonUp"/>
+            <Button Name="Btn415" Width="75" Content="5" PreviewMouseLeftButtonDown="Btn415_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn415_PreviewMouseLeftButtonUp"/>
+            <Button Name="Btn416" Width="75" Content="6" PreviewMouseLeftButtonDown="Btn416_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn416_PreviewMouseLeftButtonUp"/>
         </WrapPanel>
         <WrapPanel Name="wpRow5" Grid.Row="4">
             <Button Name="NameBtn51" Height="{Binding ElementName=wpRow5, Path=ActualHeight}" Width="75" Content="Shift"/>
@@ -121,16 +121,16 @@
             <Button Name="NameBtn517" Width="75" Content="Enter"/>
         </WrapPanel>
         <WrapPanel Name="wpRow6" Grid.Row="5">
-            <Button Name="Btn61" Height="{Binding ElementName=wpRow6, Path=ActualHeight}" Width="75" Content="Ctrl"/>
-            <Button Name="Btn62" Width="75" Content="Win"/>
-            <Button Name="Btn63" Width="75" Content="Alt"/>
-            <Button Name="Btn64" Width="450" Content="Space"/>
-            <Button Name="Btn65" Width="75" Content="Alt"/>
-            <Button Name="Btn66" Width="75" Content="Win"/>
-            <Button Name="Btn67" Width="75" Content="Ctrl"/>
-            <Button Name="Btn68" Width="75" Content="←"/>
-            <Button Name="Btn69" Width="75" Content="↓"/>
-            <Button Name="Btn610" Width="75" Content="→"/>
+            <Button Name="Btn61" Height="{Binding ElementName=wpRow6, Path=ActualHeight}" Width="75" Content="Ctrl" PreviewMouseLeftButtonDown="Btn61_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn61_PreviewMouseLeftButtonUp"/>
+            <Button Name="Btn62" Width="75" Content="Win" PreviewMouseLeftButtonDown="Btn62_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn62_PreviewMouseLeftButtonUp"/>
+            <Button Name="Btn63" Width="75" Content="Alt" PreviewMouseLeftButtonDown="Btn63_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn63_PreviewMouseLeftButtonUp"/>
+            <Button Name="Btn64" Width="450" Content="Space" PreviewMouseLeftButtonDown="Btn64_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn64_PreviewMouseLeftButtonUp"/>
+            <Button Name="Btn65" Width="75" Content="Alt" PreviewMouseLeftButtonDown="Btn65_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn65_PreviewMouseLeftButtonUp"/>
+            <Button Name="Btn66" Width="75" Content="Win" PreviewMouseLeftButtonDown="Btn66_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn66_PreviewMouseLeftButtonUp"/>
+            <Button Name="Btn67" Width="75" Content="Ctrl" PreviewMouseLeftButtonDown="Btn67_PreviewMouseLeftButtonDown"PreviewMouseLeftButtonUp="Btn67_PreviewMouseLeftButtonUp"/>
+            <Button Name="Btn68" Width="75" Content="←" PreviewMouseLeftButtonDown="Btn68_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn68_PreviewMouseLeftButtonUp"/>
+            <Button Name="Btn69" Width="75" Content="↓" PreviewMouseLeftButtonDown="Btn69_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn69_PreviewMouseLeftButtonUp"/>
+            <Button Name="Btn610" Width="75" Content="→" PreviewMouseLeftButtonDown="Btn610_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn610_PreviewMouseLeftButtonUp"/>
         </WrapPanel>
 
     </Grid>
