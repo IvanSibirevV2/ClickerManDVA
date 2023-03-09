@@ -1,0 +1,60 @@
+D:\Downloads\HTTP_ConsoleApp\Messenger_A_WPF\bin\Debug\Messenger_A_WPF.exe.config
+D:\Downloads\HTTP_ConsoleApp\Messenger_A_WPF\bin\Debug\Messenger_A_WPF.exe
+D:\Downloads\HTTP_ConsoleApp\Messenger_A_WPF\bin\Debug\Messenger_A_WPF.pdb
+D:\Downloads\HTTP_ConsoleApp\Messenger_A_WPF\obj\Debug\Messenger_A.csproj.AssemblyReference.cache
+D:\Downloads\HTTP_ConsoleApp\Messenger_A_WPF\obj\Debug\Messenger_A.csproj.SuggestedBindingRedirects.cache
+D:\Downloads\HTTP_ConsoleApp\Messenger_A_WPF\obj\Debug\MainWindow.g.cs
+D:\Downloads\HTTP_ConsoleApp\Messenger_A_WPF\obj\Debug\App.g.cs
+D:\Downloads\HTTP_ConsoleApp\Messenger_A_WPF\obj\Debug\Messenger_A_WPF_MarkupCompile.cache
+D:\Downloads\HTTP_ConsoleApp\Messenger_A_WPF\obj\Debug\Messenger_A_WPF_MarkupCompile.lref
+D:\Downloads\HTTP_ConsoleApp\Messenger_A_WPF\obj\Debug\MainWindow.baml
+D:\Downloads\HTTP_ConsoleApp\Messenger_A_WPF\obj\Debug\Messenger_A_WPF.g.resources
+D:\Downloads\HTTP_ConsoleApp\Messenger_A_WPF\obj\Debug\Messenger_A_WPF.Properties.Resources.resources
+D:\Downloads\HTTP_ConsoleApp\Messenger_A_WPF\obj\Debug\Messenger_A.csproj.GenerateResource.cache
+D:\Downloads\HTTP_ConsoleApp\Messenger_A_WPF\obj\Debug\Messenger_A.csproj.CoreCompileInputs.cache
+D:\Downloads\HTTP_ConsoleApp\Messenger_A_WPF\obj\Debug\Messenger_A_WPF.exe
+D:\Downloads\HTTP_ConsoleApp\Messenger_A_WPF\obj\Debug\Messenger_A_WPF.pdb
+D:\Downloads\HTTP_ConsoleApp\Messenger_A_WPF\obj\Debug\Styles\Window\WindowStyle.baml
+D:\Downloads\HTTP_ConsoleApp\Messenger_A_WPF\obj\Debug\Themes\Theme.baml
+D:\Downloads\HTTP_ConsoleApp\Messenger_A_WPF\obj\Debug\Styles\Window\WindowStyle.g.cs
+D:\Downloads\HTTP_ConsoleApp\Messenger_A_WPF\obj\Debug\App.baml
+D:\Programming\CS\HTTP_Messenger\Messenger_A\bin\Debug\Messenger_A_WPF.exe.config
+D:\Programming\CS\HTTP_Messenger\Messenger_A\bin\Debug\Messenger_A_WPF.exe
+D:\Programming\CS\HTTP_Messenger\Messenger_A\bin\Debug\Messenger_A_WPF.pdb
+D:\Programming\CS\HTTP_Messenger\Messenger_A\obj\Debug\Messenger_A.csproj.AssemblyReference.cache
+D:\Programming\CS\HTTP_Messenger\Messenger_A\obj\Debug\Messenger_A.csproj.SuggestedBindingRedirects.cache
+D:\Programming\CS\HTTP_Messenger\Messenger_A\obj\Debug\Styles\Window\WindowStyle.baml
+D:\Programming\CS\HTTP_Messenger\Messenger_A\obj\Debug\Themes\Theme.baml
+D:\Programming\CS\HTTP_Messenger\Messenger_A\obj\Debug\MainWindow.g.cs
+D:\Programming\CS\HTTP_Messenger\Messenger_A\obj\Debug\Styles\Window\WindowStyle.g.cs
+D:\Programming\CS\HTTP_Messenger\Messenger_A\obj\Debug\App.g.cs
+D:\Programming\CS\HTTP_Messenger\Messenger_A\obj\Debug\Messenger_A_WPF_MarkupCompile.cache
+D:\Programming\CS\HTTP_Messenger\Messenger_A\obj\Debug\Messenger_A_WPF_MarkupCompile.lref
+D:\Programming\CS\HTTP_Messenger\Messenger_A\obj\Debug\App.baml
+D:\Programming\CS\HTTP_Messenger\Messenger_A\obj\Debug\MainWindow.baml
+D:\Programming\CS\HTTP_Messenger\Messenger_A\obj\Debug\Messenger_A_WPF.g.resources
+D:\Programming\CS\HTTP_Messenger\Messenger_A\obj\Debug\Messenger_A_WPF.Properties.Resources.resources
+D:\Programming\CS\HTTP_Messenger\Messenger_A\obj\Debug\Messenger_A.csproj.GenerateResource.cache
+D:\Programming\CS\HTTP_Messenger\Messenger_A\obj\Debug\Messenger_A.csproj.CoreCompileInputs.cache
+D:\Programming\CS\HTTP_Messenger\Messenger_A\obj\Debug\Messenger_A_WPF.exe
+D:\Programming\CS\HTTP_Messenger\Messenger_A\obj\Debug\Messenger_A_WPF.pdb
+C:\D\Git_Hub\ClickerManDVA\Прошлое\HTTP_Messenger_Демьянов Артем Сергеевич_3ПКС-220\Messenger_A\bin\Debug\Messenger_A_WPF.exe.config
+C:\D\Git_Hub\ClickerManDVA\Прошлое\HTTP_Messenger_Демьянов Артем Сергеевич_3ПКС-220\Messenger_A\bin\Debug\Messenger_A_WPF.exe
+C:\D\Git_Hub\ClickerManDVA\Прошлое\HTTP_Messenger_Демьянов Артем Сергеевич_3ПКС-220\Messenger_A\bin\Debug\Messenger_A_WPF.pdb
+C:\D\Git_Hub\ClickerManDVA\Прошлое\HTTP_Messenger_Демьянов Артем Сергеевич_3ПКС-220\Messenger_A\obj\Debug\Messenger_A.csproj.AssemblyReference.cache
+C:\D\Git_Hub\ClickerManDVA\Прошлое\HTTP_Messenger_Демьянов Артем Сергеевич_3ПКС-220\Messenger_A\obj\Debug\Messenger_A.csproj.SuggestedBindingRedirects.cache
+C:\D\Git_Hub\ClickerManDVA\Прошлое\HTTP_Messenger_Демьянов Артем Сергеевич_3ПКС-220\Messenger_A\obj\Debug\Styles\Window\WindowStyle.baml
+C:\D\Git_Hub\ClickerManDVA\Прошлое\HTTP_Messenger_Демьянов Артем Сергеевич_3ПКС-220\Messenger_A\obj\Debug\Themes\Theme.baml
+C:\D\Git_Hub\ClickerManDVA\Прошлое\HTTP_Messenger_Демьянов Артем Сергеевич_3ПКС-220\Messenger_A\obj\Debug\MainWindow.g.cs
+C:\D\Git_Hub\ClickerManDVA\Прошлое\HTTP_Messenger_Демьянов Артем Сергеевич_3ПКС-220\Messenger_A\obj\Debug\Styles\Window\WindowStyle.g.cs
+C:\D\Git_Hub\ClickerManDVA\Прошлое\HTTP_Messenger_Демьянов Артем Сергеевич_3ПКС-220\Messenger_A\obj\Debug\App.g.cs
+C:\D\Git_Hub\ClickerManDVA\Прошлое\HTTP_Messenger_Демьянов Артем Сергеевич_3ПКС-220\Messenger_A\obj\Debug\Messenger_A_WPF_MarkupCompile.cache
+C:\D\Git_Hub\ClickerManDVA\Прошлое\HTTP_Messenger_Демьянов Артем Сергеевич_3ПКС-220\Messenger_A\obj\Debug\Messenger_A_WPF_MarkupCompile.lref
+C:\D\Git_Hub\ClickerManDVA\Прошлое\HTTP_Messenger_Демьянов Артем Сергеевич_3ПКС-220\Messenger_A\obj\Debug\App.baml
+C:\D\Git_Hub\ClickerManDVA\Прошлое\HTTP_Messenger_Демьянов Артем Сергеевич_3ПКС-220\Messenger_A\obj\Debug\MainWindow.baml
+C:\D\Git_Hub\ClickerManDVA\Прошлое\HTTP_Messenger_Демьянов Артем Сергеевич_3ПКС-220\Messenger_A\obj\Debug\Messenger_A_WPF.g.resources
+C:\D\Git_Hub\ClickerManDVA\Прошлое\HTTP_Messenger_Демьянов Артем Сергеевич_3ПКС-220\Messenger_A\obj\Debug\Messenger_A_WPF.Properties.Resources.resources
+C:\D\Git_Hub\ClickerManDVA\Прошлое\HTTP_Messenger_Демьянов Артем Сергеевич_3ПКС-220\Messenger_A\obj\Debug\Messenger_A.csproj.GenerateResource.cache
+C:\D\Git_Hub\ClickerManDVA\Прошлое\HTTP_Messenger_Демьянов Артем Сергеевич_3ПКС-220\Messenger_A\obj\Debug\Messenger_A.csproj.CoreCompileInputs.cache
+C:\D\Git_Hub\ClickerManDVA\Прошлое\HTTP_Messenger_Демьянов Артем Сергеевич_3ПКС-220\Messenger_A\obj\Debug\Messenger_A_WPF.exe
+C:\D\Git_Hub\ClickerManDVA\Прошлое\HTTP_Messenger_Демьянов Артем Сергеевич_3ПКС-220\Messenger_A\obj\Debug\Messenger_A_WPF.pdb

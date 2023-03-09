@@ -5,8 +5,14 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ClickerManDVA_TestEr"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="450" Width="800" Unloaded="Window_Unloaded" Closed="Window_Closed">
     <Grid>
-        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="161*"/>
+            <ColumnDefinition Width="302*"/>
+            <ColumnDefinition Width="260*"/>
+            <ColumnDefinition Width="77*"/>
+        </Grid.ColumnDefinitions>
+
     </Grid>
 </Window>
