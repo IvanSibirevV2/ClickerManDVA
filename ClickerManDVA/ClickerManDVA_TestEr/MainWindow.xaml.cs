@@ -47,14 +47,10 @@ namespace ClickerManDVA_TestEr
             
         }
 
-        private void Window_Unloaded(object sender, RoutedEventArgs e)
-        {
-        }
-
         private void Window_Closed(object sender, EventArgs e)
         {
             this.p_Thread.Abort();
-            MessageBox.Show("Close Application?", "Question", MessageBoxButton.YesNo, MessageBoxImage.Warning);
+            MessageBox.Show("Встали ли вы сегодня с той ноги когда проснулись?", "Question", MessageBoxButton.YesNo, MessageBoxImage.Warning);
         }
     }
 }
