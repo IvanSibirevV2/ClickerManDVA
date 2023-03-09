@@ -52,5 +52,55 @@ namespace ClickerManDVA_TestEr
             this.p_Thread.Abort();
             MessageBox.Show("Встали ли вы сегодня с той ноги когда проснулись?", "Question", MessageBoxButton.YesNo, MessageBoxImage.Warning);
         }
+
+        private void NameBtn11_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void NameBtn12_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void NameBtn13_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void NameBtn14_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void NameBtn15_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void NameBtn16_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void NameBtn17_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void NameBtn18_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void NameBtn11_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            MessageBox.Show("dsfdsf");
+        }
+
+        private void NameBtn11_MouseUp(object sender, MouseButtonEventArgs e)
+        {
+            MessageBox.Show("uo");
+        }
     }
 }

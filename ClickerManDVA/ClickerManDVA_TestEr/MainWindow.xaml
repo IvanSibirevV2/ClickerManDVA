@@ -17,14 +17,14 @@
             <RowDefinition/>
         </Grid.RowDefinitions>
         <WrapPanel Name="wpRow1" Grid.Row="0">
-            <Button Height="{Binding ElementName=wpRow1, Path=ActualHeight}" Width="75" Content="Esc"/>
-            <Button Width="75" Content="F1"/>
-            <Button Width="75" Content="F2"/>
-            <Button Width="75" Content="F3"/>
-            <Button Width="75" Content="F4"/>
-            <Button Width="75" Content="F5"/>
-            <Button Width="75" Content="F6"/>
-            <Button Width="75" Content="F7"/>
+            <Button Name="NameBtn11" Click="NameBtn11_Click" Height="{Binding ElementName=wpRow1, Path=ActualHeight}" Width="75" Content="Esc" MouseDown="NameBtn11_MouseDown" MouseUp="NameBtn11_MouseUp"/>
+            <Button Name="NameBtn12" Click="NameBtn12_Click" Width="75" Content="F1"/>
+            <Button Name="NameBtn13" Click="NameBtn13_Click" Width="75" Content="F2"/>
+            <Button Name="NameBtn14" Click="NameBtn14_Click" Width="75" Content="F3"/>
+            <Button Name="NameBtn15" Click="NameBtn15_Click" Width="75" Content="F4"/>
+            <Button Name="NameBtn16" Click="NameBtn16_Click" Width="75" Content="F5"/>
+            <Button Name="NameBtn17" Click="NameBtn17_Click" Width="75" Content="F6"/>
+            <Button Name="NameBtn18" Click="NameBtn18_Click" Width="75" Content="F7"/>
             <Button Width="75" Content="F8"/>
             <Button Width="75" Content="F9"/>
             <Button Width="75" Content="F10"/>
