@@ -1,0 +1,148 @@
+﻿<Window x:Class="ClickerManDVA_TestEr.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ClickerManDVA_TestEr"
+        mc:Ignorable="d"
+<<<<<<< HEAD
+        Title="MainWindow" Height="450" Width="800" Unloaded="Window_Unloaded" Closed="Window_Closed">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="161*"/>
+            <ColumnDefinition Width="302*"/>
+            <ColumnDefinition Width="260*"/>
+            <ColumnDefinition Width="77*"/>
+        </Grid.ColumnDefinitions>
+=======
+        Title="MainWindow" Height="450" Width="1575" FontSize="14" FontFamily="Times New Roman">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <WrapPanel Name="wpRow1" Grid.Row="0">
+            <Button Height="{Binding ElementName=wpRow1, Path=ActualHeight}" Width="75" Content="Esc"/>
+            <Button Width="75" Content="F1"/>
+            <Button Width="75" Content="F2"/>
+            <Button Width="75" Content="F3"/>
+            <Button Width="75" Content="F4"/>
+            <Button Width="75" Content="F5"/>
+            <Button Width="75" Content="F6"/>
+            <Button Width="75" Content="F7"/>
+            <Button Width="75" Content="F8"/>
+            <Button Width="75" Content="F9"/>
+            <Button Width="75" Content="F10"/>
+            <Button Width="75" Content="F11"/>
+            <Button Width="75" Content="F12"/>
+            <Button Width="75" Content="PrtSc"/>
+            <Button Width="75" Content="ScrollLock"/>
+            <Button Width="75" Content="PauseBreake"/>
+        </WrapPanel>
+        
+        <WrapPanel Name="wpRow2" Grid.Row="1">
+            <Button Height="{Binding ElementName=wpRow2, Path=ActualHeight}" Width="75" Content="~`Ё"/>
+            <Button Width="75" Content="!1"/>
+            <Button Width="75" Content="@2"/>
+            <Button Width="75" Content="#№3"/>
+            <Button Width="75" Content="$;4"/>
+            <Button Width="75" Content="%5"/>
+            <Button Width="75" Content="^:6"/>
+            <Button Width="75" Content="?7"/>
+            <Button Width="75" Content="*8"/>
+            <Button Width="75" Content="(9"/>
+            <Button Width="75" Content=")0"/>
+            <Button Width="75" Content="_-"/>
+            <Button Width="75" Content="+="/>
+            <Button Width="75" Content="Backspace"/>
+            <Button Width="75" Content="Insert"/>
+            <Button Width="75" Content="Home"/>
+            <Button Width="75" Content="Page Up"/>
+            <Button Width="75" Content="NumLock"/>
+            <Button Width="75" Content="/"/>
+            <Button Width="75" Content="*"/>
+            <Button Width="75" Content="-"/>
+        </WrapPanel>
+        
+        <WrapPanel Name="wpRow3" Grid.Row="2">
+            <Button Height="{Binding ElementName=wpRow3, Path=ActualHeight}" Width="75" Content="Tab"/>
+            <Button Width="75" Content="Q"/>
+            <Button Width="75" Content="W"/>
+            <Button Width="75" Content="E"/>
+            <Button Width="75" Content="R"/>
+            <Button Width="75" Content="T"/>
+            <Button Width="75" Content="Y"/>
+            <Button Width="75" Content="U"/>
+            <Button Width="75" Content="I"/>
+            <Button Width="75" Content="O"/>
+            <Button Width="75" Content="P"/>
+            <Button Width="75" Content="[{"/>
+            <Button Width="75" Content="]}"/>
+            <Button Width="75" Content="|\"/>
+            <Button Width="75" Content="Delete"/>
+            <Button Width="75" Content="End"/>
+            <Button Width="75" Content="PageDown"/>
+            <Button Width="75" Content="7 Home"/>
+            <Button Width="75" Content="8"/>
+            <Button Width="75" Content="9 PgUp"/>
+            <Button Width="75" Content="+"/>
+        </WrapPanel>
+        
+        <WrapPanel Name="wpRow4" Grid.Row="3">
+            <Button Height="{Binding ElementName=wpRow2, Path=ActualHeight}" Width="75" Content="CapsLock"/>
+            <Button Width="75" Content="A"/>
+            <Button Width="75" Content="S"/>
+            <Button Width="75" Content="D"/>
+            <Button Width="75" Content="F"/>
+            <Button Width="75" Content="G"/>
+            <Button Width="75" Content="H"/>
+            <Button Width="75" Content="J"/>
+            <Button Width="75" Content="K"/>
+            <Button Width="75" Content="L"/>
+            <Button Width="75" Content=":;"/>
+            <Button Width="75" Content="'"/>
+            <Button Width="75" Content="Enter"/>
+            <Button Width="75" Content="4"/>
+            <Button Width="75" Content="5"/>
+            <Button Width="75" Content="6"/>
+        </WrapPanel>
+        <WrapPanel Name="wpRow5" Grid.Row="4">
+            <Button Height="{Binding ElementName=wpRow5, Path=ActualHeight}" Width="75" Content="Shift"/>
+            <Button Width="75" Content="Z"/>
+            <Button Width="75" Content="X"/>
+            <Button Width="75" Content="C"/>
+            <Button Width="75" Content="V"/>
+            <Button Width="75" Content="B"/>
+            <Button Width="75" Content="N"/>
+            <Button Width="75" Content="M"/>
+            <Button Width="75" Content="&lt;"/>
+            <Button Width="75" Content="&gt;"/>
+            <Button Width="75" Content="?/"/>
+            <Button Width="75" Content="Shift"/>
+            <Button Width="75" Content="↑"/>
+            <Button Width="75" Content="1 End"/>
+            <Button Width="75" Content="2"/>
+            <Button Width="75" Content="3 PgDn"/>
+            <Button Width="75" Content="Enter"/>
+        </WrapPanel>
+        <WrapPanel Name="wpRow6" Grid.Row="5">
+            <Button Height="{Binding ElementName=wpRow6, Path=ActualHeight}" Width="75" Content="Ctrl"/>
+            <Button Width="75" Content="Win"/>
+            <Button Width="75" Content="Alt"/>
+            <Button Width="450" Content="Space"/>
+            <Button Width="75" Content="Alt"/>
+            <Button Width="75" Content="Win"/>
+            <Button Width="75" Content="Ctrl"/>
+            <Button Width="75" Content="←"/>
+            <Button Width="75" Content="↓"/>
+            <Button Width="75" Content="→"/>
+            
+        </WrapPanel>
+>>>>>>> ClickerManDva1
+
+    </Grid>
+</Window>

@@ -5,7 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ClickerManDVA_TestEr"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="1575" FontSize="14" FontFamily="Times New Roman">
+
+        Title="MainWindow" Height="450" Width="1575" FontSize="14" FontFamily="Times New Roman" Closed="Window_Closed">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition/>
@@ -130,7 +131,7 @@
             <Button Width="75" Content="←"/>
             <Button Width="75" Content="↓"/>
             <Button Width="75" Content="→"/>
-            
+
         </WrapPanel>
 
     </Grid>
