@@ -102,5 +102,20 @@ namespace ClickerManDVA_TestEr
         {
             MessageBox.Show("uo");
         }
+
+        private void NameBtn12_MouseUp(object sender, MouseButtonEventArgs e)
+        {
+
+        }
+
+        private void NameBtn12_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+
+        }
+
+        private void NameBtn13_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+
+        }
     }
 }
