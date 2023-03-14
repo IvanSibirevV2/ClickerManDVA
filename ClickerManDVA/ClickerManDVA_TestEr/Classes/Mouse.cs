@@ -104,7 +104,9 @@ namespace System
         {
             
             
-            new Klava().p_Mouse
+            new Klava()
+                
+                .p_Mouse
                 .Set_CursorPos(1919, 1058).L
                 .Set_CursorPos((int)1919 / 2, (int)1058 / 2).R
                 .Move(+50, +100).Move(0, +75)//.Move(0, -5)
@@ -121,6 +123,7 @@ namespace System
                 .Set_CursorPos((int)1919 / 2, (int)1058 / 2)
                 .L.L
                 .Sleep(1000)
+                
             ;
             System.Console.WriteLine(new Mouse().Get_CursorPos.X.ToString() + ";" + new Mouse().Get_CursorPos.Y.ToString());
         }
