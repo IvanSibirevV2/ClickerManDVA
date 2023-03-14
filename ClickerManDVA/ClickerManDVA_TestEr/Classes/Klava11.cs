@@ -56,6 +56,7 @@ namespace System
         public List<VK> VKS = new List<VK>();
         public Klava()
         {
+        this.p_Mouse = new Mouse(this);
             this.VKS.Clear();
             this.VKS.Add(this.VK_A.Set(_Sender:this));
             this.VKS.Add(this.VK_B.Set(_Sender:this));

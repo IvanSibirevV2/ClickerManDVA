@@ -39,3 +39,12 @@ C:\D\ClickerManDVA\ClickerManDVA\ClickerManDVA_TestEr\obj\Debug\Windows\wndSetti
 C:\D\ClickerManDVA\ClickerManDVA\ClickerManDVA_TestEr\obj\Debug\MyDictionary.baml
 C:\D\ClickerManDVA\ClickerManDVA\ClickerManDVA_TestEr\obj\Debug\App.baml
 C:\D\ClickerManDVA\ClickerManDVA\ClickerManDVA_TestEr\obj\Debug\ClickerManDVA_TestEr_Content.g.cs
+C:\D\Git_Hub\ClickerManDVA\ClickerManDVA\ClickerManDVA_TestEr\obj\Debug\MyDictionary.baml
+C:\D\Git_Hub\ClickerManDVA\ClickerManDVA\ClickerManDVA_TestEr\obj\Debug\Pages\pgKlava.g.cs
+C:\D\Git_Hub\ClickerManDVA\ClickerManDVA\ClickerManDVA_TestEr\obj\Debug\Pages\pgMain.g.cs
+C:\D\Git_Hub\ClickerManDVA\ClickerManDVA\ClickerManDVA_TestEr\obj\Debug\Windows\wndSettings.g.cs
+C:\D\Git_Hub\ClickerManDVA\ClickerManDVA\ClickerManDVA_TestEr\obj\Debug\ClickerManDVA_TestEr_Content.g.cs
+C:\D\Git_Hub\ClickerManDVA\ClickerManDVA\ClickerManDVA_TestEr\obj\Debug\App.baml
+C:\D\Git_Hub\ClickerManDVA\ClickerManDVA\ClickerManDVA_TestEr\obj\Debug\Pages\pgKlava.baml
+C:\D\Git_Hub\ClickerManDVA\ClickerManDVA\ClickerManDVA_TestEr\obj\Debug\Pages\pgMain.baml
+C:\D\Git_Hub\ClickerManDVA\ClickerManDVA\ClickerManDVA_TestEr\obj\Debug\Windows\wndSettings.baml
