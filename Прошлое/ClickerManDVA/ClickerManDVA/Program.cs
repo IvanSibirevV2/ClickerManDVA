@@ -14,8 +14,6 @@ namespace ClickerManDVA
             System.Klava.Test_Record_HistoryExecute();
                        
             /*
-              фывапролд
-            фывапппррооллд
              
             List<System.Boolean> BoolS = new List<bool>() { true, !false, !false };
             System.Console.WriteLine(BoolS.Aggregate((a,b)=>a&&b).ToString());

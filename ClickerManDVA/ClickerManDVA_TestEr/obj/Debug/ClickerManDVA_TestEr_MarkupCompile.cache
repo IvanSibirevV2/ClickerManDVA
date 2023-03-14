@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\D\Git_Hub\ClickerManDVA\ClickerManDVA\ClickerManDVA_TestEr\obj\Debug\
+C:\D\ClickerManDVA\ClickerManDVA\ClickerManDVA_TestEr\obj\Debug\
 ClickerManDVA_TestEr
 none
 false
 DEBUG;TRACE
-C:\D\Git_Hub\ClickerManDVA\ClickerManDVA\ClickerManDVA_TestEr\App.xaml
-1219584333
-
-51579654133
+C:\D\ClickerManDVA\ClickerManDVA\ClickerManDVA_TestEr\App.xaml
+51924271894
+1-308602014
+13-1102033877
 13-38814620
-MainWindow.xaml;
+MainWindow.xaml;MyDictionary.xaml;Pages\pgKlava.xaml;Pages\pgMain.xaml;Windows\wndSettings.xaml;
 
 False
 

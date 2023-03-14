@@ -1,0 +1,20 @@
+﻿<Page x:Class="ClickerManDVA_TestEr.Pages.pgMain"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:ClickerManDVA_TestEr.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="pgMain">
+
+    <Grid Background="White">
+        <WrapPanel VerticalAlignment="Bottom">
+            <Button Height="50" Name="btnRec" Content="Запись"  Click="btnRec_Click"/>
+            <Button Name="btnStopRec" Content="Остановить запись"  Click="btnStopRec_Click" />
+            <Button Name="btnPlay" Content="Воспроизведение" Click="btnPlay_Click"/>
+            <Button Name="btnVirtKlava"  Content="Виртуальная клавиатура"  Click="btnVirtKlava_Click"/>
+            <Button Name="btnSettings" Content="Настройки"  Click="btnSettings_Click"/>
+        </WrapPanel>
+    </Grid>
+</Page>
