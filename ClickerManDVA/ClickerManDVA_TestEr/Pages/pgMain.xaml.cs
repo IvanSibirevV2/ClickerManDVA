@@ -318,5 +318,18 @@ namespace ClickerManDVA_TestEr.Pages
         private void Btn610_PreviewMouseLeftButtonUp(object sender, MouseButtonEventArgs e) { }
         #endregion
 
+        private void Btn62_Click(object sender, RoutedEventArgs e)
+        { Klava _Klava = new Klava();
+            _Klava.HistoryVKS.AddRange(new List<List<VK>>
+            {
+               new List<VK>()
+               ,new List<VK>(){new VK().Set(_str:"Win",_nVirtKey: Convert.ToByte(91))}
+               ,new List<VK>()
+            });
+            _Klava.HistoryExecute();
+            //true,false,false
+            ;
+            MessageBox.Show("123");
+        }
     }
 }

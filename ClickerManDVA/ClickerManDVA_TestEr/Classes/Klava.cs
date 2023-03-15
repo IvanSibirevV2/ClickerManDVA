@@ -55,6 +55,7 @@ namespace System
                 return -1;
             });
             */
+            ;
             this.DateTimeStart = System.DateTime.Now;
             for (int i=1;i< this.HistoryVKS.Count();i++)
             {
