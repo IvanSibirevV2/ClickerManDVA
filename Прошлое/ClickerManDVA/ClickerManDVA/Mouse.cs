@@ -1,4 +1,4 @@
-﻿
+﻿/*
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -125,16 +125,16 @@ namespace System
         ///////////////////////////////////////////////////////////////////////////////////////////////////////
         public System.Boolean R_Is() { return this.p_Klava.VK_MouseR.Is(); }
         public System.Boolean L_Is() { return this.p_Klava.VK_MouseL.Is(); }
-       /*
+      
         public Mouse R_Is(System.Action<Mouse> _f1 = null, System.Action<Mouse> _f0 = null)
         { this.p_Klava.VK_MouseR.Is(); return this; }
         public Mouse L_Is(System.Action<Mouse> _f1 = null, System.Action<Mouse> _f0 = null)
         { this.p_Klava.MouseL_Is(_f1: x => { _f1(x.p_Sender.p_Mouse); }, _f0: x => { _f0(x.p_Sender.p_Mouse); }); return this; }
-        */
+        
         /// <summary> System.Mouse.Test_LR_Is();//Не наводите курсор мыши на консоль во время теста /// </summary>
         public static void Test_LR_Is()
         {
-            /*
+            
             new Klava().p_Mouse
                 .L_Is(_f1: x => System.Console.WriteLine("L_Is - true"), _f0: x => System.Console.WriteLine("L_Is - false"))
                 .L_Down()
@@ -147,9 +147,10 @@ namespace System
                 .R_Up()
                 .R_Is(_f1: x => System.Console.WriteLine("R_Is - true"), _f0: x => System.Console.WriteLine("R_Is - false"))
             ;
-            */
+            
         }
         ///////////////////////////////////////////////////////////////////////////////////////////////////////
     }
 }
 
+*/
