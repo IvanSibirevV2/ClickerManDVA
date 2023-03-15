@@ -1,10 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "XBOn7gUYUPFIsw3zfQlBZVfJw9ED1FDj78Z5+Wt5zWxbaVuxhfyK2gVB5izkGBOn1lOXpFzTy+5O2J7Q1yEUVA==",
+  "dgSpecHash": "V+FmeVc/vwIc8pklGpFhzpPwGxEL6SNAm8wqw016ik5/d9uU5rqRBj316oLKfKo/wr9n+WW+CpwsFKnTGt5hcQ==",
   "success": true,
-  "projectFilePath": "C:\\D\\Git_Hub\\ClickerManDVA\\Прошлое\\ClickerManDVA\\ClickerManDVA\\ClickerManDVA.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\SibNout2020\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.32\\microsoft.netcore.app.host.win-x64.3.1.32.nupkg.sha512"
-  ],
+  "projectFilePath": "C:\\D\\ClickerManDVA\\Прошлое\\ClickerManDVA\\ClickerManDVA\\ClickerManDVA.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }
