@@ -11,11 +11,10 @@ namespace ClickerManDVA
     {
         static void Main(string[] args)
         {
-            System.Klava.Test_Record_HistoryExecute();
-                       
+            //System.Klava.Test_Record_HistoryExecute();
+            System.Klava.StartIsFile();
+
             /*
-              фывапролд
-            фывапппррооллд
              
             List<System.Boolean> BoolS = new List<bool>() { true, !false, !false };
             System.Console.WriteLine(BoolS.Aggregate((a,b)=>a&&b).ToString());
