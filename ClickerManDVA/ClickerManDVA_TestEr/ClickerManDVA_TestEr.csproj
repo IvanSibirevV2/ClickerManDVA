@@ -64,9 +64,6 @@
     </Compile>
     <Compile Include="Classes\Mouse.cs" />
     <Compile Include="Classes\VK.cs" />
-    <Compile Include="Pages\pgKlava.xaml.cs">
-      <DependentUpon>pgKlava.xaml</DependentUpon>
-    </Compile>
     <Compile Include="Pages\pgMain.xaml.cs">
       <DependentUpon>pgMain.xaml</DependentUpon>
     </Compile>
@@ -86,10 +83,6 @@
       <SubType>Code</SubType>
     </Compile>
     <Page Include="MyDictionary.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Pages\pgKlava.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

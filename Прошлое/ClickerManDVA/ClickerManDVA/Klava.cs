@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using System.Linq;
 using System.Runtime.InteropServices;
+using System.IO;
 
 namespace System
 {
@@ -25,10 +26,48 @@ namespace System
             return this;
         }
         ///////////////////////////////////////////////////////////////////////////////////////////////////////
+        
         public List<List<VK>> HistoryVKS = new List<List<VK>>();
         public System.DateTime DateTimeStart;
-        public Klava Record(int _Seconds=20 ) 
+
+        public Klava RecInFile(String str)
         {
+            string path = @"C:\D\test\";   // путь к файлу
+            // запись в файл
+            StreamWriter sw = new StreamWriter(path + "export.txt", append: true);
+            sw.WriteLine(str);
+            sw.Close();
+
+            return null;
+        }
+
+        public static void StartIsFile()
+        {
+            (new Klava()).IsFile();
+        }
+
+        public Klava IsFile()
+        {
+            string path = @"C:\D\test\";
+            StreamReader sr = new StreamReader(path + "export.txt");
+            string tempStr = sr.ReadToEnd();
+
+            List<VK> tempVkList = new List<VK>();
+            VK tempVk = new VK();
+
+            Console.WriteLine(tempStr);
+
+                //tempVk.Str = _tempStr;
+                //tempVk.nVirtKey = Convert.ToByte(tempNVirtKey);
+                //tempVkList.Add(tempVk);
+                //
+                //HistoryVKS.Add(tempVkList);
+            return null;
+        }
+
+        public Klava Record(int _Seconds=10 ) 
+        {
+          
             System.Boolean _flag = false;
             this.HistoryVKS.Clear();
             this.HistoryVKS.Add(new List<VK>());
@@ -41,7 +80,19 @@ namespace System
                 this.VKS.ForEach(a => { if (a.Is()) _ls_VK.Add(new VK().Set(_this: a, _TimeSpan: System.DateTime.Now - DateTimeStart)); });
                 if(_ls_VK.Count()!=0) this.HistoryVKS.Add(_ls_VK);
             }
-            return this;
+
+            foreach (var el1 in HistoryVKS)
+            {
+                foreach (var el2 in el1)
+                {
+                    //Console.Write(el2.Str + " "+el2.nVirtKey.ToString()+" "+el2.Sender.ToString()+" "+el2.TimeSpan.ToString());
+                    RecInFile(el2.Str + " "+el2.nVirtKey.ToString());
+                    //el2.Act.ToString()+" "+
+                }
+                Console.WriteLine();
+
+            }
+                return this;
         }
         public Klava HistoryExecute() 
         {
@@ -54,6 +105,16 @@ namespace System
                 return -1;
             });
             */
+
+            //Дешифровка
+            /*
+                List<VK> temp = new List<VK>();
+                VK _temp=new VK();
+                _temp.Str = "G";
+                temp.Add(_temp);
+                HistoryVKS.Add(temp);
+            */
+
             this.DateTimeStart = System.DateTime.Now;
             for (int i=1;i< this.HistoryVKS.Count();i++)
             {
@@ -84,7 +145,7 @@ namespace System
         /// <summary> System.Klava.Test_Record_HistoryExecute();</summary>
         public static void Test_Record_HistoryExecute() 
         {
-            (new Klava()).Record(20).HistoryExecute();
+            (new Klava()).Record(10).HistoryExecute();
         }
     }
 }

@@ -130,12 +130,41 @@ namespace System
         ///////////////////////////////////////////////////////////////////////////////////////////////////////
         public System.Boolean R_Is() { return this.p_Klava.VK_MouseR.Is(); }
         public System.Boolean L_Is() { return this.p_Klava.VK_MouseL.Is(); }
-       /*
-        public Mouse R_Is(System.Action<Mouse> _f1 = null, System.Action<Mouse> _f0 = null)
-        { this.p_Klava.VK_MouseR.Is(); return this; }
-        public Mouse L_Is(System.Action<Mouse> _f1 = null, System.Action<Mouse> _f0 = null)
-        { this.p_Klava.MouseL_Is(_f1: x => { _f1(x.p_Sender.p_Mouse); }, _f0: x => { _f0(x.p_Sender.p_Mouse); }); return this; }
-        */
+        /*
+         public Mouse R_Is(System.Action<Mouse> _f1 = null, System.Action<Mouse> _f0 = null)
+         { this.p_Klava.VK_MouseR.Is(); return this; }
+         public Mouse L_Is(System.Action<Mouse> _f1 = null, System.Action<Mouse> _f0 = null)
+         { this.p_Klava.MouseL_Is(_f1: x => { _f1(x.p_Sender.p_Mouse); }, _f0: x => { _f0(x.p_Sender.p_Mouse); }); return this; }
+         */
+
+        public static void OMTS()
+        {
+
+
+            new Klava()
+
+                .p_Mouse
+                .Set_CursorPos(1919, 1058).L
+                .Set_CursorPos((int)1919 / 2, (int)1058 / 2)
+                .Move(+50, +100).Move(0, +75)//.Move(0, -5)
+                .Sleep(1000).Sleep(50).Move(+400, +30)
+                
+                .p_Klava
+                .Sleep(1000).Sleep(50)
+                .Win.H.U.T.D.O.W.N.Space.Slash.S.Space.Slash.T.Space._1._0
+                .Space.Slash.C.Space.VK_Win.Down().Sender.Mark.VK_Shift.Up().Sender
+                .A.N.Y.T.H.I.N.G.Space.E.L.S.E
+                .VK_Shift.Down().Sender.Mark.VK_Shift.Up().Sender.P
+                .Enter.Enter
+                .p_Mouse
+                .Set_CursorPos((int)1919 / 2, (int)1058 / 2)
+                .L.L
+                .Sleep(1000)
+
+            ;
+            System.Console.WriteLine(new Mouse().Get_CursorPos.X.ToString() + ";" + new Mouse().Get_CursorPos.Y.ToString());
+        }
+
         /// <summary> System.Mouse.Test_LR_Is();//Не наводите курсор мыши на консоль во время теста /// </summary>
         public static void Test_LR_Is()
         {
