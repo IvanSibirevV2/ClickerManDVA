@@ -44,126 +44,871 @@
         </Grid.ColumnDefinitions>
 
         <!--#region Первая строка-->
-            <Button Name="Btn11"  Grid.Column="0" PreviewMouseLeftButtonDown="Btn11_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn11_PreviewMouseLeftButtonUp" Height="{Binding ElementName=wpRow1, Path=ActualHeight}" Width="75" Content="Esc"/>
-            <Button Name="Btn12"  Grid.Column="2" PreviewMouseLeftButtonDown="Btn12_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn12_PreviewMouseLeftButtonUp" Width="75" Content="F1"/>
-            <Button Name="Btn13"  Grid.Column="3" PreviewMouseLeftButtonDown="Btn13_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn13_PreviewMouseLeftButtonUp" Width="75" Content="F2"/>
-            <Button Name="Btn14"  Grid.Column="4" PreviewMouseLeftButtonDown="Btn14_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn14_PreviewMouseLeftButtonUp" Width="75" Content="F3"/>
-            <Button Name="Btn15"  Grid.Column="5" PreviewMouseLeftButtonDown="Btn15_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn15_PreviewMouseLeftButtonUp" Width="75" Content="F4"/>
-            <Button Name="Btn16"  Grid.Column="6" PreviewMouseLeftButtonDown="Btn16_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn16_PreviewMouseLeftButtonUp" Width="75" Content="F5"/>
-            <Button Name="Btn17"  Grid.Column="7" PreviewMouseLeftButtonDown="Btn17_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn17_PreviewMouseLeftButtonUp" Width="75" Content="F6"/>
-            <Button Name="Btn18"  Grid.Column="8" PreviewMouseLeftButtonDown="Btn18_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn18_PreviewMouseLeftButtonUp" Width="75" Content="F7"/>
-            <Button Name="Btn19"  Grid.Column="9" PreviewMouseLeftButtonDown="Btn19_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn19_PreviewMouseLeftButtonUp" Width="75" Content="F8"/>
-            <Button Name="Btn110" Grid.Column="10" PreviewMouseLeftButtonDown="Btn110_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn110_PreviewMouseLeftButtonUp" Width="75" Content="F9"/>
-            <Button Name="Btn111" Grid.Column="11" PreviewMouseLeftButtonDown="Btn111_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn111_PreviewMouseLeftButtonUp" Width="75" Content="F10"/>
-            <Button Name="Btn112" Grid.Column="12" PreviewMouseLeftButtonDown="Btn112_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn112_PreviewMouseLeftButtonUp" Width="75" Content="F11"/>
-            <Button Name="Btn113" Grid.Column="13" PreviewMouseLeftButtonDown="Btn113_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn113_PreviewMouseLeftButtonUp" Width="75" Content="F12"/>
-            <Button Name="Btn114" Grid.Column="15" PreviewMouseLeftButtonDown="Btn114_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn114_PreviewMouseLeftButtonUp" Width="75" Content="PrtSc"/>
-            <Button Name="Btn115" Grid.Column="16" PreviewMouseLeftButtonDown="Btn115_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn115_PreviewMouseLeftButtonUp" Width="75" Content="ScrollLock"/>
-        <Button Name="Btn116" Grid.Column="17" PreviewMouseLeftButtonDown="Btn116_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn116_PreviewMouseLeftButtonUp" Width="75" Content="PauseBreake"/>
+        <Button Name="Btn11"  Grid.Column="0" PreviewMouseLeftButtonDown="Btn11_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn11_PreviewMouseLeftButtonUp" Height="{Binding ElementName=wpRow1, Path=ActualHeight}"  Content="Esc"/>
+        <Button Name="Btn12"  Grid.Column="2" PreviewMouseLeftButtonDown="Btn12_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn12_PreviewMouseLeftButtonUp"  Content="F1"/>
+        <Button Name="Btn13"  Grid.Column="3" PreviewMouseLeftButtonDown="Btn13_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn13_PreviewMouseLeftButtonUp"  Content="F2"/>
+        <Button Name="Btn14"  Grid.Column="4" PreviewMouseLeftButtonDown="Btn14_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn14_PreviewMouseLeftButtonUp"  Content="F3"/>
+        <Button Name="Btn15"  Grid.Column="5" PreviewMouseLeftButtonDown="Btn15_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn15_PreviewMouseLeftButtonUp"  Content="F4"/>
+        <Button Name="Btn16"  Grid.Column="6" PreviewMouseLeftButtonDown="Btn16_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn16_PreviewMouseLeftButtonUp"  Content="F5"/>
+        <Button Name="Btn17"  Grid.Column="7" PreviewMouseLeftButtonDown="Btn17_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn17_PreviewMouseLeftButtonUp"  Content="F6"/>
+        <Button Name="Btn18"  Grid.Column="8" PreviewMouseLeftButtonDown="Btn18_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn18_PreviewMouseLeftButtonUp"  Content="F7"/>
+        <Button Name="Btn19"  Grid.Column="9" PreviewMouseLeftButtonDown="Btn19_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn19_PreviewMouseLeftButtonUp"  Content="F8"/>
+        <Button Name="Btn110" Grid.Column="10" PreviewMouseLeftButtonDown="Btn110_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn110_PreviewMouseLeftButtonUp"  Content="F9"/>
+        <Button Name="Btn111" Grid.Column="11" PreviewMouseLeftButtonDown="Btn111_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn111_PreviewMouseLeftButtonUp"  Content="F10"/>
+        <Button Name="Btn112" Grid.Column="12" PreviewMouseLeftButtonDown="Btn112_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn112_PreviewMouseLeftButtonUp"  Content="F11"/>
+        <Button Name="Btn113" Grid.Column="13" PreviewMouseLeftButtonDown="Btn113_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn113_PreviewMouseLeftButtonUp"  Content="F12"/>
+        <Button Name="Btn114" Grid.Column="14" PreviewMouseLeftButtonDown="Btn114_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn114_PreviewMouseLeftButtonUp"  Content="PrtSc"/>
+        <Button Name="Btn115" Grid.Column="15" PreviewMouseLeftButtonDown="Btn115_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn115_PreviewMouseLeftButtonUp"  Content="ScrollLock"/>
+        <Button Name="Btn116" Grid.Column="16" PreviewMouseLeftButtonDown="Btn116_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn116_PreviewMouseLeftButtonUp"  Content="PauseBreake"/>
         <!--#endregion-->
 
         <!--#region Вторая строка-->
-            <Button Grid.Row="1" Grid.Column="0" Name="Btn21" PreviewMouseLeftButtonDown="Btn21_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn21_PreviewMouseLeftButtonUp" Width="75" Content="~`Ё" />
-            <Button Grid.Row="1" Grid.Column="1" Name="Btn22" PreviewMouseLeftButtonDown="Btn22_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn22_PreviewMouseLeftButtonUp" Width="75" Content="!1"/>
-            <Button Grid.Row="1" Grid.Column="2" Name="Btn23" PreviewMouseLeftButtonDown="Btn23_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn23_PreviewMouseLeftButtonUp" Width="75" Content="@2"/>
-            <Button Grid.Row="1" Grid.Column="3" Name="Btn24" PreviewMouseLeftButtonDown="Btn24_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn24_PreviewMouseLeftButtonUp" Width="75" Content="#№3"/>
-            <Button Grid.Row="1" Grid.Column="4" Name="Btn25" PreviewMouseLeftButtonDown="Btn25_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn25_PreviewMouseLeftButtonUp" Width="75" Content="$;4"/>
-            <Button Grid.Row="1" Grid.Column="5" Name="Btn26" PreviewMouseLeftButtonDown="Btn26_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn26_PreviewMouseLeftButtonUp" Width="75" Content="%5"/>
-            <Button Grid.Row="1" Grid.Column="6" Name="Btn27" PreviewMouseLeftButtonDown="Btn27_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn27_PreviewMouseLeftButtonUp" Width="75" Content="^:6"/>
-            <Button Grid.Row="1" Grid.Column="7" Name="Btn28" PreviewMouseLeftButtonDown="Btn28_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn28_PreviewMouseLeftButtonUp" Width="75" Content="?7"/>
-            <Button Grid.Row="1" Grid.Column="8" Name="Btn29" PreviewMouseLeftButtonDown="Btn29_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn29_PreviewMouseLeftButtonUp" Width="75" Content="*8"/>
-            <Button Grid.Row="1" Grid.Column="9" Name="Btn210" PreviewMouseLeftButtonDown="Btn210_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn210_PreviewMouseLeftButtonUp" Width="75" Content="(9"/>
-            <Button Grid.Row="1" Grid.Column="10" Name="Btn211" PreviewMouseLeftButtonDown="Btn211_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn211_PreviewMouseLeftButtonUp" Width="75" Content=")0"/>
-            <Button Grid.Row="1" Grid.Column="11" Name="Btn212" PreviewMouseLeftButtonDown="Btn212_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn212_PreviewMouseLeftButtonUp" Width="75" Content="_-"/>
-            <Button Grid.Row="1" Grid.Column="12" Name="Btn213" PreviewMouseLeftButtonDown="Btn213_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn213_PreviewMouseLeftButtonUp" Width="75" Content="+="/>
-            <Button Grid.Row="1" Grid.Column="13" Name="Btn214" PreviewMouseLeftButtonDown="Btn214_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn214_PreviewMouseLeftButtonUp" Width="75" Content="Backspace"/>
-            <Button Grid.Row="1" Grid.Column="14" Name="Btn215" PreviewMouseLeftButtonDown="Btn215_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn215_PreviewMouseLeftButtonUp" Width="75" Content="Insert"/>
-            <Button Grid.Row="1" Grid.Column="15" Name="Btn216" PreviewMouseLeftButtonDown="Btn216_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn216_PreviewMouseLeftButtonUp" Width="75" Content="Home"/>
-            <Button Grid.Row="1" Grid.Column="16" Name="Btn217" PreviewMouseLeftButtonDown="Btn217_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn217_PreviewMouseLeftButtonUp" Width="75" Content="Page Up"/>
-            <Button Grid.Row="1" Grid.Column="17" Name="Btn218" PreviewMouseLeftButtonDown="Btn218_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn218_PreviewMouseLeftButtonUp" Width="75" Content="NumLock"/>
-            <Button Grid.Row="1" Grid.Column="18" Name="Btn219" PreviewMouseLeftButtonDown="Btn219_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn219_PreviewMouseLeftButtonUp" Width="75" Content="/"/>
-            <Button Grid.Row="1" Grid.Column="19" Name="Btn220" PreviewMouseLeftButtonDown="Btn220_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn220_PreviewMouseLeftButtonUp" Width="75" Content="*"/>
-            <Button Grid.Row="1" Grid.Column="20" Name="Btn221" PreviewMouseLeftButtonDown="Btn221_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn221_PreviewMouseLeftButtonUp" Width="75" Content="-"/>
+        <Button Grid.Row="1" Grid.Column="0" Name="Btn21" PreviewMouseLeftButtonDown="Btn21_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn21_PreviewMouseLeftButtonUp">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Label Content="~"/>
+                <Label Content="Ё" Grid.Column="1" Grid.RowSpan="2" VerticalContentAlignment="Center"/>
+                <Label Content="`" Grid.Row="1"/>
+            </Grid>
+        </Button>
+        <Button Grid.Row="1" Grid.Column="1" Name="Btn22" PreviewMouseLeftButtonDown="Btn22_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn22_PreviewMouseLeftButtonUp">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Label Content="!"/>
+                <Label Content="1" Grid.Row="1"/>
+            </Grid>
+        </Button>
+        <Button Grid.Row="1" Grid.Column="2" Name="Btn23" PreviewMouseLeftButtonDown="Btn23_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn23_PreviewMouseLeftButtonUp">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Label Content="@"/>
+                <Label Content="2" Grid.Row="1" />
+                <Label Content="&quot;" Grid.Column="1"/>
+            </Grid>
+        </Button>
+        <Button Grid.Row="1" Grid.Column="3" Name="Btn24" PreviewMouseLeftButtonDown="Btn24_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn24_PreviewMouseLeftButtonUp">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Label Content="#"/>
+                <Label Content="3" Grid.Row="1" />
+                <Label Content="№" Grid.Column="1"/>
+            </Grid>
+        </Button>
+        <Button Grid.Row="1" Grid.Column="4" Name="Btn25" PreviewMouseLeftButtonDown="Btn25_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn25_PreviewMouseLeftButtonUp">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Label Content="$"/>
+                <Label Content="4" Grid.Row="1" />
+                <Label Content=";" Grid.Column="1"/>
+            </Grid>
+        </Button>
+        <Button Grid.Row="1" Grid.Column="5" Name="Btn26" PreviewMouseLeftButtonDown="Btn26_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn26_PreviewMouseLeftButtonUp">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Label Content="%"/>
+                <Label Content="5" Grid.Row="1" />
+            </Grid>
+        </Button>
+        <Button Grid.Row="1" Grid.Column="6" Name="Btn27" PreviewMouseLeftButtonDown="Btn27_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn27_PreviewMouseLeftButtonUp">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Label Content="^"/>
+                <Label Content="6" Grid.Row="1" />
+                <Label Content=":" Grid.Column="1"/>
+            </Grid>
+        </Button>
+        <Button Grid.Row="1" Grid.Column="7" Name="Btn28" PreviewMouseLeftButtonDown="Btn28_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn28_PreviewMouseLeftButtonUp">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Label Content="&amp;"/>
+                <Label Content="7" Grid.Row="1" />
+                <Label Content="?" Grid.Column="1"/>
+            </Grid>
+        </Button>
+        <Button Grid.Row="1" Grid.Column="8" Name="Btn29" PreviewMouseLeftButtonDown="Btn29_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn29_PreviewMouseLeftButtonUp">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Label Content="*"/>
+                <Label Content="8" Grid.Row="1" />
+            </Grid>
+        </Button>
+        <Button Grid.Row="1" Grid.Column="9" Name="Btn210" PreviewMouseLeftButtonDown="Btn210_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn210_PreviewMouseLeftButtonUp">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Label Content="("/>
+                <Label Content="9" Grid.Row="1" />
+            </Grid>
+        </Button>
+        <Button Grid.Row="1" Grid.Column="10" Name="Btn211" PreviewMouseLeftButtonDown="Btn211_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn211_PreviewMouseLeftButtonUp">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Label Content=")"/>
+                <Label Content="0" Grid.Row="1" />
+            </Grid>
+        </Button>
+        <Button Grid.Row="1" Grid.Column="11" Name="Btn212" PreviewMouseLeftButtonDown="Btn212_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn212_PreviewMouseLeftButtonUp">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Label Content="_"/>
+                <Label Content="-" Grid.Row="1" />
+            </Grid>
+        </Button>
+        <Button Grid.Row="1" Grid.Column="12" Name="Btn213" PreviewMouseLeftButtonDown="Btn213_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn213_PreviewMouseLeftButtonUp">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Label Content="+"/>
+                <Label Content="=" Grid.Row="1" />
+            </Grid>
+        </Button>
+        <Button Grid.Row="1" Grid.Column="13" Name="Btn214" PreviewMouseLeftButtonDown="Btn214_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn214_PreviewMouseLeftButtonUp"  Content="Backspace"/>
+        <Button Grid.Row="1" Grid.Column="14" Name="Btn215" PreviewMouseLeftButtonDown="Btn215_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn215_PreviewMouseLeftButtonUp"  Content="Insert"/>
+        <Button Grid.Row="1" Grid.Column="15" Name="Btn216" PreviewMouseLeftButtonDown="Btn216_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn216_PreviewMouseLeftButtonUp"  Content="Home"/>
+        <Button Grid.Row="1" Grid.Column="16" Name="Btn217" PreviewMouseLeftButtonDown="Btn217_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn217_PreviewMouseLeftButtonUp"  Content="Page Up"/>
+        <Button Grid.Row="1" Grid.Column="17" Name="Btn218" PreviewMouseLeftButtonDown="Btn218_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn218_PreviewMouseLeftButtonUp"  Content="NumLock"/>
+        <Button Grid.Row="1" Grid.Column="18" Name="Btn219" PreviewMouseLeftButtonDown="Btn219_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn219_PreviewMouseLeftButtonUp"  Content="/"/>
+        <Button Grid.Row="1" Grid.Column="19" Name="Btn220" PreviewMouseLeftButtonDown="Btn220_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn220_PreviewMouseLeftButtonUp"  Content="*"/>
+        <Button Grid.Row="1" Grid.Column="20" Name="Btn221" PreviewMouseLeftButtonDown="Btn221_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn221_PreviewMouseLeftButtonUp"  Content="-"/>
         <!--#endregion-->
 
         <!--#region Третья строка-->
-            <Button Grid.Row="2" Grid.Column="0" Name="Btn31" PreviewMouseLeftButtonDown="Btn31_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn31_PreviewMouseLeftButtonUp" Width="75" Content="Tab"/>
-            <Button Grid.Row="2" Grid.Column="1" Name="Btn32" PreviewMouseLeftButtonDown="Btn32_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn32_PreviewMouseLeftButtonUp" Width="75" Content="Q"/>
-            <Button Grid.Row="2" Grid.Column="2" Name="Btn33" PreviewMouseLeftButtonDown="Btn33_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn33_PreviewMouseLeftButtonUp" Width="75" Content="W"/>
-            <Button Grid.Row="2" Grid.Column="3" Name="Btn34" PreviewMouseLeftButtonDown="Btn34_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn34_PreviewMouseLeftButtonUp" Width="75" Content="E"/>
-            <Button Grid.Row="2" Grid.Column="4" Name="Btn35" PreviewMouseLeftButtonDown="Btn35_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn35_PreviewMouseLeftButtonUp" Width="75" Content="R"/>
-            <Button Grid.Row="2" Grid.Column="5" Name="Btn36" PreviewMouseLeftButtonDown="Btn36_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn36_PreviewMouseLeftButtonUp" Width="75" Content="T"/>
-            <Button Grid.Row="2" Grid.Column="6" Name="Btn37" PreviewMouseLeftButtonDown="Btn37_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn37_PreviewMouseLeftButtonUp" Width="75" Content="Y"/>
-            <Button Grid.Row="2" Grid.Column="7" Name="Btn38" PreviewMouseLeftButtonDown="Btn38_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn38_PreviewMouseLeftButtonUp" Width="75" Content="U"/>
-            <Button Grid.Row="2" Grid.Column="8" Name="Btn39" PreviewMouseLeftButtonDown="Btn39_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn39_PreviewMouseLeftButtonUp" Width="75" Content="I"/>
-            <Button Grid.Row="2" Grid.Column="9" Name="Btn310" PreviewMouseLeftButtonDown="Btn310_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn310_PreviewMouseLeftButtonUp" Width="75" Content="O"/>
-            <Button Grid.Row="2" Grid.Column="10" Name="Btn311" PreviewMouseLeftButtonDown="Btn311_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn311_PreviewMouseLeftButtonUp" Width="75" Content="P"/>
-            <Button Grid.Row="2" Grid.Column="11" Name="Btn312" PreviewMouseLeftButtonDown="Btn312_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn312_PreviewMouseLeftButtonUp" Width="75" Content="[{"/>
-            <Button Grid.Row="2" Grid.Column="12" Name="Btn313" PreviewMouseLeftButtonDown="Btn313_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn313_PreviewMouseLeftButtonUp" Width="75" Content="]}"/>
-            <Button Grid.Row="2" Grid.Column="13" Name="Btn314" PreviewMouseLeftButtonDown="Btn314_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn314_PreviewMouseLeftButtonUp" Width="75" Content="|\"/>
-            <Button Grid.Row="2" Grid.Column="14" Name="Btn315" PreviewMouseLeftButtonDown="Btn315_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn315_PreviewMouseLeftButtonUp" Width="75" Content="Delete"/>
-            <Button Grid.Row="2" Grid.Column="15" Name="Btn316" PreviewMouseLeftButtonDown="Btn316_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn316_PreviewMouseLeftButtonUp" Width="75" Content="End"/>
-            <Button Grid.Row="2" Grid.Column="16" Name="Btn317" PreviewMouseLeftButtonDown="Btn317_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn317_PreviewMouseLeftButtonUp" Width="75" Content="PageDown"/>
-            <Button Grid.Row="2" Grid.Column="17" Name="Btn318" PreviewMouseLeftButtonDown="Btn318_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn318_PreviewMouseLeftButtonUp" Width="75" Content="7 Home"/>
-            <Button Grid.Row="2" Grid.Column="18" Name="Btn319" PreviewMouseLeftButtonDown="Btn319_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn319_PreviewMouseLeftButtonUp" Width="75" Content="8"/>
-            <Button Grid.Row="2" Grid.Column="19" Name="Btn320" PreviewMouseLeftButtonDown="Btn320_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn320_PreviewMouseLeftButtonUp" Width="75" Content="9 PgUp"/>
-            <Button Grid.Row="2" Grid.Column="20" Name="Btn321" PreviewMouseLeftButtonDown="Btn321_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn321_PreviewMouseLeftButtonUp" Width="75" Content="+"/>
+        <Button Grid.Row="2" Grid.Column="0" Name="Btn31" PreviewMouseLeftButtonDown="Btn31_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn31_PreviewMouseLeftButtonUp"  Content="Tab"/>
+        <Button Grid.Row="2" Grid.Column="1" Name="Btn32" PreviewMouseLeftButtonDown="Btn32_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn32_PreviewMouseLeftButtonUp">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Label Content="Q"/>
+                <Label Content="Й" Grid.Row="1" />
+            </Grid>
+        </Button>
+        <Button Grid.Row="2" Grid.Column="2" Name="Btn33" PreviewMouseLeftButtonDown="Btn33_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn33_PreviewMouseLeftButtonUp">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Label Content="W"/>
+                <Label Content="Ц" Grid.Row="1" />
+            </Grid>
+        </Button>
+        <Button Grid.Row="2" Grid.Column="3" Name="Btn34" PreviewMouseLeftButtonDown="Btn34_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn34_PreviewMouseLeftButtonUp">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Label Content="E"/>
+                <Label Content="У" Grid.Row="1" />
+            </Grid>
+        </Button>
+        <Button Grid.Row="2" Grid.Column="4" Name="Btn35" PreviewMouseLeftButtonDown="Btn35_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn35_PreviewMouseLeftButtonUp">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Label Content="R"/>
+            <Label Content="К" Grid.Row="1" />
+        </Grid>
+        </Button>
+        <Button Grid.Row="2" Grid.Column="5" Name="Btn36" PreviewMouseLeftButtonDown="Btn36_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn36_PreviewMouseLeftButtonUp">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Label Content="T"/>
+                <Label Content="Е" Grid.Row="1" />
+            </Grid>
+        </Button>
+        <Button Grid.Row="2" Grid.Column="6" Name="Btn37" PreviewMouseLeftButtonDown="Btn37_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn37_PreviewMouseLeftButtonUp">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Label Content="Y"/>
+                <Label Content="Н" Grid.Row="1" />
+            </Grid>
+        </Button>
+        <Button Grid.Row="2" Grid.Column="7" Name="Btn38" PreviewMouseLeftButtonDown="Btn38_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn38_PreviewMouseLeftButtonUp">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Label Content="U"/>
+                <Label Content="Г" Grid.Row="1" />
+            </Grid>
+        </Button>
+        <Button Grid.Row="2" Grid.Column="8" Name="Btn39" PreviewMouseLeftButtonDown="Btn39_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn39_PreviewMouseLeftButtonUp">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Label Content="I" HorizontalAlignment="Center"/>
+                <Label Content="Ш" Grid.Row="1" />
+            </Grid>
+        </Button>
+        <Button Grid.Row="2" Grid.Column="9" Name="Btn310" PreviewMouseLeftButtonDown="Btn310_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn310_PreviewMouseLeftButtonUp">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Label Content="O"/>
+                <Label Content="Щ" Grid.Row="1" />
+            </Grid>
+        </Button>
+        <Button Grid.Row="2" Grid.Column="10" Name="Btn311" PreviewMouseLeftButtonDown="Btn311_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn311_PreviewMouseLeftButtonUp">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Label Content="P"/>
+                <Label Content="З" Grid.Row="1" />
+            </Grid>
+        </Button>
+        <Button Grid.Row="2" Grid.Column="11" Name="Btn312" PreviewMouseLeftButtonDown="Btn312_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn312_PreviewMouseLeftButtonUp">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Label Content = "{}{"/>
+                <Label Content="[" Grid.Row="1" />
+                <Label Content="Х" Grid.Column="1" Grid.Row="1"/>
+            </Grid>
+        </Button>
+        <Button Grid.Row="2" Grid.Column="12" Name="Btn313" PreviewMouseLeftButtonDown="Btn313_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn313_PreviewMouseLeftButtonUp">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Label Content="{}}"/>
+                <Label Content="]" Grid.Row="1" />
+                <Label Content="Ъ" Grid.Row="1" Grid.Column="1"/>
+            </Grid>
+        </Button>
+        <Button Grid.Row="2" Grid.Column="13" Name="Btn314" PreviewMouseLeftButtonDown="Btn314_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn314_PreviewMouseLeftButtonUp">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Label Content="|"/>
+                <Label Content="\" Grid.Row="1" />
+            </Grid>
+        </Button>
+        <Button Grid.Row="2" Grid.Column="14" Name="Btn315" PreviewMouseLeftButtonDown="Btn315_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn315_PreviewMouseLeftButtonUp"  Content="Delete"/>
+        <Button Grid.Row="2" Grid.Column="15" Name="Btn316" PreviewMouseLeftButtonDown="Btn316_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn316_PreviewMouseLeftButtonUp"  Content="End"/>
+        <Button Grid.Row="2" Grid.Column="16" Name="Btn317" PreviewMouseLeftButtonDown="Btn317_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn317_PreviewMouseLeftButtonUp"  Content="PageDown"/>
+        <Button Grid.Row="2" Grid.Column="17" Name="Btn318" PreviewMouseLeftButtonDown="Btn318_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn318_PreviewMouseLeftButtonUp">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    
+                </Grid.ColumnDefinitions>
+                <Label Content="7" HorizontalAlignment="Center"/>
+                <Label Content="Home" Grid.Row="1" />
+            </Grid>
+        </Button>
+        <Button Grid.Row="2" Grid.Column="18" Name="Btn319" PreviewMouseLeftButtonDown="Btn319_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn319_PreviewMouseLeftButtonUp">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Label Content="8"/>
+                <Label Content="↑" Grid.Row="1" />
+            </Grid>
+        </Button>
+        <Button Grid.Row="2" Grid.Column="19" Name="Btn320" PreviewMouseLeftButtonDown="Btn320_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn320_PreviewMouseLeftButtonUp">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Label Content="9" HorizontalAlignment="Center"/>
+                <Label Content="Pg Up" Grid.Row="1" />
+            </Grid>
+        </Button>
+        <Button Grid.RowSpan="2" Grid.Row="2" Grid.Column="20" Name="Btn321" PreviewMouseLeftButtonDown="Btn321_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn321_PreviewMouseLeftButtonUp"  Content="+"/>
         <!--#endregion-->
 
         <!--#region Четвёртая строка-->
-            <Button Grid.Row="3" Grid.Column="0" Name="Btn41" PreviewMouseLeftButtonDown="Btn41_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn41_PreviewMouseLeftButtonUp" Width="75" Content="CapsLock"/>
-            <Button Grid.Row="3" Grid.Column="1" Name="Btn42" PreviewMouseLeftButtonDown="Btn42_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn42_PreviewMouseLeftButtonUp" Width="75" Content="A"/>
-            <Button Grid.Row="3" Grid.Column="2" Name="Btn43" PreviewMouseLeftButtonDown="Btn43_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn43_PreviewMouseLeftButtonUp" Width="75" Content="S"/>
-            <Button Grid.Row="3" Grid.Column="3" Name="Btn44" PreviewMouseLeftButtonDown="Btn44_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn44_PreviewMouseLeftButtonUp" Width="75" Content="D"/>
-            <Button Grid.Row="3" Grid.Column="4" Name="Btn45" PreviewMouseLeftButtonDown="Btn45_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn45_PreviewMouseLeftButtonUp" Width="75" Content="F"/>
-            <Button Grid.Row="3" Grid.Column="5" Name="Btn46" PreviewMouseLeftButtonDown="Btn46_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn46_PreviewMouseLeftButtonUp" Width="75" Content="G"/>
-            <Button Grid.Row="3" Grid.Column="6" Name="Btn47" PreviewMouseLeftButtonDown="Btn47_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn47_PreviewMouseLeftButtonUp" Width="75" Content="H"/>
-            <Button Grid.Row="3" Grid.Column="7" Name="Btn48" PreviewMouseLeftButtonDown="Btn48_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn48_PreviewMouseLeftButtonUp" Width="75" Content="J"/>
-            <Button Grid.Row="3" Grid.Column="8" Name="Btn49" PreviewMouseLeftButtonDown="Btn49_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn49_PreviewMouseLeftButtonUp" Width="75" Content="K"/>
-            <Button Grid.Row="3" Grid.Column="9" Name="Btn410" PreviewMouseLeftButtonDown="Btn410_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn410_PreviewMouseLeftButtonUp" Width="75" Content="L"/>
-            <Button Grid.Row="3" Grid.Column="10" Name="Btn411" PreviewMouseLeftButtonDown="Btn411_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn411_PreviewMouseLeftButtonUp" Width="75" Content=":;"/>
-            <Button Grid.Row="3" Grid.Column="11" Name="Btn412" PreviewMouseLeftButtonDown="Btn412_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn412_PreviewMouseLeftButtonUp" Width="75" Content="'"/>
-            <Button Grid.Row="3" Grid.Column="12" Name="Btn413" PreviewMouseLeftButtonDown="Btn413_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn413_PreviewMouseLeftButtonUp" Width="75" Content="Enter"/>
-            <Button Grid.Row="3" Grid.Column="17" Name="Btn414" PreviewMouseLeftButtonDown="Btn414_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn414_PreviewMouseLeftButtonUp" Width="75" Content="4"/>
-            <Button Grid.Row="3" Grid.Column="18" Name="Btn415" PreviewMouseLeftButtonDown="Btn415_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn415_PreviewMouseLeftButtonUp" Width="75" Content="5"/>
-            <Button Grid.Row="3" Grid.Column="19" Name="Btn416" PreviewMouseLeftButtonDown="Btn416_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn416_PreviewMouseLeftButtonUp" Width="75" Content="6"/>
+        <Button Grid.Row="3" Grid.Column="0" Name="Btn41" PreviewMouseLeftButtonDown="Btn41_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn41_PreviewMouseLeftButtonUp"  Content="CapsLock"/>
+        <Button Grid.Row="3" Grid.Column="1" Name="Btn42" PreviewMouseLeftButtonDown="Btn42_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn42_PreviewMouseLeftButtonUp">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Label Content="A"/>
+                <Label Content="Ф" Grid.Row="1" />
+            </Grid>
+        </Button>
+        <Button Grid.Row="3" Grid.Column="2" Name="Btn43" PreviewMouseLeftButtonDown="Btn43_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn43_PreviewMouseLeftButtonUp">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Label Content="S"/>
+                <Label Content="Ы" Grid.Row="1" />
+            </Grid>
+        </Button>
+        <Button Grid.Row="3" Grid.Column="3" Name="Btn44" PreviewMouseLeftButtonDown="Btn44_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn44_PreviewMouseLeftButtonUp">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Label Content="D"/>
+                <Label Content="В" Grid.Row="1" />
+            </Grid>
+        </Button>
+        <Button Grid.Row="3" Grid.Column="4" Name="Btn45" PreviewMouseLeftButtonDown="Btn45_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn45_PreviewMouseLeftButtonUp">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Label Content="F"/>
+                <Label Content="А" Grid.Row="1" />
+            </Grid>
+        </Button>
+        <Button Grid.Row="3" Grid.Column="5" Name="Btn46" PreviewMouseLeftButtonDown="Btn46_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn46_PreviewMouseLeftButtonUp">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Label Content="G"/>
+                <Label Content="П" Grid.Row="1" />
+            </Grid>
+        </Button>
+        <Button Grid.Row="3" Grid.Column="6" Name="Btn47" PreviewMouseLeftButtonDown="Btn47_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn47_PreviewMouseLeftButtonUp">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Label Content="H"/>
+                <Label Content="Р" Grid.Row="1" />
+            </Grid>
+        </Button>
+        <Button Grid.Row="3" Grid.Column="7" Name="Btn48" PreviewMouseLeftButtonDown="Btn48_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn48_PreviewMouseLeftButtonUp">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Label Content="J"/>
+                <Label Content="О" Grid.Row="1" />
+            </Grid>
+        </Button>
+        <Button Grid.Row="3" Grid.Column="8" Name="Btn49" PreviewMouseLeftButtonDown="Btn49_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn49_PreviewMouseLeftButtonUp">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Label Content="K"/>
+                <Label Content="Л" Grid.Row="1" />
+            </Grid>
+        </Button>
+        <Button Grid.Row="3" Grid.Column="9" Name="Btn410" PreviewMouseLeftButtonDown="Btn410_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn410_PreviewMouseLeftButtonUp">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Label Content="L"/>
+                <Label Content="Д" Grid.Row="1" />
+            </Grid>
+        </Button>
+        <Button Grid.Row="3" Grid.Column="10" Name="Btn411" PreviewMouseLeftButtonDown="Btn411_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn411_PreviewMouseLeftButtonUp">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Label Content=":"/>
+                <Label Content=";" Grid.Row="1" />
+                <Label Content="Ж" Grid.Row="1" Grid.Column="1"/>
+            </Grid>
+        </Button>
+        <Button Grid.Row="3" Grid.Column="11" Name="Btn412" PreviewMouseLeftButtonDown="Btn412_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn412_PreviewMouseLeftButtonUp">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Label Content="&quot;"/>
+                <Label Content="'" Grid.Row="1" />
+                <Label Content="Э" Grid.Row="1" Grid.Column="1"/>
+            </Grid>
+        </Button>
+        <Button Grid.Row="3" Grid.ColumnSpan="2" Grid.RowSpan="2" Grid.Column="12" Name="Btn413" PreviewMouseLeftButtonDown="Btn413_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn413_PreviewMouseLeftButtonUp"  Content="Enter" VerticalContentAlignment="Top" HorizontalContentAlignment="Center"/>
+        <Button Grid.Row="3" Grid.Column="17" Name="Btn414" PreviewMouseLeftButtonDown="Btn414_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn414_PreviewMouseLeftButtonUp">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Label Content="4"/>
+                <Label Content="←" Grid.Row="1" />
+            </Grid>
+        </Button>
+        <Button Grid.Row="3" Grid.Column="18" Name="Btn415" PreviewMouseLeftButtonDown="Btn415_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn415_PreviewMouseLeftButtonUp"  Content="5"/>
+        <Button Grid.Row="3" Grid.Column="19" Name="Btn416" PreviewMouseLeftButtonDown="Btn416_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn416_PreviewMouseLeftButtonUp">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Label Content="6"/>
+                <Label Content="→" Grid.Row="1" />
+            </Grid>
+        </Button>
         <!--#endregion-->
 
         <!--#region Пятая строка-->
-            <Button Grid.Row="4" Grid.Column="0" Name="Btn51" PreviewMouseLeftButtonDown="Btn51_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn51_PreviewMouseLeftButtonUp" Width="75" Content="Shift"/>
-            <Button Grid.Row="4" Grid.Column="1" Name="Btn52" PreviewMouseLeftButtonDown="Btn52_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn52_PreviewMouseLeftButtonUp" Width="75" Content="Z"/>
-            <Button Grid.Row="4" Grid.Column="2" Name="Btn53" PreviewMouseLeftButtonDown="Btn53_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn53_PreviewMouseLeftButtonUp" Width="75" Content="X"/>
-            <Button Grid.Row="4" Grid.Column="3" Name="Btn54" PreviewMouseLeftButtonDown="Btn54_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn54_PreviewMouseLeftButtonUp" Width="75" Content="C"/>
-            <Button Grid.Row="4" Grid.Column="4" Name="Btn55" PreviewMouseLeftButtonDown="Btn55_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn55_PreviewMouseLeftButtonUp" Width="75" Content="V"/>
-            <Button Grid.Row="4" Grid.Column="5" Name="Btn56" PreviewMouseLeftButtonDown="Btn56_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn56_PreviewMouseLeftButtonUp" Width="75" Content="B"/>
-            <Button Grid.Row="4" Grid.Column="6" Name="Btn57" PreviewMouseLeftButtonDown="Btn57_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn57_PreviewMouseLeftButtonUp" Width="75" Content="N"/>
-            <Button Grid.Row="4" Grid.Column="7" Name="Btn58" PreviewMouseLeftButtonDown="Btn58_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn58_PreviewMouseLeftButtonUp" Width="75" Content="M"/>
-            <Button Grid.Row="4" Grid.Column="8" Name="Btn59" PreviewMouseLeftButtonDown="Btn59_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn59_PreviewMouseLeftButtonUp" Width="75" Content="&lt;"/>
-            <Button Grid.Row="4" Grid.Column="9" Name="Btn510" PreviewMouseLeftButtonDown="Btn510_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn510_PreviewMouseLeftButtonUp" Width="75" Content="&gt;"/>
-            <Button Grid.Row="4" Grid.Column="10" Name="Btn511" PreviewMouseLeftButtonDown="Btn511_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn511_PreviewMouseLeftButtonUp" Width="75" Content="?/"/>
-            <Button Grid.Row="4" Grid.Column="11" Name="Btn512" PreviewMouseLeftButtonDown="Btn512_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn512_PreviewMouseLeftButtonUp" Width="75" Content="Shift"/>
-            <Button Grid.Row="4" Grid.Column="15" Name="Btn513" PreviewMouseLeftButtonDown="Btn513_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn513_PreviewMouseLeftButtonUp" Width="75" Content="↑"/>
-            <Button Grid.Row="4" Grid.Column="17" Name="Btn514" PreviewMouseLeftButtonDown="Btn514_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn514_PreviewMouseLeftButtonUp" Width="75" Content="1 End"/>
-            <Button Grid.Row="4" Grid.Column="18" Name="Btn515" PreviewMouseLeftButtonDown="Btn515_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn515_PreviewMouseLeftButtonUp" Width="75" Content="2"/>
-            <Button Grid.Row="4" Grid.Column="19" Name="Btn516" PreviewMouseLeftButtonDown="Btn516_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn516_PreviewMouseLeftButtonUp" Width="75" Content="3 PgDn"/>
-            <Button Grid.Row="4" Grid.Column="20" Name="Btn517" PreviewMouseLeftButtonDown="Btn517_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn517_PreviewMouseLeftButtonUp" Width="75" Content="Enter"/>
+        <Button Grid.Row="4" Grid.Column="0" Name="Btn51" PreviewMouseLeftButtonDown="Btn51_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn51_PreviewMouseLeftButtonUp"  Content="Shift"/>
+        <Button Grid.Row="4" Grid.Column="1" Name="Btn52" PreviewMouseLeftButtonDown="Btn52_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn52_PreviewMouseLeftButtonUp">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Label Content="Z"/>
+                <Label Content="Я" Grid.Row="1" />
+            </Grid>
+        </Button>
+        <Button Grid.Row="4" Grid.Column="2" Name="Btn53" PreviewMouseLeftButtonDown="Btn53_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn53_PreviewMouseLeftButtonUp">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Label Content="X"/>
+                <Label Content="Ч" Grid.Row="1" />
+            </Grid>
+        </Button>
+        <Button Grid.Row="4" Grid.Column="3" Name="Btn54" PreviewMouseLeftButtonDown="Btn54_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn54_PreviewMouseLeftButtonUp">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Label Content="C"/>
+                <Label Content="С" Grid.Row="1" />
+            </Grid>
+        </Button>
+        <Button Grid.Row="4" Grid.Column="4" Name="Btn55" PreviewMouseLeftButtonDown="Btn55_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn55_PreviewMouseLeftButtonUp">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Label Content="V"/>
+                <Label Content="М" Grid.Row="1" />
+            </Grid>
+        </Button>
+        <Button Grid.Row="4" Grid.Column="5" Name="Btn56" PreviewMouseLeftButtonDown="Btn56_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn56_PreviewMouseLeftButtonUp">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Label Content="B"/>
+                <Label Content="И" Grid.Row="1" />
+            </Grid>
+        </Button>
+        <Button Grid.Row="4" Grid.Column="6" Name="Btn57" PreviewMouseLeftButtonDown="Btn57_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn57_PreviewMouseLeftButtonUp">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Label Content="N"/>
+                <Label Content="Т" Grid.Row="1" />
+            </Grid>
+        </Button>
+        <Button Grid.Row="4" Grid.Column="7" Name="Btn58" PreviewMouseLeftButtonDown="Btn58_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn58_PreviewMouseLeftButtonUp">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Label Content="M"/>
+                <Label Content="Ь" Grid.Row="1" />
+            </Grid>
+        </Button>
+        <Button Grid.Row="4" Grid.Column="8" Name="Btn59" PreviewMouseLeftButtonDown="Btn59_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn59_PreviewMouseLeftButtonUp">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Label Content="&lt;"/>
+                <Label Content="," Grid.Row="1" />
+                <Label Content="Б" Grid.Row="1" Grid.Column="1"/>
+            </Grid>
+        </Button>
+        <Button Grid.Row="4" Grid.Column="9" Name="Btn510" PreviewMouseLeftButtonDown="Btn510_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn510_PreviewMouseLeftButtonUp">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Label Content="&gt;"/>
+                <Label Content="." Grid.Row="1" />
+                <Label Content="Ю" Grid.Row="1" Grid.Column="1"/>
+            </Grid>
+        </Button>  
+        <Button Grid.Row="4" Grid.Column="10" Name="Btn511" PreviewMouseLeftButtonDown="Btn511_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn511_PreviewMouseLeftButtonUp">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Label Content="?"/>
+                <Label Content="/" Grid.Row="1" />
+                <Label Content="," Grid.Row="0" Grid.Column="1"/>
+                <Label Content="." Grid.Row="1" Grid.Column="1"/>
+            </Grid>
+        </Button>
+        <Button Grid.Row="4" Grid.ColumnSpan="2" Grid.Column="11" Name="Btn512" PreviewMouseLeftButtonDown="Btn512_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn512_PreviewMouseLeftButtonUp"  Content="Shift"/>
+        <Button Grid.Row="4" Grid.Column="15" Name="Btn513" PreviewMouseLeftButtonDown="Btn513_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn513_PreviewMouseLeftButtonUp"  Content="↑"/>
+        <Button Grid.Row="4" Grid.Column="17" Name="Btn514" PreviewMouseLeftButtonDown="Btn514_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn514_PreviewMouseLeftButtonUp">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Label Content="1" HorizontalAlignment="Center"/>
+                <Label Content="End" Grid.Row="1" />
+            </Grid>
+        </Button>
+        <Button Grid.Row="4" Grid.Column="18" Name="Btn515" PreviewMouseLeftButtonDown="Btn515_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn515_PreviewMouseLeftButtonUp">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Label Content="2"/>
+                <Label Content="↓" Grid.Row="1" />
+            </Grid>
+        </Button>
+        <Button Grid.Row="4" Grid.Column="19" Name="Btn516" PreviewMouseLeftButtonDown="Btn516_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn516_PreviewMouseLeftButtonUp">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Label Content="3" HorizontalAlignment="Center"/>
+                <Label Content="Pg Dn" Grid.Row="1" />
+            </Grid>
+        </Button>
+        <Button Grid.RowSpan="2" Grid.Row="4" Grid.Column="20" Name="Btn517" PreviewMouseLeftButtonDown="Btn517_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn517_PreviewMouseLeftButtonUp"  Content="Enter"/>
         <!--#endregion-->
 
         <!--#region Шестая строка-->
-            <Button Grid.Row="5" Grid.Column="0" Name="Btn61" PreviewMouseLeftButtonDown="Btn61_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn61_PreviewMouseLeftButtonUp" Width="75" Content="Ctrl"/>
-            <Button Grid.Row="5" Grid.Column="1" Name="Btn62" PreviewMouseLeftButtonDown="Btn62_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn62_PreviewMouseLeftButtonUp" Width="75" Content="Win"/>
-            <Button Grid.Row="5" Grid.Column="2" Name="Btn63" PreviewMouseLeftButtonDown="Btn63_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn63_PreviewMouseLeftButtonUp" Width="75" Content="Alt"/>
-            <Button Grid.Row="5" Grid.Column="3" Name="Btn64" PreviewMouseLeftButtonDown="Btn64_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn64_PreviewMouseLeftButtonUp" Width="450" Content="Space"/>
-            <Button Grid.Row="5" Grid.Column="4" Name="Btn65" PreviewMouseLeftButtonDown="Btn65_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn65_PreviewMouseLeftButtonUp" Width="75" Content="Alt"/>
-            <Button Grid.Row="5" Grid.Column="5" Name="Btn66" PreviewMouseLeftButtonDown="Btn66_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn66_PreviewMouseLeftButtonUp" Width="75" Content="Win"/>
-            <Button Grid.Row="5" Grid.Column="6" Name="Btn67" PreviewMouseLeftButtonDown="Btn67_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn67_PreviewMouseLeftButtonUp" Width="75" Content="Ctrl"/>
-            <Button Grid.Row="5" Grid.Column="14" Name="Btn68" PreviewMouseLeftButtonDown="Btn68_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn68_PreviewMouseLeftButtonUp" Width="75" Content="←"/>
-            <Button Grid.Row="5" Grid.Column="15" Name="Btn69" PreviewMouseLeftButtonDown="Btn69_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn69_PreviewMouseLeftButtonUp" Width="75" Content="↓"/>
-            <Button Grid.Row="5" Grid.Column="16" Name="Btn610" PreviewMouseLeftButtonDown="Btn610_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn610_PreviewMouseLeftButtonUp" Width="75" Content="→"/>
+        <Button Grid.Row="5" Grid.Column="0" Name="Btn61" PreviewMouseLeftButtonDown="Btn61_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn61_PreviewMouseLeftButtonUp"  Content="Ctrl"/>
+        <Button Grid.Row="5" Grid.Column="1" Name="Btn62" PreviewMouseLeftButtonDown="Btn62_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn62_PreviewMouseLeftButtonUp"  Content="Win" Click="Btn62_Click"/>
+        <Button Grid.Row="5" Grid.Column="2" Name="Btn63" PreviewMouseLeftButtonDown="Btn63_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn63_PreviewMouseLeftButtonUp"  Content="Alt"/>
+        <Button Grid.ColumnSpan="8" Grid.Row="5" Grid.Column="3" Name="Btn64" PreviewMouseLeftButtonDown="Btn64_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn64_PreviewMouseLeftButtonUp" Content="Space"/>
+        <Button Grid.Row="5" Grid.Column="11" Name="Btn65" PreviewMouseLeftButtonDown="Btn65_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn65_PreviewMouseLeftButtonUp"  Content="Alt"/>
+        <Button Grid.Row="5" Grid.Column="12" Name="Btn66" PreviewMouseLeftButtonDown="Btn66_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn66_PreviewMouseLeftButtonUp"  Content="Win"/>
+        <Button Grid.Row="5" Grid.Column="13" Name="Btn67" PreviewMouseLeftButtonDown="Btn67_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn67_PreviewMouseLeftButtonUp"  Content="Ctrl"/>
+        <Button Grid.Row="5" Grid.Column="14" Name="Btn68" PreviewMouseLeftButtonDown="Btn68_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn68_PreviewMouseLeftButtonUp"  Content="←"/>
+        <Button Grid.Row="5" Grid.Column="15" Name="Btn69" PreviewMouseLeftButtonDown="Btn69_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn69_PreviewMouseLeftButtonUp"  Content="↓"/>
+        <Button Grid.Row="5" Grid.Column="16" Name="Btn610" PreviewMouseLeftButtonDown="Btn610_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn610_PreviewMouseLeftButtonUp"  Content="→"/>
+        <Button Grid.ColumnSpan="2" Grid.Row="5" Grid.Column="17" Name="Btn611" PreviewMouseLeftButtonDown="Btn610_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn610_PreviewMouseLeftButtonUp">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Label Content="0" HorizontalAlignment="Center"/>
+                <Label Content="Insert" Grid.Row="1" />
+            </Grid>
+        </Button>
+        <Button Grid.Row="5" Grid.Column="19" Name="Btn612" PreviewMouseLeftButtonDown="Btn610_PreviewMouseLeftButtonDown" PreviewMouseLeftButtonUp="Btn610_PreviewMouseLeftButtonUp">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Label Content="." HorizontalAlignment="Center"/>
+                <Label Content="Delete" Grid.Row="1" />
+            </Grid>
+        </Button>
         <!--#endregion-->
 
-        <WrapPanel Grid.Row="6" Grid.ColumnSpan="21" Name="wpUI" HorizontalAlignment="Center" >
-            <Button Height="{Binding ElementName=wpUI, Path=ActualHeight}" Name="btnRec" Content="Запись"  Click="btnRec_Click"/>
+        <WrapPanel Grid.Row="6" Grid.ColumnSpan="21" Name="wpUI" HorizontalAlignment="Center" VerticalAlignment="Bottom">
+            <Button Height="30" Name="btnRec" Content="Запись"  Click="btnRec_Click"/>
             <Button Name="btnStopRec" Content="Остановить запись"  Click="btnStopRec_Click" />
             <Button Name="btnPlay" Content="Воспроизведение" Click="btnPlay_Click"/>
             <Button Name="btnVirtKlava"  Content="Виртуальная клавиатура"  Click="btnVirtKlava_Click"/>

@@ -42,8 +42,9 @@ namespace System
             string tempNVirtKey = "";
             string tempTimeSpan = "";
 
-            //this.HistoryVKS.Clear();
-            
+            this.HistoryVKS.Clear();
+            this.HistoryVKS.Add(new List<VK>());
+
 
             for (int i = 0; i < tempStr.Length; i++)
             {
@@ -72,7 +73,7 @@ namespace System
                 }
                 if(watWord == 2)
                 {
-                    if (tempStr[i] != '\n')
+                    if (tempStr[i] != '\n' && tempStr[i] != '\r')
                     {
                         tempTimeSpan += tempStr[i];
                     }
@@ -82,12 +83,11 @@ namespace System
                         //Console.WriteLine(_tempStr + " " + tempNVirtKey + " " + tempTimeSpan);
 
                         tempVk.Str = _tempStr;
-                        Console.WriteLine(tempNVirtKey);
                         tempVk.nVirtKey = Convert.ToByte(tempNVirtKey);
                         tempVk.TimeSpan = TimeSpan.Parse(tempTimeSpan); 
 
                         tempVkList.Add(tempVk);
-                        HistoryVKS.Add(tempVkList);
+                        
 
                         _tempStr = "";
                         tempNVirtKey = "";
@@ -105,7 +105,20 @@ namespace System
             tempVkList.Add(tempVk);
             HistoryVKS.Add(tempVkList);
 
-            (new Klava()).HistoryExecute();
+
+
+            foreach (var el1 in HistoryVKS)
+            {
+                foreach (var el2 in el1)
+                {
+                    Console.Write(el2.Str + " "+el2.nVirtKey.ToString()+" "+el2.TimeSpan.ToString());
+                    //RecInFile(el2.Str + " " + el2.nVirtKey.ToString());
+                    //el2.Act.ToString()+" "+
+                }
+                Console.WriteLine();
+
+            }
+
 
             return null;
         }
