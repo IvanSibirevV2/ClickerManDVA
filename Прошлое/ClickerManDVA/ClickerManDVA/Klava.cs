@@ -22,5 +22,11 @@ namespace System
         public List<List<VK>> HistoryVKS = new List<List<VK>>();
         public System.DateTime DateTimeStart;
 
+        public Klava() 
+        {
+            this.Init();
+        }
+        //public Klava Init() { }
+    
     }
 }
