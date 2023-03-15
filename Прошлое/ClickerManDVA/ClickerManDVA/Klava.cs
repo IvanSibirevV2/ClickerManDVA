@@ -48,6 +48,7 @@ namespace System
 
         public Klava IsFile()
         {
+            int watWord = 0;
             string path = @"C:\D\test\";
             StreamReader sr = new StreamReader(path + "export.txt");
             string tempStr = sr.ReadToEnd();
@@ -55,7 +56,31 @@ namespace System
             List<VK> tempVkList = new List<VK>();
             VK tempVk = new VK();
 
+            string _tempStr="";
+            string tempNVirtKey = "";
+            string tempTimeSpan = "";
+
             Console.WriteLine(tempStr);
+
+            for (int i = 0; i < tempStr.Length; i++)
+            {
+                if (watWord == 0)
+                {
+                    if (tempStr[i] != ' ')
+                    {
+                        _tempStr += tempStr[i];
+                    }
+                    else
+                    {
+                        i++;
+                        watWord++;
+                    }
+                }
+                if(watWord==1)
+                {
+                    //if()
+                }
+            }
 
                 //tempVk.Str = _tempStr;
                 //tempVk.nVirtKey = Convert.ToByte(tempNVirtKey);
@@ -86,11 +111,10 @@ namespace System
                 foreach (var el2 in el1)
                 {
                     //Console.Write(el2.Str + " "+el2.nVirtKey.ToString()+" "+el2.Sender.ToString()+" "+el2.TimeSpan.ToString());
-                    RecInFile(el2.Str + " "+el2.nVirtKey.ToString());
+                    RecInFile(el2.Str + " "+el2.nVirtKey.ToString()+" "+el2.TimeSpan.ToString()); 
                     //el2.Act.ToString()+" "+
                 }
                 Console.WriteLine();
-
             }
                 return this;
         }
