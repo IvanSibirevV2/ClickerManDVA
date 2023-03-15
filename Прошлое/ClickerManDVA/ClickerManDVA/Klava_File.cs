@@ -12,8 +12,10 @@ namespace System
     {
         public Klava RecInFile(String str)
         {
-            string path = @"C:\D\test\";   // путь к файлу
+            string path = System.IO.Directory.GetCurrentDirectory();   // путь к файлу
             // запись в файл
+            if (!System.IO.File.Exists(path + "export.txt"))
+                System.IO.File.Create(path + "export.txt");
             StreamWriter sw = new StreamWriter(path + "export.txt", append: true);
             sw.WriteLine(str);
             sw.Close();

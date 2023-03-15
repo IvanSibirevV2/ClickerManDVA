@@ -38,8 +38,6 @@ namespace System
             this.VKS.Add(this.VK_X.Set(_Sender:this));
             this.VKS.Add(this.VK_Y.Set(_Sender:this));
             this.VKS.Add(this.VK_Z.Set(_Sender:this));
-            this.VKS.Add(this.VK_Slash.Set(_Sender:this));
-            this.VKS.Add(this.VK_Space.Set(_Sender:this));
             this.VKS.Add(this.VK__0.Set(_Sender:this));
             this.VKS.Add(this.VK__1.Set(_Sender:this));
             this.VKS.Add(this.VK__2.Set(_Sender:this));
@@ -50,12 +48,23 @@ namespace System
             this.VKS.Add(this.VK__7.Set(_Sender:this));
             this.VKS.Add(this.VK__8.Set(_Sender:this));
             this.VKS.Add(this.VK__9.Set(_Sender:this));
+            this.VKS.Add(this.VK_Slash.Set(_Sender:this));
+            this.VKS.Add(this.VK_Space.Set(_Sender:this));
             this.VKS.Add(this.VK_Enter.Set(_Sender:this));
             this.VKS.Add(this.VK_Mark.Set(_Sender:this));
             this.VKS.Add(this.VK_Shift.Set(_Sender:this));
-            this.VKS.Add(this.VK_MouseL.Set(_Sender:this));
-            this.VKS.Add(this.VK_MouseR.Set(_Sender:this));
-            this.VKS.Add(this.VK_MMouse.Set(_Sender:this));
+            this.VKS.Add(this.VK_F1.Set(_Sender:this));
+            this.VKS.Add(this.VK_F2.Set(_Sender:this));
+            this.VKS.Add(this.VK_F3.Set(_Sender:this));
+            this.VKS.Add(this.VK_F4.Set(_Sender:this));
+            this.VKS.Add(this.VK_F5.Set(_Sender:this));
+            this.VKS.Add(this.VK_F6.Set(_Sender:this));
+            this.VKS.Add(this.VK_F7.Set(_Sender:this));
+            this.VKS.Add(this.VK_F8.Set(_Sender:this));
+            this.VKS.Add(this.VK_F9.Set(_Sender:this));
+            this.VKS.Add(this.VK_F10.Set(_Sender:this));
+            this.VKS.Add(this.VK_F11.Set(_Sender:this));
+            this.VKS.Add(this.VK_F12.Set(_Sender:this));
             this.VKS.Add(this.VK_BACKSPACE.Set(_Sender:this));
             this.VKS.Add(this.VK_TAB.Set(_Sender:this));
             this.VKS.Add(this.VK_CTRL.Set(_Sender:this));
@@ -90,18 +99,6 @@ namespace System
             this.VKS.Add(this.VK_NumMinus.Set(_Sender:this));
             this.VKS.Add(this.VK_NumDot.Set(_Sender:this));
             this.VKS.Add(this.VK_NumSlash.Set(_Sender:this));
-            this.VKS.Add(this.VK_F1.Set(_Sender:this));
-            this.VKS.Add(this.VK_F2.Set(_Sender:this));
-            this.VKS.Add(this.VK_F3.Set(_Sender:this));
-            this.VKS.Add(this.VK_F4.Set(_Sender:this));
-            this.VKS.Add(this.VK_F5.Set(_Sender:this));
-            this.VKS.Add(this.VK_F6.Set(_Sender:this));
-            this.VKS.Add(this.VK_F7.Set(_Sender:this));
-            this.VKS.Add(this.VK_F8.Set(_Sender:this));
-            this.VKS.Add(this.VK_F9.Set(_Sender:this));
-            this.VKS.Add(this.VK_F10.Set(_Sender:this));
-            this.VKS.Add(this.VK_F11.Set(_Sender:this));
-            this.VKS.Add(this.VK_F12.Set(_Sender:this));
             this.VKS.Add(this.VK_NUMLOCK.Set(_Sender:this));
             this.VKS.Add(this.VK_SCROLLLOCK.Set(_Sender:this));
             this.VKS.Add(this.VK_PRINTSCREEN.Set(_Sender:this));
@@ -114,6 +111,9 @@ namespace System
             this.VKS.Add(this.VK_SquScobOtk.Set(_Sender:this));
             this.VKS.Add(this.VK_ObratSlash.Set(_Sender:this));
             this.VKS.Add(this.VK_SquScobZak.Set(_Sender:this));
+            this.VKS.Add(this.VK_MouseL.Set(_Sender:this));
+            this.VKS.Add(this.VK_MouseR.Set(_Sender:this));
+            this.VKS.Add(this.VK_MMouse.Set(_Sender:this));
             return this;
         }
     }

@@ -4,10 +4,11 @@ using System.Text;
 using System.Linq;
 using System.Runtime.InteropServices;
 using System.IO;
+using static System.Mouse;
 
 namespace System
 {
-
+    
     public partial class Klava
     {
         ///////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -21,12 +22,9 @@ namespace System
         
         public List<List<VK>> HistoryVKS = new List<List<VK>>();
         public System.DateTime DateTimeStart;
-
-        public Klava() 
+        public Klava()
         {
             this.Init();
         }
-        //public Klava Init() { }
-    
     }
 }

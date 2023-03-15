@@ -1,4 +1,4 @@
-﻿/*
+﻿
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -100,11 +100,12 @@ namespace System
         /// <summary>R_Down_Up</summary>
         public Mouse R { get { this.R_Down().R_Up(); return this; } }
         /// <summary> System.Mouse.Test_SuperClickManiak(); /// </summary>
+        /*
         public static void Test_SuperClickManiak()
         {
-            new Klava().p_Mouse
-                .Set_CursorPos(1919, 1058).L
-                .Set_CursorPos((int)1919 / 2, (int)1058 / 2).R
+            new Klava()
+                .Set_Mouse_CursorPos(1919, 1058).L
+                .Set_Mouse_CursorPos((int)1919 / 2, (int)1058 / 2).R
                 .Move(+50, +100).Move(0, +75)//.Move(0, -5)
                 .Sleep(1000).Sleep(50).Move(+400, +30)
                 .L
@@ -122,16 +123,18 @@ namespace System
             ;
             System.Console.WriteLine(new Mouse().Get_CursorPos.X.ToString() + ";" + new Mouse().Get_CursorPos.Y.ToString());
         }
+        */
         ///////////////////////////////////////////////////////////////////////////////////////////////////////
         public System.Boolean R_Is() { return this.p_Klava.VK_MouseR.Is(); }
         public System.Boolean L_Is() { return this.p_Klava.VK_MouseL.Is(); }
-      
+      /*
         public Mouse R_Is(System.Action<Mouse> _f1 = null, System.Action<Mouse> _f0 = null)
         { this.p_Klava.VK_MouseR.Is(); return this; }
         public Mouse L_Is(System.Action<Mouse> _f1 = null, System.Action<Mouse> _f0 = null)
         { this.p_Klava.MouseL_Is(_f1: x => { _f1(x.p_Sender.p_Mouse); }, _f0: x => { _f0(x.p_Sender.p_Mouse); }); return this; }
-        
+        */
         /// <summary> System.Mouse.Test_LR_Is();//Не наводите курсор мыши на консоль во время теста /// </summary>
+        /*
         public static void Test_LR_Is()
         {
             
@@ -149,8 +152,8 @@ namespace System
             ;
             
         }
+        */
         ///////////////////////////////////////////////////////////////////////////////////////////////////////
     }
 }
 
-*/
