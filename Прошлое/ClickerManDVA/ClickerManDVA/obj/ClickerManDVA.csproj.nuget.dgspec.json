@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\D\\ClickerManDVA\\Прошлое\\ClickerManDVA\\ClickerManDVA\\ClickerManDVA.csproj": {}
+    "C:\\D\\Git_Hub\\ClickerManDVA\\Прошлое\\ClickerManDVA\\ClickerManDVA\\ClickerManDVA.csproj": {}
   },
   "projects": {
-    "C:\\D\\ClickerManDVA\\Прошлое\\ClickerManDVA\\ClickerManDVA\\ClickerManDVA.csproj": {
+    "C:\\D\\Git_Hub\\ClickerManDVA\\Прошлое\\ClickerManDVA\\ClickerManDVA\\ClickerManDVA.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\D\\ClickerManDVA\\Прошлое\\ClickerManDVA\\ClickerManDVA\\ClickerManDVA.csproj",
+        "projectUniqueName": "C:\\D\\Git_Hub\\ClickerManDVA\\Прошлое\\ClickerManDVA\\ClickerManDVA\\ClickerManDVA.csproj",
         "projectName": "ClickerManDVA",
-        "projectPath": "C:\\D\\ClickerManDVA\\Прошлое\\ClickerManDVA\\ClickerManDVA\\ClickerManDVA.csproj",
-        "packagesPath": "C:\\Users\\LordN\\.nuget\\packages\\",
-        "outputPath": "C:\\D\\ClickerManDVA\\Прошлое\\ClickerManDVA\\ClickerManDVA\\obj\\",
+        "projectPath": "C:\\D\\Git_Hub\\ClickerManDVA\\Прошлое\\ClickerManDVA\\ClickerManDVA\\ClickerManDVA.csproj",
+        "packagesPath": "C:\\Users\\SibNout2020\\.nuget\\packages\\",
+        "outputPath": "C:\\D\\Git_Hub\\ClickerManDVA\\Прошлое\\ClickerManDVA\\ClickerManDVA\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\LordN\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\SibNout2020\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,7 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -55,12 +50,18 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[3.1.32, 3.1.32]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }

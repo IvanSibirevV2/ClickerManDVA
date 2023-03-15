@@ -1,0 +1,97 @@
+﻿<#@ template debug="false" hostspecific="false" language="C#" #>
+<#@ assembly name="System.Core" #>
+<#@ import namespace="System.Linq" #>
+<#@ import namespace="System.Text" #>
+<#@ import namespace="System.Collections.Generic" #>
+<#@ output extension=".cs" #>
+<#
+GenVKS
+("A",65)("B",66)("C",67)("D",68)("E",69)("F",70)("G",71)("H",72)("I",73)("J",74)("K",75)("L",76)("M",77)
+("N",78)("O",79)("P",80)("Q",81)("R",82)("S",83)("T",84)("U",85)("V",86)("W",87)("X",88)("Y",89)("Z",90)
+
+("_0",48)("_1",49)("_2",50)("_3",51)("_4",52)("_5",53)("_6",54)("_7",55)("_8",56)("_9",57)
+
+("Slash",191)("Space",32)("Enter",13)("Mark",222)("Shift",16)
+
+("F1",112)("F2",113)("F3",114)("F4",115)("F5",116)("F6",117)("F7",118)("F8",119)("F9",120)("F10",121)("F11",122)("F12",123)
+
+("BACKSPACE",8)("TAB",9)("CTRL",17)("ALT",18)("PAUSE",19)("CAPSLOCK",20)("ESCAPE",27)
+("PAGEUP",33)("PAGEDOWN",34)("END",35)("HOME",36)("LEFT",37)("UP",38)("RIGHT",39)("DOWN",40)
+("INSERT",45)("DELETE",46)
+("LWIN",91)("RWIN",92)("NumZero",96)("NumOne",97)("NumTwo",98)("NumThree",99)("NumFor",100)
+("NumFive",101)("NumSix",102)("NumSeven",103)("NumEight",104)("NumNine",105)("NumStar",106)
+("NumPlus",107)("NumMinus",109)("NumDot",110)("NumSlash",111)("NUMLOCK",144)
+("SCROLLLOCK",145)("PRINTSCREEN",154)("PeriodComma",186)
+("Equally",187)("Сomma",188)("Minus",189)("Dot",190)("Tilda",192)
+("SquScobOtk",219)("ObratSlash",220)("SquScobZak",221)
+
+("MouseL",1)("MouseR",2)("MMouse",4)
+
+;
+#>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+using System;
+using System.Collections.Generic;
+using System.Text;
+using System.Runtime.InteropServices;
+using System.Linq;
+
+namespace System
+{
+    public partial class Klava
+    {
+<# foreach (VK qwe in this.VKS) { #>
+        public VK VK_<#=qwe.Str#>=new VK().Set(_nVirtKey:<#=qwe.nVirtKey#>,_str:"<#=qwe.Str#>");
+<# }#>
+
+        public List<VK> VKS = new List<VK>();
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<#+
+public class VK
+{
+    public byte nVirtKey = 65;//A
+    public string Str = "A"; 
+    public VK() { }
+    public VK(string _str, byte _nVirtKey) { this.nVirtKey = _nVirtKey;this.Str = _str; }
+}
+public List<VK> VKS = new List<VK>();
+public delegate MyDel MyDel(string _str, byte _nVirtKey);
+public MyDel GenVKS(string _str, byte _nVirtKey)
+{
+    VKS.Add(new VK(_str,_nVirtKey) );
+    return GenVKS;
+}
+#>
