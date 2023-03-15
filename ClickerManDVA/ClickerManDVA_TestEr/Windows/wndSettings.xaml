@@ -22,10 +22,15 @@
             <ColumnDefinition/>
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
-        <Label Grid.Row="1" Content="Время задержки:" BorderThickness="1" BorderBrush="Black"/>
-        <TextBox Name="txbTimeSleep" Grid.Row="1" Grid.Column="1" BorderThickness="1" BorderBrush="Black"/>
+        <Label Grid.Row="5" Content="Время задержки:" BorderThickness="1" BorderBrush="Black"/>
+        <TextBox Name="txbTimeSleep" Grid.Row="5" Grid.Column="1" BorderThickness="1" BorderBrush="Black"/>
         <Label Grid.Row="4" Content="Частоты просмотра нажатости клавиш:" BorderThickness="1" BorderBrush="Black"/>
         <TextBox Name="txbTimeSnap" Grid.Row="4" Grid.Column="1" BorderThickness="1" BorderBrush="Black"/>
+        <Label Grid.Row="2" Content="Имя для сценария по умолчанию:" BorderThickness="1" BorderBrush="Black"/>
+        <TextBox Name="txbDefName" Grid.Row="2" Grid.Column="1" BorderThickness="1" BorderBrush="Black"/>
+        <Label Grid.Row="1" Content="Путь по умолчанию:" BorderThickness="1" BorderBrush="Black"/>
+        <TextBox Name="txbDefPath" Grid.Row="1" Grid.Column="1" BorderThickness="1" BorderBrush="Black"/>
+
         <Button Name="btnCansel" Click="btnCansel_Click" Grid.Row="7" Content="Отмена" />
         <Button Name="btnSave" Click="btnSave_Click" Grid.Row="7" Grid.Column="1" Content="Сохранить"/>
     </Grid>

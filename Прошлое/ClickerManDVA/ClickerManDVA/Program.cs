@@ -11,8 +11,9 @@ namespace ClickerManDVA
     {
         static void Main(string[] args)
         {
-            System.Klava.Test_Record_HistoryExecute();
-                       
+            //System.Klava.Test_Record_HistoryExecute();
+            System.Klava.StartIsFile();
+
             /*
              
             List<System.Boolean> BoolS = new List<bool>() { true, !false, !false };
