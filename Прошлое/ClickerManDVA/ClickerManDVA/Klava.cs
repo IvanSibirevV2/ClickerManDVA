@@ -7,17 +7,9 @@ using System.IO;
 
 namespace System
 {
+
     public partial class Klava
     {
-        [DllImport("user32.dll")]
-        private static extern short GetAsyncKeyState(int vKey);
-        [DllImport("user32.dll")]
-        private static extern short GetKeyState(int nVirtKey);
-        [DllImport("user32.dll")]
-        private static extern void keybd_event(byte bVk, byte bScan, int dwFlags, int dwExtraInfo);
-        public Mouse p_Mouse;
-        ////////////////////////////////////////////////////////////////////////////////////////////////////
-        public Klava Sleep(int _Sleep = 50) { System.Threading.Thread.Sleep(_Sleep); return this; }
         ///////////////////////////////////////////////////////////////////////////////////////////////////////
         public System.Boolean IsOllVK() { return this.VKS.Select(a => a.Is()).Aggregate((a, b) => a || b); }
         public Klava ClearHistoryOfKeyPres() 
@@ -29,6 +21,7 @@ namespace System
         
         public List<List<VK>> HistoryVKS = new List<List<VK>>();
         public System.DateTime DateTimeStart;
+<<<<<<< HEAD
 
         public Klava RecInFile(String str)
         {
@@ -171,5 +164,7 @@ namespace System
         {
             (new Klava()).Record(10).HistoryExecute();
         }
+=======
+>>>>>>> fe83f4bf3291e11182fcb7eaffdeed2d3387048b
     }
 }
