@@ -58,7 +58,7 @@ namespace System
     public partial class Klava
     {
 <# foreach (VK qwe in this.VKS) { #>
-        public Klava <#=qwe.Str#>{get{this.VK_<#=qwe.Str#>.Down().Sleep().Up(); return this;} }
+        public Klava <#=qwe.Str#>{get{this.VK_<#=qwe.Str#>.Down();this.Sleep();this.VK_<#=qwe.Str#>.Up(); return this;} }
 <# }#>
     }
 }
