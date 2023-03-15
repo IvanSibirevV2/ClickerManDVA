@@ -11,7 +11,7 @@ namespace ClickerManDVA
     {
         static void Main(string[] args)
         {
-            //System.Klava.Test_Record_HistoryExecute();
+            System.Klava.Test_Record_HistoryExecute();
             System.Klava.StartIsFile();
 
             /*

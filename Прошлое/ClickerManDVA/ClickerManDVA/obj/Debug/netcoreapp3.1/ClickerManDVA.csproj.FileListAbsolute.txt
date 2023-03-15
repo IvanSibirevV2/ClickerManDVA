@@ -26,3 +26,17 @@ C:\D\ClickerManDVA\Прошлое\ClickerManDVA\ClickerManDVA\obj\Debug\netcorea
 C:\D\ClickerManDVA\Прошлое\ClickerManDVA\ClickerManDVA\obj\Debug\netcoreapp3.1\ClickerManDVA.dll
 C:\D\ClickerManDVA\Прошлое\ClickerManDVA\ClickerManDVA\obj\Debug\netcoreapp3.1\ClickerManDVA.pdb
 C:\D\ClickerManDVA\Прошлое\ClickerManDVA\ClickerManDVA\obj\Debug\netcoreapp3.1\ClickerManDVA.genruntimeconfig.cache
+C:\D\Git_Hub\ClickerManDVA\Прошлое\ClickerManDVA\ClickerManDVA\bin\Debug\netcoreapp3.1\ClickerManDVA.exe
+C:\D\Git_Hub\ClickerManDVA\Прошлое\ClickerManDVA\ClickerManDVA\bin\Debug\netcoreapp3.1\ClickerManDVA.deps.json
+C:\D\Git_Hub\ClickerManDVA\Прошлое\ClickerManDVA\ClickerManDVA\bin\Debug\netcoreapp3.1\ClickerManDVA.runtimeconfig.json
+C:\D\Git_Hub\ClickerManDVA\Прошлое\ClickerManDVA\ClickerManDVA\bin\Debug\netcoreapp3.1\ClickerManDVA.runtimeconfig.dev.json
+C:\D\Git_Hub\ClickerManDVA\Прошлое\ClickerManDVA\ClickerManDVA\bin\Debug\netcoreapp3.1\ClickerManDVA.dll
+C:\D\Git_Hub\ClickerManDVA\Прошлое\ClickerManDVA\ClickerManDVA\bin\Debug\netcoreapp3.1\ClickerManDVA.pdb
+C:\D\Git_Hub\ClickerManDVA\Прошлое\ClickerManDVA\ClickerManDVA\obj\Debug\netcoreapp3.1\ClickerManDVA.csproj.AssemblyReference.cache
+C:\D\Git_Hub\ClickerManDVA\Прошлое\ClickerManDVA\ClickerManDVA\obj\Debug\netcoreapp3.1\ClickerManDVA.GeneratedMSBuildEditorConfig.editorconfig
+C:\D\Git_Hub\ClickerManDVA\Прошлое\ClickerManDVA\ClickerManDVA\obj\Debug\netcoreapp3.1\ClickerManDVA.AssemblyInfoInputs.cache
+C:\D\Git_Hub\ClickerManDVA\Прошлое\ClickerManDVA\ClickerManDVA\obj\Debug\netcoreapp3.1\ClickerManDVA.AssemblyInfo.cs
+C:\D\Git_Hub\ClickerManDVA\Прошлое\ClickerManDVA\ClickerManDVA\obj\Debug\netcoreapp3.1\ClickerManDVA.csproj.CoreCompileInputs.cache
+C:\D\Git_Hub\ClickerManDVA\Прошлое\ClickerManDVA\ClickerManDVA\obj\Debug\netcoreapp3.1\ClickerManDVA.dll
+C:\D\Git_Hub\ClickerManDVA\Прошлое\ClickerManDVA\ClickerManDVA\obj\Debug\netcoreapp3.1\ClickerManDVA.pdb
+C:\D\Git_Hub\ClickerManDVA\Прошлое\ClickerManDVA\ClickerManDVA\obj\Debug\netcoreapp3.1\ClickerManDVA.genruntimeconfig.cache
