@@ -47,7 +47,7 @@ namespace System
         public System.TimeSpan TimeSpan;
         public Klava Sender =null;
         public System.Action<VK> Act =null;
-        public XY MouseXY= new XY();
+        public XY MouseXY = new XY() { X = 0,Y=0 };
         public VK() { }
         public VK Set(
             VK _this=null
