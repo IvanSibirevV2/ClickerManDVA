@@ -285,8 +285,17 @@ namespace ClickerManDVA_DVA
                 //обрабатываем на Up только клавишу
                 __Last.Where(_Last => __Now.Where(_Now => _Now.p_Str == _Last.p_Str).ToList().Count() == 0).ToList()
                     .ForEach(_Last => { if (_Last is VKeyboard) { _Last.Cast_As<VKeyboard>().Up(); } });
-                //Обрабатываем спячки
-
+                
+                __Now.Select(_Now => {
+                    //Обрабатываем спячки в порядке поступления
+                    if (_Now is Sleep_50) { _Now.Cast_As<Sleep_50>().Up(); }
+                    //Обрабатываем движения мыши
+                    else {if (__Last.Where(_Last => _Now.p_Str == _Last.p_Str).ToList().Count() == 0)
+                            if(_Now is VKeyboard) _Now.Cast_As<VKeyboard>().Down();
+                    }
+                    
+                        return _Now; 
+                }).ToList();
 
                 //, тут неверно подумать нужно
                 __Now.Where(_Now => { System.Boolean _flag = false; if (_Now is Sleep_50) _flag = true; return true; })
