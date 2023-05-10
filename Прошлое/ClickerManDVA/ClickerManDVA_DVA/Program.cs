@@ -18,7 +18,7 @@ namespace ClickerManDVA_DVA
             "".ReadLine();
         }
     }
-
+     
     public class DataContext
     {
         private List<IVCommander> p_L_IVCommander=new List<IVCommander>();
@@ -290,6 +290,7 @@ namespace ClickerManDVA_DVA
                     //Обрабатываем спячки в порядке поступления
                     if (_Now is Sleep_50) { _Now.Cast_As<Sleep_50>().Up(); }
                     //Обрабатываем движения мыши
+                    //...
                     else {if (__Last.Where(_Last => _Now.p_Str == _Last.p_Str).ToList().Count() == 0)
                             if(_Now is VKeyboard) _Now.Cast_As<VKeyboard>().Down();
                     }
