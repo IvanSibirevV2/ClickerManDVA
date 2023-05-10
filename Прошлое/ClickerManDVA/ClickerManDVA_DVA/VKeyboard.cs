@@ -1,14 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace ClickerManDVA_DVA
 {
-    public class VKeyboard : VCommander, IVCommander
+    public class VKeyboard : IVCommander, INewEable, ICloneable
     {
         [DllImport("user32.dll")]
         private static extern short GetAsyncKeyState(int vKey);
@@ -17,31 +16,36 @@ namespace ClickerManDVA_DVA
         [DllImport("user32.dll")]
         private static extern void keybd_event(byte bVk, byte bScan, int dwFlags, int dwExtraInfo);
         //////////////////////////////////////////////////////////////////////////////////////////
-        public VKeyboard() 
-        {
-            this.Is = () => {
-                switch (GetKeyState(this.p_nVirtKey)) { case -127:case -128:return true; break; default:return false; break;}
-                return false;
-            };
-        }
+        private System.Byte p__nVirtKey = 65;//A
+        public System.Byte p_nVirtKey { get { return this.p__nVirtKey; } set { this.p__nVirtKey = value; } }
+        private System.String p__Str = "A";
+        public System.String p_Str { get { return this.p__Str; } set { this.p__Str = value; } }
+        private System.TimeSpan p__TimeSpan;
+        public System.TimeSpan p_TimeSpan { get { return this.p__TimeSpan; } set { this.p__TimeSpan = value; } }
+        /////////////////////////////////////////////////////////////////////////////////////////////////////////
+        public VKeyboard() { }
         public VKeyboard Set(
-            VKeyboard _this = null
-            , System.Nullable<System.Byte> _nVirtKey = null
-            , System.String _Str = null
-            , System.Nullable<System.TimeSpan> _TimeSpan = null
+            VKeyboard _this = null,
+            System.Nullable<System.Byte> _nVirtKey = null,
+            System.String _Str = null,
+            System.Nullable<System.TimeSpan> _TimeSpan = null
             )
         {
-            if (_this != null) this.Set(_this: null, _nVirtKey: _this.p_nVirtKey, _Str: _this.p_Str, _TimeSpan: _this.p_TimeSpan);
-            if (_nVirtKey != null) this.p_nVirtKey = _nVirtKey.Value;
-            if (_Str != null) this.p_Str = _Str;
-            if (_TimeSpan != null) this.p_TimeSpan = _TimeSpan.Value;
+            if (_this != null) this.Set(_this: null, _nVirtKey: _this.p__nVirtKey, _Str: this.p__Str, _TimeSpan: this.p__TimeSpan);
+            if (_nVirtKey != null) this.p__nVirtKey = _nVirtKey.Value;
+            if (_Str != null) this.p__Str = _Str;
+            if (_TimeSpan != null) this.p__TimeSpan = _TimeSpan.Value;
+            if (false) ;
             return this;
         }
-        //////////////////////////////////////////////////////////////////////////////////////////
-        System.Object INewEable.New() { return this.New(); }
+        /////////////////////////////////////////////////////////////////////////////////////////////////////////
+        public VKeyboard Down() { keybd_event(this.p_nVirtKey, 0, 0, 0); return this; }
+        public VKeyboard Up() { keybd_event(this.p_nVirtKey, 0, 2, 0); return this; }
+        /////////////////////////////////////////////////////////////////////////////////////////////////////////
         public VKeyboard New() { return new VKeyboard(); }
-        System.Object ICloneable.Clone() { return this.Clone(); }
+        System.Object INewEable.New() { return new VKeyboard(); }
         public VKeyboard Clone() { return this.New().Set(_this: this); }
-        //////////////////////////////////////////////////////////////////////////////////////////
+        System.Object ICloneable.Clone() { return this.New().Set(_this: this); }
+        /////////////////////////////////////////////////////////////////////////////////////////////////////////
     }
 }
