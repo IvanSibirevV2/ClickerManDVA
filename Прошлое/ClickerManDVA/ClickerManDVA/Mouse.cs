@@ -5,8 +5,8 @@ using System.Text;
 
 using System.Runtime.InteropServices;
 
-namespace System
-{
+//namespace System
+//{
     /*
     public partial class Mouse
     {
@@ -127,8 +127,8 @@ namespace System
         }
         */
         ///////////////////////////////////////////////////////////////////////////////////////////////////////
-        public System.Boolean R_Is() { return this.p_Klava.VK_MouseR.Is(); }
-        public System.Boolean L_Is() { return this.p_Klava.VK_MouseL.Is(); }
+        //public System.Boolean R_Is() { return this.p_Klava.VK_MouseR.Is(); }
+        //public System.Boolean L_Is() { return this.p_Klava.VK_MouseL.Is(); }
       /*
         public Mouse R_Is(System.Action<Mouse> _f1 = null, System.Action<Mouse> _f0 = null)
         { this.p_Klava.VK_MouseR.Is(); return this; }
@@ -155,7 +155,7 @@ namespace System
             
         }
         */
-        ///////////////////////////////////////////////////////////////////////////////////////////////////////
-    }
-}
+//        ///////////////////////////////////////////////////////////////////////////////////////////////////////
+//    }
+//}
 

@@ -16,10 +16,27 @@ namespace ClickerManDVA_DVA
         {
             "Привет мир".WriteLine();
             new DataContext()
-                .Space().Space().Space()
-                .H().E().L().L().O().W().Space().W().O().R().D()
+                .MMove_X_50()
+                //.Space().Space().Space()
+                //.H().E().L().L().O().W().Space().W().O().R().D()
+               // .Sleep_500().MMove_X_50().Sleep_500().MMove_Y_50().Sleep_500().MMove_X_M50().Sleep_500().MMove_Y_M50()
+.Execute()
+.WriteThis()
+;
+            //ClickerManDVA_DVA.VMouseMove_.Test_Move();
+            /*
+            new DataContext()
+                //.Space().Space().Space()
+                //.H().E().L().L().O().W().Space().W().O().R().D()
+                .Sleep_500().MMove_X_50().Sleep_500().MMove_Y_50().Sleep_500().MMove_X_M50().Sleep_500().MMove_Y_M50()
+
+                .Sleep_500().MMove_X_50().Sleep_500().MMove_Y_50().Sleep_500().MMove_X_M50().Sleep_500().MMove_Y_M50()
+
+                .Sleep_500().MMove_X_50().Sleep_500().MMove_Y_50().Sleep_500().MMove_X_M50().Sleep_500().MMove_Y_M50()
+
+                .Sleep_500().MMove_X_50().Sleep_500().MMove_Y_50().Sleep_500().MMove_X_M50().Sleep_500().MMove_Y_M50()
             .Execute()
-            ;
+            ;*/
 
             "".ReadLine();
         }
@@ -59,10 +76,10 @@ namespace ClickerManDVA_DVA
             ;
             //Tech
             this.p_L_IVCommander.Set_Add(new Sleep_(50, "Sleep_50")).Set_Add(new Sleep_(500,"Sleep_500")).Set_Add(new Sleep_(5000,"Sleep_5000"));
-            this.p_L_IVCommander.Set_Add(new VMouseMove().Set(_this:null, _MoveX: 50, _MoveY: 0, "MMove_X_50"));
-            this.p_L_IVCommander.Set_Add(new VMouseMove().Set(_this: null, _MoveX: -50, _MoveY: 0, "MMove_X_M50"));
-            this.p_L_IVCommander.Set_Add(new VMouseMove().Set(_this: null, _MoveX: 0, _MoveY: 50, "MMove_Y_50"));
-            this.p_L_IVCommander.Set_Add(new VMouseMove().Set(_this: null, _MoveX: 0, _MoveY: -50, "MMove_Y_M50"));
+            this.p_L_IVCommander.Set_Add(new VMouseMove_().Set(_this:null, _MoveX: 50, _MoveY: 0, _Str: "MMove_X_50"));
+            this.p_L_IVCommander.Set_Add(new VMouseMove_().Set(_this: null, _MoveX: -50, _MoveY: 0, _Str: "MMove_X_M50"));
+            this.p_L_IVCommander.Set_Add(new VMouseMove_().Set(_this: null, _MoveX: 0, _MoveY: 50, _Str: "MMove_Y_50"));
+            this.p_L_IVCommander.Set_Add(new VMouseMove_().Set(_this: null, _MoveX: 0, _MoveY: -50, _Str: "MMove_Y_M50"));
             return this;
         }
         public DataContext() {this.Init();}
@@ -195,16 +212,12 @@ namespace ClickerManDVA_DVA
         public DataContext Sleep_5000() { this.p_LL_IVCommandErS.Set(a => a.Last().Add(this.p_L_IVCommander.Where(b => b.p_Str == "Sleep_5000").First().Clone().Cast_As<IVCommander>())).Add(new List<IVCommander>()); return this; }
 
         public DataContext MMove_X_50() { this.p_LL_IVCommandErS.Set(a => a.Last().Add(this.p_L_IVCommander.Where(b => b.p_Str == "MMove_X_50").First().Clone().Cast_As<IVCommander>())).Add(new List<IVCommander>()); return this; }
-
-                    this.p_L_IVCommander.Set_Add(new VMouseMove().Set(_this:null, _MoveX: 50, _MoveY: 0, "MMove_X_50"));
-            this.p_L_IVCommander.Set_Add(new VMouseMove().Set(_this: null, _MoveX: -50, _MoveY: 0, "MMove_X_M50"));
-            this.p_L_IVCommander.Set_Add(new VMouseMove().Set(_this: null, _MoveX: 0, _MoveY: 50, "MMove_Y_50"));
-            this.p_L_IVCommander.Set_Add(new VMouseMove().Set(_this: null, _MoveX: 0, _MoveY: -50, "MMove_Y_M50"));
-
-        
+        public DataContext MMove_X_M50() { this.p_LL_IVCommandErS.Set(a => a.Last().Add(this.p_L_IVCommander.Where(b => b.p_Str == "MMove_X_M50").First().Clone().Cast_As<IVCommander>())).Add(new List<IVCommander>()); return this; }
+        public DataContext MMove_Y_50() { this.p_LL_IVCommandErS.Set(a => a.Last().Add(this.p_L_IVCommander.Where(b => b.p_Str == "MMove_Y_50").First().Clone().Cast_As<IVCommander>())).Add(new List<IVCommander>()); return this; }
+        public DataContext MMove_Y_M50() { this.p_LL_IVCommandErS.Set(a => a.Last().Add(this.p_L_IVCommander.Where(b => b.p_Str == "MMove_Y_M50").First().Clone().Cast_As<IVCommander>())).Add(new List<IVCommander>()); return this; }       
         #endregion
         ////////////////////////////////////////////////////////
-        public void Execute() 
+        public DataContext Execute() 
         {
             ;
             for (int i = 1; i < this.p_LL_IVCommandErS.Count(); i++)
@@ -220,6 +233,7 @@ namespace ClickerManDVA_DVA
                     //Обрабатываем спячки в порядке поступления
                     if (_Now is Sleep_) { _Now.Cast_As<Sleep_>().Up(); }
                     //Обрабатываем движения мыши
+                    if (_Now is VMouseMove_) {; _Now.Cast_As<VMouseMove_>().Down(); }
                     //...
                     else {if (__Last.Where(_Last => _Now.p_Str == _Last.p_Str).ToList().Count() == 0)
                             if(_Now is VKeyboard) _Now.Cast_As<VKeyboard>().Down();
@@ -233,6 +247,7 @@ namespace ClickerManDVA_DVA
                // __Now.Where(_Now => { System.Boolean _flag = false; if (_Now is Sleep_50) _flag = true; return true; })
                //     .Select(_Now => _Now.Cast_As<Sleep_50>().).ToList();
             }
+            return this;
         }
         public static void Test() 
         {
