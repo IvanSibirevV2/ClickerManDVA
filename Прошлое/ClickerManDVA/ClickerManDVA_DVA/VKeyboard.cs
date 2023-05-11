@@ -24,6 +24,8 @@ namespace ClickerManDVA_DVA
         public System.TimeSpan p_TimeSpan { get { return this.p__TimeSpan; } set { this.p__TimeSpan = value; } }
         /////////////////////////////////////////////////////////////////////////////////////////////////////////
         public VKeyboard() { }
+        public VKeyboard(System.Byte _nVirtKey, System.String _Str){this.p__nVirtKey = _nVirtKey;this.p__Str = _Str;}
+
         public VKeyboard Set(
             VKeyboard _this = null,
             System.Nullable<System.Byte> _nVirtKey = null,
@@ -31,7 +33,7 @@ namespace ClickerManDVA_DVA
             System.Nullable<System.TimeSpan> _TimeSpan = null
             )
         {
-            if (_this != null) this.Set(_this: null, _nVirtKey: _this.p__nVirtKey, _Str: this.p__Str, _TimeSpan: this.p__TimeSpan);
+            if (_this != null) this.Set(_this: null, _nVirtKey: _this.p__nVirtKey, _Str: _this.p__Str, _TimeSpan: _this.p__TimeSpan);
             if (_nVirtKey != null) this.p__nVirtKey = _nVirtKey.Value;
             if (_Str != null) this.p__Str = _Str;
             if (_TimeSpan != null) this.p__TimeSpan = _TimeSpan.Value;
@@ -41,11 +43,16 @@ namespace ClickerManDVA_DVA
         /////////////////////////////////////////////////////////////////////////////////////////////////////////
         public VKeyboard Down() { keybd_event(this.p_nVirtKey, 0, 0, 0); return this; }
         public VKeyboard Up() { keybd_event(this.p_nVirtKey, 0, 2, 0); return this; }
+        public static void Test_Down_Up() 
+        {
+            new VKeyboard().Set(_nVirtKey: 65, _Str: "A").Down().Up();
+            "".ReadLine();
+        }
         /////////////////////////////////////////////////////////////////////////////////////////////////////////
         public VKeyboard New() { return new VKeyboard(); }
-        System.Object INewEable.New() { return new VKeyboard(); }
-        public VKeyboard Clone() { return this.New().Set(_this: this); }
-        System.Object ICloneable.Clone() { return this.New().Set(_this: this); }
+        System.Object INewEable.New() { return this.New(); }
+        public VKeyboard Clone() {; return this.New().Set(_this: this); }
+        System.Object ICloneable.Clone() { return this.Clone(); }
         /////////////////////////////////////////////////////////////////////////////////////////////////////////
     }
 }
