@@ -47,7 +47,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Mouse.cs_" />
     <Compile Include="Sleep_.cs" />
+    <Compile Include="MouseMove_.cs" />
     <Compile Include="VKeyboard.cs" />
     <Compile Include="IVCommander.cs" />
     <Compile Include="Program.cs" />

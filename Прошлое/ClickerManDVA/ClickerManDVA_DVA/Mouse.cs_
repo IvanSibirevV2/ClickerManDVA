@@ -7,7 +7,6 @@ using System.Runtime.InteropServices;
 
 namespace System
 {
-    /*
     public partial class Mouse
     {
         public Mouse() { }
@@ -101,8 +100,7 @@ namespace System
         /// <summary>R_Down_Up</summary>
         public Mouse R { get { this.R_Down().R_Up(); return this; } }
         /// <summary> System.Mouse.Test_SuperClickManiak(); /// </summary>
-      
-    /*
+        /*
         public static void Test_SuperClickManiak()
         {
             new Klava()
