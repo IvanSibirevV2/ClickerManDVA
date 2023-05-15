@@ -112,124 +112,124 @@ namespace ClickerManDVA_DVA
         }
         #region // A-Z
         public DataContext A() {  return this.SetCommand("A"); }
-        public DataContext B() { this.p_LL_IVCommandErS.Set(a => a.Last().Add(this.p_L_IVCommander.Where(b => b.p_Str == "B").First().Clone().Cast_As<IVCommander>())).Add(new List<IVCommander>()); return this; }
-        public DataContext C() { this.p_LL_IVCommandErS.Set(a => a.Last().Add(this.p_L_IVCommander.Where(b => b.p_Str == "C").First().Clone().Cast_As<IVCommander>())).Add(new List<IVCommander>()); return this; }
-        public DataContext D() { this.p_LL_IVCommandErS.Set(a => a.Last().Add(this.p_L_IVCommander.Where(b => b.p_Str == "D").First().Clone().Cast_As<IVCommander>())).Add(new List<IVCommander>()); return this; }
-        public DataContext E() { this.p_LL_IVCommandErS.Set(a => a.Last().Add(this.p_L_IVCommander.Where(b => b.p_Str == "E").First().Clone().Cast_As<IVCommander>())).Add(new List<IVCommander>()); return this; }
-        public DataContext F() { this.p_LL_IVCommandErS.Set(a => a.Last().Add(this.p_L_IVCommander.Where(b => b.p_Str == "F").First().Clone().Cast_As<IVCommander>())).Add(new List<IVCommander>()); return this; }
-        public DataContext G() { this.p_LL_IVCommandErS.Set(a => a.Last().Add(this.p_L_IVCommander.Where(b => b.p_Str == "G").First().Clone().Cast_As<IVCommander>())).Add(new List<IVCommander>()); return this; }
-        public DataContext H() { this.p_LL_IVCommandErS.Set(a => a.Last().Add(this.p_L_IVCommander.Where(b => b.p_Str == "H").First().Clone().Cast_As<IVCommander>())).Add(new List<IVCommander>()); return this; }
-        public DataContext I() { this.p_LL_IVCommandErS.Set(a => a.Last().Add(this.p_L_IVCommander.Where(b => b.p_Str == "I").First().Clone().Cast_As<IVCommander>())).Add(new List<IVCommander>()); return this; }
-        public DataContext J() { this.p_LL_IVCommandErS.Set(a => a.Last().Add(this.p_L_IVCommander.Where(b => b.p_Str == "J").First().Clone().Cast_As<IVCommander>())).Add(new List<IVCommander>()); return this; }
-        public DataContext K() { this.p_LL_IVCommandErS.Set(a => a.Last().Add(this.p_L_IVCommander.Where(b => b.p_Str == "K").First().Clone().Cast_As<IVCommander>())).Add(new List<IVCommander>()); return this; }
-        public DataContext L() { this.p_LL_IVCommandErS.Set(a => a.Last().Add(this.p_L_IVCommander.Where(b => b.p_Str == "L").First().Clone().Cast_As<IVCommander>())).Add(new List<IVCommander>()); return this; }
-        public DataContext M() { this.p_LL_IVCommandErS.Set(a => a.Last().Add(this.p_L_IVCommander.Where(b => b.p_Str == "M").First().Clone().Cast_As<IVCommander>())).Add(new List<IVCommander>()); return this; }
-        public DataContext N() { this.p_LL_IVCommandErS.Set(a => a.Last().Add(this.p_L_IVCommander.Where(b => b.p_Str == "A").First().Clone().Cast_As<IVCommander>())).Add(new List<IVCommander>()); return this; }
-        public DataContext O() { this.p_LL_IVCommandErS.Set(a => a.Last().Add(this.p_L_IVCommander.Where(b => b.p_Str == "O").First().Clone().Cast_As<IVCommander>())).Add(new List<IVCommander>()); return this; }
-        public DataContext P() { this.p_LL_IVCommandErS.Set(a => a.Last().Add(this.p_L_IVCommander.Where(b => b.p_Str == "P").First().Clone().Cast_As<IVCommander>())).Add(new List<IVCommander>()); return this; }
-        public DataContext Q() { this.p_LL_IVCommandErS.Set(a => a.Last().Add(this.p_L_IVCommander.Where(b => b.p_Str =="Q").First().Clone().Cast_As<IVCommander>())).Add(new List<IVCommander>()); return this; }
-        public DataContext R() { this.p_LL_IVCommandErS.Set(a => a.Last().Add(this.p_L_IVCommander.Where(b => b.p_Str =="R").First().Clone().Cast_As<IVCommander>())).Add(new List<IVCommander>()); return this; }
-        public DataContext S() { this.p_LL_IVCommandErS.Set(a => a.Last().Add(this.p_L_IVCommander.Where(b => b.p_Str =="S").First().Clone().Cast_As<IVCommander>())).Add(new List<IVCommander>()); return this; }
-        public DataContext T() { this.p_LL_IVCommandErS.Set(a => a.Last().Add(this.p_L_IVCommander.Where(b => b.p_Str =="T").First().Clone().Cast_As<IVCommander>())).Add(new List<IVCommander>()); return this; }
-        public DataContext U() { this.p_LL_IVCommandErS.Set(a => a.Last().Add(this.p_L_IVCommander.Where(b => b.p_Str =="U").First().Clone().Cast_As<IVCommander>())).Add(new List<IVCommander>()); return this; }
-        public DataContext V() { this.p_LL_IVCommandErS.Set(a => a.Last().Add(this.p_L_IVCommander.Where(b => b.p_Str =="V").First().Clone().Cast_As<IVCommander>())).Add(new List<IVCommander>()); return this; }
-        public DataContext W() { this.p_LL_IVCommandErS.Set(a => a.Last().Add(this.p_L_IVCommander.Where(b => b.p_Str =="W").First().Clone().Cast_As<IVCommander>())).Add(new List<IVCommander>()); return this; }
-        public DataContext X() { this.p_LL_IVCommandErS.Set(a => a.Last().Add(this.p_L_IVCommander.Where(b => b.p_Str =="X").First().Clone().Cast_As<IVCommander>())).Add(new List<IVCommander>()); return this; }
-        public DataContext Y() { this.p_LL_IVCommandErS.Set(a => a.Last().Add(this.p_L_IVCommander.Where(b => b.p_Str =="Y").First().Clone().Cast_As<IVCommander>())).Add(new List<IVCommander>()); return this; }
-        public DataContext Z() { this.p_LL_IVCommandErS.Set(a => a.Last().Add(this.p_L_IVCommander.Where(b => b.p_Str =="Z").First().Clone().Cast_As<IVCommander>())).Add(new List<IVCommander>()); return this; }
+        public DataContext B() { return this.SetCommand("B"); }
+        public DataContext C() { return this.SetCommand("C"); }
+        public DataContext D() { return this.SetCommand("D"); }
+        public DataContext E() { return this.SetCommand("E"); }
+        public DataContext F() { return this.SetCommand("F"); }
+        public DataContext G() { return this.SetCommand("G"); }
+        public DataContext H() { return this.SetCommand("H"); }
+        public DataContext I() { return this.SetCommand("I"); }
+        public DataContext J() { return this.SetCommand("J"); }
+        public DataContext K() { return this.SetCommand("K"); }
+        public DataContext L() { return this.SetCommand("L"); }
+        public DataContext M() { return this.SetCommand("M"); }
+        public DataContext N() { return this.SetCommand("N"); }
+        public DataContext O() { return this.SetCommand("O"); }
+        public DataContext P() { return this.SetCommand("P"); }
+        public DataContext Q() { return this.SetCommand("Q"); }
+        public DataContext R() { return this.SetCommand("R"); }
+        public DataContext S() { return this.SetCommand("S"); }
+        public DataContext T() { return this.SetCommand("T"); }
+        public DataContext U() { return this.SetCommand("U"); }
+        public DataContext V() { return this.SetCommand("V"); }
+        public DataContext W() { return this.SetCommand("W"); }
+        public DataContext X() { return this.SetCommand("X"); }
+        public DataContext Y() { return this.SetCommand("Y"); }
+        public DataContext Z() { return this.SetCommand("Z"); }
         #endregion
         #region //_0-_9
-        public DataContext _0() { this.p_LL_IVCommandErS.Set(a => a.Last().Add(this.p_L_IVCommander.Where(b => b.p_Str == "_0").First().Clone().Cast_As<IVCommander>())).Add(new List<IVCommander>()); return this; }
-        public DataContext _1() { this.p_LL_IVCommandErS.Set(a => a.Last().Add(this.p_L_IVCommander.Where(b => b.p_Str == "_1").First().Clone().Cast_As<IVCommander>())).Add(new List<IVCommander>()); return this; }
-        public DataContext _2() { this.p_LL_IVCommandErS.Set(a => a.Last().Add(this.p_L_IVCommander.Where(b => b.p_Str == "_2").First().Clone().Cast_As<IVCommander>())).Add(new List<IVCommander>()); return this; }
-        public DataContext _3() { this.p_LL_IVCommandErS.Set(a => a.Last().Add(this.p_L_IVCommander.Where(b => b.p_Str == "_3").First().Clone().Cast_As<IVCommander>())).Add(new List<IVCommander>()); return this; }
-        public DataContext _4() { this.p_LL_IVCommandErS.Set(a => a.Last().Add(this.p_L_IVCommander.Where(b => b.p_Str == "_4").First().Clone().Cast_As<IVCommander>())).Add(new List<IVCommander>()); return this; }
-        public DataContext _5() { this.p_LL_IVCommandErS.Set(a => a.Last().Add(this.p_L_IVCommander.Where(b => b.p_Str == "_5").First().Clone().Cast_As<IVCommander>())).Add(new List<IVCommander>()); return this; }
-        public DataContext _6() { this.p_LL_IVCommandErS.Set(a => a.Last().Add(this.p_L_IVCommander.Where(b => b.p_Str == "_6").First().Clone().Cast_As<IVCommander>())).Add(new List<IVCommander>()); return this; }
-        public DataContext _7() { this.p_LL_IVCommandErS.Set(a => a.Last().Add(this.p_L_IVCommander.Where(b => b.p_Str == "_7").First().Clone().Cast_As<IVCommander>())).Add(new List<IVCommander>()); return this; }
-        public DataContext _8() { this.p_LL_IVCommandErS.Set(a => a.Last().Add(this.p_L_IVCommander.Where(b => b.p_Str == "_8").First().Clone().Cast_As<IVCommander>())).Add(new List<IVCommander>()); return this; }
-        public DataContext _9() { this.p_LL_IVCommandErS.Set(a => a.Last().Add(this.p_L_IVCommander.Where(b => b.p_Str == "_9").First().Clone().Cast_As<IVCommander>())).Add(new List<IVCommander>()); return this; }
+        public DataContext _0() { return this.SetCommand("_0"); }
+        public DataContext _1() { return this.SetCommand("_1"); }
+        public DataContext _2() { return this.SetCommand("_2"); }
+        public DataContext _3() { return this.SetCommand("_3"); }
+        public DataContext _4() { return this.SetCommand("_4"); }
+        public DataContext _5() { return this.SetCommand("_5"); }
+        public DataContext _6() { return this.SetCommand("_6"); }
+        public DataContext _7() { return this.SetCommand("_7"); }
+        public DataContext _8() { return this.SetCommand("_8"); }
+        public DataContext _9() { return this.SetCommand("_9"); }
         #endregion
         #region //F1-F12
-        public DataContext F1() { this.p_LL_IVCommandErS.Set(a => a.Last().Add(this.p_L_IVCommander.Where(b => b.p_Str == "F1").First().Clone().Cast_As<IVCommander>())).Add(new List<IVCommander>()); return this; }
-        public DataContext F2() { this.p_LL_IVCommandErS.Set(a => a.Last().Add(this.p_L_IVCommander.Where(b => b.p_Str == "F2").First().Clone().Cast_As<IVCommander>())).Add(new List<IVCommander>()); return this; }
-        public DataContext F3() { this.p_LL_IVCommandErS.Set(a => a.Last().Add(this.p_L_IVCommander.Where(b => b.p_Str == "F3").First().Clone().Cast_As<IVCommander>())).Add(new List<IVCommander>()); return this; }
-        public DataContext F4() { this.p_LL_IVCommandErS.Set(a => a.Last().Add(this.p_L_IVCommander.Where(b => b.p_Str == "F4").First().Clone().Cast_As<IVCommander>())).Add(new List<IVCommander>()); return this; }
-        public DataContext F5() { this.p_LL_IVCommandErS.Set(a => a.Last().Add(this.p_L_IVCommander.Where(b => b.p_Str == "F5").First().Clone().Cast_As<IVCommander>())).Add(new List<IVCommander>()); return this; }
-        public DataContext F6() { this.p_LL_IVCommandErS.Set(a => a.Last().Add(this.p_L_IVCommander.Where(b => b.p_Str == "F6").First().Clone().Cast_As<IVCommander>())).Add(new List<IVCommander>()); return this; }
-        public DataContext F7() { this.p_LL_IVCommandErS.Set(a => a.Last().Add(this.p_L_IVCommander.Where(b => b.p_Str == "F7").First().Clone().Cast_As<IVCommander>())).Add(new List<IVCommander>()); return this; }
-        public DataContext F8() { this.p_LL_IVCommandErS.Set(a => a.Last().Add(this.p_L_IVCommander.Where(b => b.p_Str == "F8").First().Clone().Cast_As<IVCommander>())).Add(new List<IVCommander>()); return this; }
-        public DataContext F9() { this.p_LL_IVCommandErS.Set(a => a.Last().Add(this.p_L_IVCommander.Where(b => b.p_Str == "F9").First().Clone().Cast_As<IVCommander>())).Add(new List<IVCommander>()); return this; }
-        public DataContext F10() { this.p_LL_IVCommandErS.Set(a => a.Last().Add(this.p_L_IVCommander.Where(b => b.p_Str == "F10").First().Clone().Cast_As<IVCommander>())).Add(new List<IVCommander>()); return this; }
-        public DataContext F11() { this.p_LL_IVCommandErS.Set(a => a.Last().Add(this.p_L_IVCommander.Where(b => b.p_Str == "F11").First().Clone().Cast_As<IVCommander>())).Add(new List<IVCommander>()); return this; }
-        public DataContext F12() { this.p_LL_IVCommandErS.Set(a => a.Last().Add(this.p_L_IVCommander.Where(b => b.p_Str == "F12").First().Clone().Cast_As<IVCommander>())).Add(new List<IVCommander>()); return this; }
+        public DataContext F1() { return this.SetCommand("F1"); }
+        public DataContext F2() { return this.SetCommand("F2"); }
+        public DataContext F3() { return this.SetCommand("F3"); }
+        public DataContext F4() { return this.SetCommand("F4"); }
+        public DataContext F5() { return this.SetCommand("F5"); }
+        public DataContext F6() { return this.SetCommand("F6"); }
+        public DataContext F7() { return this.SetCommand("F7"); }
+        public DataContext F8() { return this.SetCommand("F8"); }
+        public DataContext F9() { return this.SetCommand("F9"); }
+        public DataContext F10() { return this.SetCommand("F10"); }
+        public DataContext F11() { return this.SetCommand("F11"); }
+        public DataContext F12() { return this.SetCommand("F12"); }
         #endregion
         #region //Num ...
-        public DataContext NumZero() { this.p_LL_IVCommandErS.Set(a => a.Last().Add(this.p_L_IVCommander.Where(b => b.p_Str == "NumZero").First().Clone().Cast_As<IVCommander>())).Add(new List<IVCommander>()); return this; }
-        public DataContext NumOne() { this.p_LL_IVCommandErS.Set(a => a.Last().Add(this.p_L_IVCommander.Where(b => b.p_Str == "NumOne").First().Clone().Cast_As<IVCommander>())).Add(new List<IVCommander>()); return this; }
-        public DataContext NumTwo() { this.p_LL_IVCommandErS.Set(a => a.Last().Add(this.p_L_IVCommander.Where(b => b.p_Str == "NumTwo").First().Clone().Cast_As<IVCommander>())).Add(new List<IVCommander>()); return this; }
-        public DataContext NumThree() { this.p_LL_IVCommandErS.Set(a => a.Last().Add(this.p_L_IVCommander.Where(b => b.p_Str == "NumThree").First().Clone().Cast_As<IVCommander>())).Add(new List<IVCommander>()); return this; }
-        public DataContext NumFor() { this.p_LL_IVCommandErS.Set(a => a.Last().Add(this.p_L_IVCommander.Where(b => b.p_Str == "NumFor").First().Clone().Cast_As<IVCommander>())).Add(new List<IVCommander>()); return this; }
-        public DataContext NumFive() { this.p_LL_IVCommandErS.Set(a => a.Last().Add(this.p_L_IVCommander.Where(b => b.p_Str == "NumFive").First().Clone().Cast_As<IVCommander>())).Add(new List<IVCommander>()); return this; }
-        public DataContext NumSix() { this.p_LL_IVCommandErS.Set(a => a.Last().Add(this.p_L_IVCommander.Where(b => b.p_Str == "NumSix").First().Clone().Cast_As<IVCommander>())).Add(new List<IVCommander>()); return this; }
-        public DataContext NumSeven() { this.p_LL_IVCommandErS.Set(a => a.Last().Add(this.p_L_IVCommander.Where(b => b.p_Str == "NumSeven").First().Clone().Cast_As<IVCommander>())).Add(new List<IVCommander>()); return this; }
-        public DataContext NumEight() { this.p_LL_IVCommandErS.Set(a => a.Last().Add(this.p_L_IVCommander.Where(b => b.p_Str == "NumEight").First().Clone().Cast_As<IVCommander>())).Add(new List<IVCommander>()); return this; }
-        public DataContext NumNine() { this.p_LL_IVCommandErS.Set(a => a.Last().Add(this.p_L_IVCommander.Where(b => b.p_Str == "NumNine").First().Clone().Cast_As<IVCommander>())).Add(new List<IVCommander>()); return this; }
-        public DataContext NumStar() { this.p_LL_IVCommandErS.Set(a => a.Last().Add(this.p_L_IVCommander.Where(b => b.p_Str == "NumStar").First().Clone().Cast_As<IVCommander>())).Add(new List<IVCommander>()); return this; }
-        public DataContext NumPlus() { this.p_LL_IVCommandErS.Set(a => a.Last().Add(this.p_L_IVCommander.Where(b => b.p_Str == "NumPlus").First().Clone().Cast_As<IVCommander>())).Add(new List<IVCommander>()); return this; }
-        public DataContext NumMinus() { this.p_LL_IVCommandErS.Set(a => a.Last().Add(this.p_L_IVCommander.Where(b => b.p_Str == "NumMinus").First().Clone().Cast_As<IVCommander>())).Add(new List<IVCommander>()); return this; }
-        public DataContext NumDot() { this.p_LL_IVCommandErS.Set(a => a.Last().Add(this.p_L_IVCommander.Where(b => b.p_Str == "NumDot").First().Clone().Cast_As<IVCommander>())).Add(new List<IVCommander>()); return this; }
-        public DataContext NumSlash() { this.p_LL_IVCommandErS.Set(a => a.Last().Add(this.p_L_IVCommander.Where(b => b.p_Str == "NumSlash").First().Clone().Cast_As<IVCommander>())).Add(new List<IVCommander>()); return this; }
-        public DataContext NUMLOCK() { this.p_LL_IVCommandErS.Set(a => a.Last().Add(this.p_L_IVCommander.Where(b => b.p_Str == "NUMLOCK").First().Clone().Cast_As<IVCommander>())).Add(new List<IVCommander>()); return this; }
+        public DataContext NumZero() { return this.SetCommand("NumZero"); }
+        public DataContext NumOne() { return this.SetCommand("NumOne"); }
+        public DataContext NumTwo() { return this.SetCommand("NumTwo"); }
+        public DataContext NumThree() { return this.SetCommand("NumThree"); }
+        public DataContext NumFor() { return this.SetCommand("NumFor"); }
+        public DataContext NumFive() { return this.SetCommand("NumFive"); }
+        public DataContext NumSix() { return this.SetCommand("NumSix"); }
+        public DataContext NumSeven() { return this.SetCommand("NumSeven"); }
+        public DataContext NumEight() { return this.SetCommand("NumEight"); }
+        public DataContext NumNine() { return this.SetCommand("NumNine"); }
+        public DataContext NumStar() { return this.SetCommand("NumStar"); }
+        public DataContext NumPlus() { return this.SetCommand("NumPlus"); }
+        public DataContext NumMinus() { return this.SetCommand("NumMinus"); }
+        public DataContext NumDot() { return this.SetCommand("NumDot"); }
+        public DataContext NumSlash() { return this.SetCommand("NumSlash"); }
+        public DataContext NUMLOCK()  { return this.SetCommand("NUMLOCK"); }
         #endregion
         #region // ...
-        public DataContext Slash() { this.p_LL_IVCommandErS.Set(a => a.Last().Add(this.p_L_IVCommander.Where(b => b.p_Str == "Slash").First().Clone().Cast_As<IVCommander>())).Add(new List<IVCommander>()); return this; }
-        public DataContext Space() { this.p_LL_IVCommandErS.Set(a => a.Last().Add(this.p_L_IVCommander.Where(b => b.p_Str == "Space").First().Clone().Cast_As<IVCommander>())).Add(new List<IVCommander>()); return this; }
-        public DataContext Enter() { this.p_LL_IVCommandErS.Set(a => a.Last().Add(this.p_L_IVCommander.Where(b => b.p_Str == "Enter").First().Clone().Cast_As<IVCommander>())).Add(new List<IVCommander>()); return this; }
-        public DataContext Mark() { this.p_LL_IVCommandErS.Set(a => a.Last().Add(this.p_L_IVCommander.Where(b => b.p_Str == "Mark").First().Clone().Cast_As<IVCommander>())).Add(new List<IVCommander>()); return this; }
-        public DataContext Shift() { this.p_LL_IVCommandErS.Set(a => a.Last().Add(this.p_L_IVCommander.Where(b => b.p_Str == "Shift").First().Clone().Cast_As<IVCommander>())).Add(new List<IVCommander>()); return this; }
-        public DataContext BACKSPACE() { this.p_LL_IVCommandErS.Set(a => a.Last().Add(this.p_L_IVCommander.Where(b => b.p_Str == "BACKSPACE").First().Clone().Cast_As<IVCommander>())).Add(new List<IVCommander>()); return this; }
-        public DataContext TAB() { this.p_LL_IVCommandErS.Set(a => a.Last().Add(this.p_L_IVCommander.Where(b => b.p_Str == "TAB").First().Clone().Cast_As<IVCommander>())).Add(new List<IVCommander>()); return this; }
-        public DataContext CTRL() { this.p_LL_IVCommandErS.Set(a => a.Last().Add(this.p_L_IVCommander.Where(b => b.p_Str == "CTRL").First().Clone().Cast_As<IVCommander>())).Add(new List<IVCommander>()); return this; }
-        public DataContext ALT() { this.p_LL_IVCommandErS.Set(a => a.Last().Add(this.p_L_IVCommander.Where(b => b.p_Str == "ALT").First().Clone().Cast_As<IVCommander>())).Add(new List<IVCommander>()); return this; }
-        public DataContext PAUSE() { this.p_LL_IVCommandErS.Set(a => a.Last().Add(this.p_L_IVCommander.Where(b => b.p_Str == "PAUSE").First().Clone().Cast_As<IVCommander>())).Add(new List<IVCommander>()); return this; }
-        public DataContext CAPSLOCK() { this.p_LL_IVCommandErS.Set(a => a.Last().Add(this.p_L_IVCommander.Where(b => b.p_Str == "CAPSLOCK").First().Clone().Cast_As<IVCommander>())).Add(new List<IVCommander>()); return this; }
-        public DataContext ESCAPE() { this.p_LL_IVCommandErS.Set(a => a.Last().Add(this.p_L_IVCommander.Where(b => b.p_Str == "ESCAPE").First().Clone().Cast_As<IVCommander>())).Add(new List<IVCommander>()); return this; }
-        public DataContext PAGEUP() { this.p_LL_IVCommandErS.Set(a => a.Last().Add(this.p_L_IVCommander.Where(b => b.p_Str == "PAGEUP").First().Clone().Cast_As<IVCommander>())).Add(new List<IVCommander>()); return this; }
-        public DataContext PAGEDOWN() { this.p_LL_IVCommandErS.Set(a => a.Last().Add(this.p_L_IVCommander.Where(b => b.p_Str == "PAGEDOWN").First().Clone().Cast_As<IVCommander>())).Add(new List<IVCommander>()); return this; }
-        public DataContext END() { this.p_LL_IVCommandErS.Set(a => a.Last().Add(this.p_L_IVCommander.Where(b => b.p_Str == "END").First().Clone().Cast_As<IVCommander>())).Add(new List<IVCommander>()); return this; }
-        public DataContext HOME() { this.p_LL_IVCommandErS.Set(a => a.Last().Add(this.p_L_IVCommander.Where(b => b.p_Str == "HOME").First().Clone().Cast_As<IVCommander>())).Add(new List<IVCommander>()); return this; }
-        public DataContext LEFT() { this.p_LL_IVCommandErS.Set(a => a.Last().Add(this.p_L_IVCommander.Where(b => b.p_Str == "LEFT").First().Clone().Cast_As<IVCommander>())).Add(new List<IVCommander>()); return this; }
-        public DataContext UP() { this.p_LL_IVCommandErS.Set(a => a.Last().Add(this.p_L_IVCommander.Where(b => b.p_Str == "UP").First().Clone().Cast_As<IVCommander>())).Add(new List<IVCommander>()); return this; }
-        public DataContext RIGHT() { this.p_LL_IVCommandErS.Set(a => a.Last().Add(this.p_L_IVCommander.Where(b => b.p_Str == "RIGHT").First().Clone().Cast_As<IVCommander>())).Add(new List<IVCommander>()); return this; }
-        public DataContext DOWN() { this.p_LL_IVCommandErS.Set(a => a.Last().Add(this.p_L_IVCommander.Where(b => b.p_Str == "DOWN").First().Clone().Cast_As<IVCommander>())).Add(new List<IVCommander>()); return this; }
-        public DataContext INSERT() { this.p_LL_IVCommandErS.Set(a => a.Last().Add(this.p_L_IVCommander.Where(b => b.p_Str == "INSERT").First().Clone().Cast_As<IVCommander>())).Add(new List<IVCommander>()); return this; }
-        public DataContext DELETE() { this.p_LL_IVCommandErS.Set(a => a.Last().Add(this.p_L_IVCommander.Where(b => b.p_Str == "DELETE").First().Clone().Cast_As<IVCommander>())).Add(new List<IVCommander>()); return this; }
-        public DataContext LWIN() { this.p_LL_IVCommandErS.Set(a => a.Last().Add(this.p_L_IVCommander.Where(b => b.p_Str == "LWIN").First().Clone().Cast_As<IVCommander>())).Add(new List<IVCommander>()); return this; }
-        public DataContext RWIN() { this.p_LL_IVCommandErS.Set(a => a.Last().Add(this.p_L_IVCommander.Where(b => b.p_Str == "RWIN").First().Clone().Cast_As<IVCommander>())).Add(new List<IVCommander>()); return this; }
-        public DataContext SCROLLLOCK() { this.p_LL_IVCommandErS.Set(a => a.Last().Add(this.p_L_IVCommander.Where(b => b.p_Str == "SCROLLLOCK").First().Clone().Cast_As<IVCommander>())).Add(new List<IVCommander>()); return this; }
-        public DataContext PRINTSCREEN() { this.p_LL_IVCommandErS.Set(a => a.Last().Add(this.p_L_IVCommander.Where(b => b.p_Str == "PRINTSCREEN").First().Clone().Cast_As<IVCommander>())).Add(new List<IVCommander>()); return this; }
-        public DataContext PeriodComma() { this.p_LL_IVCommandErS.Set(a => a.Last().Add(this.p_L_IVCommander.Where(b => b.p_Str == "PeriodComma").First().Clone().Cast_As<IVCommander>())).Add(new List<IVCommander>()); return this; }
-        public DataContext Equally() { this.p_LL_IVCommandErS.Set(a => a.Last().Add(this.p_L_IVCommander.Where(b => b.p_Str == "Equally").First().Clone().Cast_As<IVCommander>())).Add(new List<IVCommander>()); return this; }
-        public DataContext Сomma() { this.p_LL_IVCommandErS.Set(a => a.Last().Add(this.p_L_IVCommander.Where(b => b.p_Str == "Сomma").First().Clone().Cast_As<IVCommander>())).Add(new List<IVCommander>()); return this; }
-        public DataContext Minus() { this.p_LL_IVCommandErS.Set(a => a.Last().Add(this.p_L_IVCommander.Where(b => b.p_Str == "Minus").First().Clone().Cast_As<IVCommander>())).Add(new List<IVCommander>()); return this; }
-        public DataContext Dot() { this.p_LL_IVCommandErS.Set(a => a.Last().Add(this.p_L_IVCommander.Where(b => b.p_Str == "Dot").First().Clone().Cast_As<IVCommander>())).Add(new List<IVCommander>()); return this; }
-        public DataContext Tilda() { this.p_LL_IVCommandErS.Set(a => a.Last().Add(this.p_L_IVCommander.Where(b => b.p_Str == "Tilda").First().Clone().Cast_As<IVCommander>())).Add(new List<IVCommander>()); return this; }
-        public DataContext SquScobOtk() { this.p_LL_IVCommandErS.Set(a => a.Last().Add(this.p_L_IVCommander.Where(b => b.p_Str == "SquScobOtk").First().Clone().Cast_As<IVCommander>())).Add(new List<IVCommander>()); return this; }
-        public DataContext ObratSlash() { this.p_LL_IVCommandErS.Set(a => a.Last().Add(this.p_L_IVCommander.Where(b => b.p_Str == "ObratSlash").First().Clone().Cast_As<IVCommander>())).Add(new List<IVCommander>()); return this; }
-        public DataContext SquScobZak() { this.p_LL_IVCommandErS.Set(a => a.Last().Add(this.p_L_IVCommander.Where(b => b.p_Str == "SquScobZak").First().Clone().Cast_As<IVCommander>())).Add(new List<IVCommander>()); return this; }
-        public DataContext MouseL() { this.p_LL_IVCommandErS.Set(a => a.Last().Add(this.p_L_IVCommander.Where(b => b.p_Str == "MouseL").First().Clone().Cast_As<IVCommander>())).Add(new List<IVCommander>()); return this; }
-        public DataContext MouseR() { this.p_LL_IVCommandErS.Set(a => a.Last().Add(this.p_L_IVCommander.Where(b => b.p_Str == "MouseR").First().Clone().Cast_As<IVCommander>())).Add(new List<IVCommander>()); return this; }
-        public DataContext MMouse() { this.p_LL_IVCommandErS.Set(a => a.Last().Add(this.p_L_IVCommander.Where(b => b.p_Str == "MMouse").First().Clone().Cast_As<IVCommander>())).Add(new List<IVCommander>()); return this; }
+        public DataContext Slash() { return this.SetCommand("Slash"); }
+        public DataContext Space() { return this.SetCommand("Space"); }
+        public DataContext Enter() { return this.SetCommand("Enter"); }
+        public DataContext Mark() { return this.SetCommand("Mark"); }
+        public DataContext Shift() { return this.SetCommand("Shift"); }
+        public DataContext BACKSPACE() { return this.SetCommand("BACKSPACE"); }
+        public DataContext TAB() { return this.SetCommand("TAB"); }
+        public DataContext CTRL() { return this.SetCommand("CTRL"); }
+        public DataContext ALT() { return this.SetCommand("ALT"); }
+        public DataContext PAUSE() { return this.SetCommand("PAUSE"); }
+        public DataContext CAPSLOCK() { return this.SetCommand("CAPSLOCK"); }
+        public DataContext ESCAPE() { return this.SetCommand("ESCAPE"); }
+        public DataContext PAGEUP() { return this.SetCommand("PAGEUP"); }
+        public DataContext PAGEDOWN() { return this.SetCommand("PAGEDOWN"); }
+        public DataContext END() { return this.SetCommand("END"); }
+        public DataContext HOME() { return this.SetCommand("HOME"); }
+        public DataContext LEFT() { return this.SetCommand("LEFT"); }
+        public DataContext UP() { return this.SetCommand("UP"); }
+        public DataContext RIGHT() { return this.SetCommand("RIGHT"); }
+        public DataContext DOWN() { return this.SetCommand("DOWN"); }
+        public DataContext INSERT() { return this.SetCommand("INSERT"); }
+        public DataContext DELETE() { return this.SetCommand("DELETE"); }
+        public DataContext LWIN() { return this.SetCommand("LWIN"); }
+        public DataContext RWIN() { return this.SetCommand("RWIN"); }
+        public DataContext SCROLLLOCK() { return this.SetCommand("SCROLLLOCK"); }
+        public DataContext PRINTSCREEN() { return this.SetCommand("PRINTSCREEN"); }
+        public DataContext PeriodComma() { return this.SetCommand("PeriodComma"); }
+        public DataContext Equally() { return this.SetCommand("Equally"); }
+        public DataContext Сomma() { return this.SetCommand("Сomma"); }
+        public DataContext Minus() { return this.SetCommand("Minus"); }
+        public DataContext Dot() { return this.SetCommand("Dot"); }
+        public DataContext Tilda() { return this.SetCommand("Tilda"); }
+        public DataContext SquScobOtk() { return this.SetCommand("SquScobOtk"); }
+        public DataContext ObratSlash() { return this.SetCommand("ObratSlash"); }
+        public DataContext SquScobZak() { return this.SetCommand("SquScobZak"); }
+        public DataContext MouseL() { return this.SetCommand("MouseL"); }
+        public DataContext MouseR() { return this.SetCommand("MouseR"); }
+        public DataContext MMouse() { return this.SetCommand("MMouse"); }
         #endregion
         #region//Tech
-        public DataContext Sleep_50() { this.p_LL_IVCommandErS.Set(a => a.Last().Add(this.p_L_IVCommander.Where(b => b.p_Str == "Sleep_50").First().Clone().Cast_As<IVCommander>())).Add(new List<IVCommander>()); return this; }
-        public DataContext Sleep_500() { this.p_LL_IVCommandErS.Set(a => a.Last().Add(this.p_L_IVCommander.Where(b => b.p_Str == "Sleep_500").First().Clone().Cast_As<IVCommander>())).Add(new List<IVCommander>()); return this; }
-        public DataContext Sleep_5000() { this.p_LL_IVCommandErS.Set(a => a.Last().Add(this.p_L_IVCommander.Where(b => b.p_Str == "Sleep_5000").First().Clone().Cast_As<IVCommander>())).Add(new List<IVCommander>()); return this; }
-        public DataContext MMove_X_50(){ this.p_LL_IVCommandErS.Set(a =>a.Last().Add(this.p_L_IVCommander.Where(b => b.p_Str == "MMove_X_50").First().Clone().Cast_As<IVCommander>())).Add(new List<IVCommander>());return this;}
-        public DataContext MMove_X_M50() { this.p_LL_IVCommandErS.Set(a => a.Last().Add(this.p_L_IVCommander.Where(b => b.p_Str == "MMove_X_M50").First().Clone().Cast_As<IVCommander>())).Add(new List<IVCommander>()); return this; }
-        public DataContext MMove_Y_50() { this.p_LL_IVCommandErS.Set(a => a.Last().Add(this.p_L_IVCommander.Where(b => b.p_Str == "MMove_Y_50").First().Clone().Cast_As<IVCommander>())).Add(new List<IVCommander>()); return this; }
-        public DataContext MMove_Y_M50() { this.p_LL_IVCommandErS.Set(a => a.Last().Add(this.p_L_IVCommander.Where(b => b.p_Str == "MMove_Y_M50").First().Clone().Cast_As<IVCommander>())).Add(new List<IVCommander>()); return this; }       
+        public DataContext Sleep_50() { return this.SetCommand("Sleep_50"); }
+        public DataContext Sleep_500() { return this.SetCommand("Sleep_500"); }
+        public DataContext Sleep_5000() { return this.SetCommand("Sleep_5000"); }
+        public DataContext MMove_X_50()  { return this.SetCommand("MMove_X_50"); }
+        public DataContext MMove_X_M50() { return this.SetCommand("MMove_X_M50"); }
+        public DataContext MMove_Y_50() { return this.SetCommand("MMove_Y_50"); }
+        public DataContext MMove_Y_M50() { return this.SetCommand("MMove_Y_M50"); }
         #endregion
         ////////////////////////////////////////////////////////
         //осталось запись написать
