@@ -15,14 +15,23 @@ namespace ClickerManDVA_DVA
         static void Main(string[] args)
         {
             "Привет мир".WriteLine();
+            /*
+            var _DataContext = new DataContext()
+                .Sleep_500().MMove_X_50().Sleep_500().MMove_Y_50().Sleep_500().MMove_X_M50().Sleep_500().MMove_Y_M50()
+                .WriteThis()
+                .Execute();
+            */
             new DataContext()
                 .MMove_X_50()
-                //.Space().Space().Space()
-                //.H().E().L().L().O().W().Space().W().O().R().D()
-               // .Sleep_500().MMove_X_50().Sleep_500().MMove_Y_50().Sleep_500().MMove_X_M50().Sleep_500().MMove_Y_M50()
-.Execute()
-.WriteThis()
-;
+                .Space().Space().Space()
+                .H().E().L().L().O().W().Space().W().O().R().D()
+                .Sleep_500().MMove_X_50().Sleep_500().MMove_Y_50().Sleep_500().MMove_X_M50().Sleep_500().MMove_Y_M50()
+                .Sleep_500().MMove_X_50().Sleep_500().MMove_Y_50().Sleep_500().MMove_X_M50().Sleep_500().MMove_Y_M50()
+                .Sleep_500().MMove_X_50().Sleep_500().MMove_Y_50().Sleep_500().MMove_X_M50().Sleep_500().MMove_Y_M50()
+                .Sleep_500().MMove_X_50().Sleep_500().MMove_Y_50().Sleep_500().MMove_X_M50().Sleep_500().MMove_Y_M50()
+                .Execute()
+                .WriteThis()
+            ;
             //ClickerManDVA_DVA.VMouseMove_.Test_Move();
             /*
             new DataContext()
@@ -210,8 +219,7 @@ namespace ClickerManDVA_DVA
         public DataContext Sleep_50() { this.p_LL_IVCommandErS.Set(a => a.Last().Add(this.p_L_IVCommander.Where(b => b.p_Str == "Sleep_50").First().Clone().Cast_As<IVCommander>())).Add(new List<IVCommander>()); return this; }
         public DataContext Sleep_500() { this.p_LL_IVCommandErS.Set(a => a.Last().Add(this.p_L_IVCommander.Where(b => b.p_Str == "Sleep_500").First().Clone().Cast_As<IVCommander>())).Add(new List<IVCommander>()); return this; }
         public DataContext Sleep_5000() { this.p_LL_IVCommandErS.Set(a => a.Last().Add(this.p_L_IVCommander.Where(b => b.p_Str == "Sleep_5000").First().Clone().Cast_As<IVCommander>())).Add(new List<IVCommander>()); return this; }
-
-        public DataContext MMove_X_50() { this.p_LL_IVCommandErS.Set(a => a.Last().Add(this.p_L_IVCommander.Where(b => b.p_Str == "MMove_X_50").First().Clone().Cast_As<IVCommander>())).Add(new List<IVCommander>()); return this; }
+        public DataContext MMove_X_50(){ this.p_LL_IVCommandErS.Set(a =>a.Last().Add(this.p_L_IVCommander.Where(b => b.p_Str == "MMove_X_50").First().Clone().Cast_As<IVCommander>())).Add(new List<IVCommander>());return this;}
         public DataContext MMove_X_M50() { this.p_LL_IVCommandErS.Set(a => a.Last().Add(this.p_L_IVCommander.Where(b => b.p_Str == "MMove_X_M50").First().Clone().Cast_As<IVCommander>())).Add(new List<IVCommander>()); return this; }
         public DataContext MMove_Y_50() { this.p_LL_IVCommandErS.Set(a => a.Last().Add(this.p_L_IVCommander.Where(b => b.p_Str == "MMove_Y_50").First().Clone().Cast_As<IVCommander>())).Add(new List<IVCommander>()); return this; }
         public DataContext MMove_Y_M50() { this.p_LL_IVCommandErS.Set(a => a.Last().Add(this.p_L_IVCommander.Where(b => b.p_Str == "MMove_Y_M50").First().Clone().Cast_As<IVCommander>())).Add(new List<IVCommander>()); return this; }       
@@ -219,7 +227,6 @@ namespace ClickerManDVA_DVA
         ////////////////////////////////////////////////////////
         public DataContext Execute() 
         {
-            ;
             for (int i = 1; i < this.p_LL_IVCommandErS.Count(); i++)
             {
                 var __Last = this.p_LL_IVCommandErS[i - 1];

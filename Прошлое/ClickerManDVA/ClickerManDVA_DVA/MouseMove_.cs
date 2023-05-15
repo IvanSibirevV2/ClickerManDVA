@@ -14,7 +14,7 @@ namespace ClickerManDVA_DVA
         private System.Int32 p__MoveY = 00;
         public System.Int32 p_MoveY { get { return this.p__MoveY; } set { this.p__MoveY = value; } }
         public System.Byte p_nVirtKey { get { return 0; } set { } }
-        private System.String p__Str = "A";
+        private System.String p__Str = "VMouseMove_";
         public System.String p_Str { get { return this.p__Str; } set { this.p__Str = value; } }
         private System.TimeSpan p__TimeSpan;
         public System.TimeSpan p_TimeSpan { get { return this.p__TimeSpan; } set { this.p__TimeSpan = value; } }
@@ -85,12 +85,13 @@ namespace ClickerManDVA_DVA
             System.Nullable<System.TimeSpan> _TimeSpan = null
             )
         {
-            if (_this != null) _this.Set(_this:null,_MoveX:_this.p_MoveX,_MoveY:_this.p__MoveY,_Str:_this.p__Str,_TimeSpan:_this.p__TimeSpan);
+            if (_this != null) this.Set(_this:null,_MoveX:_this.p_MoveX,_MoveY:_this.p__MoveY,_Str:_this.p__Str,_TimeSpan:_this.p__TimeSpan);
             if (_MoveX != null) this.p__MoveX=_MoveX.Value;
             if (_MoveY != null) this.p__MoveY = _MoveY.Value;
             if (_Str != null) this.p__Str = _Str;
             if (_TimeSpan != null) this.p_TimeSpan = _TimeSpan.Value; 
             if (false) ;
+            ;
             return this;
         }
         /////////////////////////////////////////////////////////////////////////////////////////////////////////
