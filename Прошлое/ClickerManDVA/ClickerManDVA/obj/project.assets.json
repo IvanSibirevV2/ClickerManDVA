@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\D\\Git_Hub\\ClickerManDVA\\Прошлое\\ClickerManDVA\\ClickerManDVA\\ClickerManDVA.csproj",
+      "projectUniqueName": "C:\\D\\Git_Hub_V2\\ClickerManDVA\\Прошлое\\ClickerManDVA\\ClickerManDVA\\ClickerManDVA.csproj",
       "projectName": "ClickerManDVA",
-      "projectPath": "C:\\D\\Git_Hub\\ClickerManDVA\\Прошлое\\ClickerManDVA\\ClickerManDVA\\ClickerManDVA.csproj",
+      "projectPath": "C:\\D\\Git_Hub_V2\\ClickerManDVA\\Прошлое\\ClickerManDVA\\ClickerManDVA\\ClickerManDVA.csproj",
       "packagesPath": "C:\\Users\\SibNout2020\\.nuget\\packages\\",
-      "outputPath": "C:\\D\\Git_Hub\\ClickerManDVA\\Прошлое\\ClickerManDVA\\ClickerManDVA\\obj\\",
+      "outputPath": "C:\\D\\Git_Hub_V2\\ClickerManDVA\\Прошлое\\ClickerManDVA\\ClickerManDVA\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\SibNout2020\\AppData\\Roaming\\NuGet\\NuGet.Config",
