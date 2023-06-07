@@ -74,239 +74,866 @@ namespace WpfDiplom.Pages
             InitializeComponent();
         }
         //////////////////////////////////////////////////////
-        public PGMainMenu _Down(byte _bVk) { keybd_event(_bVk, 0, 0, 0); return this; }
-        public PGMainMenu _Up(byte _bVk) { keybd_event(_bVk, 0, 2, 0); return this; }
-        public System.Boolean _Is(byte _bVk) { switch (GetKeyState(_bVk)){ case -127: case -128: return true; break;default: return false; break;} return false; }
+        public PGMainMenu __Down(byte _bVk) { keybd_event(_bVk, 0, 0, 0); return this; }
+        public PGMainMenu __Up(byte _bVk) { keybd_event(_bVk, 0, 2, 0); return this; }
+        public System.Boolean __Is(byte _bVk) { switch (GetKeyState(_bVk)){ case -127: case -128: return true; break;default: return false; break;} return false; }
         //////////////////////////////////////////////////////
         #region (65, "A")
         public System.String A_String() { return "A"; }
         public System.Byte A_ASCII() { return 65; }
         public PGMainMenu A() { return this; }
-        public PGMainMenu A_Down() { return this._Down(this.A_ASCII()); }
-        public PGMainMenu A_Up() { return this._Up(this.A_ASCII()); }
-        public bool A_Is() { return this._Is(this.A_ASCII()); }
+        public PGMainMenu A_Down() { return this.__Down(this.A_ASCII()); }
+        public PGMainMenu A_Up() { return this.__Up(this.A_ASCII()); }
+        public bool A_Is() { return this.__Is(this.A_ASCII()); }
         # endregion
         //////////////////////////////////////////////////////
         //(66, "B")
         public System.String B_String() { return "B"; }
         public System.Byte B_ASCII() { return 66; }
         public PGMainMenu B() { return this; }
-        public PGMainMenu B_Down() { return this._Down(this.B_ASCII()); }
-        public PGMainMenu B_Up() { return this._Up(this.B_ASCII()); }
-        public bool B_Is() { return this._Is(this.B_ASCII()); }
+        public PGMainMenu B_Down() { return this.__Down(this.B_ASCII()); }
+        public PGMainMenu B_Up() { return this.__Up(this.B_ASCII()); }
+        public bool B_Is() { return this.__Is(this.B_ASCII()); }
         //////////////////////////////////////////////////////
         //(67, "C")
         public System.String C_String() { return "C"; }
         public System.Byte C_ASCII() { return 67; }
         public PGMainMenu C() { return this; }
-        public PGMainMenu C_Down() { return this._Down(this.C_ASCII()); }
-        public PGMainMenu C_Up() { return this._Up(this.C_ASCII()); }
-        public bool C_Is() { return this._Is(this.C_ASCII()); }
+        public PGMainMenu C_Down() { return this.__Down(this.C_ASCII()); }
+        public PGMainMenu C_Up() { return this.__Up(this.C_ASCII()); }
+        public bool C_Is() { return this.__Is(this.C_ASCII()); }
         //////////////////////////////////////////////////////
         //(68, "D")
         public System.String D_String() { return "D"; }
         public System.Byte D_ASCII() { return 68; }
         public PGMainMenu D() { return this; }
-        public PGMainMenu D_Down() { return this._Down(this.D_ASCII()); }
-        public PGMainMenu D_Up() { return this._Up(this.D_ASCII()); }
-        public bool D_Is() { return this._Is(this.D_ASCII()); }
+        public PGMainMenu D_Down() { return this.__Down(this.D_ASCII()); }
+        public PGMainMenu D_Up() { return this.__Up(this.D_ASCII()); }
+        public bool D_Is() { return this.__Is(this.D_ASCII()); }
         //////////////////////////////////////////////////////
         //(69, "E")
         public System.String E_String() { return "E"; }
         public System.Byte E_ASCII() { return 69; }
         public PGMainMenu E() { return this; }
-        public PGMainMenu E_Down() { return this._Down(this.E_ASCII()); }
-        public PGMainMenu E_Up() { return this._Up(this.E_ASCII()); }
-        public bool E_Is() { return this._Is(this.E_ASCII()); }
+        public PGMainMenu E_Down() { return this.__Down(this.E_ASCII()); }
+        public PGMainMenu E_Up() { return this.__Up(this.E_ASCII()); }
+        public bool E_Is() { return this.__Is(this.E_ASCII()); }
         //////////////////////////////////////////////////////
         //(70, "F")
         public System.String F_String() { return "F"; }
         public System.Byte F_ASCII() { return 70; }
         public PGMainMenu F() { return this; }
-        public PGMainMenu F_Down() { return this._Down(this.F_ASCII()); }
-        public PGMainMenu F_Up() { return this._Up(this.F_ASCII()); }
-        public bool F_Is() { return this._Is(this.F_ASCII()); }
+        public PGMainMenu F_Down() { return this.__Down(this.F_ASCII()); }
+        public PGMainMenu F_Up() { return this.__Up(this.F_ASCII()); }
+        public bool F_Is() { return this.__Is(this.F_ASCII()); }
         //////////////////////////////////////////////////////
         //(71, "G")
         public System.String G_String() { return "G"; }
         public System.Byte G_ASCII() { return 71; }
         public PGMainMenu G() { return this; }
-        public PGMainMenu G_Down() { return this._Down(this.G_ASCII()); }
-        public PGMainMenu G_Up() { return this._Up(this.G_ASCII()); }
-        public bool G_Is() { return this._Is(this.G_ASCII()); }
+        public PGMainMenu G_Down() { return this.__Down(this.G_ASCII()); }
+        public PGMainMenu G_Up() { return this.__Up(this.G_ASCII()); }
+        public bool G_Is() { return this.__Is(this.G_ASCII()); }
         //////////////////////////////////////////////////////
         //(72, "H")
         public System.String H_String() { return "H"; }
         public System.Byte H_ASCII() { return 72; }
         public PGMainMenu H() { return this; }
-        public PGMainMenu H_Down() { return this._Down(this.H_ASCII()); }
-        public PGMainMenu H_Up() { return this._Up(this.H_ASCII()); }
-        public bool H_Is() { return this._Is(this.H_ASCII()); }
+        public PGMainMenu H_Down() { return this.__Down(this.H_ASCII()); }
+        public PGMainMenu H_Up() { return this.__Up(this.H_ASCII()); }
+        public bool H_Is() { return this.__Is(this.H_ASCII()); }
         //////////////////////////////////////////////////////
         //(73, "I")
         public System.String I_String() { return "I"; }
         public System.Byte I_ASCII() { return 73; }
         public PGMainMenu I() { return this; }
-        public PGMainMenu I_Down() { return this._Down(this.I_ASCII()); }
-        public PGMainMenu I_Up() { return this._Up(this.I_ASCII()); }
-        public bool I_Is() { return this._Is(this.I_ASCII()); }
+        public PGMainMenu I_Down() { return this.__Down(this.I_ASCII()); }
+        public PGMainMenu I_Up() { return this.__Up(this.I_ASCII()); }
+        public bool I_Is() { return this.__Is(this.I_ASCII()); }
         //////////////////////////////////////////////////////
         //(74, "J")
         public System.String J_String() { return "J"; }
         public System.Byte J_ASCII() { return 74; }
         public PGMainMenu J() { return this; }
-        public PGMainMenu J_Down() { return this._Down(this.J_ASCII()); }
-        public PGMainMenu J_Up() { return this._Up(this.J_ASCII()); }
-        public bool J_Is() { return this._Is(this.J_ASCII()); }
+        public PGMainMenu J_Down() { return this.__Down(this.J_ASCII()); }
+        public PGMainMenu J_Up() { return this.__Up(this.J_ASCII()); }
+        public bool J_Is() { return this.__Is(this.J_ASCII()); }
         //////////////////////////////////////////////////////
         //(75, "K")
         public System.String K_String() { return "K"; }
         public System.Byte K_ASCII() { return 75; }
         public PGMainMenu K() { return this; }
-        public PGMainMenu K_Down() { return this._Down(this.K_ASCII()); }
-        public PGMainMenu K_Up() { return this._Up(this.K_ASCII()); }
-        public bool K_Is() { return this._Is(this.K_ASCII()); }
+        public PGMainMenu K_Down() { return this.__Down(this.K_ASCII()); }
+        public PGMainMenu K_Up() { return this.__Up(this.K_ASCII()); }
+        public bool K_Is() { return this.__Is(this.K_ASCII()); }
         //////////////////////////////////////////////////////
         //(76,"L")
         public System.String L_String() { return "L"; }
         public System.Byte L_ASCII() { return 76; }
         public PGMainMenu L() { return this; }
-        public PGMainMenu L_Down() { return this._Down(this.L_ASCII()); }
-        public PGMainMenu L_Up() { return this._Up(this.L_ASCII()); }
-        public bool L_Is() { return this._Is(this.L_ASCII()); }
+        public PGMainMenu L_Down() { return this.__Down(this.L_ASCII()); }
+        public PGMainMenu L_Up() { return this.__Up(this.L_ASCII()); }
+        public bool L_Is() { return this.__Is(this.L_ASCII()); }
         //////////////////////////////////////////////////////
         //(77,"M")
         public System.String M_String() { return "M"; }
         public System.Byte M_ASCII() { return 77; }
         public PGMainMenu M() { return this; }
-        public PGMainMenu M_Down() { return this._Down(this.M_ASCII()); }
-        public PGMainMenu M_Up() { return this._Up(this.M_ASCII()); }
-        public bool M_Is() { return this._Is(this.M_ASCII()); }
+        public PGMainMenu M_Down() { return this.__Down(this.M_ASCII()); }
+        public PGMainMenu M_Up() { return this.__Up(this.M_ASCII()); }
+        public bool M_Is() { return this.__Is(this.M_ASCII()); }
         //////////////////////////////////////////////////////
         //(78,"N")
         public System.String N_String() { return "N"; }
         public System.Byte N_ASCII() { return 78; }
         public PGMainMenu N() { return this; }
-        public PGMainMenu N_Down() { return this._Down(this.N_ASCII()); }
-        public PGMainMenu N_Up() { return this._Up(this.N_ASCII()); }
-        public bool N_Is() { return this._Is(this.N_ASCII()); }
+        public PGMainMenu N_Down() { return this.__Down(this.N_ASCII()); }
+        public PGMainMenu N_Up() { return this.__Up(this.N_ASCII()); }
+        public bool N_Is() { return this.__Is(this.N_ASCII()); }
         //////////////////////////////////////////////////////
         //(79,"O")
         public System.String O_String() { return "O"; }
         public System.Byte O_ASCII() { return 79; }
         public PGMainMenu O() { return this; }
-        public PGMainMenu O_Down() { return this._Down(this.O_ASCII()); }
-        public PGMainMenu O_Up() { return this._Up(this.O_ASCII()); }
-        public bool O_Is() { return this._Is(this.O_ASCII()); }
+        public PGMainMenu O_Down() { return this.__Down(this.O_ASCII()); }
+        public PGMainMenu O_Up() { return this.__Up(this.O_ASCII()); }
+        public bool O_Is() { return this.__Is(this.O_ASCII()); }
         //////////////////////////////////////////////////////
         //(80,"P")
         public System.String P_String() { return "P"; }
         public System.Byte P_ASCII() { return 80; }
         public PGMainMenu P() { return this; }
-        public PGMainMenu P_Down() { return this._Down(this.P_ASCII()); }
-        public PGMainMenu P_Up() { return this._Up(this.P_ASCII()); }
-        public bool P_Is() { return this._Is(this.P_ASCII()); }
+        public PGMainMenu P_Down() { return this.__Down(this.P_ASCII()); }
+        public PGMainMenu P_Up() { return this.__Up(this.P_ASCII()); }
+        public bool P_Is() { return this.__Is(this.P_ASCII()); }
         //////////////////////////////////////////////////////
         //(81,"Q")
         public System.String Q_String() { return "Q"; }
         public System.Byte Q_ASCII() { return 81; }
         public PGMainMenu Q() { return this; }
-        public PGMainMenu Q_Down() { return this._Down(this.Q_ASCII()); }
-        public PGMainMenu Q_Up() { return this._Up(this.Q_ASCII()); }
-        public bool Q_Is() { return this._Is(this.Q_ASCII()); }
+        public PGMainMenu Q_Down() { return this.__Down(this.Q_ASCII()); }
+        public PGMainMenu Q_Up() { return this.__Up(this.Q_ASCII()); }
+        public bool Q_Is() { return this.__Is(this.Q_ASCII()); }
         //////////////////////////////////////////////////////
         //(82,"R")
         public System.String R_String() { return "R"; }
         public System.Byte R_ASCII() { return 82; }
         public PGMainMenu R() { return this; }
-        public PGMainMenu R_Down() { return this._Down(this.R_ASCII()); }
-        public PGMainMenu R_Up() { return this._Up(this.R_ASCII()); }
-        public bool R_Is() { return this._Is(this.R_ASCII()); }
+        public PGMainMenu R_Down() { return this.__Down(this.R_ASCII()); }
+        public PGMainMenu R_Up() { return this.__Up(this.R_ASCII()); }
+        public bool R_Is() { return this.__Is(this.R_ASCII()); }
         //////////////////////////////////////////////////////
         //(83,"S")
         public System.String S_String() { return "S"; }
         public System.Byte S_ASCII() { return 83; }
         public PGMainMenu S() { return this; }
-        public PGMainMenu S_Down() { return this._Down(this.S_ASCII()); }
-        public PGMainMenu S_Up() { return this._Up(this.S_ASCII()); }
-        public bool S_Is() { return this._Is(this.S_ASCII()); }
+        public PGMainMenu S_Down() { return this.__Down(this.S_ASCII()); }
+        public PGMainMenu S_Up() { return this.__Up(this.S_ASCII()); }
+        public bool S_Is() { return this.__Is(this.S_ASCII()); }
         //////////////////////////////////////////////////////
         //(84,"T")
         public System.String T_String() { return "T"; }
         public System.Byte T_ASCII() { return 84; }
         public PGMainMenu T() { return this; }
-        public PGMainMenu T_Down() { return this._Down(this.T_ASCII()); }
-        public PGMainMenu T_Up() { return this._Up(this.T_ASCII()); }
-        public bool T_Is() { return this._Is(this.T_ASCII()); }
+        public PGMainMenu T_Down() { return this.__Down(this.T_ASCII()); }
+        public PGMainMenu T_Up() { return this.__Up(this.T_ASCII()); }
+        public bool T_Is() { return this.__Is(this.T_ASCII()); }
         //////////////////////////////////////////////////////
         //(85,"U")
         public System.String U_String() { return "U"; }
         public System.Byte U_ASCII() { return 85; }
         public PGMainMenu U() { return this; }
-        public PGMainMenu U_Down() { return this._Down(this.U_ASCII()); }
-        public PGMainMenu U_Up() { return this._Up(this.U_ASCII()); }
-        public bool U_Is() { return this._Is(this.U_ASCII()); }
+        public PGMainMenu U_Down() { return this.__Down(this.U_ASCII()); }
+        public PGMainMenu U_Up() { return this.__Up(this.U_ASCII()); }
+        public bool U_Is() { return this.__Is(this.U_ASCII()); }
         //////////////////////////////////////////////////////
         //(86,"V")
         public System.String V_String() { return "V"; }
         public System.Byte V_ASCII() { return 86; }
         public PGMainMenu V() { return this; }
-        public PGMainMenu V_Down() { return this._Down(this.V_ASCII()); }
-        public PGMainMenu V_Up() { return this._Up(this.V_ASCII()); }
-        public bool V_Is() { return this._Is(this.V_ASCII()); }
+        public PGMainMenu V_Down() { return this.__Down(this.V_ASCII()); }
+        public PGMainMenu V_Up() { return this.__Up(this.V_ASCII()); }
+        public bool V_Is() { return this.__Is(this.V_ASCII()); }
         //////////////////////////////////////////////////////
         //(87,"W")
         public System.String W_String() { return "W"; }
         public System.Byte W_ASCII() { return 87; }
         public PGMainMenu W() { return this; }
-        public PGMainMenu W_Down() { return this._Down(this.W_ASCII()); }
-        public PGMainMenu W_Up() { return this._Up(this.W_ASCII()); }
-        public bool W_Is() { return this._Is(this.W_ASCII()); }
+        public PGMainMenu W_Down() { return this.__Down(this.W_ASCII()); }
+        public PGMainMenu W_Up() { return this.__Up(this.W_ASCII()); }
+        public bool W_Is() { return this.__Is(this.W_ASCII()); }
         //////////////////////////////////////////////////////
-
-        (88,"X")
-            //(73, "I")
-        public System.String I_String() { return "I"; }
-        public System.Byte I_ASCII() { return 73; }
-        public PGMainMenu I() { return this; }
-        public PGMainMenu I_Down() { return this._Down(this.I_ASCII()); }
-        public PGMainMenu I_Up() { return this._Up(this.I_ASCII()); }
-        public bool I_Is() { return this._Is(this.I_ASCII()); }
+        //(88,"X")
+        public System.String X_String() { return "X"; }
+        public System.Byte X_ASCII() { return 88; }
+        public PGMainMenu X() { return this; }
+        public PGMainMenu X_Down() { return this.__Down(this.X_ASCII()); }
+        public PGMainMenu X_Up() { return this.__Up(this.X_ASCII()); }
+        public bool X_Is() { return this.__Is(this.X_ASCII()); }
         //////////////////////////////////////////////////////
-
-        (89,"Y")
-            //(73, "I")
-        public System.String I_String() { return "I"; }
-        public System.Byte I_ASCII() { return 73; }
-        public PGMainMenu I() { return this; }
-        public PGMainMenu I_Down() { return this._Down(this.I_ASCII()); }
-        public PGMainMenu I_Up() { return this._Up(this.I_ASCII()); }
-        public bool I_Is() { return this._Is(this.I_ASCII()); }
+        //(89,"Y")
+        public System.String Y_String() { return "Y"; }
+        public System.Byte Y_ASCII() { return 89; }
+        public PGMainMenu Y() { return this; }
+        public PGMainMenu Y_Down() { return this.__Down(this.Y_ASCII()); }
+        public PGMainMenu Y_Up() { return this.__Up(this.Y_ASCII()); }
+        public bool Y_Is() { return this.__Is(this.Y_ASCII()); }
         //////////////////////////////////////////////////////
-
-        (90,"Z")
-            //(73, "I")
-        public System.String I_String() { return "I"; }
-        public System.Byte I_ASCII() { return 73; }
-        public PGMainMenu I() { return this; }
-        public PGMainMenu I_Down() { return this._Down(this.I_ASCII()); }
-        public PGMainMenu I_Up() { return this._Up(this.I_ASCII()); }
-        public bool I_Is() { return this._Is(this.I_ASCII()); }
+        //(90,"Z")
+        public System.String Z_String() { return "Z"; }
+        public System.Byte Z_ASCII() { return 90; }
+        public PGMainMenu Z() { return this; }
+        public PGMainMenu Z_Down() { return this.__Down(this.Z_ASCII()); }
+        public PGMainMenu Z_Up() { return this.__Up(this.Z_ASCII()); }
+        public bool Z_Is() { return this.__Is(this.Z_ASCII()); }
         //////////////////////////////////////////////////////
+        //(48,"_0")
+        public System.String _0_String() { return "_0"; }
+        public System.Byte _0_ASCII() { return 48; }
+        public PGMainMenu _0() { return this; }
+        public PGMainMenu _0_Down() { return this.__Down(this._0_ASCII()); }
+        public PGMainMenu _0_Up() { return this.__Up(this._0_ASCII()); }
+        public bool _0_Is() { return this.__Is(this._0_ASCII()); }
+        //////////////////////////////////////////////////////
+        //(49,"_1")
+        public System.String _1_String() { return "_1"; }
+        public System.Byte _1_ASCII() { return 49; }
+        public PGMainMenu _1() { return this; }
+        public PGMainMenu _1_Down() { return this.__Down(this._1_ASCII()); }
+        public PGMainMenu _1_Up() { return this.__Up(this._1_ASCII()); }
+        public bool _1_Is() { return this.__Is(this._1_ASCII()); }
+        //////////////////////////////////////////////////////
+        //(50,"_2")
+        public System.String _2_String() { return "_2"; }
+        public System.Byte _2_ASCII() { return 50; }
+        public PGMainMenu _2() { return this; }
+        public PGMainMenu _2_Down() { return this.__Down(this._2_ASCII()); }
+        public PGMainMenu _2_Up() { return this.__Up(this._2_ASCII()); }
+        public bool _2_Is() { return this.__Is(this._2_ASCII()); }
+        //////////////////////////////////////////////////////
+        //(51,"_3")
+        public System.String _3_String() { return "_3"; }
+        public System.Byte _3_ASCII() { return 51; }
+        public PGMainMenu _3() { return this; }
+        public PGMainMenu _3_Down() { return this.__Down(this._3_ASCII()); }
+        public PGMainMenu _3_Up() { return this.__Up(this._3_ASCII()); }
+        public bool _3_Is() { return this.__Is(this._3_ASCII()); }
+        //////////////////////////////////////////////////////
+        //(52,"_4")
+        public System.String _4_String() { return "_4"; }
+        public System.Byte _4_ASCII() { return 52; }
+        public PGMainMenu _4() { return this; }
+        public PGMainMenu _4_Down() { return this.__Down(this._4_ASCII()); }
+        public PGMainMenu _4_Up() { return this.__Up(this._4_ASCII()); }
+        public bool _4_Is() { return this.__Is(this._4_ASCII()); }
+        //////////////////////////////////////////////////////
+        //(53,"_5")
+        public System.String _5_String() { return "_5"; }
+        public System.Byte _5_ASCII() { return 53; }
+        public PGMainMenu _5() { return this; }
+        public PGMainMenu _5_Down() { return this.__Down(this._5_ASCII()); }
+        public PGMainMenu _5_Up() { return this.__Up(this._5_ASCII()); }
+        public bool _5_Is() { return this.__Is(this._5_ASCII()); }
+        //////////////////////////////////////////////////////
+        //(54,"_6")
+        public System.String _6_String() { return "_6"; }
+        public System.Byte _6_ASCII() { return 54; }
+        public PGMainMenu _6() { return this; }
+        public PGMainMenu _6_Down() { return this.__Down(this._6_ASCII()); }
+        public PGMainMenu _6_Up() { return this.__Up(this._6_ASCII()); }
+        public bool _6_Is() { return this.__Is(this._6_ASCII()); }
+        //////////////////////////////////////////////////////
+        //(55,"_7")
+        public System.String _7_String() { return "_7"; }
+        public System.Byte _7_ASCII() { return 55; }
+        public PGMainMenu _7() { return this; }
+        public PGMainMenu _7_Down() { return this.__Down(this._7_ASCII()); }
+        public PGMainMenu _7_Up() { return this.__Up(this._7_ASCII()); }
+        public bool _7_Is() { return this.__Is(this._7_ASCII()); }
+        //////////////////////////////////////////////////////
+        //(56,"_8")
+        public System.String _8_String() { return "_8"; }
+        public System.Byte _8_ASCII() { return 56; }
+        public PGMainMenu _8() { return this; }
+        public PGMainMenu _8_Down() { return this.__Down(this._8_ASCII()); }
+        public PGMainMenu _8_Up() { return this.__Up(this._8_ASCII()); }
+        public bool _8_Is() { return this.__Is(this._8_ASCII()); }
+        //////////////////////////////////////////////////////
+        //(57,"_9")
+        public System.String _9_String() { return "_9"; }
+        public System.Byte _9_ASCII() { return 57; }
+        public PGMainMenu _9() { return this; }
+        public PGMainMenu _9_Down() { return this.__Down(this._9_ASCII()); }
+        public PGMainMenu _9_Up() { return this.__Up(this._9_ASCII()); }
+        public bool _9_Is() { return this.__Is(this._9_ASCII()); }
+        //////////////////////////////////////////////////////
+        //(112,"F1")
+        public System.String F1_String() { return "F1"; }
+        public System.Byte F1_ASCII() { return 112; }
+        public PGMainMenu F1() { return this; }
+        public PGMainMenu F1_Down() { return this.__Down(this.F1_ASCII()); }
+        public PGMainMenu F1_Up() { return this.__Up(this.F1_ASCII()); }
+        public bool F1_Is() { return this.__Is(this.F1_ASCII()); }
+        //////////////////////////////////////////////////////
+        //(113,"F2")
+        public System.String F2_String() { return "F2"; }
+        public System.Byte F2_ASCII() { return 113; }
+        public PGMainMenu F2() { return this; }
+        public PGMainMenu F2_Down() { return this.__Down(this.F2_ASCII()); }
+        public PGMainMenu F2_Up() { return this.__Up(this.F2_ASCII()); }
+        public bool F2_Is() { return this.__Is(this.F2_ASCII()); }
+        //////////////////////////////////////////////////////
+        //(114,"F3")
+        public System.String F3_String() { return "F3"; }
+        public System.Byte F3_ASCII() { return 114; }
+        public PGMainMenu F3() { return this; }
+        public PGMainMenu F3_Down() { return this.__Down(this.F3_ASCII()); }
+        public PGMainMenu F3_Up() { return this.__Up(this.F3_ASCII()); }
+        public bool F3_Is() { return this.__Is(this.F3_ASCII()); }
+        //////////////////////////////////////////////////////
+        //(115,"F4")
+        public System.String F4_String() { return "F4"; }
+        public System.Byte F4_ASCII() { return 115; }
+        public PGMainMenu F4() { return this; }
+        public PGMainMenu F4_Down() { return this.__Down(this.F4_ASCII()); }
+        public PGMainMenu F4_Up() { return this.__Up(this.F4_ASCII()); }
+        public bool F4_Is() { return this.__Is(this.F4_ASCII()); }
+        //////////////////////////////////////////////////////
+        //(116,"F5")
+        public System.String F5_String() { return "F5"; }
+        public System.Byte F5_ASCII() { return 116; }
+        public PGMainMenu F5() { return this; }
+        public PGMainMenu F5_Down() { return this.__Down(this.F5_ASCII()); }
+        public PGMainMenu F5_Up() { return this.__Up(this.F5_ASCII()); }
+        public bool F5_Is() { return this.__Is(this.F5_ASCII()); }
+        //////////////////////////////////////////////////////
+        //(117,"F6")
+        public System.String F6_String() { return "F6"; }
+        public System.Byte F6_ASCII() { return 117; }
+        public PGMainMenu F6() { return this; }
+        public PGMainMenu F6_Down() { return this.__Down(this.F6_ASCII()); }
+        public PGMainMenu F6_Up() { return this.__Up(this.F6_ASCII()); }
+        public bool F6_Is() { return this.__Is(this.F6_ASCII()); }
+        //////////////////////////////////////////////////////
+        //(118,"F7")
+        public System.String F7_String() { return "F7"; }
+        public System.Byte F7_ASCII() { return 118; }
+        public PGMainMenu F7() { return this; }
+        public PGMainMenu F7_Down() { return this.__Down(this.F7_ASCII()); }
+        public PGMainMenu F7_Up() { return this.__Up(this.F7_ASCII()); }
+        public bool F7_Is() { return this.__Is(this.F7_ASCII()); }
+        //////////////////////////////////////////////////////
+        //(119,"F8")
+        public System.String F8_String() { return "F8"; }
+        public System.Byte F8_ASCII() { return 119; }
+        public PGMainMenu F8() { return this; }
+        public PGMainMenu F8_Down() { return this.__Down(this.F8_ASCII()); }
+        public PGMainMenu F8_Up() { return this.__Up(this.F8_ASCII()); }
+        public bool F8_Is() { return this.__Is(this.F8_ASCII()); }
+        //////////////////////////////////////////////////////
+        //(120,"F9")
+        public System.String F9_String() { return "F9"; }
+        public System.Byte F9_ASCII() { return 120; }
+        public PGMainMenu F9() { return this; }
+        public PGMainMenu F9_Down() { return this.__Down(this.F9_ASCII()); }
+        public PGMainMenu F9_Up() { return this.__Up(this.F9_ASCII()); }
+        public bool F9_Is() { return this.__Is(this.F9_ASCII()); }
+        //////////////////////////////////////////////////////
+        //(121,"F10")
+        public System.String F10_String() { return "F10"; }
+        public System.Byte F10_ASCII() { return 121; }
+        public PGMainMenu F10() { return this; }
+        public PGMainMenu F10_Down() { return this.__Down(this.F10_ASCII()); }
+        public PGMainMenu F10_Up() { return this.__Up(this.F10_ASCII()); }
+        public bool F10_Is() { return this.__Is(this.F10_ASCII()); }
+        //////////////////////////////////////////////////////
+        //(122,"F11")
+        public System.String F11_String() { return "F11"; }
+        public System.Byte F11_ASCII() { return 122; }
+        public PGMainMenu F11() { return this; }
+        public PGMainMenu F11_Down() { return this.__Down(this.F11_ASCII()); }
+        public PGMainMenu F11_Up() { return this.__Up(this.F11_ASCII()); }
+        public bool F11_Is() { return this.__Is(this.F11_ASCII()); }
+        //////////////////////////////////////////////////////
+        //(123,"F12")
+        public System.String F12_String() { return "F12"; }
+        public System.Byte F12_ASCII() { return 123; }
+        public PGMainMenu F12() { return this; }
+        public PGMainMenu F12_Down() { return this.__Down(this.F12_ASCII()); }
+        public PGMainMenu F12_Up() { return this.__Up(this.F12_ASCII()); }
+        public bool F12_Is() { return this.__Is(this.F12_ASCII()); }
+        //////////////////////////////////////////////////////
+        //(96,"NumZero")
+        public System.String NumZero_String() { return "NumZero"; }
+        public System.Byte NumZero_ASCII() { return 96; }
+        public PGMainMenu NumZero() { return this; }
+        public PGMainMenu NumZero_Down() { return this.__Down(this.NumZero_ASCII()); }
+        public PGMainMenu NumZero_Up() { return this.__Up(this.NumZero_ASCII()); }
+        public bool NumZero_Is() { return this.__Is(this.NumZero_ASCII()); }
+        //////////////////////////////////////////////////////
+        //(97,"NumOne")
+        public System.String NumOne_String() { return "NumOne"; }
+        public System.Byte NumOne_ASCII() { return 97; }
+        public PGMainMenu NumOne() { return this; }
+        public PGMainMenu NumOne_Down() { return this.__Down(this.NumOne_ASCII()); }
+        public PGMainMenu NumOne_Up() { return this.__Up(this.NumOne_ASCII()); }
+        public bool NumOne_Is() { return this.__Is(this.NumOne_ASCII()); }
+        //////////////////////////////////////////////////////
+        //(98,"NumTwo")
+        public System.String NumTwo_String() { return "NumTwo"; }
+        public System.Byte NumTwo_ASCII() { return 98; }
+        public PGMainMenu NumTwo() { return this; }
+        public PGMainMenu NumTwo_Down() { return this.__Down(this.NumTwo_ASCII()); }
+        public PGMainMenu NumTwo_Up() { return this.__Up(this.NumTwo_ASCII()); }
+        public bool NumTwo_Is() { return this.__Is(this.NumTwo_ASCII()); }
+        //////////////////////////////////////////////////////
+        //(99,"NumThree")
+        public System.String NumThree_String() { return "NumThree"; }
+        public System.Byte NumThree_ASCII() { return 99; }
+        public PGMainMenu NumThree() { return this; }
+        public PGMainMenu NumThree_Down() { return this.__Down(this.NumThree_ASCII()); }
+        public PGMainMenu NumThree_Up() { return this.__Up(this.NumThree_ASCII()); }
+        public bool NumThree_Is() { return this.__Is(this.NumThree_ASCII()); }
+        //////////////////////////////////////////////////////
+        //(100,"NumFor")
+        public System.String NumFor_String() { return "NumFor"; }
+        public System.Byte NumFor_ASCII() { return 100; }
+        public PGMainMenu NumFor() { return this; }
+        public PGMainMenu NumFor_Down() { return this.__Down(this.NumFor_ASCII()); }
+        public PGMainMenu NumFor_Up() { return this.__Up(this.NumFor_ASCII()); }
+        public bool NumFor_Is() { return this.__Is(this.NumFor_ASCII()); }
+        //////////////////////////////////////////////////////
+        //(101,"NumFive")
+        public System.String NumFive_String() { return "NumFive"; }
+        public System.Byte NumFive_ASCII() { return 101; }
+        public PGMainMenu NumFive() { return this; }
+        public PGMainMenu NumFive_Down() { return this.__Down(this.NumFive_ASCII()); }
+        public PGMainMenu NumFive_Up() { return this.__Up(this.NumFive_ASCII()); }
+        public bool NumFive_Is() { return this.__Is(this.NumFive_ASCII()); }
+        //////////////////////////////////////////////////////
+        //(102,"NumSix")
+        public System.String NumSix_String() { return "NumSix"; }
+        public System.Byte NumSix_ASCII() { return 102; }
+        public PGMainMenu NumSix() { return this; }
+        public PGMainMenu NumSix_Down() { return this.__Down(this.NumSix_ASCII()); }
+        public PGMainMenu NumSix_Up() { return this.__Up(this.NumSix_ASCII()); }
+        public bool NumSix_Is() { return this.__Is(this.NumSix_ASCII()); }
+        //////////////////////////////////////////////////////
+        //(103,"NumSeven")
+        public System.String NumSeven_String() { return "NumSeven"; }
+        public System.Byte NumSeven_ASCII() { return 103; }
+        public PGMainMenu NumSeven() { return this; }
+        public PGMainMenu NumSeven_Down() { return this.__Down(this.NumSeven_ASCII()); }
+        public PGMainMenu NumSeven_Up() { return this.__Up(this.NumSeven_ASCII()); }
+        public bool NumSeven_Is() { return this.__Is(this.NumSeven_ASCII()); }
+        //////////////////////////////////////////////////////
+        //(104,"NumEight")
+        public System.String NumEight_String() { return "NumEight"; }
+        public System.Byte NumEight_ASCII() { return 104; }
+        public PGMainMenu NumEight() { return this; }
+        public PGMainMenu NumEight_Down() { return this.__Down(this.NumEight_ASCII()); }
+        public PGMainMenu NumEight_Up() { return this.__Up(this.NumEight_ASCII()); }
+        public bool NumEight_Is() { return this.__Is(this.NumEight_ASCII()); }
+        //////////////////////////////////////////////////////
+        //(105,"NumNine")
+        public System.String NumNine_String() { return "NumNine"; }
+        public System.Byte NumNine_ASCII() { return 105; }
+        public PGMainMenu NumNine() { return this; }
+        public PGMainMenu NumNine_Down() { return this.__Down(this.NumNine_ASCII()); }
+        public PGMainMenu NumNine_Up() { return this.__Up(this.NumNine_ASCII()); }
+        public bool NumNine_Is() { return this.__Is(this.NumNine_ASCII()); }
+        //////////////////////////////////////////////////////
+        //(106,"NumStar")
+        public System.String NumStar_String() { return "NumStar"; }
+        public System.Byte NumStar_ASCII() { return 106; }
+        public PGMainMenu NumStar() { return this; }
+        public PGMainMenu NumStar_Down() { return this.__Down(this.NumStar_ASCII()); }
+        public PGMainMenu NumStar_Up() { return this.__Up(this.NumStar_ASCII()); }
+        public bool NumStar_Is() { return this.__Is(this.NumStar_ASCII()); }
+        //////////////////////////////////////////////////////
+        //(107,"NumPlus")
+        public System.String NumPlus_String() { return "NumPlus"; }
+        public System.Byte NumPlus_ASCII() { return 107; }
+        public PGMainMenu NumPlus() { return this; }
+        public PGMainMenu NumPlus_Down() { return this.__Down(this.NumPlus_ASCII()); }
+        public PGMainMenu NumPlus_Up() { return this.__Up(this.NumPlus_ASCII()); }
+        public bool NumPlus_Is() { return this.__Is(this.NumPlus_ASCII()); }
+        //////////////////////////////////////////////////////
+        //(109,"NumMinus")
+        public System.String NumMinus_String() { return "NumMinus"; }
+        public System.Byte NumMinus_ASCII() { return 109; }
+        public PGMainMenu NumMinus() { return this; }
+        public PGMainMenu NumMinus_Down() { return this.__Down(this.NumMinus_ASCII()); }
+        public PGMainMenu NumMinus_Up() { return this.__Up(this.NumMinus_ASCII()); }
+        public bool NumMinus_Is() { return this.__Is(this.NumMinus_ASCII()); }
+        //////////////////////////////////////////////////////
+        //(110,"NumDot")
+        public System.String NumDot_String() { return "NumDot"; }
+        public System.Byte NumDot_ASCII() { return 110; }
+        public PGMainMenu NumDot() { return this; }
+        public PGMainMenu NumDot_Down() { return this.__Down(this.NumDot_ASCII()); }
+        public PGMainMenu NumDot_Up() { return this.__Up(this.NumDot_ASCII()); }
+        public bool NumDot_Is() { return this.__Is(this.NumDot_ASCII()); }
+        //////////////////////////////////////////////////////
+        //(111,"NumSlash")
+        public System.String NumSlash_String() { return "NumSlash"; }
+        public System.Byte NumSlash_ASCII() { return 111; }
+        public PGMainMenu NumSlash() { return this; }
+        public PGMainMenu NumSlash_Down() { return this.__Down(this.NumSlash_ASCII()); }
+        public PGMainMenu NumSlash_Up() { return this.__Up(this.NumSlash_ASCII()); }
+        public bool NumSlash_Is() { return this.__Is(this.NumSlash_ASCII()); }
+        //////////////////////////////////////////////////////
+        //(144,"NUMLOCK")
+        public System.String NUMLOCK_String() { return "NUMLOCK"; }
+        public System.Byte NUMLOCK_ASCII() { return 144; }
+        public PGMainMenu NUMLOCK() { return this; }
+        public PGMainMenu NUMLOCK_Down() { return this.__Down(this.NUMLOCK_ASCII()); }
+        public PGMainMenu NUMLOCK_Up() { return this.__Up(this.NUMLOCK_ASCII()); }
+        public bool NUMLOCK_Is() { return this.__Is(this.NUMLOCK_ASCII()); }
+        //////////////////////////////////////////////////////
+        //(191,"Slash")
+        public System.String Slash_String() { return "Slash"; }
+        public System.Byte Slash_ASCII() { return 191; }
+        public PGMainMenu Slash() { return this; }
+        public PGMainMenu Slash_Down() { return this.__Down(this.Slash_ASCII()); }
+        public PGMainMenu Slash_Up() { return this.__Up(this.Slash_ASCII()); }
+        public bool Slash_Is() { return this.__Is(this.Slash_ASCII()); }
+        //////////////////////////////////////////////////////
+        //(32,"Space")
+        public System.String Space_String() { return "Space"; }
+        public System.Byte Space_ASCII() { return 32; }
+        public PGMainMenu Space() { return this; }
+        public PGMainMenu Space_Down() { return this.__Down(this.Space_ASCII()); }
+        public PGMainMenu Space_Up() { return this.__Up(this.Space_ASCII()); }
+        public bool Space_Is() { return this.__Is(this.Space_ASCII()); }
+        //////////////////////////////////////////////////////
+        //(13,"Enter")
+        public System.String Enter_String() { return "Enter"; }
+        public System.Byte Enter_ASCII() { return 13; }
+        public PGMainMenu Enter() { return this; }
+        public PGMainMenu Enter_Down() { return this.__Down(this.Enter_ASCII()); }
+        public PGMainMenu Enter_Up() { return this.__Up(this.Enter_ASCII()); }
+        public bool Enter_Is() { return this.__Is(this.Enter_ASCII()); }
+        //////////////////////////////////////////////////////
+        //(222,"Mark")
+        public System.String Mark_String() { return "Mark"; }
+        public System.Byte Mark_ASCII() { return 222; }
+        public PGMainMenu Mark() { return this; }
+        public PGMainMenu Mark_Down() { return this.__Down(this.Mark_ASCII()); }
+        public PGMainMenu Mark_Up() { return this.__Up(this.Mark_ASCII()); }
+        public bool Mark_Is() { return this.__Is(this.Mark_ASCII()); }
+        //////////////////////////////////////////////////////
+        ///
 
-        //_0-_9
-        (48,"_0")(49,"_1")(50,"_2")(51,"_3")(52,"_4")(53,"_5")(54,"_6")(55,"_7")(56,"_8")(57,"_9")
-            //F1-F12
-                (112,"F1")(113,"F2")(114,"F3")(115,"F4")(116,"F5")(117,"F6")(118,"F7")(119,"F8")(120,"F9")(121,"F10")(122,"F11")(123,"F12")
-            //Num ...
-                (96,"NumZero")(97,"NumOne")(98,"NumTwo")(99,"NumThree")(100,"NumFor")(101,"NumFive")(102,"NumSix")(103,"NumSeven")
-                (104,"NumEight")(105,"NumNine")(106,"NumStar")(107,"NumPlus")(109,"NumMinus")(110,"NumDot")(111,"NumSlash")(144,"NUMLOCK")
-            //...
-                (191,"Slash")(32,"Space")(13,"Enter")(222,"Mark")(16,"Shift")(8,"BACKSPACE")(9,"TAB")(17,"CTRL")
-                (18,"ALT")(19,"PAUSE")(20,"CAPSLOCK")(27,"ESCAPE")(33,"PAGEUP")(34,"PAGEDOWN")(35,"END")(36,"HOME")
-                (37,"LEFT")(38,"UP")(39,"RIGHT")(40,"DOWN")(45,"INSERT")(46,"DELETE")(91,"LWIN")(92,"RWIN")
-                (145,"SCROLLLOCK")(154,"PRINTSCREEN")(186,"PeriodComma")(187,"Equally")(188,"Сomma")(189,"Minus")(190,"Dot")
-                (192,"Tilda")(219,"SquScobOtk")(220,"ObratSlash")(221,"SquScobZak")(1,"MouseL")(2,"MouseR")(4,"MMouse")
+
+
+
+        (16,"Shift")
+        //(144,"NUMLOCK")
+        public System.String NUMLOCK_String() { return "NUMLOCK"; }
+        public System.Byte NUMLOCK_ASCII() { return 144; }
+        public PGMainMenu NUMLOCK() { return this; }
+        public PGMainMenu NUMLOCK_Down() { return this.__Down(this.NUMLOCK_ASCII()); }
+        public PGMainMenu NUMLOCK_Up() { return this.__Up(this.NUMLOCK_ASCII()); }
+        public bool NUMLOCK_Is() { return this.__Is(this.NUMLOCK_ASCII()); }
+        //////////////////////////////////////////////////////
+        (8,"BACKSPACE")
+        //(144,"NUMLOCK")
+        public System.String NUMLOCK_String() { return "NUMLOCK"; }
+        public System.Byte NUMLOCK_ASCII() { return 144; }
+        public PGMainMenu NUMLOCK() { return this; }
+        public PGMainMenu NUMLOCK_Down() { return this.__Down(this.NUMLOCK_ASCII()); }
+        public PGMainMenu NUMLOCK_Up() { return this.__Up(this.NUMLOCK_ASCII()); }
+        public bool NUMLOCK_Is() { return this.__Is(this.NUMLOCK_ASCII()); }
+        //////////////////////////////////////////////////////
+        (9,"TAB")
+        //(144,"NUMLOCK")
+        public System.String NUMLOCK_String() { return "NUMLOCK"; }
+        public System.Byte NUMLOCK_ASCII() { return 144; }
+        public PGMainMenu NUMLOCK() { return this; }
+        public PGMainMenu NUMLOCK_Down() { return this.__Down(this.NUMLOCK_ASCII()); }
+        public PGMainMenu NUMLOCK_Up() { return this.__Up(this.NUMLOCK_ASCII()); }
+        public bool NUMLOCK_Is() { return this.__Is(this.NUMLOCK_ASCII()); }
+        //////////////////////////////////////////////////////
+        (17,"CTRL")
+        //(144,"NUMLOCK")
+        public System.String NUMLOCK_String() { return "NUMLOCK"; }
+        public System.Byte NUMLOCK_ASCII() { return 144; }
+        public PGMainMenu NUMLOCK() { return this; }
+        public PGMainMenu NUMLOCK_Down() { return this.__Down(this.NUMLOCK_ASCII()); }
+        public PGMainMenu NUMLOCK_Up() { return this.__Up(this.NUMLOCK_ASCII()); }
+        public bool NUMLOCK_Is() { return this.__Is(this.NUMLOCK_ASCII()); }
+        //////////////////////////////////////////////////////
+        (18,"ALT")
+        //(144,"NUMLOCK")
+        public System.String NUMLOCK_String() { return "NUMLOCK"; }
+        public System.Byte NUMLOCK_ASCII() { return 144; }
+        public PGMainMenu NUMLOCK() { return this; }
+        public PGMainMenu NUMLOCK_Down() { return this.__Down(this.NUMLOCK_ASCII()); }
+        public PGMainMenu NUMLOCK_Up() { return this.__Up(this.NUMLOCK_ASCII()); }
+        public bool NUMLOCK_Is() { return this.__Is(this.NUMLOCK_ASCII()); }
+        //////////////////////////////////////////////////////
+        (19,"PAUSE")
+        //(144,"NUMLOCK")
+        public System.String NUMLOCK_String() { return "NUMLOCK"; }
+        public System.Byte NUMLOCK_ASCII() { return 144; }
+        public PGMainMenu NUMLOCK() { return this; }
+        public PGMainMenu NUMLOCK_Down() { return this.__Down(this.NUMLOCK_ASCII()); }
+        public PGMainMenu NUMLOCK_Up() { return this.__Up(this.NUMLOCK_ASCII()); }
+        public bool NUMLOCK_Is() { return this.__Is(this.NUMLOCK_ASCII()); }
+        //////////////////////////////////////////////////////
+        (20,"CAPSLOCK")
+        //(144,"NUMLOCK")
+        public System.String NUMLOCK_String() { return "NUMLOCK"; }
+        public System.Byte NUMLOCK_ASCII() { return 144; }
+        public PGMainMenu NUMLOCK() { return this; }
+        public PGMainMenu NUMLOCK_Down() { return this.__Down(this.NUMLOCK_ASCII()); }
+        public PGMainMenu NUMLOCK_Up() { return this.__Up(this.NUMLOCK_ASCII()); }
+        public bool NUMLOCK_Is() { return this.__Is(this.NUMLOCK_ASCII()); }
+        //////////////////////////////////////////////////////
+        (27,"ESCAPE")
+        //(144,"NUMLOCK")
+        public System.String NUMLOCK_String() { return "NUMLOCK"; }
+        public System.Byte NUMLOCK_ASCII() { return 144; }
+        public PGMainMenu NUMLOCK() { return this; }
+        public PGMainMenu NUMLOCK_Down() { return this.__Down(this.NUMLOCK_ASCII()); }
+        public PGMainMenu NUMLOCK_Up() { return this.__Up(this.NUMLOCK_ASCII()); }
+        public bool NUMLOCK_Is() { return this.__Is(this.NUMLOCK_ASCII()); }
+        //////////////////////////////////////////////////////
+        (33,"PAGEUP")
+        //(144,"NUMLOCK")
+        public System.String NUMLOCK_String() { return "NUMLOCK"; }
+        public System.Byte NUMLOCK_ASCII() { return 144; }
+        public PGMainMenu NUMLOCK() { return this; }
+        public PGMainMenu NUMLOCK_Down() { return this.__Down(this.NUMLOCK_ASCII()); }
+        public PGMainMenu NUMLOCK_Up() { return this.__Up(this.NUMLOCK_ASCII()); }
+        public bool NUMLOCK_Is() { return this.__Is(this.NUMLOCK_ASCII()); }
+        //////////////////////////////////////////////////////
+        (34,"PAGEDOWN")
+        //(144,"NUMLOCK")
+        public System.String NUMLOCK_String() { return "NUMLOCK"; }
+        public System.Byte NUMLOCK_ASCII() { return 144; }
+        public PGMainMenu NUMLOCK() { return this; }
+        public PGMainMenu NUMLOCK_Down() { return this.__Down(this.NUMLOCK_ASCII()); }
+        public PGMainMenu NUMLOCK_Up() { return this.__Up(this.NUMLOCK_ASCII()); }
+        public bool NUMLOCK_Is() { return this.__Is(this.NUMLOCK_ASCII()); }
+        //////////////////////////////////////////////////////
+        (35,"END")
+        //(144,"NUMLOCK")
+        public System.String NUMLOCK_String() { return "NUMLOCK"; }
+        public System.Byte NUMLOCK_ASCII() { return 144; }
+        public PGMainMenu NUMLOCK() { return this; }
+        public PGMainMenu NUMLOCK_Down() { return this.__Down(this.NUMLOCK_ASCII()); }
+        public PGMainMenu NUMLOCK_Up() { return this.__Up(this.NUMLOCK_ASCII()); }
+        public bool NUMLOCK_Is() { return this.__Is(this.NUMLOCK_ASCII()); }
+        //////////////////////////////////////////////////////
+        (36,"HOME")
+        //(144,"NUMLOCK")
+        public System.String NUMLOCK_String() { return "NUMLOCK"; }
+        public System.Byte NUMLOCK_ASCII() { return 144; }
+        public PGMainMenu NUMLOCK() { return this; }
+        public PGMainMenu NUMLOCK_Down() { return this.__Down(this.NUMLOCK_ASCII()); }
+        public PGMainMenu NUMLOCK_Up() { return this.__Up(this.NUMLOCK_ASCII()); }
+        public bool NUMLOCK_Is() { return this.__Is(this.NUMLOCK_ASCII()); }
+        //////////////////////////////////////////////////////
+        (37,"LEFT")
+        //(144,"NUMLOCK")
+        public System.String NUMLOCK_String() { return "NUMLOCK"; }
+        public System.Byte NUMLOCK_ASCII() { return 144; }
+        public PGMainMenu NUMLOCK() { return this; }
+        public PGMainMenu NUMLOCK_Down() { return this.__Down(this.NUMLOCK_ASCII()); }
+        public PGMainMenu NUMLOCK_Up() { return this.__Up(this.NUMLOCK_ASCII()); }
+        public bool NUMLOCK_Is() { return this.__Is(this.NUMLOCK_ASCII()); }
+        //////////////////////////////////////////////////////
+        (38,"UP")
+        //(144,"NUMLOCK")
+        public System.String NUMLOCK_String() { return "NUMLOCK"; }
+        public System.Byte NUMLOCK_ASCII() { return 144; }
+        public PGMainMenu NUMLOCK() { return this; }
+        public PGMainMenu NUMLOCK_Down() { return this.__Down(this.NUMLOCK_ASCII()); }
+        public PGMainMenu NUMLOCK_Up() { return this.__Up(this.NUMLOCK_ASCII()); }
+        public bool NUMLOCK_Is() { return this.__Is(this.NUMLOCK_ASCII()); }
+        //////////////////////////////////////////////////////
+        (39,"RIGHT")
+        //(144,"NUMLOCK")
+        public System.String NUMLOCK_String() { return "NUMLOCK"; }
+        public System.Byte NUMLOCK_ASCII() { return 144; }
+        public PGMainMenu NUMLOCK() { return this; }
+        public PGMainMenu NUMLOCK_Down() { return this.__Down(this.NUMLOCK_ASCII()); }
+        public PGMainMenu NUMLOCK_Up() { return this.__Up(this.NUMLOCK_ASCII()); }
+        public bool NUMLOCK_Is() { return this.__Is(this.NUMLOCK_ASCII()); }
+        //////////////////////////////////////////////////////
+        (40,"DOWN")
+        //(144,"NUMLOCK")
+        public System.String NUMLOCK_String() { return "NUMLOCK"; }
+        public System.Byte NUMLOCK_ASCII() { return 144; }
+        public PGMainMenu NUMLOCK() { return this; }
+        public PGMainMenu NUMLOCK_Down() { return this.__Down(this.NUMLOCK_ASCII()); }
+        public PGMainMenu NUMLOCK_Up() { return this.__Up(this.NUMLOCK_ASCII()); }
+        public bool NUMLOCK_Is() { return this.__Is(this.NUMLOCK_ASCII()); }
+        //////////////////////////////////////////////////////
+        (45,"INSERT")
+        //(144,"NUMLOCK")
+        public System.String NUMLOCK_String() { return "NUMLOCK"; }
+        public System.Byte NUMLOCK_ASCII() { return 144; }
+        public PGMainMenu NUMLOCK() { return this; }
+        public PGMainMenu NUMLOCK_Down() { return this.__Down(this.NUMLOCK_ASCII()); }
+        public PGMainMenu NUMLOCK_Up() { return this.__Up(this.NUMLOCK_ASCII()); }
+        public bool NUMLOCK_Is() { return this.__Is(this.NUMLOCK_ASCII()); }
+        //////////////////////////////////////////////////////
+        (46,"DELETE")
+        //(144,"NUMLOCK")
+        public System.String NUMLOCK_String() { return "NUMLOCK"; }
+        public System.Byte NUMLOCK_ASCII() { return 144; }
+        public PGMainMenu NUMLOCK() { return this; }
+        public PGMainMenu NUMLOCK_Down() { return this.__Down(this.NUMLOCK_ASCII()); }
+        public PGMainMenu NUMLOCK_Up() { return this.__Up(this.NUMLOCK_ASCII()); }
+        public bool NUMLOCK_Is() { return this.__Is(this.NUMLOCK_ASCII()); }
+        //////////////////////////////////////////////////////
+        (91,"LWIN")
+        //(144,"NUMLOCK")
+        public System.String NUMLOCK_String() { return "NUMLOCK"; }
+        public System.Byte NUMLOCK_ASCII() { return 144; }
+        public PGMainMenu NUMLOCK() { return this; }
+        public PGMainMenu NUMLOCK_Down() { return this.__Down(this.NUMLOCK_ASCII()); }
+        public PGMainMenu NUMLOCK_Up() { return this.__Up(this.NUMLOCK_ASCII()); }
+        public bool NUMLOCK_Is() { return this.__Is(this.NUMLOCK_ASCII()); }
+        //////////////////////////////////////////////////////
+        (92,"RWIN")
+        //(144,"NUMLOCK")
+        public System.String NUMLOCK_String() { return "NUMLOCK"; }
+        public System.Byte NUMLOCK_ASCII() { return 144; }
+        public PGMainMenu NUMLOCK() { return this; }
+        public PGMainMenu NUMLOCK_Down() { return this.__Down(this.NUMLOCK_ASCII()); }
+        public PGMainMenu NUMLOCK_Up() { return this.__Up(this.NUMLOCK_ASCII()); }
+        public bool NUMLOCK_Is() { return this.__Is(this.NUMLOCK_ASCII()); }
+        //////////////////////////////////////////////////////
+        (145,"SCROLLLOCK")
+        //(144,"NUMLOCK")
+        public System.String NUMLOCK_String() { return "NUMLOCK"; }
+        public System.Byte NUMLOCK_ASCII() { return 144; }
+        public PGMainMenu NUMLOCK() { return this; }
+        public PGMainMenu NUMLOCK_Down() { return this.__Down(this.NUMLOCK_ASCII()); }
+        public PGMainMenu NUMLOCK_Up() { return this.__Up(this.NUMLOCK_ASCII()); }
+        public bool NUMLOCK_Is() { return this.__Is(this.NUMLOCK_ASCII()); }
+        //////////////////////////////////////////////////////
+        (154,"PRINTSCREEN")
+        //(144,"NUMLOCK")
+        public System.String NUMLOCK_String() { return "NUMLOCK"; }
+        public System.Byte NUMLOCK_ASCII() { return 144; }
+        public PGMainMenu NUMLOCK() { return this; }
+        public PGMainMenu NUMLOCK_Down() { return this.__Down(this.NUMLOCK_ASCII()); }
+        public PGMainMenu NUMLOCK_Up() { return this.__Up(this.NUMLOCK_ASCII()); }
+        public bool NUMLOCK_Is() { return this.__Is(this.NUMLOCK_ASCII()); }
+        //////////////////////////////////////////////////////
+        (186,"PeriodComma")
+        //(144,"NUMLOCK")
+        public System.String NUMLOCK_String() { return "NUMLOCK"; }
+        public System.Byte NUMLOCK_ASCII() { return 144; }
+        public PGMainMenu NUMLOCK() { return this; }
+        public PGMainMenu NUMLOCK_Down() { return this.__Down(this.NUMLOCK_ASCII()); }
+        public PGMainMenu NUMLOCK_Up() { return this.__Up(this.NUMLOCK_ASCII()); }
+        public bool NUMLOCK_Is() { return this.__Is(this.NUMLOCK_ASCII()); }
+        //////////////////////////////////////////////////////
+        (187,"Equally")
+        //(144,"NUMLOCK")
+        public System.String NUMLOCK_String() { return "NUMLOCK"; }
+        public System.Byte NUMLOCK_ASCII() { return 144; }
+        public PGMainMenu NUMLOCK() { return this; }
+        public PGMainMenu NUMLOCK_Down() { return this.__Down(this.NUMLOCK_ASCII()); }
+        public PGMainMenu NUMLOCK_Up() { return this.__Up(this.NUMLOCK_ASCII()); }
+        public bool NUMLOCK_Is() { return this.__Is(this.NUMLOCK_ASCII()); }
+        //////////////////////////////////////////////////////
+        (188,"Сomma")
+        //(144,"NUMLOCK")
+        public System.String NUMLOCK_String() { return "NUMLOCK"; }
+        public System.Byte NUMLOCK_ASCII() { return 144; }
+        public PGMainMenu NUMLOCK() { return this; }
+        public PGMainMenu NUMLOCK_Down() { return this.__Down(this.NUMLOCK_ASCII()); }
+        public PGMainMenu NUMLOCK_Up() { return this.__Up(this.NUMLOCK_ASCII()); }
+        public bool NUMLOCK_Is() { return this.__Is(this.NUMLOCK_ASCII()); }
+        //////////////////////////////////////////////////////
+        (189,"Minus")
+        //(144,"NUMLOCK")
+        public System.String NUMLOCK_String() { return "NUMLOCK"; }
+        public System.Byte NUMLOCK_ASCII() { return 144; }
+        public PGMainMenu NUMLOCK() { return this; }
+        public PGMainMenu NUMLOCK_Down() { return this.__Down(this.NUMLOCK_ASCII()); }
+        public PGMainMenu NUMLOCK_Up() { return this.__Up(this.NUMLOCK_ASCII()); }
+        public bool NUMLOCK_Is() { return this.__Is(this.NUMLOCK_ASCII()); }
+        //////////////////////////////////////////////////////
+        (190,"Dot")
+        //(144,"NUMLOCK")
+        public System.String NUMLOCK_String() { return "NUMLOCK"; }
+        public System.Byte NUMLOCK_ASCII() { return 144; }
+        public PGMainMenu NUMLOCK() { return this; }
+        public PGMainMenu NUMLOCK_Down() { return this.__Down(this.NUMLOCK_ASCII()); }
+        public PGMainMenu NUMLOCK_Up() { return this.__Up(this.NUMLOCK_ASCII()); }
+        public bool NUMLOCK_Is() { return this.__Is(this.NUMLOCK_ASCII()); }
+        //////////////////////////////////////////////////////
+        (192,"Tilda")
+        //(144,"NUMLOCK")
+        public System.String NUMLOCK_String() { return "NUMLOCK"; }
+        public System.Byte NUMLOCK_ASCII() { return 144; }
+        public PGMainMenu NUMLOCK() { return this; }
+        public PGMainMenu NUMLOCK_Down() { return this.__Down(this.NUMLOCK_ASCII()); }
+        public PGMainMenu NUMLOCK_Up() { return this.__Up(this.NUMLOCK_ASCII()); }
+        public bool NUMLOCK_Is() { return this.__Is(this.NUMLOCK_ASCII()); }
+        //////////////////////////////////////////////////////
+        (219,"SquScobOtk")
+        //(144,"NUMLOCK")
+        public System.String NUMLOCK_String() { return "NUMLOCK"; }
+        public System.Byte NUMLOCK_ASCII() { return 144; }
+        public PGMainMenu NUMLOCK() { return this; }
+        public PGMainMenu NUMLOCK_Down() { return this.__Down(this.NUMLOCK_ASCII()); }
+        public PGMainMenu NUMLOCK_Up() { return this.__Up(this.NUMLOCK_ASCII()); }
+        public bool NUMLOCK_Is() { return this.__Is(this.NUMLOCK_ASCII()); }
+        //////////////////////////////////////////////////////
+        (220,"ObratSlash")
+        //(144,"NUMLOCK")
+        public System.String NUMLOCK_String() { return "NUMLOCK"; }
+        public System.Byte NUMLOCK_ASCII() { return 144; }
+        public PGMainMenu NUMLOCK() { return this; }
+        public PGMainMenu NUMLOCK_Down() { return this.__Down(this.NUMLOCK_ASCII()); }
+        public PGMainMenu NUMLOCK_Up() { return this.__Up(this.NUMLOCK_ASCII()); }
+        public bool NUMLOCK_Is() { return this.__Is(this.NUMLOCK_ASCII()); }
+        //////////////////////////////////////////////////////
+        (221,"SquScobZak")
+        //(144,"NUMLOCK")
+        public System.String NUMLOCK_String() { return "NUMLOCK"; }
+        public System.Byte NUMLOCK_ASCII() { return 144; }
+        public PGMainMenu NUMLOCK() { return this; }
+        public PGMainMenu NUMLOCK_Down() { return this.__Down(this.NUMLOCK_ASCII()); }
+        public PGMainMenu NUMLOCK_Up() { return this.__Up(this.NUMLOCK_ASCII()); }
+        public bool NUMLOCK_Is() { return this.__Is(this.NUMLOCK_ASCII()); }
+        //////////////////////////////////////////////////////
+        (1,"MouseL")
+        //(144,"NUMLOCK")
+        public System.String NUMLOCK_String() { return "NUMLOCK"; }
+        public System.Byte NUMLOCK_ASCII() { return 144; }
+        public PGMainMenu NUMLOCK() { return this; }
+        public PGMainMenu NUMLOCK_Down() { return this.__Down(this.NUMLOCK_ASCII()); }
+        public PGMainMenu NUMLOCK_Up() { return this.__Up(this.NUMLOCK_ASCII()); }
+        public bool NUMLOCK_Is() { return this.__Is(this.NUMLOCK_ASCII()); }
+        //////////////////////////////////////////////////////
+        (2,"MouseR")
+        //(144,"NUMLOCK")
+        public System.String NUMLOCK_String() { return "NUMLOCK"; }
+        public System.Byte NUMLOCK_ASCII() { return 144; }
+        public PGMainMenu NUMLOCK() { return this; }
+        public PGMainMenu NUMLOCK_Down() { return this.__Down(this.NUMLOCK_ASCII()); }
+        public PGMainMenu NUMLOCK_Up() { return this.__Up(this.NUMLOCK_ASCII()); }
+        public bool NUMLOCK_Is() { return this.__Is(this.NUMLOCK_ASCII()); }
+        //////////////////////////////////////////////////////
+        (4,"MMouse")
+        //(144,"NUMLOCK")
+        public System.String NUMLOCK_String() { return "NUMLOCK"; }
+        public System.Byte NUMLOCK_ASCII() { return 144; }
+        public PGMainMenu NUMLOCK() { return this; }
+        public PGMainMenu NUMLOCK_Down() { return this.__Down(this.NUMLOCK_ASCII()); }
+        public PGMainMenu NUMLOCK_Up() { return this.__Up(this.NUMLOCK_ASCII()); }
+        public bool NUMLOCK_Is() { return this.__Is(this.NUMLOCK_ASCII()); }
+        //////////////////////////////////////////////////////
         //(65, "A")
         //Опустить
         // поднять 
