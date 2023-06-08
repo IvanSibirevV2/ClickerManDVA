@@ -10,61 +10,35 @@
 
     <Grid Background="White">
         <Grid.RowDefinitions>
-            <RowDefinition/>
-            <RowDefinition/>
-            <RowDefinition/>
-            <RowDefinition/>
-            <RowDefinition/>
-            <RowDefinition/>
-            <RowDefinition/>
-            <RowDefinition/>
+            <RowDefinition/><RowDefinition/><RowDefinition/><RowDefinition/><RowDefinition/><RowDefinition/><RowDefinition/><RowDefinition/>
         </Grid.RowDefinitions>
 
         <Grid.ColumnDefinitions>
-            <ColumnDefinition/>
-            <ColumnDefinition/>
-            <ColumnDefinition/>
-            <ColumnDefinition/>
-            <ColumnDefinition/>
-            <ColumnDefinition/>
-            <ColumnDefinition/>
-            <ColumnDefinition/>
-            <ColumnDefinition/>
-            <ColumnDefinition/>
-            <ColumnDefinition/>
-            <ColumnDefinition/>
-            <ColumnDefinition/>
-            <ColumnDefinition/>
-            <ColumnDefinition/>
-            <ColumnDefinition/>
-            <ColumnDefinition/>
-            <ColumnDefinition/>
-            <ColumnDefinition/>
-            <ColumnDefinition/>
-            <ColumnDefinition/>
-            <ColumnDefinition/>
-            <ColumnDefinition/>
-            <ColumnDefinition/>
-            <ColumnDefinition/>
+            <ColumnDefinition/><ColumnDefinition/><ColumnDefinition/><ColumnDefinition/><ColumnDefinition/><ColumnDefinition/>
+            <ColumnDefinition/><ColumnDefinition/><ColumnDefinition/><ColumnDefinition/><ColumnDefinition/><ColumnDefinition/>
+            <ColumnDefinition/><ColumnDefinition/><ColumnDefinition/><ColumnDefinition/><ColumnDefinition/><ColumnDefinition/>
+            <ColumnDefinition/><ColumnDefinition/><ColumnDefinition/><ColumnDefinition/><ColumnDefinition/><ColumnDefinition/><ColumnDefinition/>
         </Grid.ColumnDefinitions>
 
         <!--#region Первая строка-->
-        <Button Name="Btn11"  Grid.Column="0" Height="{Binding ElementName=wpRow1, Path=ActualHeight}"  Content="Esc"/>
-        <Button Name="Btn12" Grid.Column="2" Content="F1"/>
-        <Button Name="Btn13" Grid.Column="3" Content="F2"/>
-        <Button Name="Btn14" Grid.Column="4" Content="F3"/>
-        <Button Name="Btn15" Grid.Column="5" Content="F4"/>
-        <Button Name="Btn16" Grid.Column="6" Content="F5"/>
-        <Button Name="Btn17" Grid.Column="7" Content="F6"/>
-        <Button Name="Btn18" Grid.Column="8" Content="F7"/>
-        <Button Name="Btn19" Grid.Column="9" Content="F8"/>
-        <Button Name="Btn110" Grid.Column="10" Content="F9"/>
-        <Button Name="Btn111" Grid.Column="11" Content="F10"/>
-        <Button Name="Btn112" Grid.Column="12" Content="F11"/>
-        <Button Name="Btn113" Grid.Column="13" Content="F12"/>
-        <Button Name="Btn114" Grid.Column="14" Content="PrtSc"/>
-        <Button Name="Btn115" Grid.Column="15" Content="ScrollLock"/>
-        <Button Name="Btn116" Grid.Column="16" Content="PauseBreake"/>
+        <Button Name="Btn11"  Grid.Column="0" Height="{Binding ElementName=wpRow1, Path=ActualHeight}"  Content="Esc" Click="Btn11_Click"/>
+        <Button Name="Btn12" Grid.Column="2" Content="F1" Click="Btn12_Click"/>
+        <Button Name="Btn13" Grid.Column="3" Content="F2" Click="Btn13_Click"/>
+        <Button Name="Btn14" Grid.Column="4" Content="F3" Click="Btn14_Click"/>
+        <Button Name="Btn15" Grid.Column="5" Content="F4" Click="Btn15_Click"/>
+        <Button Name="Btn16" Grid.Column="6" Content="F5" Click="Btn16_Click"/>
+        <Button Name="Btn17" Grid.Column="7" Content="F6" Click="Btn17_Click"/>
+        
+        
+        <Button Name="Btn18" Grid.Column="8" Content="F7" Click="Btn18_Click"/>
+        <Button Name="Btn19" Grid.Column="9" Content="F8" Click="Btn19_Click"/>
+        <Button Name="Btn110" Grid.Column="10" Content="F9" Click="Btn110_Click"/>
+        <Button Name="Btn111" Grid.Column="11" Content="F10" Click="Btn111_Click"/>
+        <Button Name="Btn112" Grid.Column="12" Content="F11" Click="Btn112_Click"/>
+        <Button Name="Btn113" Grid.Column="13" Content="F12" Click="Btn113_Click"/>
+        <Button Name="Btn114" Grid.Column="14" Content="PrtSc" Click="Btn114_Click"/>
+        <Button Name="Btn115" Grid.Column="15" Content="ScrollLock" Click="Btn115_Click"/>
+        <Button Name="Btn116" Grid.Column="16" Content="PauseBreake" Click="Btn116_Click"/>
         <!--#endregion-->
 
         <!--#region Вторая строка-->

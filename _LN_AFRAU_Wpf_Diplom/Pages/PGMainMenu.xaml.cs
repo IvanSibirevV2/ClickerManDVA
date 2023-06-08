@@ -78,14 +78,13 @@ namespace WpfDiplom.Pages
         public PGMainMenu __Up(byte _bVk) { keybd_event(_bVk, 0, 2, 0); return this; }
         public System.Boolean __Is(byte _bVk) { switch (GetKeyState(_bVk)){ case -127: case -128: return true; break;default: return false; break;} return false; }
         //////////////////////////////////////////////////////
-        #region (65, "A")
+        //(65, "A")
         public System.String A_String() { return "A"; }
         public System.Byte A_ASCII() { return 65; }
         public PGMainMenu A() { return this; }
         public PGMainMenu A_Down() { return this.__Down(this.A_ASCII()); }
         public PGMainMenu A_Up() { return this.__Up(this.A_ASCII()); }
         public bool A_Is() { return this.__Is(this.A_ASCII()); }
-        # endregion
         //////////////////////////////////////////////////////
         //(66, "B")
         public System.String B_String() { return "B"; }
@@ -909,14 +908,23 @@ namespace WpfDiplom.Pages
         async private void btn_Test_Click(object sender, RoutedEventArgs e){}
 
         private void Button_Click_1(object sender, RoutedEventArgs e){}
-        private void Button_Click_2(object sender, RoutedEventArgs e)
-        {
-        }
-
-        private void Btn64_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
+        private void Button_Click_2(object sender, RoutedEventArgs e){}
+        private void Btn64_Click(object sender, RoutedEventArgs e){}
+        private void Btn11_Click(object sender, RoutedEventArgs e) { }
+        private void Btn12_Click(object sender, RoutedEventArgs e) { }
+        private void Btn13_Click(object sender, RoutedEventArgs e) { }
+        private void Btn14_Click(object sender, RoutedEventArgs e) { }
+        private void Btn15_Click(object sender, RoutedEventArgs e) { }
+        private void Btn16_Click(object sender, RoutedEventArgs e) { }
+        private void Btn17_Click(object sender, RoutedEventArgs e) { }
+        private void Btn18_Click(object sender, RoutedEventArgs e) { }
+        private void Btn19_Click(object sender, RoutedEventArgs e) { }
+        private void Btn110_Click(object sender, RoutedEventArgs e) { }
+        private void Btn111_Click(object sender, RoutedEventArgs e) { }
+        private void Btn112_Click(object sender, RoutedEventArgs e) { }
+        private void Btn113_Click(object sender, RoutedEventArgs e) { }
+        private void Btn114_Click(object sender, RoutedEventArgs e) { }
+        private void Btn115_Click(object sender, RoutedEventArgs e) { }
+        private void Btn116_Click(object sender, RoutedEventArgs e) { }
     }
 }
