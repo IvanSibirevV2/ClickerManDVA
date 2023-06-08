@@ -910,109 +910,112 @@ namespace WpfDiplom.Pages
         private void MouseBtnLeft_Click(object sender, RoutedEventArgs e){}
         async private void btn_Test_Click(object sender, RoutedEventArgs e){}
 
-        private void Button_Click_1(object sender, RoutedEventArgs e){}
-        private void Button_Click_2(object sender, RoutedEventArgs e){}
-        private void Btn64_Click(object sender, RoutedEventArgs e){}
-        private void Btn11_Click(object sender, RoutedEventArgs e) { }
-        private void Btn12_Click(object sender, RoutedEventArgs e) { }
-        private void Btn13_Click(object sender, RoutedEventArgs e) { }
-        private void Btn14_Click(object sender, RoutedEventArgs e) { }
-        private void Btn15_Click(object sender, RoutedEventArgs e) { }
-        private void Btn16_Click(object sender, RoutedEventArgs e) { }
-        private void Btn17_Click(object sender, RoutedEventArgs e) { }
-        private void Btn18_Click(object sender, RoutedEventArgs e) { }
-        private void Btn19_Click(object sender, RoutedEventArgs e) { }
-        private void Btn110_Click(object sender, RoutedEventArgs e) { }
-        private void Btn111_Click(object sender, RoutedEventArgs e) { }
-        private void Btn112_Click(object sender, RoutedEventArgs e) { }
-        private void Btn113_Click(object sender, RoutedEventArgs e) { }
-        private void Btn114_Click(object sender, RoutedEventArgs e) { }
-        private void Btn115_Click(object sender, RoutedEventArgs e) { }
-        private void Btn116_Click(object sender, RoutedEventArgs e) { }
-        private void Btn21_Click(object sender, RoutedEventArgs e) { }
-        private void Btn22_Click(object sender, RoutedEventArgs e) { }
-        private void Btn23_Click(object sender, RoutedEventArgs e) { }
-        private void Btn24_Click(object sender, RoutedEventArgs e) { }
-        private void Btn25_Click(object sender, RoutedEventArgs e) {}
-        private void Btn26_Click(object sender, RoutedEventArgs e) {}
-        private void Btn27_Click(object sender, RoutedEventArgs e){}
-        private void Btn28_Click(object sender, RoutedEventArgs e){}
-        private void Btn29_Click(object sender, RoutedEventArgs e){}
-        private void Btn210_Click(object sender, RoutedEventArgs e){}
-        private void Btn211_Click(object sender, RoutedEventArgs e){}
-        private void Btn212_Click(object sender, RoutedEventArgs e){}
-        private void Btn213_Click(object sender, RoutedEventArgs e){}
-        private void Btn214_Click(object sender, RoutedEventArgs e){}
-        private void Btn215_Click(object sender, RoutedEventArgs e){}
-        private void Btn216_Click(object sender, RoutedEventArgs e){}
-        private void Btn217_Click(object sender, RoutedEventArgs e){}
-        private void Btn218_Click(object sender, RoutedEventArgs e){}
-        private void Btn219_Click(object sender, RoutedEventArgs e){}
-        private void Btn220_Click(object sender, RoutedEventArgs e){}
-        private void Btn221_Click(object sender, RoutedEventArgs e){}
-        private void Btn31_Click(object sender, RoutedEventArgs e) { }
-        private void Btn32_Click(object sender, RoutedEventArgs e) { }
-        private void Btn33_Click(object sender, RoutedEventArgs e) { }
-        private void Btn34_Click(object sender, RoutedEventArgs e) { }
-        private void Btn35_Click(object sender, RoutedEventArgs e) { }
-        private void Btn36_Click(object sender, RoutedEventArgs e) { }
-        private void Btn37_Click(object sender, RoutedEventArgs e) { }
-        private void Btn38_Click(object sender, RoutedEventArgs e) { }
-        private void Btn39_Click(object sender, RoutedEventArgs e) { }
-        private void Btn310_Click(object sender, RoutedEventArgs e) { }
-        private void Btn311_Click(object sender, RoutedEventArgs e) { }
-        private void Btn312_Click(object sender, RoutedEventArgs e) { }
-        private void Btn313_Click(object sender, RoutedEventArgs e) { }
-        private void Btn314_Click(object sender, RoutedEventArgs e) { }
-        private void Btn315_Click(object sender, RoutedEventArgs e) { }
-        private void Btn316_Click(object sender, RoutedEventArgs e) { }
-        private void Btn317_Click(object sender, RoutedEventArgs e) { }
-        private void Btn318_Click(object sender, RoutedEventArgs e) { }
-        private void Btn319_Click(object sender, RoutedEventArgs e) { }
-        private void Btn320_Click(object sender, RoutedEventArgs e) { }
-        private void Btn321_Click(object sender, RoutedEventArgs e) { }
-        private void Btn41_Click(object sender, RoutedEventArgs e) { }
-        private void Btn42_Click(object sender, RoutedEventArgs e) { }
-        private void Btn43_Click(object sender, RoutedEventArgs e) { }
-        private void Btn44_Click(object sender, RoutedEventArgs e) { }
-        private void Btn45_Click(object sender, RoutedEventArgs e) { }
-        private void Btn46_Click(object sender, RoutedEventArgs e) { }
-        private void Btn47_Click(object sender, RoutedEventArgs e) { }
-        private void Btn48_Click(object sender, RoutedEventArgs e) { }
-        private void Btn49_Click(object sender, RoutedEventArgs e) { }
-        private void Btn410_Click(object sender, RoutedEventArgs e) { }
-        private void Btn411_Click(object sender, RoutedEventArgs e) { }
-        private void Btn412_Click(object sender, RoutedEventArgs e) { }
-        private void Btn413_Click(object sender, RoutedEventArgs e) { }
-        private void Btn414_Click(object sender, RoutedEventArgs e) { }
-        private void Btn415_Click(object sender, RoutedEventArgs e) { }
-        private void Btn416_Click(object sender, RoutedEventArgs e) { }
-        private void Btn51_Click(object sender, RoutedEventArgs e){}
-        private void Btn52_Click(object sender, RoutedEventArgs e){}
-        private void Btn53_Click(object sender, RoutedEventArgs e){}
-        private void Btn54_Click(object sender, RoutedEventArgs e){}
-        private void Btn55_Click(object sender, RoutedEventArgs e){}
-        private void Btn56_Click(object sender, RoutedEventArgs e){}
-        private void Btn57_Click(object sender, RoutedEventArgs e){}
-        private void Btn58_Click(object sender, RoutedEventArgs e){}
-        private void Btn59_Click(object sender, RoutedEventArgs e){}
-        private void Btn510_Click(object sender, RoutedEventArgs e){}
-        private void Btn511_Click(object sender, RoutedEventArgs e){}
-        private void Btn512_Click(object sender, RoutedEventArgs e){}
-        private void Btn513_Click(object sender, RoutedEventArgs e){}
-        private void Btn514_Click(object sender, RoutedEventArgs e){}
-        private void Btn515_Click(object sender, RoutedEventArgs e){}
-        private void Btn516_Click(object sender, RoutedEventArgs e){}
-        private void Btn517_Click(object sender, RoutedEventArgs e){}
-        private void Btn61_Click(object sender, RoutedEventArgs e){}
-        private void Btn63_Click(object sender, RoutedEventArgs e){}
-        private void Btn65_Click(object sender, RoutedEventArgs e){}
-        private void Btn66_Click(object sender, RoutedEventArgs e){}
-        private void Btn67_Click(object sender, RoutedEventArgs e){}
-        private void Btn68_Click(object sender, RoutedEventArgs e){}
-        private void Btn69_Click(object sender, RoutedEventArgs e){}
-        private void Btn610_Click(object sender, RoutedEventArgs e){}
-        private void Btn611_Click(object sender, RoutedEventArgs e){}
-        private void Btn612_Click(object sender, RoutedEventArgs e){}
+        /// <summary> Тестовый Мод Первый. Выводить в титульник название только что нажатой клациши</summary>
+        private System.Boolean p_TestMod_1 = !false;
+        private void Button_Click_1(object sender, RoutedEventArgs e){if (this.p_TestMod_1) this.Title = " Button_Click_1"; }
+        private void Button_Click_2(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) this.Title = "Button_Click_2"; }
+        private void Btn64_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) this.Title = "Btn64_Click"; }
+        private void Btn11_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) this.Title = "Btn11_Click"; }
+        private void Btn12_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) this.Title = "Btn12_Click"; }
+        private void Btn13_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) this.Title = "Btn13_Click"; }
+
+        private void Btn14_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) this.Title = ""; }
+        private void Btn15_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) this.Title = ""; }
+        private void Btn16_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) this.Title = ""; }
+        private void Btn17_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) this.Title = ""; }
+        private void Btn18_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) this.Title = ""; }
+        private void Btn19_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) this.Title = ""; }
+        private void Btn110_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) this.Title = ""; }
+        private void Btn111_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) this.Title = ""; }
+        private void Btn112_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) this.Title = ""; }
+        private void Btn113_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) this.Title = ""; }
+        private void Btn114_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) this.Title = ""; }
+        private void Btn115_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) this.Title = ""; }
+        private void Btn116_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) this.Title = ""; }
+        private void Btn21_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) this.Title = ""; }
+        private void Btn22_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) this.Title = ""; }
+        private void Btn23_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) this.Title = ""; }
+        private void Btn24_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) this.Title = ""; }
+        private void Btn25_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) this.Title = ""; }
+        private void Btn26_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) this.Title = ""; }
+        private void Btn27_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) this.Title = ""; }
+        private void Btn28_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) this.Title = ""; }
+        private void Btn29_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) this.Title = ""; }
+        private void Btn210_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) this.Title = ""; }
+        private void Btn211_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) this.Title = ""; }
+        private void Btn212_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) this.Title = ""; }
+        private void Btn213_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) this.Title = ""; }
+        private void Btn214_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) this.Title = ""; }
+        private void Btn215_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) this.Title = ""; }
+        private void Btn216_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) this.Title = ""; }
+        private void Btn217_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) this.Title = ""; }
+        private void Btn218_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) this.Title = ""; }
+        private void Btn219_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) this.Title = ""; }
+        private void Btn220_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) this.Title = ""; }
+        private void Btn221_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) this.Title = ""; }
+        private void Btn31_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) this.Title = ""; }
+        private void Btn32_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) this.Title = ""; }
+        private void Btn33_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) this.Title = ""; }
+        private void Btn34_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) this.Title = ""; }
+        private void Btn35_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) this.Title = ""; }
+        private void Btn36_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) this.Title = ""; }
+        private void Btn37_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) this.Title = ""; }
+        private void Btn38_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) this.Title = ""; }
+        private void Btn39_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) this.Title = ""; }
+        private void Btn310_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) this.Title = ""; }
+        private void Btn311_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) this.Title = ""; }
+        private void Btn312_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) this.Title = ""; }
+        private void Btn313_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) this.Title = ""; }
+        private void Btn314_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) this.Title = ""; }
+        private void Btn315_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) this.Title = ""; }
+        private void Btn316_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) this.Title = ""; }
+        private void Btn317_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) this.Title = ""; }
+        private void Btn318_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) this.Title = ""; }
+        private void Btn319_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) this.Title = ""; }
+        private void Btn320_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) this.Title = ""; }
+        private void Btn321_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) this.Title = ""; }
+        private void Btn41_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) this.Title = ""; }
+        private void Btn42_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) this.Title = ""; }
+        private void Btn43_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) this.Title = ""; }
+        private void Btn44_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) this.Title = ""; }
+        private void Btn45_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) this.Title = ""; }
+        private void Btn46_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) this.Title = ""; }
+        private void Btn47_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) this.Title = ""; }
+        private void Btn48_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) this.Title = ""; }
+        private void Btn49_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) this.Title = ""; }
+        private void Btn410_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) this.Title = ""; }
+        private void Btn411_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) this.Title = ""; }
+        private void Btn412_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) this.Title = ""; }
+        private void Btn413_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) this.Title = ""; }
+        private void Btn414_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) this.Title = ""; }
+        private void Btn415_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) this.Title = ""; }
+        private void Btn416_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) this.Title = ""; }
+        private void Btn51_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) this.Title = ""; }
+        private void Btn52_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) this.Title = ""; }
+        private void Btn53_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) this.Title = ""; }
+        private void Btn54_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) this.Title = ""; }
+        private void Btn55_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) this.Title = ""; }
+        private void Btn56_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) this.Title = ""; }
+        private void Btn57_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) this.Title = ""; }
+        private void Btn58_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) this.Title = ""; }
+        private void Btn59_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) this.Title = ""; }
+        private void Btn510_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) this.Title = ""; }
+        private void Btn511_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) this.Title = ""; }
+        private void Btn512_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) this.Title = ""; }
+        private void Btn513_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) this.Title = ""; }
+        private void Btn514_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) this.Title = ""; }
+        private void Btn515_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) this.Title = ""; }
+        private void Btn516_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) this.Title = ""; }
+        private void Btn517_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) this.Title = ""; }
+        private void Btn61_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) this.Title = ""; }
+        private void Btn63_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) this.Title = ""; }
+        private void Btn65_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) this.Title = ""; }
+        private void Btn66_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) this.Title = ""; }
+        private void Btn67_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) this.Title = ""; }
+        private void Btn68_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) this.Title = ""; }
+        private void Btn69_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) this.Title = ""; }
+        private void Btn610_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) this.Title = ""; }
+        private void Btn611_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) this.Title = ""; }
+        private void Btn612_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) this.Title = ""; }
     }
 }
