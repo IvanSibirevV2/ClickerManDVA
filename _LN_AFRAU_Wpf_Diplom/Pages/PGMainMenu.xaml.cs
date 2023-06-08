@@ -932,414 +932,87 @@ namespace WpfDiplom.Pages
         private void Btn21_Click(object sender, RoutedEventArgs e) { }
         private void Btn22_Click(object sender, RoutedEventArgs e) { }
         private void Btn23_Click(object sender, RoutedEventArgs e) { }
-        private void Btn24_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void Btn25_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void Btn26_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void Btn27_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void Btn28_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void Btn29_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void Btn210_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void Btn211_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void Btn212_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void Btn213_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void Btn214_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void Btn215_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void Btn216_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void Btn217_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void Btn218_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void Btn219_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void Btn220_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void Btn221_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void Btn31_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void Btn32_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void Btn33_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void Btn34_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void Btn35_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void Btn36_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void Btn37_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void Btn38_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void Btn39_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void Btn310_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void Btn311_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void Btn312_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void Btn313_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void Btn314_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void Btn315_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void Btn316_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void Btn317_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void Btn318_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void Btn319_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void Btn320_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void Btn321_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void Btn41_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void Btn42_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void Btn43_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void Btn44_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void Btn45_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void Btn46_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void Btn47_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void Btn48_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void Btn49_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void Btn410_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void Btn411_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void Btn412_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void Btn413_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void Btn414_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void Btn415_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void Btn416_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void Btn51_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void Btn52_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void Btn53_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void Btn54_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void Btn55_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void Btn56_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void Btn57_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void Btn58_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void Btn59_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void Btn510_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void Btn511_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void Btn512_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void Btn513_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void Btn514_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void Btn515_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void Btn516_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void Btn517_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void Btn61_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void Btn63_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void Btn65_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void Btn66_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void Btn67_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void Btn68_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void Btn69_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void Btn610_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void Btn611_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void Btn612_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
+        private void Btn24_Click(object sender, RoutedEventArgs e) { }
+        private void Btn25_Click(object sender, RoutedEventArgs e) {}
+        private void Btn26_Click(object sender, RoutedEventArgs e) {}
+        private void Btn27_Click(object sender, RoutedEventArgs e){}
+        private void Btn28_Click(object sender, RoutedEventArgs e){}
+        private void Btn29_Click(object sender, RoutedEventArgs e){}
+        private void Btn210_Click(object sender, RoutedEventArgs e){}
+        private void Btn211_Click(object sender, RoutedEventArgs e){}
+        private void Btn212_Click(object sender, RoutedEventArgs e){}
+        private void Btn213_Click(object sender, RoutedEventArgs e){}
+        private void Btn214_Click(object sender, RoutedEventArgs e){}
+        private void Btn215_Click(object sender, RoutedEventArgs e){}
+        private void Btn216_Click(object sender, RoutedEventArgs e){}
+        private void Btn217_Click(object sender, RoutedEventArgs e){}
+        private void Btn218_Click(object sender, RoutedEventArgs e){}
+        private void Btn219_Click(object sender, RoutedEventArgs e){}
+        private void Btn220_Click(object sender, RoutedEventArgs e){}
+        private void Btn221_Click(object sender, RoutedEventArgs e){}
+        private void Btn31_Click(object sender, RoutedEventArgs e) { }
+        private void Btn32_Click(object sender, RoutedEventArgs e) { }
+        private void Btn33_Click(object sender, RoutedEventArgs e) { }
+        private void Btn34_Click(object sender, RoutedEventArgs e) { }
+        private void Btn35_Click(object sender, RoutedEventArgs e) { }
+        private void Btn36_Click(object sender, RoutedEventArgs e) { }
+        private void Btn37_Click(object sender, RoutedEventArgs e) { }
+        private void Btn38_Click(object sender, RoutedEventArgs e) { }
+        private void Btn39_Click(object sender, RoutedEventArgs e) { }
+        private void Btn310_Click(object sender, RoutedEventArgs e) { }
+        private void Btn311_Click(object sender, RoutedEventArgs e) { }
+        private void Btn312_Click(object sender, RoutedEventArgs e) { }
+        private void Btn313_Click(object sender, RoutedEventArgs e) { }
+        private void Btn314_Click(object sender, RoutedEventArgs e) { }
+        private void Btn315_Click(object sender, RoutedEventArgs e) { }
+        private void Btn316_Click(object sender, RoutedEventArgs e) { }
+        private void Btn317_Click(object sender, RoutedEventArgs e) { }
+        private void Btn318_Click(object sender, RoutedEventArgs e) { }
+        private void Btn319_Click(object sender, RoutedEventArgs e) { }
+        private void Btn320_Click(object sender, RoutedEventArgs e) { }
+        private void Btn321_Click(object sender, RoutedEventArgs e) { }
+        private void Btn41_Click(object sender, RoutedEventArgs e) { }
+        private void Btn42_Click(object sender, RoutedEventArgs e) { }
+        private void Btn43_Click(object sender, RoutedEventArgs e) { }
+        private void Btn44_Click(object sender, RoutedEventArgs e) { }
+        private void Btn45_Click(object sender, RoutedEventArgs e) { }
+        private void Btn46_Click(object sender, RoutedEventArgs e) { }
+        private void Btn47_Click(object sender, RoutedEventArgs e) { }
+        private void Btn48_Click(object sender, RoutedEventArgs e) { }
+        private void Btn49_Click(object sender, RoutedEventArgs e) { }
+        private void Btn410_Click(object sender, RoutedEventArgs e) { }
+        private void Btn411_Click(object sender, RoutedEventArgs e) { }
+        private void Btn412_Click(object sender, RoutedEventArgs e) { }
+        private void Btn413_Click(object sender, RoutedEventArgs e) { }
+        private void Btn414_Click(object sender, RoutedEventArgs e) { }
+        private void Btn415_Click(object sender, RoutedEventArgs e) { }
+        private void Btn416_Click(object sender, RoutedEventArgs e) { }
+        private void Btn51_Click(object sender, RoutedEventArgs e){}
+        private void Btn52_Click(object sender, RoutedEventArgs e){}
+        private void Btn53_Click(object sender, RoutedEventArgs e){}
+        private void Btn54_Click(object sender, RoutedEventArgs e){}
+        private void Btn55_Click(object sender, RoutedEventArgs e){}
+        private void Btn56_Click(object sender, RoutedEventArgs e){}
+        private void Btn57_Click(object sender, RoutedEventArgs e){}
+        private void Btn58_Click(object sender, RoutedEventArgs e){}
+        private void Btn59_Click(object sender, RoutedEventArgs e){}
+        private void Btn510_Click(object sender, RoutedEventArgs e){}
+        private void Btn511_Click(object sender, RoutedEventArgs e){}
+        private void Btn512_Click(object sender, RoutedEventArgs e){}
+        private void Btn513_Click(object sender, RoutedEventArgs e){}
+        private void Btn514_Click(object sender, RoutedEventArgs e){}
+        private void Btn515_Click(object sender, RoutedEventArgs e){}
+        private void Btn516_Click(object sender, RoutedEventArgs e){}
+        private void Btn517_Click(object sender, RoutedEventArgs e){}
+        private void Btn61_Click(object sender, RoutedEventArgs e){}
+        private void Btn63_Click(object sender, RoutedEventArgs e){}
+        private void Btn65_Click(object sender, RoutedEventArgs e){}
+        private void Btn66_Click(object sender, RoutedEventArgs e){}
+        private void Btn67_Click(object sender, RoutedEventArgs e){}
+        private void Btn68_Click(object sender, RoutedEventArgs e){}
+        private void Btn69_Click(object sender, RoutedEventArgs e){}
+        private void Btn610_Click(object sender, RoutedEventArgs e){}
+        private void Btn611_Click(object sender, RoutedEventArgs e){}
+        private void Btn612_Click(object sender, RoutedEventArgs e){}
     }
 }
