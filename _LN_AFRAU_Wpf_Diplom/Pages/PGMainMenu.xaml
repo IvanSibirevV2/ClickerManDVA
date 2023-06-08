@@ -42,115 +42,69 @@
         <!--#endregion-->
 
         <!--#region Вторая строка-->
-        <Button Grid.Row="1" Grid.Column="0" Name="Btn21">
+        <Button Grid.Row="1" Grid.Column="0" Name="Btn21" Click="Btn21_Click">
             <Grid>
-                <Grid.RowDefinitions>
-                    <RowDefinition/>
-                    <RowDefinition/>
-                </Grid.RowDefinitions>
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition/>
-                    <ColumnDefinition/>
-                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions><RowDefinition/><RowDefinition/></Grid.RowDefinitions>
+                <Grid.ColumnDefinitions><ColumnDefinition/><ColumnDefinition/></Grid.ColumnDefinitions>
                 <Label Content="~"/>
                 <Label Content="Ё" Grid.Column="1" Grid.RowSpan="2" VerticalContentAlignment="Center"/>
                 <Label Content="`" Grid.Row="1"/>
             </Grid>
         </Button>
-        <Button Grid.Row="1" Grid.Column="1" Name="Btn22">
+        <Button Grid.Row="1" Grid.Column="1" Name="Btn22" Click="Btn22_Click">
             <Grid>
-                <Grid.RowDefinitions>
-                    <RowDefinition/>
-                    <RowDefinition/>
-                </Grid.RowDefinitions>
-                <Label Content="!"/>
-                <Label Content="1" Grid.Row="1"/>
+                <Grid.RowDefinitions><RowDefinition/><RowDefinition/></Grid.RowDefinitions>
+                <Label Content="!"/><Label Content="1" Grid.Row="1"/>
             </Grid>
         </Button>
-        <Button Grid.Row="1" Grid.Column="2" Name="Btn23">
+        <Button Grid.Row="1" Grid.Column="2" Name="Btn23" Click="Btn23_Click">
             <Grid>
-                <Grid.RowDefinitions>
-                    <RowDefinition/>
-                    <RowDefinition/>
-                </Grid.RowDefinitions>
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition/>
-                    <ColumnDefinition/>
-                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions><RowDefinition/><RowDefinition/></Grid.RowDefinitions>
+                <Grid.ColumnDefinitions><ColumnDefinition/><ColumnDefinition/></Grid.ColumnDefinitions>
                 <Label Content="@"/>
                 <Label Content="2" Grid.Row="1" />
                 <Label Content="&quot;" Grid.Column="1"/>
             </Grid>
         </Button>
-        <Button Grid.Row="1" Grid.Column="3" Name="Btn24">
+        <Button Grid.Row="1" Grid.Column="3" Name="Btn24" Click="Btn24_Click">
             <Grid>
-                <Grid.RowDefinitions>
-                    <RowDefinition/>
-                    <RowDefinition/>
-                </Grid.RowDefinitions>
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition/>
-                    <ColumnDefinition/>
-                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions><RowDefinition/><RowDefinition/></Grid.RowDefinitions>
+                <Grid.ColumnDefinitions><ColumnDefinition/><ColumnDefinition/></Grid.ColumnDefinitions>
                 <Label Content="#"/>
                 <Label Content="3" Grid.Row="1" />
                 <Label Content="№" Grid.Column="1"/>
             </Grid>
         </Button>
-        <Button Grid.Row="1" Grid.Column="4" Name="Btn25">
+        <Button Grid.Row="1" Grid.Column="4" Name="Btn25" Click="Btn25_Click">
             <Grid>
-                <Grid.RowDefinitions>
-                    <RowDefinition/>
-                    <RowDefinition/>
-                </Grid.RowDefinitions>
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition/>
-                    <ColumnDefinition/>
-                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions><RowDefinition/><RowDefinition/></Grid.RowDefinitions>
+                <Grid.ColumnDefinitions><ColumnDefinition/><ColumnDefinition/></Grid.ColumnDefinitions>
                 <Label Content="$"/>
                 <Label Content="4" Grid.Row="1" />
                 <Label Content=";" Grid.Column="1"/>
             </Grid>
         </Button>
-        <Button Grid.Row="1" Grid.Column="5" Name="Btn26">
+        <Button Grid.Row="1" Grid.Column="5" Name="Btn26" Click="Btn26_Click">
             <Grid>
-                <Grid.RowDefinitions>
-                    <RowDefinition/>
-                    <RowDefinition/>
-                </Grid.RowDefinitions>
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition/>
-                    <ColumnDefinition/>
-                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions><RowDefinition/><RowDefinition/></Grid.RowDefinitions>
+                <Grid.ColumnDefinitions><ColumnDefinition/><ColumnDefinition/></Grid.ColumnDefinitions>
                 <Label Content="%"/>
                 <Label Content="5" Grid.Row="1" />
             </Grid>
         </Button>
-        <Button Grid.Row="1" Grid.Column="6" Name="Btn27">
+        <Button Grid.Row="1" Grid.Column="6" Name="Btn27" Click="Btn27_Click">
             <Grid>
-                <Grid.RowDefinitions>
-                    <RowDefinition/>
-                    <RowDefinition/>
-                </Grid.RowDefinitions>
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition/>
-                    <ColumnDefinition/>
-                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions><RowDefinition/><RowDefinition/></Grid.RowDefinitions>
+                <Grid.ColumnDefinitions><ColumnDefinition/><ColumnDefinition/></Grid.ColumnDefinitions>
                 <Label Content="^"/>
                 <Label Content="6" Grid.Row="1" />
                 <Label Content=":" Grid.Column="1"/>
             </Grid>
         </Button>
-        <Button Grid.Row="1" Grid.Column="7" Name="Btn28">
+        <Button Grid.Row="1" Grid.Column="7" Name="Btn28" Click="Btn28_Click">
             <Grid>
-                <Grid.RowDefinitions>
-                    <RowDefinition/>
-                    <RowDefinition/>
-                </Grid.RowDefinitions>
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition/>
-                    <ColumnDefinition/>
-                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions><RowDefinition/><RowDefinition/></Grid.RowDefinitions>
+                <Grid.ColumnDefinitions><ColumnDefinition/><ColumnDefinition/></Grid.ColumnDefinitions>
                 <Label Content="&amp;"/>
                 <Label Content="7" Grid.Row="1" />
                 <Label Content="?" Grid.Column="1"/>

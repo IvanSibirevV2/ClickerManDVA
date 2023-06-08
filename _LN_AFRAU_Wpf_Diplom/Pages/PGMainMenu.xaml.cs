@@ -72,6 +72,7 @@ namespace WpfDiplom.Pages
         public PGMainMenu()
         {
             InitializeComponent();
+            //A_Set_Background_Green();
         }
         //////////////////////////////////////////////////////
         public PGMainMenu __Down(byte _bVk) { keybd_event(_bVk, 0, 0, 0); return this; }
@@ -85,6 +86,8 @@ namespace WpfDiplom.Pages
         public PGMainMenu A_Down() { return this.__Down(this.A_ASCII()); }
         public PGMainMenu A_Up() { return this.__Up(this.A_ASCII()); }
         public bool A_Is() { return this.__Is(this.A_ASCII()); }
+        //public PGMainMenu A_Set_Background_White() { this.Btn44.Background = Brushes.White; return this; }
+        //public PGMainMenu A_Set_Background_Green() { this.Btn44.Background = Brushes.Green; return this; }
         //////////////////////////////////////////////////////
         //(66, "B")
         public System.String B_String() { return "B"; }
@@ -926,5 +929,32 @@ namespace WpfDiplom.Pages
         private void Btn114_Click(object sender, RoutedEventArgs e) { }
         private void Btn115_Click(object sender, RoutedEventArgs e) { }
         private void Btn116_Click(object sender, RoutedEventArgs e) { }
+        private void Btn21_Click(object sender, RoutedEventArgs e) { }
+        private void Btn22_Click(object sender, RoutedEventArgs e) { }
+        private void Btn23_Click(object sender, RoutedEventArgs e) { }
+        private void Btn24_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Btn25_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Btn26_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Btn27_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Btn28_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
