@@ -110,72 +110,56 @@
                 <Label Content="?" Grid.Column="1"/>
             </Grid>
         </Button>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         <Button Grid.Row="1" Grid.Column="8" Name="Btn29">
             <Grid>
-                <Grid.RowDefinitions>
-                    <RowDefinition/>
-                    <RowDefinition/>
-                </Grid.RowDefinitions>
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition/>
-                    <ColumnDefinition/>
-                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions><RowDefinition/><RowDefinition/></Grid.RowDefinitions>
+                <Grid.ColumnDefinitions><ColumnDefinition/><ColumnDefinition/></Grid.ColumnDefinitions>
                 <Label Content="*"/>
                 <Label Content="8" Grid.Row="1" />
             </Grid>
         </Button>
         <Button Grid.Row="1" Grid.Column="9" Name="Btn210">
             <Grid>
-                <Grid.RowDefinitions>
-                    <RowDefinition/>
-                    <RowDefinition/>
-                </Grid.RowDefinitions>
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition/>
-                    <ColumnDefinition/>
-                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions><RowDefinition/><RowDefinition/></Grid.RowDefinitions>
+                <Grid.ColumnDefinitions><ColumnDefinition/><ColumnDefinition/></Grid.ColumnDefinitions>
                 <Label Content="("/>
                 <Label Content="9" Grid.Row="1" />
             </Grid>
         </Button>
         <Button Grid.Row="1" Grid.Column="10" Name="Btn211">
             <Grid>
-                <Grid.RowDefinitions>
-                    <RowDefinition/>
-                    <RowDefinition/>
-                </Grid.RowDefinitions>
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition/>
-                    <ColumnDefinition/>
-                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions><RowDefinition/><RowDefinition/></Grid.RowDefinitions>
+                <Grid.ColumnDefinitions><ColumnDefinition/><ColumnDefinition/></Grid.ColumnDefinitions>
                 <Label Content=")"/>
                 <Label Content="0" Grid.Row="1" />
             </Grid>
         </Button>
         <Button Grid.Row="1" Grid.Column="11" Name="Btn212">
             <Grid>
-                <Grid.RowDefinitions>
-                    <RowDefinition/>
-                    <RowDefinition/>
-                </Grid.RowDefinitions>
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition/>
-                    <ColumnDefinition/>
-                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions><RowDefinition/><RowDefinition/></Grid.RowDefinitions>
+                <Grid.ColumnDefinitions><ColumnDefinition/><ColumnDefinition/></Grid.ColumnDefinitions>
                 <Label Content="_"/>
                 <Label Content="-" Grid.Row="1" />
             </Grid>
         </Button>
         <Button Grid.Row="1" Grid.Column="12" Name="Btn213">
             <Grid>
-                <Grid.RowDefinitions>
-                    <RowDefinition/>
-                    <RowDefinition/>
-                </Grid.RowDefinitions>
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition/>
-                    <ColumnDefinition/>
-                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions><RowDefinition/><RowDefinition/></Grid.RowDefinitions>
+                <Grid.ColumnDefinitions><ColumnDefinition/><ColumnDefinition/></Grid.ColumnDefinitions>
                 <Label Content="+"/>
                 <Label Content="=" Grid.Row="1" />
             </Grid>
@@ -194,152 +178,88 @@
         <Button Grid.Row="2" Grid.Column="0" Name="Btn31" Content="Tab"/>
         <Button Grid.Row="2" Grid.Column="1" Name="Btn32">
             <Grid>
-                <Grid.RowDefinitions>
-                    <RowDefinition/>
-                    <RowDefinition/>
-                </Grid.RowDefinitions>
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition/>
-                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions><RowDefinition/><RowDefinition/></Grid.RowDefinitions>
+                <Grid.ColumnDefinitions><ColumnDefinition/></Grid.ColumnDefinitions>
                 <Label Content="Q"/>
                 <Label Content="Й" Grid.Row="1" />
             </Grid>
         </Button>
         <Button Grid.Row="2" Grid.Column="2" Name="Btn33">
             <Grid>
-                <Grid.RowDefinitions>
-                    <RowDefinition/>
-                    <RowDefinition/>
-                </Grid.RowDefinitions>
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition/>
-                    <ColumnDefinition/>
-                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions><RowDefinition/><RowDefinition/></Grid.RowDefinitions>
+                <Grid.ColumnDefinitions><ColumnDefinition/><ColumnDefinition/></Grid.ColumnDefinitions>
                 <Label Content="W"/>
                 <Label Content="Ц" Grid.Row="1" />
             </Grid>
         </Button>
         <Button Grid.Row="2" Grid.Column="3" Name="Btn34">
             <Grid>
-                <Grid.RowDefinitions>
-                    <RowDefinition/>
-                    <RowDefinition/>
-                </Grid.RowDefinitions>
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition/>
-                    <ColumnDefinition/>
-                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions><RowDefinition/><RowDefinition/></Grid.RowDefinitions>
+                <Grid.ColumnDefinitions><ColumnDefinition/><ColumnDefinition/></Grid.ColumnDefinitions>
                 <Label Content="E"/>
                 <Label Content="У" Grid.Row="1" />
             </Grid>
         </Button>
         <Button Grid.Row="2" Grid.Column="4" Name="Btn35">
             <Grid>
-                <Grid.RowDefinitions>
-                    <RowDefinition/>
-                    <RowDefinition/>
-                </Grid.RowDefinitions>
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition/>
-                    <ColumnDefinition/>
-                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions><RowDefinition/><RowDefinition/></Grid.RowDefinitions>
+                <Grid.ColumnDefinitions><ColumnDefinition/><ColumnDefinition/></Grid.ColumnDefinitions>
                 <Label Content="R"/>
                 <Label Content="К" Grid.Row="1" />
             </Grid>
         </Button>
         <Button Grid.Row="2" Grid.Column="5" Name="Btn36">
             <Grid>
-                <Grid.RowDefinitions>
-                    <RowDefinition/>
-                    <RowDefinition/>
-                </Grid.RowDefinitions>
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition/>
-                    <ColumnDefinition/>
-                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions><RowDefinition/><RowDefinition/></Grid.RowDefinitions>
+                <Grid.ColumnDefinitions><ColumnDefinition/><ColumnDefinition/></Grid.ColumnDefinitions>
                 <Label Content="T"/>
                 <Label Content="Е" Grid.Row="1" />
             </Grid>
         </Button>
         <Button Grid.Row="2" Grid.Column="6" Name="Btn37">
             <Grid>
-                <Grid.RowDefinitions>
-                    <RowDefinition/>
-                    <RowDefinition/>
-                </Grid.RowDefinitions>
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition/>
-                    <ColumnDefinition/>
-                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions><RowDefinition/><RowDefinition/></Grid.RowDefinitions>
+                <Grid.ColumnDefinitions><ColumnDefinition/><ColumnDefinition/></Grid.ColumnDefinitions>
                 <Label Content="Y"/>
                 <Label Content="Н" Grid.Row="1" />
             </Grid>
         </Button>
         <Button Grid.Row="2" Grid.Column="7" Name="Btn38">
             <Grid>
-                <Grid.RowDefinitions>
-                    <RowDefinition/>
-                    <RowDefinition/>
-                </Grid.RowDefinitions>
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition/>
-                    <ColumnDefinition/>
-                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions><RowDefinition/><RowDefinition/></Grid.RowDefinitions>
+                <Grid.ColumnDefinitions><ColumnDefinition/><ColumnDefinition/></Grid.ColumnDefinitions>
                 <Label Content="U"/>
                 <Label Content="Г" Grid.Row="1" />
             </Grid>
         </Button>
         <Button Grid.Row="2" Grid.Column="8" Name="Btn39">
             <Grid>
-                <Grid.RowDefinitions>
-                    <RowDefinition/>
-                    <RowDefinition/>
-                </Grid.RowDefinitions>
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition/>
-                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions><RowDefinition/><RowDefinition/></Grid.RowDefinitions>
+                <Grid.ColumnDefinitions><ColumnDefinition/></Grid.ColumnDefinitions>
                 <Label Content="I" HorizontalAlignment="Center"/>
                 <Label Content="Ш" Grid.Row="1" />
             </Grid>
         </Button>
         <Button Grid.Row="2" Grid.Column="9" Name="Btn310">
             <Grid>
-                <Grid.RowDefinitions>
-                    <RowDefinition/>
-                    <RowDefinition/>
-                </Grid.RowDefinitions>
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition/>
-                    <ColumnDefinition/>
-                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions><RowDefinition/><RowDefinition/></Grid.RowDefinitions>
+                <Grid.ColumnDefinitions><ColumnDefinition/><ColumnDefinition/></Grid.ColumnDefinitions>
                 <Label Content="O"/>
                 <Label Content="Щ" Grid.Row="1" />
             </Grid>
         </Button>
         <Button Grid.Row="2" Grid.Column="10" Name="Btn311">
             <Grid>
-                <Grid.RowDefinitions>
-                    <RowDefinition/>
-                    <RowDefinition/>
-                </Grid.RowDefinitions>
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition/>
-                    <ColumnDefinition/>
-                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions><RowDefinition/><RowDefinition/></Grid.RowDefinitions>
+                <Grid.ColumnDefinitions><ColumnDefinition/><ColumnDefinition/></Grid.ColumnDefinitions>
                 <Label Content="P"/>
                 <Label Content="З" Grid.Row="1" />
             </Grid>
         </Button>
         <Button Grid.Row="2" Grid.Column="11" Name="Btn312">
             <Grid>
-                <Grid.RowDefinitions>
-                    <RowDefinition/>
-                    <RowDefinition/>
-                </Grid.RowDefinitions>
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition/>
-                    <ColumnDefinition/>
-                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions><RowDefinition/><RowDefinition/></Grid.RowDefinitions>
+                <Grid.ColumnDefinitions><ColumnDefinition/><ColumnDefinition/></Grid.ColumnDefinitions>
                 <Label Content = "{}{"/>
                 <Label Content="[" Grid.Row="1" />
                 <Label Content="Х" Grid.Column="1" Grid.Row="1"/>
@@ -347,14 +267,8 @@
         </Button>
         <Button Grid.Row="2" Grid.Column="12" Name="Btn313">
             <Grid>
-                <Grid.RowDefinitions>
-                    <RowDefinition/>
-                    <RowDefinition/>
-                </Grid.RowDefinitions>
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition/>
-                    <ColumnDefinition/>
-                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions><RowDefinition/><RowDefinition/></Grid.RowDefinitions>
+                <Grid.ColumnDefinitions><ColumnDefinition/><ColumnDefinition/></Grid.ColumnDefinitions>
                 <Label Content="{}}"/>
                 <Label Content="]" Grid.Row="1" />
                 <Label Content="Ъ" Grid.Row="1" Grid.Column="1"/>
@@ -362,14 +276,8 @@
         </Button>
         <Button Grid.Row="2" Grid.Column="13" Name="Btn314">
             <Grid>
-                <Grid.RowDefinitions>
-                    <RowDefinition/>
-                    <RowDefinition/>
-                </Grid.RowDefinitions>
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition/>
-                    <ColumnDefinition/>
-                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions><RowDefinition/><RowDefinition/></Grid.RowDefinitions>
+                <Grid.ColumnDefinitions><ColumnDefinition/><ColumnDefinition/></Grid.ColumnDefinitions>
                 <Label Content="|"/>
                 <Label Content="\" Grid.Row="1" />
             </Grid>
@@ -379,40 +287,24 @@
         <Button Grid.Row="2" Grid.Column="16" Name="Btn317" Content="PageDown"/>
         <Button Grid.Row="2" Grid.Column="17" Name="Btn318">
             <Grid>
-                <Grid.RowDefinitions>
-                    <RowDefinition/>
-                    <RowDefinition/>
-                </Grid.RowDefinitions>
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition/>
-
-                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions><RowDefinition/><RowDefinition/></Grid.RowDefinitions>
+                <Grid.ColumnDefinitions><ColumnDefinition/></Grid.ColumnDefinitions>
                 <Label Content="7" HorizontalAlignment="Center"/>
                 <Label Content="Home" Grid.Row="1" />
             </Grid>
         </Button>
         <Button Grid.Row="2" Grid.Column="18" Name="Btn319">
             <Grid>
-                <Grid.RowDefinitions>
-                    <RowDefinition/>
-                    <RowDefinition/>
-                </Grid.RowDefinitions>
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition/>
-                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions><RowDefinition/><RowDefinition/></Grid.RowDefinitions>
+                <Grid.ColumnDefinitions><ColumnDefinition/></Grid.ColumnDefinitions>
                 <Label Content="8"/>
                 <Label Content="↑" Grid.Row="1" />
             </Grid>
         </Button>
         <Button Grid.Row="2" Grid.Column="19" Name="Btn320">
             <Grid>
-                <Grid.RowDefinitions>
-                    <RowDefinition/>
-                    <RowDefinition/>
-                </Grid.RowDefinitions>
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition/>
-                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions><RowDefinition/><RowDefinition/></Grid.RowDefinitions>
+                <Grid.ColumnDefinitions><ColumnDefinition/></Grid.ColumnDefinitions>
                 <Label Content="9" HorizontalAlignment="Center"/>
                 <Label Content="Pg Up" Grid.Row="1" />
             </Grid>
@@ -424,140 +316,80 @@
         <Button Grid.Row="3" Grid.Column="0" Name="Btn41" Content="CapsLock"/>
         <Button Grid.Row="3" Grid.Column="1" Name="Btn42">
             <Grid>
-                <Grid.RowDefinitions>
-                    <RowDefinition/>
-                    <RowDefinition/>
-                </Grid.RowDefinitions>
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition/>
-                    <ColumnDefinition/>
-                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions><RowDefinition/><RowDefinition/></Grid.RowDefinitions>
+                <Grid.ColumnDefinitions><ColumnDefinition/><ColumnDefinition/></Grid.ColumnDefinitions>
                 <Label Content="A"/>
                 <Label Content="Ф" Grid.Row="1" />
             </Grid>
         </Button>
         <Button Grid.Row="3" Grid.Column="2" Name="Btn43">
             <Grid>
-                <Grid.RowDefinitions>
-                    <RowDefinition/>
-                    <RowDefinition/>
-                </Grid.RowDefinitions>
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition/>
-                    <ColumnDefinition/>
-                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions><RowDefinition/><RowDefinition/></Grid.RowDefinitions>
+                <Grid.ColumnDefinitions><ColumnDefinition/><ColumnDefinition/></Grid.ColumnDefinitions>
                 <Label Content="S"/>
                 <Label Content="Ы" Grid.Row="1" />
             </Grid>
         </Button>
         <Button Grid.Row="3" Grid.Column="3" Name="Btn44">
             <Grid>
-                <Grid.RowDefinitions>
-                    <RowDefinition/>
-                    <RowDefinition/>
-                </Grid.RowDefinitions>
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition/>
-                    <ColumnDefinition/>
-                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions><RowDefinition/><RowDefinition/></Grid.RowDefinitions>
+                <Grid.ColumnDefinitions><ColumnDefinition/><ColumnDefinition/></Grid.ColumnDefinitions>
                 <Label Content="D"/>
                 <Label Content="В" Grid.Row="1" />
             </Grid>
         </Button>
         <Button Grid.Row="3" Grid.Column="4" Name="Btn45">
             <Grid>
-                <Grid.RowDefinitions>
-                    <RowDefinition/>
-                    <RowDefinition/>
-                </Grid.RowDefinitions>
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition/>
-                    <ColumnDefinition/>
-                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions><RowDefinition/><RowDefinition/></Grid.RowDefinitions>
+                <Grid.ColumnDefinitions><ColumnDefinition/><ColumnDefinition/></Grid.ColumnDefinitions>
                 <Label Content="F"/>
                 <Label Content="А" Grid.Row="1" />
             </Grid>
         </Button>
         <Button Grid.Row="3" Grid.Column="5" Name="Btn46">
             <Grid>
-                <Grid.RowDefinitions>
-                    <RowDefinition/>
-                    <RowDefinition/>
-                </Grid.RowDefinitions>
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition/>
-                    <ColumnDefinition/>
-                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions><RowDefinition/><RowDefinition/></Grid.RowDefinitions>
+                <Grid.ColumnDefinitions><ColumnDefinition/><ColumnDefinition/></Grid.ColumnDefinitions>
                 <Label Content="G"/>
                 <Label Content="П" Grid.Row="1" />
             </Grid>
         </Button>
         <Button Grid.Row="3" Grid.Column="6" Name="Btn47">
             <Grid>
-                <Grid.RowDefinitions>
-                    <RowDefinition/>
-                    <RowDefinition/>
-                </Grid.RowDefinitions>
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition/>
-                    <ColumnDefinition/>
-                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions><RowDefinition/><RowDefinition/></Grid.RowDefinitions>
+                <Grid.ColumnDefinitions><ColumnDefinition/><ColumnDefinition/></Grid.ColumnDefinitions>
                 <Label Content="H"/>
                 <Label Content="Р" Grid.Row="1" />
             </Grid>
         </Button>
         <Button Grid.Row="3" Grid.Column="7" Name="Btn48">
             <Grid>
-                <Grid.RowDefinitions>
-                    <RowDefinition/>
-                    <RowDefinition/>
-                </Grid.RowDefinitions>
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition/>
-                    <ColumnDefinition/>
-                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions><RowDefinition/><RowDefinition/></Grid.RowDefinitions>
+                <Grid.ColumnDefinitions><ColumnDefinition/><ColumnDefinition/></Grid.ColumnDefinitions>
                 <Label Content="J"/>
                 <Label Content="О" Grid.Row="1" />
             </Grid>
         </Button>
         <Button Grid.Row="3" Grid.Column="8" Name="Btn49">
             <Grid>
-                <Grid.RowDefinitions>
-                    <RowDefinition/>
-                    <RowDefinition/>
-                </Grid.RowDefinitions>
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition/>
-                    <ColumnDefinition/>
-                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions><RowDefinition/><RowDefinition/></Grid.RowDefinitions>
+                <Grid.ColumnDefinitions><ColumnDefinition/><ColumnDefinition/></Grid.ColumnDefinitions>
                 <Label Content="K"/>
                 <Label Content="Л" Grid.Row="1" />
             </Grid>
         </Button>
         <Button Grid.Row="3" Grid.Column="9" Name="Btn410">
             <Grid>
-                <Grid.RowDefinitions>
-                    <RowDefinition/>
-                    <RowDefinition/>
-                </Grid.RowDefinitions>
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition/>
-                    <ColumnDefinition/>
-                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions><RowDefinition/><RowDefinition/></Grid.RowDefinitions>
+                <Grid.ColumnDefinitions><ColumnDefinition/><ColumnDefinition/></Grid.ColumnDefinitions>
                 <Label Content="L"/>
                 <Label Content="Д" Grid.Row="1" />
             </Grid>
         </Button>
         <Button Grid.Row="3" Grid.Column="10" Name="Btn411">
             <Grid>
-                <Grid.RowDefinitions>
-                    <RowDefinition/>
-                    <RowDefinition/>
-                </Grid.RowDefinitions>
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition/>
-                    <ColumnDefinition/>
-                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions><RowDefinition/><RowDefinition/></Grid.RowDefinitions>
+                <Grid.ColumnDefinitions><ColumnDefinition/><ColumnDefinition/></Grid.ColumnDefinitions>
                 <Label Content=":"/>
                 <Label Content=";" Grid.Row="1" />
                 <Label Content="Ж" Grid.Row="1" Grid.Column="1"/>
@@ -565,14 +397,8 @@
         </Button>
         <Button Grid.Row="3" Grid.Column="11" Name="Btn412">
             <Grid>
-                <Grid.RowDefinitions>
-                    <RowDefinition/>
-                    <RowDefinition/>
-                </Grid.RowDefinitions>
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition/>
-                    <ColumnDefinition/>
-                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions><RowDefinition/><RowDefinition/></Grid.RowDefinitions>
+                <Grid.ColumnDefinitions><ColumnDefinition/><ColumnDefinition/></Grid.ColumnDefinitions>
                 <Label Content="&quot;"/>
                 <Label Content="'" Grid.Row="1" />
                 <Label Content="Э" Grid.Row="1" Grid.Column="1"/>
@@ -580,26 +406,15 @@
         </Button>
         <Button Grid.Row="3" Grid.ColumnSpan="2" Grid.RowSpan="2" Grid.Column="12" Name="Btn413">
             <Grid Width="{Binding ElementName=Btn413, Path=ActualWidth}" Height="{Binding ElementName=Btn413, Path=ActualWidth}">
-                <Grid.RowDefinitions>
-                    <RowDefinition/>
-                    <RowDefinition/>
-                </Grid.RowDefinitions>
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition/>
-                    <ColumnDefinition/>
-                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions><RowDefinition/><RowDefinition/></Grid.RowDefinitions>
+                <Grid.ColumnDefinitions><ColumnDefinition/><ColumnDefinition/></Grid.ColumnDefinitions>
                 <Label Content="Enter" Grid.Row="0" Grid.ColumnSpan="2" HorizontalAlignment="Center"/>
             </Grid>
         </Button>
         <Button Grid.Row="3" Grid.Column="17" Name="Btn414">
             <Grid>
-                <Grid.RowDefinitions>
-                    <RowDefinition/>
-                    <RowDefinition/>
-                </Grid.RowDefinitions>
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition/>
-                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions><RowDefinition/><RowDefinition/></Grid.RowDefinitions>
+                <Grid.ColumnDefinitions><ColumnDefinition/></Grid.ColumnDefinitions>
                 <Label Content="4"/>
                 <Label Content="←" Grid.Row="1" />
             </Grid>
@@ -607,14 +422,8 @@
         <Button Grid.Row="3" Grid.Column="18" Name="Btn415" Content="5"/>
         <Button Grid.Row="3" Grid.Column="19" Name="Btn416">
             <Grid>
-                <Grid.RowDefinitions>
-                    <RowDefinition/>
-                    <RowDefinition/>
-                </Grid.RowDefinitions>
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition/>
-                    <ColumnDefinition/>
-                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions><RowDefinition/><RowDefinition/></Grid.RowDefinitions>
+                <Grid.ColumnDefinitions><ColumnDefinition/><ColumnDefinition/></Grid.ColumnDefinitions>
                 <Label Content="6"/>
                 <Label Content="→" Grid.Row="1" />
             </Grid>
@@ -625,112 +434,64 @@
         <Button Grid.Row="4" Grid.Column="0" Name="Btn51" Content="Shift"/>
         <Button Grid.Row="4" Grid.Column="1" Name="Btn52">
             <Grid>
-                <Grid.RowDefinitions>
-                    <RowDefinition/>
-                    <RowDefinition/>
-                </Grid.RowDefinitions>
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition/>
-                    <ColumnDefinition/>
-                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions><RowDefinition/><RowDefinition/></Grid.RowDefinitions>
+                <Grid.ColumnDefinitions><ColumnDefinition/><ColumnDefinition/></Grid.ColumnDefinitions>
                 <Label Content="Z"/>
                 <Label Content="Я" Grid.Row="1" />
             </Grid>
         </Button>
         <Button Grid.Row="4" Grid.Column="2" Name="Btn53">
             <Grid>
-                <Grid.RowDefinitions>
-                    <RowDefinition/>
-                    <RowDefinition/>
-                </Grid.RowDefinitions>
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition/>
-                    <ColumnDefinition/>
-                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions><RowDefinition/><RowDefinition/></Grid.RowDefinitions>
+                <Grid.ColumnDefinitions><ColumnDefinition/><ColumnDefinition/></Grid.ColumnDefinitions>
                 <Label Content="X"/>
                 <Label Content="Ч" Grid.Row="1" />
             </Grid>
         </Button>
         <Button Grid.Row="4" Grid.Column="3" Name="Btn54">
             <Grid>
-                <Grid.RowDefinitions>
-                    <RowDefinition/>
-                    <RowDefinition/>
-                </Grid.RowDefinitions>
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition/>
-                    <ColumnDefinition/>
-                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions><RowDefinition/><RowDefinition/></Grid.RowDefinitions>
+                <Grid.ColumnDefinitions><ColumnDefinition/><ColumnDefinition/></Grid.ColumnDefinitions>
                 <Label Content="C"/>
                 <Label Content="С" Grid.Row="1" />
             </Grid>
         </Button>
         <Button Grid.Row="4" Grid.Column="4" Name="Btn55">
             <Grid>
-                <Grid.RowDefinitions>
-                    <RowDefinition/>
-                    <RowDefinition/>
-                </Grid.RowDefinitions>
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition/>
-                    <ColumnDefinition/>
-                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions><RowDefinition/><RowDefinition/></Grid.RowDefinitions>
+                <Grid.ColumnDefinitions><ColumnDefinition/><ColumnDefinition/></Grid.ColumnDefinitions>
                 <Label Content="V"/>
                 <Label Content="М" Grid.Row="1" />
             </Grid>
         </Button>
         <Button Grid.Row="4" Grid.Column="5" Name="Btn56">
             <Grid>
-                <Grid.RowDefinitions>
-                    <RowDefinition/>
-                    <RowDefinition/>
-                </Grid.RowDefinitions>
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition/>
-                    <ColumnDefinition/>
-                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions><RowDefinition/><RowDefinition/></Grid.RowDefinitions>
+                <Grid.ColumnDefinitions><ColumnDefinition/><ColumnDefinition/></Grid.ColumnDefinitions>
                 <Label Content="B"/>
                 <Label Content="И" Grid.Row="1" />
             </Grid>
         </Button>
         <Button Grid.Row="4" Grid.Column="6" Name="Btn57">
             <Grid>
-                <Grid.RowDefinitions>
-                    <RowDefinition/>
-                    <RowDefinition/>
-                </Grid.RowDefinitions>
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition/>
-                    <ColumnDefinition/>
-                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions><RowDefinition/><RowDefinition/></Grid.RowDefinitions>
+                <Grid.ColumnDefinitions><ColumnDefinition/><ColumnDefinition/></Grid.ColumnDefinitions>
                 <Label Content="N"/>
                 <Label Content="Т" Grid.Row="1" />
             </Grid>
         </Button>
         <Button Grid.Row="4" Grid.Column="7" Name="Btn58">
             <Grid>
-                <Grid.RowDefinitions>
-                    <RowDefinition/>
-                    <RowDefinition/>
-                </Grid.RowDefinitions>
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition/>
-                    <ColumnDefinition/>
-                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions><RowDefinition/><RowDefinition/></Grid.RowDefinitions>
+                <Grid.ColumnDefinitions><ColumnDefinition/><ColumnDefinition/></Grid.ColumnDefinitions>
                 <Label Content="M"/>
                 <Label Content="Ь" Grid.Row="1" />
             </Grid>
         </Button>
         <Button Grid.Row="4" Grid.Column="8" Name="Btn59">
             <Grid>
-                <Grid.RowDefinitions>
-                    <RowDefinition/>
-                    <RowDefinition/>
-                </Grid.RowDefinitions>
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition/>
-                    <ColumnDefinition/>
-                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions><RowDefinition/><RowDefinition/></Grid.RowDefinitions>
+                <Grid.ColumnDefinitions><ColumnDefinition/><ColumnDefinition/></Grid.ColumnDefinitions>
                 <Label Content="&lt;"/>
                 <Label Content="," Grid.Row="1" />
                 <Label Content="Б" Grid.Row="1" Grid.Column="1"/>
@@ -738,14 +499,8 @@
         </Button>
         <Button Grid.Row="4" Grid.Column="9" Name="Btn510">
             <Grid>
-                <Grid.RowDefinitions>
-                    <RowDefinition/>
-                    <RowDefinition/>
-                </Grid.RowDefinitions>
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition/>
-                    <ColumnDefinition/>
-                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions><RowDefinition/><RowDefinition/></Grid.RowDefinitions>
+                <Grid.ColumnDefinitions><ColumnDefinition/><ColumnDefinition/></Grid.ColumnDefinitions>
                 <Label Content="&gt;"/>
                 <Label Content="." Grid.Row="1" />
                 <Label Content="Ю" Grid.Row="1" Grid.Column="1"/>
@@ -753,14 +508,8 @@
         </Button>
         <Button Grid.Row="4" Grid.Column="10" Name="Btn511">
             <Grid>
-                <Grid.RowDefinitions>
-                    <RowDefinition/>
-                    <RowDefinition/>
-                </Grid.RowDefinitions>
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition/>
-                    <ColumnDefinition/>
-                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions><RowDefinition/><RowDefinition/></Grid.RowDefinitions>
+                <Grid.ColumnDefinitions><ColumnDefinition/><ColumnDefinition/></Grid.ColumnDefinitions>
                 <Label Content="?"/>
                 <Label Content="/" Grid.Row="1" />
                 <Label Content="," Grid.Row="0" Grid.Column="1"/>
@@ -771,41 +520,24 @@
         <Button Grid.Row="4" Grid.Column="15" Name="Btn513" Content="↑"/>
         <Button Grid.Row="4" Grid.Column="17" Name="Btn514">
             <Grid>
-                <Grid.RowDefinitions>
-                    <RowDefinition/>
-                    <RowDefinition/>
-                </Grid.RowDefinitions>
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition/>
-                    <ColumnDefinition/>
-                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions><RowDefinition/><RowDefinition/></Grid.RowDefinitions>
+                <Grid.ColumnDefinitions><ColumnDefinition/><ColumnDefinition/></Grid.ColumnDefinitions>
                 <Label Content="1" HorizontalAlignment="Center"/>
                 <Label Content="End" Grid.Row="1" />
             </Grid>
         </Button>
         <Button Grid.Row="4" Grid.Column="18" Name="Btn515">
             <Grid>
-                <Grid.RowDefinitions>
-                    <RowDefinition/>
-                    <RowDefinition/>
-                </Grid.RowDefinitions>
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition/>
-                    <ColumnDefinition/>
-                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions><RowDefinition/><RowDefinition/></Grid.RowDefinitions>
+                <Grid.ColumnDefinitions><ColumnDefinition/><ColumnDefinition/></Grid.ColumnDefinitions>
                 <Label Content="2"/>
                 <Label Content="↓" Grid.Row="1" />
             </Grid>
         </Button>
         <Button Grid.Row="4" Grid.Column="19" Name="Btn516">
             <Grid>
-                <Grid.RowDefinitions>
-                    <RowDefinition/>
-                    <RowDefinition/>
-                </Grid.RowDefinitions>
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition/>
-                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions><RowDefinition/><RowDefinition/></Grid.RowDefinitions>
+                <Grid.ColumnDefinitions><ColumnDefinition/></Grid.ColumnDefinitions>
                 <Label Content="3" HorizontalAlignment="Center"/>
                 <Label Content="Pg Dn" Grid.Row="1" />
             </Grid>
@@ -826,13 +558,8 @@
         <Button Grid.Row="5" Grid.Column="16" Name="Btn610" Content="→"/>
         <Button Grid.ColumnSpan="2" Grid.Row="5" Grid.Column="17" Name="Btn611">
             <Grid>
-                <Grid.RowDefinitions>
-                    <RowDefinition/>
-                    <RowDefinition/>
-                </Grid.RowDefinitions>
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition/>
-                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions><RowDefinition/><RowDefinition/></Grid.RowDefinitions>
+                <Grid.ColumnDefinitions><ColumnDefinition/></Grid.ColumnDefinitions>
                 <Label Content="0" HorizontalAlignment="Center"/>
                 <Label Content="Insert" Grid.Row="1" />
             </Grid>
