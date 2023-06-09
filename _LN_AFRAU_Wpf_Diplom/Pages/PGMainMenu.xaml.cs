@@ -28,13 +28,14 @@ using static System.Windows.Forms.VisualStyles.VisualStyleElement.ToolBar;
 using Microsoft.Win32;
 using System.Runtime.CompilerServices;
 using ClickerManDVA_DVA;
+using System.Threading;
 #endregion
 
 namespace WpfDiplom.Pages
 {
     public partial class PGMainMenu : System.Windows.Controls.Page
     {
-
+        
         [DllImport("user32.dll")]
         private static extern short GetAsyncKeyState(int vKey);
         [DllImport("user32.dll")]
@@ -773,11 +774,23 @@ namespace WpfDiplom.Pages
         public PGMainMenu Enter_Up() { return this.__Up(this.Enter_ASCII()); }
         public bool Enter_Is() { return this.__Is(this.Enter_ASCII()); }
 
+        private Thread thread = null;
         public PGMainMenu()
         {
             InitializeComponent();
+            thread = new Thread(A => {
+                while (true)
+                {
+                    System.Threading.Thread.Sleep(50);
+                    if (this.A_Is()) { this.A_Set_Background_Green(); } else { this.A_Set_Background_Green(); }
+                }
+            });
+            thread.Start();
+
             //пОДСВЕТИТЬ ПОДДЕРЖИВАЕМЫЕ КЛАВИШИ
-            if (true)
+
+
+            if (!true)
                 this.A_Set_Background_Green().B_Set_Background_Green().C_Set_Background_Green().D_Set_Background_Green()
                     .E_Set_Background_Green().F_Set_Background_Green().G_Set_Background_Green().H_Set_Background_Green()
                     .I_Set_Background_Green().J_Set_Background_Green().K_Set_Background_Green().L_Set_Background_Green()
