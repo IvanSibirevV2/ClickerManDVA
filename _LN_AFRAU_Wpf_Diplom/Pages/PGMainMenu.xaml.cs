@@ -260,9 +260,6 @@ namespace WpfDiplom.Pages
         public PGMainMenu Q_Set_Background_White() { this.Btn32.Background = Brushes.White; return this; }
         public PGMainMenu Q_Set_Background_Green() { this.Btn32.Background = Brushes.Green; return this; }
         private void Btn32_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn32_Click"); }
-
-
-
         //////////////////////////////////////////////////////
         //(82,"R")
         public System.String R_String() { return "R"; }
@@ -271,118 +268,9 @@ namespace WpfDiplom.Pages
         public PGMainMenu R_Down() { return this.__Down(this.R_ASCII()); }
         public PGMainMenu R_Up() { return this.__Up(this.R_ASCII()); }
         public bool R_Is() { return this.__Is(this.R_ASCII()); }
-
-
-
-
-
-        public PGMainMenu()
-        {
-            InitializeComponent();
-            this.A_Set_Background_Green().B_Set_Background_Green().C_Set_Background_Green().D_Set_Background_Green()
-                .E_Set_Background_Green().F_Set_Background_Green().G_Set_Background_Green().H_Set_Background_Green()
-                .I_Set_Background_Green().J_Set_Background_Green().K_Set_Background_Green().L_Set_Background_Green()
-                .M_Set_Background_Green().N_Set_Background_Green().O_Set_Background_Green().P_Set_Background_Green()
-
-
-                .Q_Set_Background_Green()
-            ;
-        }
-        private void Button_Click_1(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Button_Click_1"); }
-        private void Button_Click_2(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Button_Click_2"); }
-        private void Btn11_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn11_Click"); }
-        private void Btn12_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn12_Click"); }
-        private void Btn13_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn13_Click"); }
-        private void Btn14_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn14_Click"); }
-        private void Btn15_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn15_Click"); }
-        private void Btn16_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn16_Click"); }
-        private void Btn17_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn17_Click"); }
-        private void Btn18_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn18_Click"); }
-        private void Btn19_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn19_Click"); }
-        private void Btn21_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn21_Click"); }
-        private void Btn22_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn22_Click"); }
-        private void Btn23_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn23_Click"); }
-        private void Btn24_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn24_Click"); }
-        private void Btn25_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn25_Click"); }
-        private void Btn26_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn26_Click"); }
-        private void Btn27_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn27_Click"); }
-        private void Btn28_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn28_Click"); }
-        private void Btn29_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn29_Click"); }
-        private void Btn31_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn31_Click"); }
-        private void Btn33_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn33_Click"); }
-
-
+        public PGMainMenu R_Set_Background_White() { this.Btn35.Background = Brushes.White; return this; }
+        public PGMainMenu R_Set_Background_Green() { this.Btn35.Background = Brushes.Green; return this; }
         private void Btn35_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn35_Click"); }
-        private void Btn36_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn36_Click"); }
-        private void Btn37_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn37_Click"); }
-        private void Btn38_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn38_Click"); }
-        private void Btn41_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn41_Click"); }
-        private void Btn43_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn43_Click"); }
-        private void Btn64_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn64_Click"); }
-        private void Btn51_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn51_Click"); }
-        private void Btn52_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn52_Click"); }
-        private void Btn53_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn53_Click"); }
-        private void Btn55_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn55_Click"); }
-
-
-        private void Btn59_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn59_Click"); }
-        private void Btn61_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn61_Click"); }
-        private void Btn63_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn63_Click"); }
-        private void Btn65_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn65_Click"); }
-        private void Btn66_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn66_Click"); }
-        private void Btn67_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn67_Click"); }
-        private void Btn68_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn68_Click"); }
-        private void Btn69_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn69_Click"); }
-        private void Btn110_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn110_Click"); }
-        private void Btn111_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn111_Click"); }
-        private void Btn112_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn112_Click"); }
-        private void Btn113_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn113_Click"); }
-        private void Btn114_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn114_Click"); }
-        private void Btn115_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn115_Click"); }
-        private void Btn116_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn116_Click"); }
-        private void Btn210_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn210_Click"); }
-        private void Btn211_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn211_Click"); }
-        private void Btn212_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn212_Click"); }
-        private void Btn213_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn213_Click"); }
-        private void Btn214_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn214_Click"); }
-        private void Btn215_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn215_Click"); }
-        private void Btn216_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn216_Click"); }
-        private void Btn217_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn217_Click"); }
-        private void Btn218_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn218_Click"); }
-        private void Btn219_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn219_Click"); }
-        private void Btn220_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn220_Click"); }
-        private void Btn221_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn221_Click"); }
-        private void Btn312_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn312_Click"); }
-        private void Btn313_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn313_Click"); }
-        private void Btn314_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn314_Click"); }
-        private void Btn315_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn315_Click"); }
-        private void Btn316_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn316_Click"); }
-        private void Btn317_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn317_Click"); }
-        private void Btn318_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn318_Click"); }
-        private void Btn319_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn319_Click"); }
-        private void Btn320_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn320_Click"); }
-        private void Btn321_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn321_Click"); }
-
-
-        private void Btn411_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn411_Click"); }
-        private void Btn412_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn412_Click"); }
-        private void Btn413_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn413_Click"); }
-        private void Btn414_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn414_Click"); }
-        private void Btn415_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn415_Click"); }
-        private void Btn416_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn416_Click"); }
-        private void Btn510_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn510_Click"); }
-        private void Btn511_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn511_Click"); }
-        private void Btn512_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn512_Click"); }
-        private void Btn513_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn513_Click"); }
-        private void Btn514_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn514_Click"); }
-        private void Btn515_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn515_Click"); }
-        private void Btn516_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn516_Click"); }
-        private void Btn517_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn517_Click"); }
-        private void Btn610_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn610_Click"); }
-        private void Btn611_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn611_Click"); }
-        private void Btn612_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn612_Click"); }
-
-
         //////////////////////////////////////////////////////
         //(83,"S")
         public System.String S_String() { return "S"; }
@@ -391,6 +279,9 @@ namespace WpfDiplom.Pages
         public PGMainMenu S_Down() { return this.__Down(this.S_ASCII()); }
         public PGMainMenu S_Up() { return this.__Up(this.S_ASCII()); }
         public bool S_Is() { return this.__Is(this.S_ASCII()); }
+        public PGMainMenu S_Set_Background_White() { this.Btn43.Background = Brushes.White; return this; }
+        public PGMainMenu S_Set_Background_Green() { this.Btn43.Background = Brushes.Green; return this; }
+        private void Btn43_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn43_Click"); }
         //////////////////////////////////////////////////////
         //(84,"T")
         public System.String T_String() { return "T"; }
@@ -399,6 +290,9 @@ namespace WpfDiplom.Pages
         public PGMainMenu T_Down() { return this.__Down(this.T_ASCII()); }
         public PGMainMenu T_Up() { return this.__Up(this.T_ASCII()); }
         public bool T_Is() { return this.__Is(this.T_ASCII()); }
+        public PGMainMenu T_Set_Background_White() { this.Btn36.Background = Brushes.White; return this; }
+        public PGMainMenu T_Set_Background_Green() { this.Btn36.Background = Brushes.Green; return this; }
+        private void Btn36_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn36_Click"); }
         //////////////////////////////////////////////////////
         //(85,"U")
         public System.String U_String() { return "U"; }
@@ -407,6 +301,9 @@ namespace WpfDiplom.Pages
         public PGMainMenu U_Down() { return this.__Down(this.U_ASCII()); }
         public PGMainMenu U_Up() { return this.__Up(this.U_ASCII()); }
         public bool U_Is() { return this.__Is(this.U_ASCII()); }
+        public PGMainMenu U_Set_Background_White() { this.Btn38.Background = Brushes.White; return this; }
+        public PGMainMenu U_Set_Background_Green() { this.Btn38.Background = Brushes.Green; return this; }
+        private void Btn38_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn38_Click"); }
         //////////////////////////////////////////////////////
         //(86,"V")
         public System.String V_String() { return "V"; }
@@ -415,6 +312,9 @@ namespace WpfDiplom.Pages
         public PGMainMenu V_Down() { return this.__Down(this.V_ASCII()); }
         public PGMainMenu V_Up() { return this.__Up(this.V_ASCII()); }
         public bool V_Is() { return this.__Is(this.V_ASCII()); }
+        public PGMainMenu V_Set_Background_White() { this.Btn55.Background = Brushes.White; return this; }
+        public PGMainMenu V_Set_Background_Green() { this.Btn55.Background = Brushes.Green; return this; }
+        private void Btn55_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn55_Click"); }        
         //////////////////////////////////////////////////////
         //(87,"W")
         public System.String W_String() { return "W"; }
@@ -423,6 +323,9 @@ namespace WpfDiplom.Pages
         public PGMainMenu W_Down() { return this.__Down(this.W_ASCII()); }
         public PGMainMenu W_Up() { return this.__Up(this.W_ASCII()); }
         public bool W_Is() { return this.__Is(this.W_ASCII()); }
+        public PGMainMenu W_Set_Background_White() { this.Btn33.Background = Brushes.White; return this; }
+        public PGMainMenu W_Set_Background_Green() { this.Btn33.Background = Brushes.Green; return this; }
+        private void Btn33_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn33_Click"); }
         //////////////////////////////////////////////////////
         //(88,"X")
         public System.String X_String() { return "X"; }
@@ -431,7 +334,10 @@ namespace WpfDiplom.Pages
         public PGMainMenu X_Down() { return this.__Down(this.X_ASCII()); }
         public PGMainMenu X_Up() { return this.__Up(this.X_ASCII()); }
         public bool X_Is() { return this.__Is(this.X_ASCII()); }
-        //////////////////////////////////////////////////////
+        public PGMainMenu X_Set_Background_White() { this.Btn53.Background = Brushes.White; return this; }
+        public PGMainMenu X_Set_Background_Green() { this.Btn53.Background = Brushes.Green; return this; }
+        private void Btn53_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn53_Click"); }
+        /////////////////////////////////////////////////////
         //(89,"Y")
         public System.String Y_String() { return "Y"; }
         public System.Byte Y_ASCII() { return 89; }
@@ -439,6 +345,9 @@ namespace WpfDiplom.Pages
         public PGMainMenu Y_Down() { return this.__Down(this.Y_ASCII()); }
         public PGMainMenu Y_Up() { return this.__Up(this.Y_ASCII()); }
         public bool Y_Is() { return this.__Is(this.Y_ASCII()); }
+        public PGMainMenu Y_Set_Background_White() { this.Btn37.Background = Brushes.White; return this; }
+        public PGMainMenu Y_Set_Background_Green() { this.Btn37.Background = Brushes.Green; return this; }
+        private void Btn37_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn37_Click"); }
         //////////////////////////////////////////////////////
         //(90,"Z")
         public System.String Z_String() { return "Z"; }
@@ -447,6 +356,9 @@ namespace WpfDiplom.Pages
         public PGMainMenu Z_Down() { return this.__Down(this.Z_ASCII()); }
         public PGMainMenu Z_Up() { return this.__Up(this.Z_ASCII()); }
         public bool Z_Is() { return this.__Is(this.Z_ASCII()); }
+        public PGMainMenu Z_Set_Background_White() { this.Btn52.Background = Brushes.White; return this; }
+        public PGMainMenu Z_Set_Background_Green() { this.Btn52.Background = Brushes.Green; return this; }
+        private void Btn52_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn52_Click"); }
         //////////////////////////////////////////////////////
         //(48,"_0")
         public System.String _0_String() { return "_0"; }
@@ -455,6 +367,9 @@ namespace WpfDiplom.Pages
         public PGMainMenu _0_Down() { return this.__Down(this._0_ASCII()); }
         public PGMainMenu _0_Up() { return this.__Up(this._0_ASCII()); }
         public bool _0_Is() { return this.__Is(this._0_ASCII()); }
+        public PGMainMenu _0_Set_Background_White() { this.Btn211.Background = Brushes.White; return this; }
+        public PGMainMenu _0_Set_Background_Green() { this.Btn211.Background = Brushes.Green; return this; }
+        private void Btn211_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn211_Click"); }
         //////////////////////////////////////////////////////
         //(49,"_1")
         public System.String _1_String() { return "_1"; }
@@ -463,6 +378,9 @@ namespace WpfDiplom.Pages
         public PGMainMenu _1_Down() { return this.__Down(this._1_ASCII()); }
         public PGMainMenu _1_Up() { return this.__Up(this._1_ASCII()); }
         public bool _1_Is() { return this.__Is(this._1_ASCII()); }
+        public PGMainMenu _1_Set_Background_White() { this.Btn22.Background = Brushes.White; return this; }
+        public PGMainMenu _1_Set_Background_Green() { this.Btn22.Background = Brushes.Green; return this; }
+        private void Btn22_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn22_Click"); }
         //////////////////////////////////////////////////////
         //(50,"_2")
         public System.String _2_String() { return "_2"; }
@@ -471,6 +389,10 @@ namespace WpfDiplom.Pages
         public PGMainMenu _2_Down() { return this.__Down(this._2_ASCII()); }
         public PGMainMenu _2_Up() { return this.__Up(this._2_ASCII()); }
         public bool _2_Is() { return this.__Is(this._2_ASCII()); }
+        public PGMainMenu _2_Set_Background_White() { this.Btn23.Background = Brushes.White; return this; }
+        public PGMainMenu _2_Set_Background_Green() { this.Btn23.Background = Brushes.Green; return this; }
+        private void Btn23_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn23_Click"); }
+
         //////////////////////////////////////////////////////
         //(51,"_3")
         public System.String _3_String() { return "_3"; }
@@ -479,6 +401,9 @@ namespace WpfDiplom.Pages
         public PGMainMenu _3_Down() { return this.__Down(this._3_ASCII()); }
         public PGMainMenu _3_Up() { return this.__Up(this._3_ASCII()); }
         public bool _3_Is() { return this.__Is(this._3_ASCII()); }
+        public PGMainMenu _3_Set_Background_White() { this.Btn24.Background = Brushes.White; return this; }
+        public PGMainMenu _3_Set_Background_Green() { this.Btn24.Background = Brushes.Green; return this; }
+        private void Btn24_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn24_Click"); }
         //////////////////////////////////////////////////////
         //(52,"_4")
         public System.String _4_String() { return "_4"; }
@@ -487,6 +412,9 @@ namespace WpfDiplom.Pages
         public PGMainMenu _4_Down() { return this.__Down(this._4_ASCII()); }
         public PGMainMenu _4_Up() { return this.__Up(this._4_ASCII()); }
         public bool _4_Is() { return this.__Is(this._4_ASCII()); }
+        public PGMainMenu _4_Set_Background_White() { this.Btn25.Background = Brushes.White; return this; }
+        public PGMainMenu _4_Set_Background_Green() { this.Btn25.Background = Brushes.Green; return this; }
+        private void Btn25_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn25_Click"); }
         //////////////////////////////////////////////////////
         //(53,"_5")
         public System.String _5_String() { return "_5"; }
@@ -495,6 +423,9 @@ namespace WpfDiplom.Pages
         public PGMainMenu _5_Down() { return this.__Down(this._5_ASCII()); }
         public PGMainMenu _5_Up() { return this.__Up(this._5_ASCII()); }
         public bool _5_Is() { return this.__Is(this._5_ASCII()); }
+        public PGMainMenu _5_Set_Background_White() { this.Btn26.Background = Brushes.White; return this; }
+        public PGMainMenu _5_Set_Background_Green() { this.Btn26.Background = Brushes.Green; return this; }
+        private void Btn26_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn26_Click"); }
         //////////////////////////////////////////////////////
         //(54,"_6")
         public System.String _6_String() { return "_6"; }
@@ -503,6 +434,9 @@ namespace WpfDiplom.Pages
         public PGMainMenu _6_Down() { return this.__Down(this._6_ASCII()); }
         public PGMainMenu _6_Up() { return this.__Up(this._6_ASCII()); }
         public bool _6_Is() { return this.__Is(this._6_ASCII()); }
+        public PGMainMenu _6_Set_Background_White() { this.Btn27.Background = Brushes.White; return this; }
+        public PGMainMenu _6_Set_Background_Green() { this.Btn27.Background = Brushes.Green; return this; }
+        private void Btn27_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn27_Click"); }
         //////////////////////////////////////////////////////
         //(55,"_7")
         public System.String _7_String() { return "_7"; }
@@ -511,6 +445,9 @@ namespace WpfDiplom.Pages
         public PGMainMenu _7_Down() { return this.__Down(this._7_ASCII()); }
         public PGMainMenu _7_Up() { return this.__Up(this._7_ASCII()); }
         public bool _7_Is() { return this.__Is(this._7_ASCII()); }
+        public PGMainMenu _7_Set_Background_White() { this.Btn28.Background = Brushes.White; return this; }
+        public PGMainMenu _7_Set_Background_Green() { this.Btn28.Background = Brushes.Green; return this; }
+        private void Btn28_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn28_Click"); }
         //////////////////////////////////////////////////////
         //(56,"_8")
         public System.String _8_String() { return "_8"; }
@@ -519,6 +456,9 @@ namespace WpfDiplom.Pages
         public PGMainMenu _8_Down() { return this.__Down(this._8_ASCII()); }
         public PGMainMenu _8_Up() { return this.__Up(this._8_ASCII()); }
         public bool _8_Is() { return this.__Is(this._8_ASCII()); }
+        public PGMainMenu _8_Set_Background_White() { this.Btn29.Background = Brushes.White; return this; }
+        public PGMainMenu _8_Set_Background_Green() { this.Btn29.Background = Brushes.Green; return this; }
+        private void Btn29_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn29_Click"); }
         //////////////////////////////////////////////////////
         //(57,"_9")
         public System.String _9_String() { return "_9"; }
@@ -527,6 +467,9 @@ namespace WpfDiplom.Pages
         public PGMainMenu _9_Down() { return this.__Down(this._9_ASCII()); }
         public PGMainMenu _9_Up() { return this.__Up(this._9_ASCII()); }
         public bool _9_Is() { return this.__Is(this._9_ASCII()); }
+        public PGMainMenu _9_Set_Background_White() { this.Btn210.Background = Brushes.White; return this; }
+        public PGMainMenu _9_Set_Background_Green() { this.Btn210.Background = Brushes.Green; return this; }
+        private void Btn210_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn210_Click"); }
         //////////////////////////////////////////////////////
         //(112,"F1")
         public System.String F1_String() { return "F1"; }
@@ -535,6 +478,9 @@ namespace WpfDiplom.Pages
         public PGMainMenu F1_Down() { return this.__Down(this.F1_ASCII()); }
         public PGMainMenu F1_Up() { return this.__Up(this.F1_ASCII()); }
         public bool F1_Is() { return this.__Is(this.F1_ASCII()); }
+        public PGMainMenu F1_Set_Background_White() { this.Btn12.Background = Brushes.White; return this; }
+        public PGMainMenu F1_Set_Background_Green() { this.Btn12.Background = Brushes.Green; return this; }
+        private void Btn12_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn12_Click"); }
         //////////////////////////////////////////////////////
         //(113,"F2")
         public System.String F2_String() { return "F2"; }
@@ -543,6 +489,9 @@ namespace WpfDiplom.Pages
         public PGMainMenu F2_Down() { return this.__Down(this.F2_ASCII()); }
         public PGMainMenu F2_Up() { return this.__Up(this.F2_ASCII()); }
         public bool F2_Is() { return this.__Is(this.F2_ASCII()); }
+        public PGMainMenu F2_Set_Background_White() { this.Btn13.Background = Brushes.White; return this; }
+        public PGMainMenu F2_Set_Background_Green() { this.Btn13.Background = Brushes.Green; return this; }
+        private void Btn13_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn13_Click"); }
         //////////////////////////////////////////////////////
         //(114,"F3")
         public System.String F3_String() { return "F3"; }
@@ -551,6 +500,9 @@ namespace WpfDiplom.Pages
         public PGMainMenu F3_Down() { return this.__Down(this.F3_ASCII()); }
         public PGMainMenu F3_Up() { return this.__Up(this.F3_ASCII()); }
         public bool F3_Is() { return this.__Is(this.F3_ASCII()); }
+        public PGMainMenu F3_Set_Background_White() { this.Btn14.Background = Brushes.White; return this; }
+        public PGMainMenu F3_Set_Background_Green() { this.Btn14.Background = Brushes.Green; return this; }
+        private void Btn14_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn14_Click"); }
         //////////////////////////////////////////////////////
         //(115,"F4")
         public System.String F4_String() { return "F4"; }
@@ -559,6 +511,9 @@ namespace WpfDiplom.Pages
         public PGMainMenu F4_Down() { return this.__Down(this.F4_ASCII()); }
         public PGMainMenu F4_Up() { return this.__Up(this.F4_ASCII()); }
         public bool F4_Is() { return this.__Is(this.F4_ASCII()); }
+        public PGMainMenu F4_Set_Background_White() { this.Btn15.Background = Brushes.White; return this; }
+        public PGMainMenu F4_Set_Background_Green() { this.Btn15.Background = Brushes.Green; return this; }
+        private void Btn15_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn15_Click"); }
         //////////////////////////////////////////////////////
         //(116,"F5")
         public System.String F5_String() { return "F5"; }
@@ -567,6 +522,9 @@ namespace WpfDiplom.Pages
         public PGMainMenu F5_Down() { return this.__Down(this.F5_ASCII()); }
         public PGMainMenu F5_Up() { return this.__Up(this.F5_ASCII()); }
         public bool F5_Is() { return this.__Is(this.F5_ASCII()); }
+        public PGMainMenu F5_Set_Background_White() { this.Btn16.Background = Brushes.White; return this; }
+        public PGMainMenu F5_Set_Background_Green() { this.Btn16.Background = Brushes.Green; return this; }
+        private void Btn16_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn16_Click"); }
         //////////////////////////////////////////////////////
         //(117,"F6")
         public System.String F6_String() { return "F6"; }
@@ -575,6 +533,9 @@ namespace WpfDiplom.Pages
         public PGMainMenu F6_Down() { return this.__Down(this.F6_ASCII()); }
         public PGMainMenu F6_Up() { return this.__Up(this.F6_ASCII()); }
         public bool F6_Is() { return this.__Is(this.F6_ASCII()); }
+        public PGMainMenu F6_Set_Background_White() { this.Btn17.Background = Brushes.White; return this; }
+        public PGMainMenu F6_Set_Background_Green() { this.Btn17.Background = Brushes.Green; return this; }
+        private void Btn17_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn17_Click"); }
         //////////////////////////////////////////////////////
         //(118,"F7")
         public System.String F7_String() { return "F7"; }
@@ -583,6 +544,9 @@ namespace WpfDiplom.Pages
         public PGMainMenu F7_Down() { return this.__Down(this.F7_ASCII()); }
         public PGMainMenu F7_Up() { return this.__Up(this.F7_ASCII()); }
         public bool F7_Is() { return this.__Is(this.F7_ASCII()); }
+        public PGMainMenu F7_Set_Background_White() { this.Btn18.Background = Brushes.White; return this; }
+        public PGMainMenu F7_Set_Background_Green() { this.Btn18.Background = Brushes.Green; return this; }
+        private void Btn18_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn18_Click"); }
         //////////////////////////////////////////////////////
         //(119,"F8")
         public System.String F8_String() { return "F8"; }
@@ -591,6 +555,9 @@ namespace WpfDiplom.Pages
         public PGMainMenu F8_Down() { return this.__Down(this.F8_ASCII()); }
         public PGMainMenu F8_Up() { return this.__Up(this.F8_ASCII()); }
         public bool F8_Is() { return this.__Is(this.F8_ASCII()); }
+        public PGMainMenu F8_Set_Background_White() { this.Btn19.Background = Brushes.White; return this; }
+        public PGMainMenu F8_Set_Background_Green() { this.Btn19.Background = Brushes.Green; return this; }
+        private void Btn19_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn19_Click"); }
         //////////////////////////////////////////////////////
         //(120,"F9")
         public System.String F9_String() { return "F9"; }
@@ -599,6 +566,9 @@ namespace WpfDiplom.Pages
         public PGMainMenu F9_Down() { return this.__Down(this.F9_ASCII()); }
         public PGMainMenu F9_Up() { return this.__Up(this.F9_ASCII()); }
         public bool F9_Is() { return this.__Is(this.F9_ASCII()); }
+        public PGMainMenu F9_Set_Background_White() { this.Btn110.Background = Brushes.White; return this; }
+        public PGMainMenu F9_Set_Background_Green() { this.Btn110.Background = Brushes.Green; return this; }
+        private void Btn110_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn110_Click"); }
         //////////////////////////////////////////////////////
         //(121,"F10")
         public System.String F10_String() { return "F10"; }
@@ -607,6 +577,9 @@ namespace WpfDiplom.Pages
         public PGMainMenu F10_Down() { return this.__Down(this.F10_ASCII()); }
         public PGMainMenu F10_Up() { return this.__Up(this.F10_ASCII()); }
         public bool F10_Is() { return this.__Is(this.F10_ASCII()); }
+        public PGMainMenu F10_Set_Background_White() { this.Btn111.Background = Brushes.White; return this; }
+        public PGMainMenu F10_Set_Background_Green() { this.Btn111.Background = Brushes.Green; return this; }
+        private void Btn111_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn111_Click"); }
         //////////////////////////////////////////////////////
         //(122,"F11")
         public System.String F11_String() { return "F11"; }
@@ -615,6 +588,9 @@ namespace WpfDiplom.Pages
         public PGMainMenu F11_Down() { return this.__Down(this.F11_ASCII()); }
         public PGMainMenu F11_Up() { return this.__Up(this.F11_ASCII()); }
         public bool F11_Is() { return this.__Is(this.F11_ASCII()); }
+        public PGMainMenu F11_Set_Background_White() { this.Btn112.Background = Brushes.White; return this; }
+        public PGMainMenu F11_Set_Background_Green() { this.Btn112.Background = Brushes.Green; return this; }
+        private void Btn112_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn112_Click"); }
         //////////////////////////////////////////////////////
         //(123,"F12")
         public System.String F12_String() { return "F12"; }
@@ -623,6 +599,9 @@ namespace WpfDiplom.Pages
         public PGMainMenu F12_Down() { return this.__Down(this.F12_ASCII()); }
         public PGMainMenu F12_Up() { return this.__Up(this.F12_ASCII()); }
         public bool F12_Is() { return this.__Is(this.F12_ASCII()); }
+        public PGMainMenu F12_Set_Background_White() { this.Btn113.Background = Brushes.White; return this; }
+        public PGMainMenu F12_Set_Background_Green() { this.Btn113.Background = Brushes.Green; return this; }
+        private void Btn113_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn113_Click"); }
         //////////////////////////////////////////////////////
         //(96,"NumZero")
         public System.String NumZero_String() { return "NumZero"; }
@@ -631,6 +610,7 @@ namespace WpfDiplom.Pages
         public PGMainMenu NumZero_Down() { return this.__Down(this.NumZero_ASCII()); }
         public PGMainMenu NumZero_Up() { return this.__Up(this.NumZero_ASCII()); }
         public bool NumZero_Is() { return this.__Is(this.NumZero_ASCII()); }
+        private void Btn611_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn611_Click"); }
         //////////////////////////////////////////////////////
         //(97,"NumOne")
         public System.String NumOne_String() { return "NumOne"; }
@@ -639,6 +619,7 @@ namespace WpfDiplom.Pages
         public PGMainMenu NumOne_Down() { return this.__Down(this.NumOne_ASCII()); }
         public PGMainMenu NumOne_Up() { return this.__Up(this.NumOne_ASCII()); }
         public bool NumOne_Is() { return this.__Is(this.NumOne_ASCII()); }
+        private void Btn514_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn514_Click"); }
         //////////////////////////////////////////////////////
         //(98,"NumTwo")
         public System.String NumTwo_String() { return "NumTwo"; }
@@ -647,6 +628,7 @@ namespace WpfDiplom.Pages
         public PGMainMenu NumTwo_Down() { return this.__Down(this.NumTwo_ASCII()); }
         public PGMainMenu NumTwo_Up() { return this.__Up(this.NumTwo_ASCII()); }
         public bool NumTwo_Is() { return this.__Is(this.NumTwo_ASCII()); }
+        private void Btn515_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn515_Click"); }
         //////////////////////////////////////////////////////
         //(99,"NumThree")
         public System.String NumThree_String() { return "NumThree"; }
@@ -655,6 +637,7 @@ namespace WpfDiplom.Pages
         public PGMainMenu NumThree_Down() { return this.__Down(this.NumThree_ASCII()); }
         public PGMainMenu NumThree_Up() { return this.__Up(this.NumThree_ASCII()); }
         public bool NumThree_Is() { return this.__Is(this.NumThree_ASCII()); }
+        private void Btn516_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn516_Click"); }
         //////////////////////////////////////////////////////
         //(100,"NumFor")
         public System.String NumFor_String() { return "NumFor"; }
@@ -663,6 +646,7 @@ namespace WpfDiplom.Pages
         public PGMainMenu NumFor_Down() { return this.__Down(this.NumFor_ASCII()); }
         public PGMainMenu NumFor_Up() { return this.__Up(this.NumFor_ASCII()); }
         public bool NumFor_Is() { return this.__Is(this.NumFor_ASCII()); }
+        private void Btn414_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn414_Click"); }
         //////////////////////////////////////////////////////
         //(101,"NumFive")
         public System.String NumFive_String() { return "NumFive"; }
@@ -671,6 +655,7 @@ namespace WpfDiplom.Pages
         public PGMainMenu NumFive_Down() { return this.__Down(this.NumFive_ASCII()); }
         public PGMainMenu NumFive_Up() { return this.__Up(this.NumFive_ASCII()); }
         public bool NumFive_Is() { return this.__Is(this.NumFive_ASCII()); }
+        private void Btn415_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn415_Click"); }
         //////////////////////////////////////////////////////
         //(102,"NumSix")
         public System.String NumSix_String() { return "NumSix"; }
@@ -679,6 +664,7 @@ namespace WpfDiplom.Pages
         public PGMainMenu NumSix_Down() { return this.__Down(this.NumSix_ASCII()); }
         public PGMainMenu NumSix_Up() { return this.__Up(this.NumSix_ASCII()); }
         public bool NumSix_Is() { return this.__Is(this.NumSix_ASCII()); }
+        private void Btn416_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn416_Click"); }
         //////////////////////////////////////////////////////
         //(103,"NumSeven")
         public System.String NumSeven_String() { return "NumSeven"; }
@@ -687,6 +673,7 @@ namespace WpfDiplom.Pages
         public PGMainMenu NumSeven_Down() { return this.__Down(this.NumSeven_ASCII()); }
         public PGMainMenu NumSeven_Up() { return this.__Up(this.NumSeven_ASCII()); }
         public bool NumSeven_Is() { return this.__Is(this.NumSeven_ASCII()); }
+        private void Btn318_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn318_Click"); }
         //////////////////////////////////////////////////////
         //(104,"NumEight")
         public System.String NumEight_String() { return "NumEight"; }
@@ -695,6 +682,7 @@ namespace WpfDiplom.Pages
         public PGMainMenu NumEight_Down() { return this.__Down(this.NumEight_ASCII()); }
         public PGMainMenu NumEight_Up() { return this.__Up(this.NumEight_ASCII()); }
         public bool NumEight_Is() { return this.__Is(this.NumEight_ASCII()); }
+        private void Btn319_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn319_Click"); }
         //////////////////////////////////////////////////////
         //(105,"NumNine")
         public System.String NumNine_String() { return "NumNine"; }
@@ -703,6 +691,7 @@ namespace WpfDiplom.Pages
         public PGMainMenu NumNine_Down() { return this.__Down(this.NumNine_ASCII()); }
         public PGMainMenu NumNine_Up() { return this.__Up(this.NumNine_ASCII()); }
         public bool NumNine_Is() { return this.__Is(this.NumNine_ASCII()); }
+        private void Btn320_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn320_Click"); }
         //////////////////////////////////////////////////////
         //(106,"NumStar")
         public System.String NumStar_String() { return "NumStar"; }
@@ -711,6 +700,7 @@ namespace WpfDiplom.Pages
         public PGMainMenu NumStar_Down() { return this.__Down(this.NumStar_ASCII()); }
         public PGMainMenu NumStar_Up() { return this.__Up(this.NumStar_ASCII()); }
         public bool NumStar_Is() { return this.__Is(this.NumStar_ASCII()); }
+        private void Btn220_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn220_Click"); }
         //////////////////////////////////////////////////////
         //(107,"NumPlus")
         public System.String NumPlus_String() { return "NumPlus"; }
@@ -719,6 +709,7 @@ namespace WpfDiplom.Pages
         public PGMainMenu NumPlus_Down() { return this.__Down(this.NumPlus_ASCII()); }
         public PGMainMenu NumPlus_Up() { return this.__Up(this.NumPlus_ASCII()); }
         public bool NumPlus_Is() { return this.__Is(this.NumPlus_ASCII()); }
+        private void Btn321_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn321_Click"); }
         //////////////////////////////////////////////////////
         //(109,"NumMinus")
         public System.String NumMinus_String() { return "NumMinus"; }
@@ -727,6 +718,7 @@ namespace WpfDiplom.Pages
         public PGMainMenu NumMinus_Down() { return this.__Down(this.NumMinus_ASCII()); }
         public PGMainMenu NumMinus_Up() { return this.__Up(this.NumMinus_ASCII()); }
         public bool NumMinus_Is() { return this.__Is(this.NumMinus_ASCII()); }
+        private void Btn221_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn221_Click"); }
         //////////////////////////////////////////////////////
         //(110,"NumDot")
         public System.String NumDot_String() { return "NumDot"; }
@@ -735,6 +727,7 @@ namespace WpfDiplom.Pages
         public PGMainMenu NumDot_Down() { return this.__Down(this.NumDot_ASCII()); }
         public PGMainMenu NumDot_Up() { return this.__Up(this.NumDot_ASCII()); }
         public bool NumDot_Is() { return this.__Is(this.NumDot_ASCII()); }
+        private void Btn612_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn612_Click"); }
         //////////////////////////////////////////////////////
         //(111,"NumSlash")
         public System.String NumSlash_String() { return "NumSlash"; }
@@ -743,6 +736,7 @@ namespace WpfDiplom.Pages
         public PGMainMenu NumSlash_Down() { return this.__Down(this.NumSlash_ASCII()); }
         public PGMainMenu NumSlash_Up() { return this.__Up(this.NumSlash_ASCII()); }
         public bool NumSlash_Is() { return this.__Is(this.NumSlash_ASCII()); }
+        private void Btn219_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn219_Click"); }
         //////////////////////////////////////////////////////
         //(144,"NUMLOCK")
         public System.String NUMLOCK_String() { return "NUMLOCK"; }
@@ -751,14 +745,16 @@ namespace WpfDiplom.Pages
         public PGMainMenu NUMLOCK_Down() { return this.__Down(this.NUMLOCK_ASCII()); }
         public PGMainMenu NUMLOCK_Up() { return this.__Up(this.NUMLOCK_ASCII()); }
         public bool NUMLOCK_Is() { return this.__Is(this.NUMLOCK_ASCII()); }
+        private void Btn218_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn218_Click"); }
         //////////////////////////////////////////////////////
         //(191,"Slash")
         public System.String Slash_String() { return "Slash"; }
         public System.Byte Slash_ASCII() { return 191; }
         public PGMainMenu Slash() { return this; }
         public PGMainMenu Slash_Down() { return this.__Down(this.Slash_ASCII()); }
-        public PGMainMenu Slash_Up() { return this.__Up(this.Slash_ASCII()); }
+        public PGMainMenu Slash_Up() { return this.__Up(this.Slash_ASCII()); }        
         public bool Slash_Is() { return this.__Is(this.Slash_ASCII()); }
+        private void Btn314_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn314_Click"); }
         //////////////////////////////////////////////////////
         //(32,"Space")
         public System.String Space_String() { return "Space"; }
@@ -767,6 +763,7 @@ namespace WpfDiplom.Pages
         public PGMainMenu Space_Down() { return this.__Down(this.Space_ASCII()); }
         public PGMainMenu Space_Up() { return this.__Up(this.Space_ASCII()); }
         public bool Space_Is() { return this.__Is(this.Space_ASCII()); }
+        private void Btn64_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn64_Click"); }
         //////////////////////////////////////////////////////
         //(13,"Enter")
         public System.String Enter_String() { return "Enter"; }
@@ -775,6 +772,74 @@ namespace WpfDiplom.Pages
         public PGMainMenu Enter_Down() { return this.__Down(this.Enter_ASCII()); }
         public PGMainMenu Enter_Up() { return this.__Up(this.Enter_ASCII()); }
         public bool Enter_Is() { return this.__Is(this.Enter_ASCII()); }
+
+        public PGMainMenu()
+        {
+            InitializeComponent();
+            //пОДСВЕТИТЬ ПОДДЕРЖИВАЕМЫЕ КЛАВИШИ
+            if (true)
+                this.A_Set_Background_Green().B_Set_Background_Green().C_Set_Background_Green().D_Set_Background_Green()
+                    .E_Set_Background_Green().F_Set_Background_Green().G_Set_Background_Green().H_Set_Background_Green()
+                    .I_Set_Background_Green().J_Set_Background_Green().K_Set_Background_Green().L_Set_Background_Green()
+                    .M_Set_Background_Green().N_Set_Background_Green().O_Set_Background_Green().P_Set_Background_Green()
+                    .Q_Set_Background_Green().R_Set_Background_Green().S_Set_Background_Green().T_Set_Background_Green()
+                    .U_Set_Background_Green().V_Set_Background_Green().W_Set_Background_Green().X_Set_Background_Green()
+                    .Y_Set_Background_Green().Z_Set_Background_Green()
+                    ._0_Set_Background_Green()._1_Set_Background_Green()._2_Set_Background_Green()._3_Set_Background_Green()
+                    ._4_Set_Background_Green()._5_Set_Background_Green()._6_Set_Background_Green()._7_Set_Background_Green()
+                    ._8_Set_Background_Green()._9_Set_Background_Green()
+                    .F1_Set_Background_Green().F2_Set_Background_Green().F3_Set_Background_Green().F4_Set_Background_Green()
+                    .F5_Set_Background_Green().F6_Set_Background_Green().F7_Set_Background_Green().F8_Set_Background_Green()
+                    .F9_Set_Background_Green().F10_Set_Background_Green().F11_Set_Background_Green().F12_Set_Background_Green()
+
+
+                ;
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Button_Click_1"); }
+        private void Button_Click_2(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Button_Click_2"); }
+        private void Btn21_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn21_Click"); }
+        private void Btn11_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn11_Click"); }
+
+
+        private void Btn31_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn31_Click"); }
+        private void Btn41_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn41_Click"); }
+        private void Btn51_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn51_Click"); }
+        private void Btn59_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn59_Click"); }
+        private void Btn61_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn61_Click"); }
+        private void Btn63_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn63_Click"); }
+        private void Btn65_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn65_Click"); }
+        private void Btn66_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn66_Click"); }
+        private void Btn67_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn67_Click"); }
+        private void Btn68_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn68_Click"); }
+        private void Btn69_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn69_Click"); }
+        private void Btn114_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn114_Click"); }
+        private void Btn115_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn115_Click"); }
+        private void Btn116_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn116_Click"); }
+        private void Btn212_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn212_Click"); }
+        private void Btn213_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn213_Click"); }
+        private void Btn214_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn214_Click"); }
+        private void Btn215_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn215_Click"); }
+        private void Btn216_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn216_Click"); }
+        private void Btn217_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn217_Click"); }
+        private void Btn312_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn312_Click"); }
+        private void Btn313_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn313_Click"); }
+        private void Btn315_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn315_Click"); }
+        private void Btn316_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn316_Click"); }
+        private void Btn317_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn317_Click"); }
+        private void Btn411_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn411_Click"); }
+        private void Btn412_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn412_Click"); }
+        private void Btn413_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn413_Click"); }
+        private void Btn510_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn510_Click"); }
+        private void Btn511_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn511_Click"); }
+        private void Btn512_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn512_Click"); }
+        private void Btn513_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn513_Click"); }
+        private void Btn517_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn517_Click"); }
+        private void Btn610_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn610_Click"); }
+
+
+
+
         //////////////////////////////////////////////////////
         //(222,"Mark")
         public System.String Mark_String() { return "Mark"; }
