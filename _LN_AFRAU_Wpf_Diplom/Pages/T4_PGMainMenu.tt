@@ -107,7 +107,7 @@ Gett
 ("NumSlash",111,"Btn219")
 ("NumEnter",13,"Btn517")
 ("NUMLOCK",144,"Btn218")
-("Slash",191,"Btn314")
+                                                        ("Slash",191,"Btn314")
 ("Space",32,"Btn64")
 ("Enter",13,"Btn413")
 ("Escape",27,"Btn11")
@@ -118,21 +118,37 @@ Gett
 //("CTRL",17,"Btn_Ctrl_17")
 ("LeftCTRL",162,"Btn61")
 ("RightCTRL",163,"Btn67")
+//("Alt",18,"Alt_asdjsaghfk")
+("LeftAlt",164,"Btn63")
+("RightAlt",165,"Btn65")
+("Pause",19,"Btn116")
+("CapsLock",20,"Btn41")
+("PageUp",33,"Btn217")
+("PageDown",34,"Btn317")
+("End",35,"Btn316")
+("Home",36,"Btn216")
+("ArrowUp",38,"Btn513")
+("ArrowLeft",37,"Btn68")
+("ArrowRight",39,"Btn610")
+("ArrowDown",40,"Btn69")
+("Insert",45,"Btn215")
+("Delete",46,"Btn315")
+("LeftWin",91,"Btn62")
+("RightWin",92,"Btn66")
+("PrintScreen",154,"Btn114")//  - очень спорная клавиша 
 //////////////////////////////////////////////////////
-
+("ScrollLock",145,"Btn115")
 
 ;
-#>      
-        
-        
-        //////////////////////////////////////////////////////
-        
-        //////////////////////////////////////////////////////
-
-        
+#>   
 
 
 
+        
+        
+
+
+        
     }
 }
 <#+
