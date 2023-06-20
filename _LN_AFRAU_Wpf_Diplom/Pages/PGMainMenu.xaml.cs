@@ -29,6 +29,7 @@ using Microsoft.Win32;
 using System.Runtime.CompilerServices;
 using ClickerManDVA_DVA;
 using System.Threading;
+using System.Windows.Media.Media3D;
 #endregion
 
 namespace WpfDiplom.Pages
@@ -73,6 +74,7 @@ namespace WpfDiplom.Pages
         public PGMainMenu __Up(byte _bVk) { keybd_event(_bVk, 0, 2, 0); return this; }
         public System.Boolean __Is(byte _bVk) { switch (GetKeyState(_bVk)){ case -127: case -128: return true; break;default: return false; break;} return false; }
         //////////////////////////////////////////////////////
+        
 
         /// <summary> Тестовый Мод Первый. Выводить в титульник название только что нажатой клациши</summary>
         private System.Boolean p_TestMod_1 = true;
@@ -154,9 +156,18 @@ namespace WpfDiplom.Pages
                     if (this.Slash_Is()) { this.Slash_Set_Background_Green(); } else { this.Slash_Set_Background_Gray(); }
                     if (this.Space_Is()) { this.Space_Set_Background_Green(); } else { this.Space_Set_Background_Gray(); }
                     if (this.Enter_Is()) { this.Enter_Set_Background_Green(); } else { this.Enter_Set_Background_Gray(); }
+                    if (this.Escape_Is()) { this.Escape_Set_Background_Green(); } else { this.Escape_Set_Background_Gray(); }
+                    if (this.LShift_Is()) { this.LShift_Set_Background_Green(); } else { this.LShift_Set_Background_Gray(); }
+                    if (this.RShift_Is()) { this.RShift_Set_Background_Green(); } else { this.RShift_Set_Background_Gray(); }
+                    if (this.BackSpace_Is()) { this.BackSpace_Set_Background_Green(); } else { this.BackSpace_Set_Background_Gray(); }
+                    if (this.Tab_Is()) { this.Tab_Set_Background_Green(); } else { this.Tab_Set_Background_Gray(); }
+                    if (this.LeftCTRL_Is()) { this.LeftCTRL_Set_Background_Green(); } else { this.LeftCTRL_Set_Background_Gray(); }
+                    if (this.RightCTRL_Is()) { this.RightCTRL_Set_Background_Green(); } else { this.RightCTRL_Set_Background_Gray(); }
                     //////////////////////////////////////////////////////
 
 
+
+                    //if (this.__Is(222)) System.Windows.MessageBox.Show("222");
 
 
                     Dispatcher.InvokeAsync(() => _wrewrew = this.ExitFlag);
@@ -188,28 +199,34 @@ namespace WpfDiplom.Pages
                     .NumStar_Set_Background_White().NumPlus_Set_Background_White().NumMinus_Set_Background_White()
                     .NumDot_Set_Background_White().NumSlash_Set_Background_White().NumEnter_Set_Background_White().NUMLOCK_Set_Background_White()
                     .Slash_Set_Background_White().Space_Set_Background_White().Enter_Set_Background_White()
-                    
-
-
+                    .Escape_Set_Background_White().LShift_Set_Background_White().RShift_Set_Background_White()
+                    .BackSpace_Set_Background_White().Tab_Set_Background_White()
+                    .LeftCTRL_Set_Background_White()
+                    .RightCTRL_Set_Background_White()
+                //("LeftCTRL", 162, "Btn61")
+                //("RightCTRL", 163, "Btn67")
 
                 ;
         }
 
+        
+
+
         private void Button_Click_1(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Button_Click_1"); }
         private void Button_Click_2(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Button_Click_2"); }
         private void Btn21_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn21_Click"); }
-        private void Btn11_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn11_Click"); }
+        
 
 
-        private void Btn31_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn31_Click"); }
+        
         private void Btn41_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn41_Click"); }
-        private void Btn51_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn51_Click"); }
+        
         private void Btn59_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn59_Click"); }
-        private void Btn61_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn61_Click"); }
+
         private void Btn63_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn63_Click"); }
         private void Btn65_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn65_Click"); }
         private void Btn66_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn66_Click"); }
-        private void Btn67_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn67_Click"); }
+        
         private void Btn68_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn68_Click"); }
         private void Btn69_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn69_Click"); }
         private void Btn114_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn114_Click"); }
@@ -217,7 +234,7 @@ namespace WpfDiplom.Pages
         private void Btn116_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn116_Click"); }
         private void Btn212_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn212_Click"); }
         private void Btn213_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn213_Click"); }
-        private void Btn214_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn214_Click"); }
+        
         private void Btn215_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn215_Click"); }
         private void Btn216_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn216_Click"); }
         private void Btn217_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn217_Click"); }
@@ -231,56 +248,17 @@ namespace WpfDiplom.Pages
         
         private void Btn510_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn510_Click"); }
         private void Btn511_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn511_Click"); }
-        private void Btn512_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn512_Click"); }
+        
         private void Btn513_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn513_Click"); }
         
         private void Btn610_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn610_Click"); }
 
 
 
+
+
+
         
-
-
-        //////////////////////////////////////////////////////
-        //(222,"Mark")
-        public System.String Mark_String() { return "Mark"; }
-        public System.Byte Mark_ASCII() { return 222; }
-        public PGMainMenu Mark() { return this; }
-        public PGMainMenu Mark_Down() { return this.__Down(this.Mark_ASCII()); }
-        public PGMainMenu Mark_Up() { return this.__Up(this.Mark_ASCII()); }
-        public bool Mark_Is() { return this.__Is(this.Mark_ASCII()); }
-        //////////////////////////////////////////////////////
-        //(16,"Shift")
-        public System.String Shift_String() { return "Shift"; }
-        public System.Byte Shift_ASCII() { return 16; }
-        public PGMainMenu Shift() { return this; }
-        public PGMainMenu Shift_Down() { return this.__Down(this.Shift_ASCII()); }
-        public PGMainMenu Shift_Up() { return this.__Up(this.Shift_ASCII()); }
-        public bool Shift_Is() { return this.__Is(this.Shift_ASCII()); }
-        //////////////////////////////////////////////////////
-        //(8,"BACKSPACE")
-        public System.String BACKSPACE_String() { return "BACKSPACE"; }
-        public System.Byte BACKSPACE_ASCII() { return 8; }
-        public PGMainMenu BACKSPACE() { return this; }
-        public PGMainMenu BACKSPACE_Down() { return this.__Down(this.BACKSPACE_ASCII()); }
-        public PGMainMenu BACKSPACE_Up() { return this.__Up(this.BACKSPACE_ASCII()); }
-        public bool BACKSPACE_Is() { return this.__Is(this.BACKSPACE_ASCII()); }
-        //////////////////////////////////////////////////////
-        //(9,"TAB")
-        public System.String TAB_String() { return "TAB"; }
-        public System.Byte TAB_ASCII() { return 9; }
-        public PGMainMenu TAB() { return this; }
-        public PGMainMenu TAB_Down() { return this.__Down(this.TAB_ASCII()); }
-        public PGMainMenu TAB_Up() { return this.__Up(this.TAB_ASCII()); }
-        public bool TAB_Is() { return this.__Is(this.TAB_ASCII()); }
-        //////////////////////////////////////////////////////
-        //(17,"CTRL")
-        public System.String CTRL_String() { return "CTRL"; }
-        public System.Byte CTRL_ASCII() { return 17; }
-        public PGMainMenu CTRL() { return this; }
-        public PGMainMenu CTRL_Down() { return this.__Down(this.CTRL_ASCII()); }
-        public PGMainMenu CTRL_Up() { return this.__Up(this.CTRL_ASCII()); }
-        public bool CTRL_Is() { return this.__Is(this.CTRL_ASCII()); }
         //////////////////////////////////////////////////////
         //(18,"ALT")
         public System.String ALT_String() { return "ALT"; }
@@ -305,14 +283,7 @@ namespace WpfDiplom.Pages
         public PGMainMenu CAPSLOCK_Down() { return this.__Down(this.CAPSLOCK_ASCII()); }
         public PGMainMenu CAPSLOCK_Up() { return this.__Up(this.CAPSLOCK_ASCII()); }
         public bool CAPSLOCK_Is() { return this.__Is(this.CAPSLOCK_ASCII()); }
-        //////////////////////////////////////////////////////
-        //(27,"ESCAPE")
-        public System.String ESCAPE_String() { return "ESCAPE"; }
-        public System.Byte ESCAPE_ASCII() { return 27; }
-        public PGMainMenu ESCAPE() { return this; }
-        public PGMainMenu ESCAPE_Down() { return this.__Down(this.ESCAPE_ASCII()); }
-        public PGMainMenu ESCAPE_Up() { return this.__Up(this.ESCAPE_ASCII()); }
-        public bool ESCAPE_Is() { return this.__Is(this.ESCAPE_ASCII()); }
+        
         //////////////////////////////////////////////////////
         //(33,"PAGEUP")
         public System.String PAGEUP_String() { return "PAGEUP"; }
@@ -521,6 +492,15 @@ namespace WpfDiplom.Pages
         public PGMainMenu MMouse_Down() { return this.__Down(this.MMouse_ASCII()); }
         public PGMainMenu MMouse_Up() { return this.__Up(this.MMouse_ASCII()); }
         public bool MMouse_Is() { return this.__Is(this.MMouse_ASCII()); }
+        //////////////////////////////////////////////////////
+        //(222,"Mark")
+        public System.String Mark_String() { return "Mark"; }
+        public System.Byte Mark_ASCII() { return 222; }
+        public PGMainMenu Mark() { return this; }
+        public PGMainMenu Mark_Down() { return this.__Down(this.Mark_ASCII()); }
+        public PGMainMenu Mark_Up() { return this.__Up(this.Mark_ASCII()); }
+        public bool Mark_Is() { return this.__Is(this.Mark_ASCII()); }
+
         //////////////////////////////////////////////////////
         private void Button_Click(object sender, RoutedEventArgs e){}
         private void btn_StopRec_Click(object sender, RoutedEventArgs e){}

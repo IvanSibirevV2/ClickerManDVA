@@ -850,9 +850,100 @@ namespace WpfDiplom.Pages
         public PGMainMenu Enter_Set_Background_Gray() { Dispatcher.InvokeAsync(() => this.Btn413.Background = Brushes.Yellow/*LightGray*/); return this; }
         public PGMainMenu Enter_Set_Background_Green() { Dispatcher.InvokeAsync(() => this.Btn413.Background = Brushes.Green); return this; }
         private void Btn413_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn413"); }
+        ////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        //(Escape, 27, Btn11)
+        public System.String Escape_String() { return "Escape"; }
+        public System.Byte Escape_ASCII() { return 27; }
+        public PGMainMenu Escape() { return this; }
+        public PGMainMenu Escape_Down() { return this.__Down(this.Escape_ASCII()); }
+        public PGMainMenu Escape_Up() { return this.__Up(this.Escape_ASCII()); }
+        public bool Escape_Is() { return this.__Is(this.Escape_ASCII()); }
+        public PGMainMenu Escape_Set_Background_White() {Dispatcher.InvokeAsync(() =>this.Btn11.Background = Brushes.White); return this; }
+        public PGMainMenu Escape_Set_Background_Gray() { Dispatcher.InvokeAsync(() => this.Btn11.Background = Brushes.Yellow/*LightGray*/); return this; }
+        public PGMainMenu Escape_Set_Background_Green() { Dispatcher.InvokeAsync(() => this.Btn11.Background = Brushes.Green); return this; }
+        private void Btn11_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn11"); }
+        ////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        //(LShift, 16, Btn51)
+        public System.String LShift_String() { return "LShift"; }
+        public System.Byte LShift_ASCII() { return 16; }
+        public PGMainMenu LShift() { return this; }
+        public PGMainMenu LShift_Down() { return this.__Down(this.LShift_ASCII()); }
+        public PGMainMenu LShift_Up() { return this.__Up(this.LShift_ASCII()); }
+        public bool LShift_Is() { return this.__Is(this.LShift_ASCII()); }
+        public PGMainMenu LShift_Set_Background_White() {Dispatcher.InvokeAsync(() =>this.Btn51.Background = Brushes.White); return this; }
+        public PGMainMenu LShift_Set_Background_Gray() { Dispatcher.InvokeAsync(() => this.Btn51.Background = Brushes.Yellow/*LightGray*/); return this; }
+        public PGMainMenu LShift_Set_Background_Green() { Dispatcher.InvokeAsync(() => this.Btn51.Background = Brushes.Green); return this; }
+        private void Btn51_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn51"); }
+        ////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        //(RShift, 16, Btn512)
+        public System.String RShift_String() { return "RShift"; }
+        public System.Byte RShift_ASCII() { return 16; }
+        public PGMainMenu RShift() { return this; }
+        public PGMainMenu RShift_Down() { return this.__Down(this.RShift_ASCII()); }
+        public PGMainMenu RShift_Up() { return this.__Up(this.RShift_ASCII()); }
+        public bool RShift_Is() { return this.__Is(this.RShift_ASCII()); }
+        public PGMainMenu RShift_Set_Background_White() {Dispatcher.InvokeAsync(() =>this.Btn512.Background = Brushes.White); return this; }
+        public PGMainMenu RShift_Set_Background_Gray() { Dispatcher.InvokeAsync(() => this.Btn512.Background = Brushes.Yellow/*LightGray*/); return this; }
+        public PGMainMenu RShift_Set_Background_Green() { Dispatcher.InvokeAsync(() => this.Btn512.Background = Brushes.Green); return this; }
+        private void Btn512_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn512"); }
+        ////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        //(BackSpace, 8, Btn214)
+        public System.String BackSpace_String() { return "BackSpace"; }
+        public System.Byte BackSpace_ASCII() { return 8; }
+        public PGMainMenu BackSpace() { return this; }
+        public PGMainMenu BackSpace_Down() { return this.__Down(this.BackSpace_ASCII()); }
+        public PGMainMenu BackSpace_Up() { return this.__Up(this.BackSpace_ASCII()); }
+        public bool BackSpace_Is() { return this.__Is(this.BackSpace_ASCII()); }
+        public PGMainMenu BackSpace_Set_Background_White() {Dispatcher.InvokeAsync(() =>this.Btn214.Background = Brushes.White); return this; }
+        public PGMainMenu BackSpace_Set_Background_Gray() { Dispatcher.InvokeAsync(() => this.Btn214.Background = Brushes.Yellow/*LightGray*/); return this; }
+        public PGMainMenu BackSpace_Set_Background_Green() { Dispatcher.InvokeAsync(() => this.Btn214.Background = Brushes.Green); return this; }
+        private void Btn214_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn214"); }
+        ////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        //(Tab, 9, Btn31)
+        public System.String Tab_String() { return "Tab"; }
+        public System.Byte Tab_ASCII() { return 9; }
+        public PGMainMenu Tab() { return this; }
+        public PGMainMenu Tab_Down() { return this.__Down(this.Tab_ASCII()); }
+        public PGMainMenu Tab_Up() { return this.__Up(this.Tab_ASCII()); }
+        public bool Tab_Is() { return this.__Is(this.Tab_ASCII()); }
+        public PGMainMenu Tab_Set_Background_White() {Dispatcher.InvokeAsync(() =>this.Btn31.Background = Brushes.White); return this; }
+        public PGMainMenu Tab_Set_Background_Gray() { Dispatcher.InvokeAsync(() => this.Btn31.Background = Brushes.Yellow/*LightGray*/); return this; }
+        public PGMainMenu Tab_Set_Background_Green() { Dispatcher.InvokeAsync(() => this.Btn31.Background = Brushes.Green); return this; }
+        private void Btn31_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn31"); }
+        ////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        //(LeftCTRL, 162, Btn61)
+        public System.String LeftCTRL_String() { return "LeftCTRL"; }
+        public System.Byte LeftCTRL_ASCII() { return 162; }
+        public PGMainMenu LeftCTRL() { return this; }
+        public PGMainMenu LeftCTRL_Down() { return this.__Down(this.LeftCTRL_ASCII()); }
+        public PGMainMenu LeftCTRL_Up() { return this.__Up(this.LeftCTRL_ASCII()); }
+        public bool LeftCTRL_Is() { return this.__Is(this.LeftCTRL_ASCII()); }
+        public PGMainMenu LeftCTRL_Set_Background_White() {Dispatcher.InvokeAsync(() =>this.Btn61.Background = Brushes.White); return this; }
+        public PGMainMenu LeftCTRL_Set_Background_Gray() { Dispatcher.InvokeAsync(() => this.Btn61.Background = Brushes.Yellow/*LightGray*/); return this; }
+        public PGMainMenu LeftCTRL_Set_Background_Green() { Dispatcher.InvokeAsync(() => this.Btn61.Background = Brushes.Green); return this; }
+        private void Btn61_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn61"); }
+        ////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        //(RightCTRL, 163, Btn67)
+        public System.String RightCTRL_String() { return "RightCTRL"; }
+        public System.Byte RightCTRL_ASCII() { return 163; }
+        public PGMainMenu RightCTRL() { return this; }
+        public PGMainMenu RightCTRL_Down() { return this.__Down(this.RightCTRL_ASCII()); }
+        public PGMainMenu RightCTRL_Up() { return this.__Up(this.RightCTRL_ASCII()); }
+        public bool RightCTRL_Is() { return this.__Is(this.RightCTRL_ASCII()); }
+        public PGMainMenu RightCTRL_Set_Background_White() {Dispatcher.InvokeAsync(() =>this.Btn67.Background = Brushes.White); return this; }
+        public PGMainMenu RightCTRL_Set_Background_Gray() { Dispatcher.InvokeAsync(() => this.Btn67.Background = Brushes.Yellow/*LightGray*/); return this; }
+        public PGMainMenu RightCTRL_Set_Background_Green() { Dispatcher.InvokeAsync(() => this.Btn67.Background = Brushes.Green); return this; }
+        private void Btn67_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn67"); }
       
+        
+        
+        //////////////////////////////////////////////////////
+        
+        //////////////////////////////////////////////////////
 
-//////////////////////////////////////////////////////
+        
+
+
 
     }
 }
