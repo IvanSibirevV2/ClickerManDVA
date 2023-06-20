@@ -54,11 +54,6 @@ namespace WpfDiplom
            // UnregisterHotkey();
         }
 
-        private void Frame_ContextMenuClosing(object sender, ContextMenuEventArgs e)
-        {
-
-        }
-
 
 
         //private void HandleEsc(object sender, KeyEventArgs e)

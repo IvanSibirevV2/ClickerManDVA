@@ -7,6 +7,6 @@
         mc:Ignorable="d"
         Title="AfRAU" Height="450" Width="800" WindowState="Maximized" Closed="Window_Closed">
     <Grid>
-        <Frame Source="Pages/PGMainMenu.xaml" NavigationUIVisibility="Hidden" ContextMenuClosing="Frame_ContextMenuClosing"/>
+        <Frame Source="Pages/PGMainMenu.xaml" NavigationUIVisibility="Hidden"/>
     </Grid>
 </Window>
