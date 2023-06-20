@@ -610,11 +610,249 @@ namespace WpfDiplom.Pages
         public PGMainMenu F12_Set_Background_Gray() { Dispatcher.InvokeAsync(() => this.Btn113.Background = Brushes.Yellow/*LightGray*/); return this; }
         public PGMainMenu F12_Set_Background_Green() { Dispatcher.InvokeAsync(() => this.Btn113.Background = Brushes.Green); return this; }
         private void Btn113_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn113"); }
+        ////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        //(NumZero, 96, Btn611)
+        public System.String NumZero_String() { return "NumZero"; }
+        public System.Byte NumZero_ASCII() { return 96; }
+        public PGMainMenu NumZero() { return this; }
+        public PGMainMenu NumZero_Down() { return this.__Down(this.NumZero_ASCII()); }
+        public PGMainMenu NumZero_Up() { return this.__Up(this.NumZero_ASCII()); }
+        public bool NumZero_Is() { return this.__Is(this.NumZero_ASCII()); }
+        public PGMainMenu NumZero_Set_Background_White() {Dispatcher.InvokeAsync(() =>this.Btn611.Background = Brushes.White); return this; }
+        public PGMainMenu NumZero_Set_Background_Gray() { Dispatcher.InvokeAsync(() => this.Btn611.Background = Brushes.Yellow/*LightGray*/); return this; }
+        public PGMainMenu NumZero_Set_Background_Green() { Dispatcher.InvokeAsync(() => this.Btn611.Background = Brushes.Green); return this; }
+        private void Btn611_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn611"); }
+        ////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        //(NumOne, 97, Btn514)
+        public System.String NumOne_String() { return "NumOne"; }
+        public System.Byte NumOne_ASCII() { return 97; }
+        public PGMainMenu NumOne() { return this; }
+        public PGMainMenu NumOne_Down() { return this.__Down(this.NumOne_ASCII()); }
+        public PGMainMenu NumOne_Up() { return this.__Up(this.NumOne_ASCII()); }
+        public bool NumOne_Is() { return this.__Is(this.NumOne_ASCII()); }
+        public PGMainMenu NumOne_Set_Background_White() {Dispatcher.InvokeAsync(() =>this.Btn514.Background = Brushes.White); return this; }
+        public PGMainMenu NumOne_Set_Background_Gray() { Dispatcher.InvokeAsync(() => this.Btn514.Background = Brushes.Yellow/*LightGray*/); return this; }
+        public PGMainMenu NumOne_Set_Background_Green() { Dispatcher.InvokeAsync(() => this.Btn514.Background = Brushes.Green); return this; }
+        private void Btn514_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn514"); }
+        ////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        //(NumTwo, 98, Btn515)
+        public System.String NumTwo_String() { return "NumTwo"; }
+        public System.Byte NumTwo_ASCII() { return 98; }
+        public PGMainMenu NumTwo() { return this; }
+        public PGMainMenu NumTwo_Down() { return this.__Down(this.NumTwo_ASCII()); }
+        public PGMainMenu NumTwo_Up() { return this.__Up(this.NumTwo_ASCII()); }
+        public bool NumTwo_Is() { return this.__Is(this.NumTwo_ASCII()); }
+        public PGMainMenu NumTwo_Set_Background_White() {Dispatcher.InvokeAsync(() =>this.Btn515.Background = Brushes.White); return this; }
+        public PGMainMenu NumTwo_Set_Background_Gray() { Dispatcher.InvokeAsync(() => this.Btn515.Background = Brushes.Yellow/*LightGray*/); return this; }
+        public PGMainMenu NumTwo_Set_Background_Green() { Dispatcher.InvokeAsync(() => this.Btn515.Background = Brushes.Green); return this; }
+        private void Btn515_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn515"); }
+        ////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        //(NumThree, 99, Btn516)
+        public System.String NumThree_String() { return "NumThree"; }
+        public System.Byte NumThree_ASCII() { return 99; }
+        public PGMainMenu NumThree() { return this; }
+        public PGMainMenu NumThree_Down() { return this.__Down(this.NumThree_ASCII()); }
+        public PGMainMenu NumThree_Up() { return this.__Up(this.NumThree_ASCII()); }
+        public bool NumThree_Is() { return this.__Is(this.NumThree_ASCII()); }
+        public PGMainMenu NumThree_Set_Background_White() {Dispatcher.InvokeAsync(() =>this.Btn516.Background = Brushes.White); return this; }
+        public PGMainMenu NumThree_Set_Background_Gray() { Dispatcher.InvokeAsync(() => this.Btn516.Background = Brushes.Yellow/*LightGray*/); return this; }
+        public PGMainMenu NumThree_Set_Background_Green() { Dispatcher.InvokeAsync(() => this.Btn516.Background = Brushes.Green); return this; }
+        private void Btn516_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn516"); }
+        ////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        //(NumFor, 100, Btn414)
+        public System.String NumFor_String() { return "NumFor"; }
+        public System.Byte NumFor_ASCII() { return 100; }
+        public PGMainMenu NumFor() { return this; }
+        public PGMainMenu NumFor_Down() { return this.__Down(this.NumFor_ASCII()); }
+        public PGMainMenu NumFor_Up() { return this.__Up(this.NumFor_ASCII()); }
+        public bool NumFor_Is() { return this.__Is(this.NumFor_ASCII()); }
+        public PGMainMenu NumFor_Set_Background_White() {Dispatcher.InvokeAsync(() =>this.Btn414.Background = Brushes.White); return this; }
+        public PGMainMenu NumFor_Set_Background_Gray() { Dispatcher.InvokeAsync(() => this.Btn414.Background = Brushes.Yellow/*LightGray*/); return this; }
+        public PGMainMenu NumFor_Set_Background_Green() { Dispatcher.InvokeAsync(() => this.Btn414.Background = Brushes.Green); return this; }
+        private void Btn414_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn414"); }
+        ////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        //(NumFive, 101, Btn415)
+        public System.String NumFive_String() { return "NumFive"; }
+        public System.Byte NumFive_ASCII() { return 101; }
+        public PGMainMenu NumFive() { return this; }
+        public PGMainMenu NumFive_Down() { return this.__Down(this.NumFive_ASCII()); }
+        public PGMainMenu NumFive_Up() { return this.__Up(this.NumFive_ASCII()); }
+        public bool NumFive_Is() { return this.__Is(this.NumFive_ASCII()); }
+        public PGMainMenu NumFive_Set_Background_White() {Dispatcher.InvokeAsync(() =>this.Btn415.Background = Brushes.White); return this; }
+        public PGMainMenu NumFive_Set_Background_Gray() { Dispatcher.InvokeAsync(() => this.Btn415.Background = Brushes.Yellow/*LightGray*/); return this; }
+        public PGMainMenu NumFive_Set_Background_Green() { Dispatcher.InvokeAsync(() => this.Btn415.Background = Brushes.Green); return this; }
+        private void Btn415_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn415"); }
+        ////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        //(NumSix, 102, Btn416)
+        public System.String NumSix_String() { return "NumSix"; }
+        public System.Byte NumSix_ASCII() { return 102; }
+        public PGMainMenu NumSix() { return this; }
+        public PGMainMenu NumSix_Down() { return this.__Down(this.NumSix_ASCII()); }
+        public PGMainMenu NumSix_Up() { return this.__Up(this.NumSix_ASCII()); }
+        public bool NumSix_Is() { return this.__Is(this.NumSix_ASCII()); }
+        public PGMainMenu NumSix_Set_Background_White() {Dispatcher.InvokeAsync(() =>this.Btn416.Background = Brushes.White); return this; }
+        public PGMainMenu NumSix_Set_Background_Gray() { Dispatcher.InvokeAsync(() => this.Btn416.Background = Brushes.Yellow/*LightGray*/); return this; }
+        public PGMainMenu NumSix_Set_Background_Green() { Dispatcher.InvokeAsync(() => this.Btn416.Background = Brushes.Green); return this; }
+        private void Btn416_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn416"); }
+        ////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        //(NumSeven, 103, Btn318)
+        public System.String NumSeven_String() { return "NumSeven"; }
+        public System.Byte NumSeven_ASCII() { return 103; }
+        public PGMainMenu NumSeven() { return this; }
+        public PGMainMenu NumSeven_Down() { return this.__Down(this.NumSeven_ASCII()); }
+        public PGMainMenu NumSeven_Up() { return this.__Up(this.NumSeven_ASCII()); }
+        public bool NumSeven_Is() { return this.__Is(this.NumSeven_ASCII()); }
+        public PGMainMenu NumSeven_Set_Background_White() {Dispatcher.InvokeAsync(() =>this.Btn318.Background = Brushes.White); return this; }
+        public PGMainMenu NumSeven_Set_Background_Gray() { Dispatcher.InvokeAsync(() => this.Btn318.Background = Brushes.Yellow/*LightGray*/); return this; }
+        public PGMainMenu NumSeven_Set_Background_Green() { Dispatcher.InvokeAsync(() => this.Btn318.Background = Brushes.Green); return this; }
+        private void Btn318_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn318"); }
+        ////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        //(NumEight, 104, Btn319)
+        public System.String NumEight_String() { return "NumEight"; }
+        public System.Byte NumEight_ASCII() { return 104; }
+        public PGMainMenu NumEight() { return this; }
+        public PGMainMenu NumEight_Down() { return this.__Down(this.NumEight_ASCII()); }
+        public PGMainMenu NumEight_Up() { return this.__Up(this.NumEight_ASCII()); }
+        public bool NumEight_Is() { return this.__Is(this.NumEight_ASCII()); }
+        public PGMainMenu NumEight_Set_Background_White() {Dispatcher.InvokeAsync(() =>this.Btn319.Background = Brushes.White); return this; }
+        public PGMainMenu NumEight_Set_Background_Gray() { Dispatcher.InvokeAsync(() => this.Btn319.Background = Brushes.Yellow/*LightGray*/); return this; }
+        public PGMainMenu NumEight_Set_Background_Green() { Dispatcher.InvokeAsync(() => this.Btn319.Background = Brushes.Green); return this; }
+        private void Btn319_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn319"); }
+        ////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        //(NumNine, 105, Btn320)
+        public System.String NumNine_String() { return "NumNine"; }
+        public System.Byte NumNine_ASCII() { return 105; }
+        public PGMainMenu NumNine() { return this; }
+        public PGMainMenu NumNine_Down() { return this.__Down(this.NumNine_ASCII()); }
+        public PGMainMenu NumNine_Up() { return this.__Up(this.NumNine_ASCII()); }
+        public bool NumNine_Is() { return this.__Is(this.NumNine_ASCII()); }
+        public PGMainMenu NumNine_Set_Background_White() {Dispatcher.InvokeAsync(() =>this.Btn320.Background = Brushes.White); return this; }
+        public PGMainMenu NumNine_Set_Background_Gray() { Dispatcher.InvokeAsync(() => this.Btn320.Background = Brushes.Yellow/*LightGray*/); return this; }
+        public PGMainMenu NumNine_Set_Background_Green() { Dispatcher.InvokeAsync(() => this.Btn320.Background = Brushes.Green); return this; }
+        private void Btn320_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn320"); }
+        ////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        //(NumStar, 106, Btn220)
+        public System.String NumStar_String() { return "NumStar"; }
+        public System.Byte NumStar_ASCII() { return 106; }
+        public PGMainMenu NumStar() { return this; }
+        public PGMainMenu NumStar_Down() { return this.__Down(this.NumStar_ASCII()); }
+        public PGMainMenu NumStar_Up() { return this.__Up(this.NumStar_ASCII()); }
+        public bool NumStar_Is() { return this.__Is(this.NumStar_ASCII()); }
+        public PGMainMenu NumStar_Set_Background_White() {Dispatcher.InvokeAsync(() =>this.Btn220.Background = Brushes.White); return this; }
+        public PGMainMenu NumStar_Set_Background_Gray() { Dispatcher.InvokeAsync(() => this.Btn220.Background = Brushes.Yellow/*LightGray*/); return this; }
+        public PGMainMenu NumStar_Set_Background_Green() { Dispatcher.InvokeAsync(() => this.Btn220.Background = Brushes.Green); return this; }
+        private void Btn220_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn220"); }
+        ////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        //(NumPlus, 107, Btn321)
+        public System.String NumPlus_String() { return "NumPlus"; }
+        public System.Byte NumPlus_ASCII() { return 107; }
+        public PGMainMenu NumPlus() { return this; }
+        public PGMainMenu NumPlus_Down() { return this.__Down(this.NumPlus_ASCII()); }
+        public PGMainMenu NumPlus_Up() { return this.__Up(this.NumPlus_ASCII()); }
+        public bool NumPlus_Is() { return this.__Is(this.NumPlus_ASCII()); }
+        public PGMainMenu NumPlus_Set_Background_White() {Dispatcher.InvokeAsync(() =>this.Btn321.Background = Brushes.White); return this; }
+        public PGMainMenu NumPlus_Set_Background_Gray() { Dispatcher.InvokeAsync(() => this.Btn321.Background = Brushes.Yellow/*LightGray*/); return this; }
+        public PGMainMenu NumPlus_Set_Background_Green() { Dispatcher.InvokeAsync(() => this.Btn321.Background = Brushes.Green); return this; }
+        private void Btn321_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn321"); }
+        ////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        //(NumMinus, 109, Btn221)
+        public System.String NumMinus_String() { return "NumMinus"; }
+        public System.Byte NumMinus_ASCII() { return 109; }
+        public PGMainMenu NumMinus() { return this; }
+        public PGMainMenu NumMinus_Down() { return this.__Down(this.NumMinus_ASCII()); }
+        public PGMainMenu NumMinus_Up() { return this.__Up(this.NumMinus_ASCII()); }
+        public bool NumMinus_Is() { return this.__Is(this.NumMinus_ASCII()); }
+        public PGMainMenu NumMinus_Set_Background_White() {Dispatcher.InvokeAsync(() =>this.Btn221.Background = Brushes.White); return this; }
+        public PGMainMenu NumMinus_Set_Background_Gray() { Dispatcher.InvokeAsync(() => this.Btn221.Background = Brushes.Yellow/*LightGray*/); return this; }
+        public PGMainMenu NumMinus_Set_Background_Green() { Dispatcher.InvokeAsync(() => this.Btn221.Background = Brushes.Green); return this; }
+        private void Btn221_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn221"); }
+        ////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        //(NumDot, 110, Btn612)
+        public System.String NumDot_String() { return "NumDot"; }
+        public System.Byte NumDot_ASCII() { return 110; }
+        public PGMainMenu NumDot() { return this; }
+        public PGMainMenu NumDot_Down() { return this.__Down(this.NumDot_ASCII()); }
+        public PGMainMenu NumDot_Up() { return this.__Up(this.NumDot_ASCII()); }
+        public bool NumDot_Is() { return this.__Is(this.NumDot_ASCII()); }
+        public PGMainMenu NumDot_Set_Background_White() {Dispatcher.InvokeAsync(() =>this.Btn612.Background = Brushes.White); return this; }
+        public PGMainMenu NumDot_Set_Background_Gray() { Dispatcher.InvokeAsync(() => this.Btn612.Background = Brushes.Yellow/*LightGray*/); return this; }
+        public PGMainMenu NumDot_Set_Background_Green() { Dispatcher.InvokeAsync(() => this.Btn612.Background = Brushes.Green); return this; }
+        private void Btn612_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn612"); }
+        ////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        //(NumSlash, 111, Btn219)
+        public System.String NumSlash_String() { return "NumSlash"; }
+        public System.Byte NumSlash_ASCII() { return 111; }
+        public PGMainMenu NumSlash() { return this; }
+        public PGMainMenu NumSlash_Down() { return this.__Down(this.NumSlash_ASCII()); }
+        public PGMainMenu NumSlash_Up() { return this.__Up(this.NumSlash_ASCII()); }
+        public bool NumSlash_Is() { return this.__Is(this.NumSlash_ASCII()); }
+        public PGMainMenu NumSlash_Set_Background_White() {Dispatcher.InvokeAsync(() =>this.Btn219.Background = Brushes.White); return this; }
+        public PGMainMenu NumSlash_Set_Background_Gray() { Dispatcher.InvokeAsync(() => this.Btn219.Background = Brushes.Yellow/*LightGray*/); return this; }
+        public PGMainMenu NumSlash_Set_Background_Green() { Dispatcher.InvokeAsync(() => this.Btn219.Background = Brushes.Green); return this; }
+        private void Btn219_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn219"); }
+        ////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        //(NumEnter, 13, Btn517)
+        public System.String NumEnter_String() { return "NumEnter"; }
+        public System.Byte NumEnter_ASCII() { return 13; }
+        public PGMainMenu NumEnter() { return this; }
+        public PGMainMenu NumEnter_Down() { return this.__Down(this.NumEnter_ASCII()); }
+        public PGMainMenu NumEnter_Up() { return this.__Up(this.NumEnter_ASCII()); }
+        public bool NumEnter_Is() { return this.__Is(this.NumEnter_ASCII()); }
+        public PGMainMenu NumEnter_Set_Background_White() {Dispatcher.InvokeAsync(() =>this.Btn517.Background = Brushes.White); return this; }
+        public PGMainMenu NumEnter_Set_Background_Gray() { Dispatcher.InvokeAsync(() => this.Btn517.Background = Brushes.Yellow/*LightGray*/); return this; }
+        public PGMainMenu NumEnter_Set_Background_Green() { Dispatcher.InvokeAsync(() => this.Btn517.Background = Brushes.Green); return this; }
+        private void Btn517_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn517"); }
+        ////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        //(NUMLOCK, 144, Btn218)
+        public System.String NUMLOCK_String() { return "NUMLOCK"; }
+        public System.Byte NUMLOCK_ASCII() { return 144; }
+        public PGMainMenu NUMLOCK() { return this; }
+        public PGMainMenu NUMLOCK_Down() { return this.__Down(this.NUMLOCK_ASCII()); }
+        public PGMainMenu NUMLOCK_Up() { return this.__Up(this.NUMLOCK_ASCII()); }
+        public bool NUMLOCK_Is() { return this.__Is(this.NUMLOCK_ASCII()); }
+        public PGMainMenu NUMLOCK_Set_Background_White() {Dispatcher.InvokeAsync(() =>this.Btn218.Background = Brushes.White); return this; }
+        public PGMainMenu NUMLOCK_Set_Background_Gray() { Dispatcher.InvokeAsync(() => this.Btn218.Background = Brushes.Yellow/*LightGray*/); return this; }
+        public PGMainMenu NUMLOCK_Set_Background_Green() { Dispatcher.InvokeAsync(() => this.Btn218.Background = Brushes.Green); return this; }
+        private void Btn218_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn218"); }
+        ////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        //(Slash, 191, Btn314)
+        public System.String Slash_String() { return "Slash"; }
+        public System.Byte Slash_ASCII() { return 191; }
+        public PGMainMenu Slash() { return this; }
+        public PGMainMenu Slash_Down() { return this.__Down(this.Slash_ASCII()); }
+        public PGMainMenu Slash_Up() { return this.__Up(this.Slash_ASCII()); }
+        public bool Slash_Is() { return this.__Is(this.Slash_ASCII()); }
+        public PGMainMenu Slash_Set_Background_White() {Dispatcher.InvokeAsync(() =>this.Btn314.Background = Brushes.White); return this; }
+        public PGMainMenu Slash_Set_Background_Gray() { Dispatcher.InvokeAsync(() => this.Btn314.Background = Brushes.Yellow/*LightGray*/); return this; }
+        public PGMainMenu Slash_Set_Background_Green() { Dispatcher.InvokeAsync(() => this.Btn314.Background = Brushes.Green); return this; }
+        private void Btn314_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn314"); }
+        ////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        //(Space, 32, Btn64)
+        public System.String Space_String() { return "Space"; }
+        public System.Byte Space_ASCII() { return 32; }
+        public PGMainMenu Space() { return this; }
+        public PGMainMenu Space_Down() { return this.__Down(this.Space_ASCII()); }
+        public PGMainMenu Space_Up() { return this.__Up(this.Space_ASCII()); }
+        public bool Space_Is() { return this.__Is(this.Space_ASCII()); }
+        public PGMainMenu Space_Set_Background_White() {Dispatcher.InvokeAsync(() =>this.Btn64.Background = Brushes.White); return this; }
+        public PGMainMenu Space_Set_Background_Gray() { Dispatcher.InvokeAsync(() => this.Btn64.Background = Brushes.Yellow/*LightGray*/); return this; }
+        public PGMainMenu Space_Set_Background_Green() { Dispatcher.InvokeAsync(() => this.Btn64.Background = Brushes.Green); return this; }
+        private void Btn64_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn64"); }
+        ////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        //(Enter, 13, Btn413)
+        public System.String Enter_String() { return "Enter"; }
+        public System.Byte Enter_ASCII() { return 13; }
+        public PGMainMenu Enter() { return this; }
+        public PGMainMenu Enter_Down() { return this.__Down(this.Enter_ASCII()); }
+        public PGMainMenu Enter_Up() { return this.__Up(this.Enter_ASCII()); }
+        public bool Enter_Is() { return this.__Is(this.Enter_ASCII()); }
+        public PGMainMenu Enter_Set_Background_White() {Dispatcher.InvokeAsync(() =>this.Btn413.Background = Brushes.White); return this; }
+        public PGMainMenu Enter_Set_Background_Gray() { Dispatcher.InvokeAsync(() => this.Btn413.Background = Brushes.Yellow/*LightGray*/); return this; }
+        public PGMainMenu Enter_Set_Background_Green() { Dispatcher.InvokeAsync(() => this.Btn413.Background = Brushes.Green); return this; }
+        private void Btn413_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn413"); }
+      
 
-
-        
-
+//////////////////////////////////////////////////////
 
     }
 }
- 
