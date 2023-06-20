@@ -1,0 +1,123 @@
+﻿<#@ template debug="false" hostspecific="false" language="C#" #>
+<#@ assembly name="System.Core" #>
+<#@ import namespace="System.Linq" #>
+<#@ import namespace="System.Text" #>
+<#@ import namespace="System.Collections.Generic" #>
+<#@ output extension=".cs" #>
+#region Юзинги
+using System;
+using System.Collections.Generic;
+using System.Diagnostics;
+using System.Linq;
+using System.Runtime.InteropServices;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows;
+using System.Windows.Controls;
+using System.Windows.Data;
+using System.Windows.Documents;
+using System.Windows.Forms;
+using System.Windows.Input;
+using System.Windows.Media;
+using System.Windows.Media.Imaging;
+using System.Windows.Navigation;
+using System.Windows.Shapes;
+using WindowsInput.Native;
+using WindowsInput;
+using static WpfDiplom.Pages.PGSetings;
+using System.Reflection.Emit;
+using static System.Net.Mime.MediaTypeNames;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
+using System.Xml.Linq;
+using System.Windows.Threading;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.ToolBar;
+using Microsoft.Win32;
+using System.Runtime.CompilerServices;
+using ClickerManDVA_DVA;
+using System.Threading;
+#endregion
+namespace WpfDiplom.Pages
+{
+    public partial class PGMainMenu : System.Windows.Controls.Page
+    {
+        private PGMainMenu ForKeyIs() 
+        {
+            if (this.ArrowLeft_Is()) { this.ArrowLeft_Set_Background_Green(); } else { this.ArrowLeft_Set_Background_Gray(); }
+            if (this.ArrowRight_Is()) { this.ArrowRight_Set_Background_Green(); } else { this.ArrowRight_Set_Background_Gray(); }
+            thread = new Thread(A => {
+                System.Boolean _wrewrew = true;
+                while (_wrewrew)
+                {
+                    System.Boolean _Rec = false;Dispatcher.InvokeAsync(() => _Rec = this.p_Record);List<System.String> LS_Rec = new List<System.String>();
+                    System.Threading.Thread.Sleep(50);
+                    #region qweqwe
+<#
+Gett
+("A",65,"Btn42")("B",66,"Btn56")("C",67,"Btn54")("D",68,"Btn44")("E",69,"Btn34")("F",70,"Btn45")("G",71,"Btn46")("H",72,"Btn47")
+("I",73,"Btn39")("J",74,"Btn48")("K",75,"Btn49")("L",76,"Btn410")("M",77,"Btn58")("N",78,"Btn57")("O",79,"Btn310")("P",80,"Btn311")
+("Q",81,"Btn32")("R",82,"Btn35")("S",83,"Btn43")("T",84,"Btn36")("U",85,"Btn38")("V",86,"Btn55")("W",87,"Btn33")("X",88,"Btn53")
+("Y",89,"Btn37")("Z",90,"Btn52")("_0",48,"Btn211")("_1",49,"Btn22")("_2",50,"Btn23")("_3",51,"Btn24")("_4",52,"Btn25")
+("_5",53,"Btn26")("_6",54,"Btn27")("_7",55,"Btn28")("_8",56,"Btn29")("_9",57,"Btn210")("F1",112,"Btn12")("F2",113,"Btn13")
+("F3",114,"Btn14")("F4",115,"Btn15")("F5",116,"Btn16")("F6",117,"Btn17")("F7",118,"Btn18")("F8",119,"Btn19")("F9",120,"Btn110")
+("F10",121,"Btn111")("F11",122,"Btn112")("F12",123,"Btn113")("NumZero",96,"Btn611")("NumOne",97,"Btn514")("NumTwo",98,"Btn515")
+("NumThree",99,"Btn516")("NumFor",100,"Btn414")("NumFive",101,"Btn415")("NumSix",102,"Btn416")("NumSeven",103,"Btn318")
+("NumEight",104,"Btn319")("NumNine",105,"Btn320")("NumStar",106,"Btn220")("NumPlus",107,"Btn321")("NumMinus",109,"Btn221")
+("NumDot",110,"Btn612")("NumSlash",111,"Btn219")("NumEnter",13,"Btn517")("NUMLOCK",144,"Btn218")("Space",32,"Btn64")
+("Enter",13,"Btn413")("Escape",27,"Btn11")("LShift",16,"Btn51")("RShift",16,"Btn512")("BackSpace",8,"Btn214")("Tab",9,"Btn31")
+//("CTRL",17,"Btn_Ctrl_17")
+("LeftCTRL",162,"Btn61")("RightCTRL",163,"Btn67")
+//("Alt",18,"Alt_asdjsaghfk")
+("LeftAlt",164,"Btn63")("RightAlt",165,"Btn65")("Pause",19,"Btn116")("CapsLock",20,"Btn41")("PageUp",33,"Btn217")
+("PageDown",34,"Btn317")("End",35,"Btn316")("Home",36,"Btn216")("ArrowUp",38,"Btn513")("ArrowLeft",37,"Btn68")
+("ArrowRight",39,"Btn610")("ArrowDown",40,"Btn69")("Insert",45,"Btn215")("Delete",46,"Btn315")("LeftWin",91,"Btn62")
+("RightWin",92,"Btn66")
+("PrintScreen",154,"Btn114")//  - очень спорная клавиша 
+("ScrollLock",145,"Btn115")("LeftMouse",1,"MouseBtnLeft")("RightMouse",2,"MouseBtnRight")("Equally",187,"Btn213")
+("Minus",189,"Btn212")("Сomma",188,"Btn59")("Dot",190,"Btn510")("PeriodComma",186,"Btn411")("Tilda",192,"Btn21")
+("SquScobOtk",219,"Btn312")("SquScobZak",221,"Btn313")("Slash",191,"Btn511")("ObratSlash",220,"Btn314")("Mark",222,"Btn412")
+;
+#>
+                    #endregion
+                    //////////////////////////////////////////////////////
+                    this.GetCursorPos();
+                    if (this.MouseMoveX_Is()) { this.MouseMoveX_Set_Background_Green();
+                        if (_Rec) LS_Rec.Add(this.MouseMoveX_String()+"_"+(this.p_Now_XY.X-this.p_Last_XY.X).ToString());
+                    } else { this.MouseMoveX_Set_Background_Gray(); }
+                    if (this.MouseMoveNX_Is()) { this.MouseMoveNX_Set_Background_Green();
+                        if (_Rec) LS_Rec.Add(this.MouseMoveNX_String() + "_" + (this.p_Last_XY.X- this.p_Now_XY.X).ToString());
+                    } else { this.MouseMoveNX_Set_Background_Gray(); }
+                    if (this.MouseMoveY_Is()) { this.MouseMoveY_Set_Background_Green();
+                        if (_Rec) LS_Rec.Add(this.MouseMoveY_String() + "_" + (this.p_Now_XY.Y - this.p_Last_XY.Y).ToString());
+                    } else { this.MouseMoveY_Set_Background_Gray(); }
+                    if (this.MouseMoveNY_Is()) { this.MouseMoveNY_Set_Background_Green();
+                        if (_Rec) LS_Rec.Add(this.MouseMoveNY_String() + "_" + (this.p_Last_XY.Y- this.p_Now_XY.Y).ToString());
+                    } else { this.MouseMoveNY_Set_Background_Gray(); }
+                    Dispatcher.InvokeAsync(() => {this.lblXCoord.Content = this.p_Now_XY.X; this.lblYCoord.Content = this.p_Now_XY.Y; });
+
+                    //Во время воспроизведения происходит задержка в 50 милисекунд по дефолту
+                    Dispatcher.InvokeAsync(() => _wrewrew = this.ExitFlag);
+                    if (LS_Rec.Count != 0){ Dispatcher.InvokeAsync(() => { this.p_LLS_Record.Add(LS_Rec); }); }else
+                    {
+                        Dispatcher.InvokeAsync(() => { if (this.p_LLS_Record.Count == 0) this.p_LLS_Record.Add(new List<string>()); ; });
+                        Dispatcher.InvokeAsync(() => { this.p_LLS_Record[this.p_LLS_Record.Count - 1].Add("Sleep50"); }); 
+                    }
+                }
+            });
+            thread.Start();
+            //пОДСВЕТИТЬ ПОДДЕРЖИВАЕМЫЕ КЛАВИШИ
+
+            return this;
+        }
+
+
+    }
+}
+
+<#+
+public delegate MyDel MyDel(System.String KeyName, System.Int32 KeyASCII, System.String BtnName);
+public MyDel Gett(System.String KeyName, System.Int32 KeyASCII, System.String BtnName)
+{#>if (this.<#=KeyName#>_Is()) { this.<#=KeyName#>_Set_Background_Green(); if (_Rec) LS_Rec.Add(this.<#=KeyName#>_String()); } else { this.<#=KeyName#>_Set_Background_Gray(); }
+<#+
+    return Gett;
+}
+#>

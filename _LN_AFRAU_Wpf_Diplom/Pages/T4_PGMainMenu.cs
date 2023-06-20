@@ -1282,10 +1282,21 @@ namespace WpfDiplom.Pages
         public PGMainMenu ObratSlash_Set_Background_Gray() { Dispatcher.InvokeAsync(() => this.Btn314.Background = Brushes.Yellow/*LightGray*/); return this; }
         public PGMainMenu ObratSlash_Set_Background_Green() { Dispatcher.InvokeAsync(() => this.Btn314.Background = Brushes.Green); return this; }
         private void Btn314_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn314"); }
+        ////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        //(Mark, 222, Btn412)
+        public System.String Mark_String() { return "Mark"; }
+        public System.Byte Mark_ASCII() { return 222; }
+        public PGMainMenu Mark() { return this; }
+        public PGMainMenu Mark_Down() { return this.__Down(this.Mark_ASCII()); }
+        public PGMainMenu Mark_Up() { return this.__Up(this.Mark_ASCII()); }
+        public bool Mark_Is() { return this.__Is(this.Mark_ASCII()); }
+        public PGMainMenu Mark_Set_Background_White() {Dispatcher.InvokeAsync(() =>this.Btn412.Background = Brushes.White); return this; }
+        public PGMainMenu Mark_Set_Background_Gray() { Dispatcher.InvokeAsync(() => this.Btn412.Background = Brushes.Yellow/*LightGray*/); return this; }
+        public PGMainMenu Mark_Set_Background_Green() { Dispatcher.InvokeAsync(() => this.Btn412.Background = Brushes.Green); return this; }
+        private void Btn412_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn412"); }
    
-private void Btn412_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn511_Click"); }
-
-
+        
+        
 
         
     }

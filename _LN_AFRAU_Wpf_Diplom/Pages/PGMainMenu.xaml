@@ -537,39 +537,11 @@
                 <ColumnDefinition/>
                 <ColumnDefinition/>
             </Grid.ColumnDefinitions>
-            <Button Grid.Row="0" Grid.Column="0">
-                <Image Source="/Pages/arrow.png" RenderTransformOrigin="0.5,0.5">
-                    <Image.RenderTransform>
-                        <TransformGroup>
-                            <RotateTransform Angle="90"/>
-                           
-                        </TransformGroup>
-                    </Image.RenderTransform>
-                </Image>
-            </Button>
-            <Button Grid.Row="1" Grid.Column="0">
-                <Image Source="/Pages/arrow.png" RenderTransformOrigin="0.5,0.5">
-                    <Image.RenderTransform>
-                        <TransformGroup>
-                            <RotateTransform Angle="-90"/>
-                        </TransformGroup>
-                    </Image.RenderTransform>
 
-                </Image>
-            </Button>
-            <Button Grid.Row="0" Grid.Column="1">
-                <Image Source="/Pages/arrow.png"/>
-                
-            </Button>
-            <Button Grid.Row="1" Grid.Column="1">
-                <Image Source="/Pages/arrow.png" RenderTransformOrigin="0.5,0.5">
-                    <Image.RenderTransform>
-                        <TransformGroup>
-                            <ScaleTransform ScaleX="-1"/>
-                        </TransformGroup>
-                    </Image.RenderTransform>
-                </Image>
-            </Button>
+            <Button Name="MouseArrowDown" Grid.Row="0" Grid.Column="0" Click="MouseArrowDown_Click"><Image Source="/Pages/arrow.png" RenderTransformOrigin="0.5,0.5"><Image.RenderTransform><TransformGroup><RotateTransform Angle="90"/></TransformGroup></Image.RenderTransform></Image></Button>
+            <Button Name="MouseArrowUp" Grid.Row="1" Grid.Column="0" Click="MouseArrowUp_Click"><Image Source="/Pages/arrow.png" RenderTransformOrigin="0.5,0.5"><Image.RenderTransform><TransformGroup><RotateTransform Angle="-90"/></TransformGroup></Image.RenderTransform></Image></Button>
+            <Button Name="MouseArrowRight" Grid.Row="0" Grid.Column="1" Click="MouseArrowRight_Click"><Image Source="/Pages/arrow.png"/></Button>
+            <Button Name="MouseArrowLeft" Grid.Row="1" Grid.Column="1" Click="MouseArrowLeft_Click"><Image Source="/Pages/arrow.png" RenderTransformOrigin="0.5,0.5"><Image.RenderTransform><TransformGroup><ScaleTransform ScaleX="-1"/></TransformGroup></Image.RenderTransform></Image></Button>
         </Grid>
     </Grid>
 </Page>

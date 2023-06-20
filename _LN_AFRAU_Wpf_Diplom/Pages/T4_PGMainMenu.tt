@@ -152,16 +152,12 @@ Gett
 
 ("Slash",191,"Btn511")
 ("ObratSlash",220,"Btn314")
-
-	//222
-//314
-
+("Mark",222,"Btn412")
 
 ;
 #>   
-private void Btn412_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn511_Click"); }
-
-
+        
+        
 
         
     }

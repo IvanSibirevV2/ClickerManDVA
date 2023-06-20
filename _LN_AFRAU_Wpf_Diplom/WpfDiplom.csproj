@@ -89,6 +89,7 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Pages\MouseMovePGMainMenu.cs" />
     <Compile Include="Pages\PGMainMenu.xaml.cs">
       <DependentUpon>PGMainMenu.xaml</DependentUpon>
     </Compile>
@@ -99,6 +100,11 @@
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>T4_PGMainMenu.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\T4_PGMainMenu2.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>T4_PGMainMenu2.tt</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
@@ -133,6 +139,10 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Pages\T4_PGMainMenu2.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>T4_PGMainMenu2.cs</LastGenOutput>
+    </Content>
     <Resource Include="Pages\arrow.png" />
     <Content Include="Pages\T4_PGMainMenu.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
