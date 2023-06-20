@@ -95,6 +95,11 @@
     <Compile Include="Pages\PGSetings.xaml.cs">
       <DependentUpon>PGSetings.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Pages\T4_PGMainMenu.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>T4_PGMainMenu.tt</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -126,6 +131,15 @@
       <Project>{1a963f37-5fce-49a7-8058-1e1feafa740a}</Project>
       <Name>ClickerManDVA_DVA</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Pages\T4_PGMainMenu.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>T4_PGMainMenu.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

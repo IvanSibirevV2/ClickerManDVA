@@ -1,0 +1,97 @@
+﻿<#@ template debug="false" hostspecific="false" language="C#" #>
+<#@ assembly name="System.Core" #>
+<#@ import namespace="System.Linq" #>
+<#@ import namespace="System.Text" #>
+<#@ import namespace="System.Collections.Generic" #>
+<#@ output extension=".cs" #>
+#region Юзинги
+using System;
+using System.Collections.Generic;
+using System.Diagnostics;
+using System.Linq;
+using System.Runtime.InteropServices;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows;
+using System.Windows.Controls;
+using System.Windows.Data;
+using System.Windows.Documents;
+using System.Windows.Forms;
+using System.Windows.Input;
+using System.Windows.Media;
+using System.Windows.Media.Imaging;
+using System.Windows.Navigation;
+using System.Windows.Shapes;
+using WindowsInput.Native;
+using WindowsInput;
+using static WpfDiplom.Pages.PGSetings;
+using System.Reflection.Emit;
+using static System.Net.Mime.MediaTypeNames;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
+using System.Xml.Linq;
+using System.Windows.Threading;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.ToolBar;
+using Microsoft.Win32;
+using System.Runtime.CompilerServices;
+using ClickerManDVA_DVA;
+using System.Threading;
+#endregion
+namespace WpfDiplom.Pages
+{
+    public partial class PGMainMenu : System.Windows.Controls.Page
+    {
+<#
+Gett
+("A",65,"Btn42")
+("B",66,"Btn56")
+("C",67,"Btn54")
+("D",68,"Btn44")
+("E",69,"Btn34")
+("F",70,"Btn45")
+("G",71,"Btn46")
+("H",72,"Btn47")
+("I",73,"Btn39")
+("J",74,"Btn48")
+("K",75,"Btn49")
+("L",76,"Btn410")
+("M",77,"Btn58")
+("N",78,"Btn57")
+("O",79,"Btn310")
+("P",80,"Btn311")
+("Q",81,"Btn32")
+("R",82,"Btn35")
+("S",83,"Btn43")
+("T",84,"Btn36")
+("U",85,"Btn38")
+("V",86,"Btn55")
+("W",87,"Btn33")
+("X",88,"Btn53")
+("Y",89,"Btn37")
+("Z",90,"Btn52")
+;
+#>
+
+
+    }
+}
+<#+
+public delegate MyDel MyDel(System.String KeyName, System.Int32 KeyASCII, System.String BtnName);
+public MyDel Gett(System.String KeyName, System.Int32 KeyASCII, System.String BtnName)
+{
+        #>
+        ////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        //(<#=KeyName#>, <#=KeyASCII#>, <#=BtnName#>)
+        public System.String <#=KeyName#>_String() { return "<#=KeyName#>"; }
+        public System.Byte <#=KeyName#>_ASCII() { return <#=KeyASCII#>; }
+        public PGMainMenu <#=KeyName#>() { return this; }
+        public PGMainMenu <#=KeyName#>_Down() { return this.__Down(this.<#=KeyName#>_ASCII()); }
+        public PGMainMenu <#=KeyName#>_Up() { return this.__Up(this.<#=KeyName#>_ASCII()); }
+        public bool <#=KeyName#>_Is() { return this.__Is(this.<#=KeyName#>_ASCII()); }
+        public PGMainMenu <#=KeyName#>_Set_Background_White() {Dispatcher.InvokeAsync(() =>this.<#=BtnName#>.Background = Brushes.White); return this; }
+        public PGMainMenu <#=KeyName#>_Set_Background_Gray() { Dispatcher.InvokeAsync(() => this.<#=BtnName#>.Background = Brushes.Yellow/*LightGray*/); return this; }
+        public PGMainMenu <#=KeyName#>_Set_Background_Green() { Dispatcher.InvokeAsync(() => this.<#=BtnName#>.Background = Brushes.Green); return this; }
+        private void <#=BtnName#>_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("<#=BtnName#>"); }
+<#+
+    return Gett;
+}
+#>

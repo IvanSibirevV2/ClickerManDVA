@@ -73,293 +73,6 @@ namespace WpfDiplom.Pages
         public PGMainMenu __Up(byte _bVk) { keybd_event(_bVk, 0, 2, 0); return this; }
         public System.Boolean __Is(byte _bVk) { switch (GetKeyState(_bVk)){ case -127: case -128: return true; break;default: return false; break;} return false; }
         //////////////////////////////////////////////////////
-        //(65, "A")
-        public System.String A_String() { return "A"; }
-        public System.Byte A_ASCII() { return 65; }
-        public PGMainMenu A() { return this; }
-        public PGMainMenu A_Down() { return this.__Down(this.A_ASCII()); }
-        public PGMainMenu A_Up() { return this.__Up(this.A_ASCII()); }
-        public bool A_Is() { return this.__Is(this.A_ASCII()); }
-        public PGMainMenu A_Set_Background_White() { this.Btn42.Background = Brushes.White; return this; }
-        public PGMainMenu A_Set_Background_Green() { this.Btn42.Background = Brushes.Green; return this; }
-        private void Btn42_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn42_Click"); }
-        //////////////////////////////////////////////////////
-        //(66, "B")
-        public System.String B_String() { return "B"; }
-        public System.Byte B_ASCII() { return 66; }
-        public PGMainMenu B() { return this; }
-        public PGMainMenu B_Down() { return this.__Down(this.B_ASCII()); }
-        public PGMainMenu B_Up() { return this.__Up(this.B_ASCII()); }
-        public bool B_Is() { return this.__Is(this.B_ASCII()); }
-        public PGMainMenu B_Set_Background_White() { this.Btn56.Background = Brushes.White; return this; }
-        public PGMainMenu B_Set_Background_Green() { this.Btn56.Background = Brushes.Green; return this; }
-        private void Btn56_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn56_Click"); }
-
-        //////////////////////////////////////////////////////
-        //(67, "C")
-        public System.String C_String() { return "C"; }
-        public System.Byte C_ASCII() { return 67; }
-        public PGMainMenu C() { return this; }
-        public PGMainMenu C_Down() { return this.__Down(this.C_ASCII()); }
-        public PGMainMenu C_Up() { return this.__Up(this.C_ASCII()); }
-        public bool C_Is() { return this.__Is(this.C_ASCII()); }
-        public PGMainMenu C_Set_Background_White() { this.Btn54.Background = Brushes.White; return this; }
-        public PGMainMenu C_Set_Background_Green() { this.Btn54.Background = Brushes.Green; return this; }
-        private void Btn54_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn54_Click"); }
-        //////////////////////////////////////////////////////
-        //(68, "D")
-        public System.String D_String() { return "D"; }
-        public System.Byte D_ASCII() { return 68; }
-        public PGMainMenu D() { return this; }
-        public PGMainMenu D_Down() { return this.__Down(this.D_ASCII()); }
-        public PGMainMenu D_Up() { return this.__Up(this.D_ASCII()); }
-        public bool D_Is() { return this.__Is(this.D_ASCII()); }
-        public PGMainMenu D_Set_Background_White() { this.Btn44.Background = Brushes.White; return this; }
-        public PGMainMenu D_Set_Background_Green() { this.Btn44.Background = Brushes.Green; return this; }
-        private void Btn44_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn44_Click"); }
-        //////////////////////////////////////////////////////
-        //(69, "E")
-        public System.String E_String() { return "E"; }
-        public System.Byte E_ASCII() { return 69; }
-        public PGMainMenu E() { return this; }
-        public PGMainMenu E_Down() { return this.__Down(this.E_ASCII()); }
-        public PGMainMenu E_Up() { return this.__Up(this.E_ASCII()); }
-        public bool E_Is() { return this.__Is(this.E_ASCII()); }
-        public PGMainMenu E_Set_Background_White() { this.Btn34.Background = Brushes.White; return this; }
-        public PGMainMenu E_Set_Background_Green() { this.Btn34.Background = Brushes.Green; return this; }
-        private void Btn34_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn34_Click"); }
-        //////////////////////////////////////////////////////
-        //(70, "F")
-        public System.String F_String() { return "F"; }
-        public System.Byte F_ASCII() { return 70; }
-        public PGMainMenu F() { return this; }
-        public PGMainMenu F_Down() { return this.__Down(this.F_ASCII()); }
-        public PGMainMenu F_Up() { return this.__Up(this.F_ASCII()); }
-        public bool F_Is() { return this.__Is(this.F_ASCII()); }
-        public PGMainMenu F_Set_Background_White() { this.Btn45.Background = Brushes.White; return this; }
-        public PGMainMenu F_Set_Background_Green() { this.Btn45.Background = Brushes.Green; return this; }
-        private void Btn45_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn45_Click"); }
-        //////////////////////////////////////////////////////
-        //(71, "G")
-        public System.String G_String() { return "G"; }
-        public System.Byte G_ASCII() { return 71; }
-        public PGMainMenu G() { return this; }
-        public PGMainMenu G_Down() { return this.__Down(this.G_ASCII()); }
-        public PGMainMenu G_Up() { return this.__Up(this.G_ASCII()); }
-        public bool G_Is() { return this.__Is(this.G_ASCII()); }
-        public PGMainMenu G_Set_Background_White() { this.Btn46.Background = Brushes.White; return this; }
-        public PGMainMenu G_Set_Background_Green() { this.Btn46.Background = Brushes.Green; return this; }
-        private void Btn46_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn46_Click"); }
-        //////////////////////////////////////////////////////
-        //(72, "H")
-        public System.String H_String() { return "H"; }
-        public System.Byte H_ASCII() { return 72; }
-        public PGMainMenu H() { return this; }
-        public PGMainMenu H_Down() { return this.__Down(this.H_ASCII()); }
-        public PGMainMenu H_Up() { return this.__Up(this.H_ASCII()); }
-        public bool H_Is() { return this.__Is(this.H_ASCII()); }
-        public PGMainMenu H_Set_Background_White() { this.Btn47.Background = Brushes.White; return this; }
-        public PGMainMenu H_Set_Background_Green() { this.Btn47.Background = Brushes.Green; return this; }
-        private void Btn47_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn47_Click"); }
-        //////////////////////////////////////////////////////
-        //(73, "I")
-        public System.String I_String() { return "I"; }
-        public System.Byte I_ASCII() { return 73; }
-        public PGMainMenu I() { return this; }
-        public PGMainMenu I_Down() { return this.__Down(this.I_ASCII()); }
-        public PGMainMenu I_Up() { return this.__Up(this.I_ASCII()); }
-        public bool I_Is() { return this.__Is(this.I_ASCII()); }
-        public PGMainMenu I_Set_Background_White() { this.Btn39.Background = Brushes.White; return this; }
-        public PGMainMenu I_Set_Background_Green() { this.Btn39.Background = Brushes.Green; return this; }
-        private void Btn39_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn39_Click"); }
-        //////////////////////////////////////////////////////
-        //(74, "J")
-        public System.String J_String() { return "J"; }
-        public System.Byte J_ASCII() { return 74; }
-        public PGMainMenu J() { return this; }
-        public PGMainMenu J_Down() { return this.__Down(this.J_ASCII()); }
-        public PGMainMenu J_Up() { return this.__Up(this.J_ASCII()); }
-        public bool J_Is() { return this.__Is(this.J_ASCII()); }
-        public PGMainMenu J_Set_Background_White() { this.Btn48.Background = Brushes.White; return this; }
-        public PGMainMenu J_Set_Background_Green() { this.Btn48.Background = Brushes.Green; return this; }
-        private void Btn48_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn48_Click"); }
-
-        //////////////////////////////////////////////////////
-        //(75, "K")
-        public System.String K_String() { return "K"; }
-        public System.Byte K_ASCII() { return 75; }
-        public PGMainMenu K() { return this; }
-        public PGMainMenu K_Down() { return this.__Down(this.K_ASCII()); }
-        public PGMainMenu K_Up() { return this.__Up(this.K_ASCII()); }
-        public bool K_Is() { return this.__Is(this.K_ASCII()); }
-        public PGMainMenu K_Set_Background_White() { this.Btn49.Background = Brushes.White; return this; }
-        public PGMainMenu K_Set_Background_Green() { this.Btn49.Background = Brushes.Green; return this; }
-        private void Btn49_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn49_Click"); }
-        //////////////////////////////////////////////////////
-        //(76,"L")
-        public System.String L_String() { return "L"; }
-        public System.Byte L_ASCII() { return 76; }
-        public PGMainMenu L() { return this; }
-        public PGMainMenu L_Down() { return this.__Down(this.L_ASCII()); }
-        public PGMainMenu L_Up() { return this.__Up(this.L_ASCII()); }
-        public bool L_Is() { return this.__Is(this.L_ASCII()); }
-        public PGMainMenu L_Set_Background_White() { this.Btn410.Background = Brushes.White; return this; }
-        public PGMainMenu L_Set_Background_Green() { this.Btn410.Background = Brushes.Green; return this; }
-        private void Btn410_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn410_Click"); }
-        //////////////////////////////////////////////////////
-        //(77,"M")
-        public System.String M_String() { return "M"; }
-        public System.Byte M_ASCII() { return 77; }
-        public PGMainMenu M() { return this; }
-        public PGMainMenu M_Down() { return this.__Down(this.M_ASCII()); }
-        public PGMainMenu M_Up() { return this.__Up(this.M_ASCII()); }
-        public bool M_Is() { return this.__Is(this.M_ASCII()); }
-        public PGMainMenu M_Set_Background_White() { this.Btn58.Background = Brushes.White; return this; }
-        public PGMainMenu M_Set_Background_Green() { this.Btn58.Background = Brushes.Green; return this; }
-        private void Btn58_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn58_Click"); }
-        //////////////////////////////////////////////////////
-        //(78,"N")
-        public System.String N_String() { return "N"; }
-        public System.Byte N_ASCII() { return 78; }
-        public PGMainMenu N() { return this; }
-        public PGMainMenu N_Down() { return this.__Down(this.N_ASCII()); }
-        public PGMainMenu N_Up() { return this.__Up(this.N_ASCII()); }
-        public bool N_Is() { return this.__Is(this.N_ASCII()); }
-        public PGMainMenu N_Set_Background_White() { this.Btn57.Background = Brushes.White; return this; }
-        public PGMainMenu N_Set_Background_Green() { this.Btn57.Background = Brushes.Green; return this; }
-        private void Btn57_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn57_Click"); }
-        //////////////////////////////////////////////////////
-        //(79,"O")
-        public System.String O_String() { return "O"; }
-        public System.Byte O_ASCII() { return 79; }
-        public PGMainMenu O() { return this; }
-        public PGMainMenu O_Down() { return this.__Down(this.O_ASCII()); }
-        public PGMainMenu O_Up() { return this.__Up(this.O_ASCII()); }
-        public bool O_Is() { return this.__Is(this.O_ASCII()); }
-        public PGMainMenu O_Set_Background_White() { this.Btn310.Background = Brushes.White; return this; }
-        public PGMainMenu O_Set_Background_Green() { this.Btn310.Background = Brushes.Green; return this; }
-        private void Btn310_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn310_Click"); }
-        //////////////////////////////////////////////////////
-        //(80,"P")
-        public System.String P_String() { return "P"; }
-        public System.Byte P_ASCII() { return 80; }
-        public PGMainMenu P() { return this; }
-        public PGMainMenu P_Down() { return this.__Down(this.P_ASCII()); }
-        public PGMainMenu P_Up() { return this.__Up(this.P_ASCII()); }
-        public bool P_Is() { return this.__Is(this.P_ASCII()); }
-        public PGMainMenu P_Set_Background_White() { this.Btn311.Background = Brushes.White; return this; }
-        public PGMainMenu P_Set_Background_Green() { this.Btn311.Background = Brushes.Green; return this; }
-        private void Btn311_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn311_Click"); }
-        //////////////////////////////////////////////////////
-        //(81,"Q")
-        public System.String Q_String() { return "Q"; }
-        public System.Byte Q_ASCII() { return 81; }
-        public PGMainMenu Q() { return this; }
-        public PGMainMenu Q_Down() { return this.__Down(this.Q_ASCII()); }
-        public PGMainMenu Q_Up() { return this.__Up(this.Q_ASCII()); }
-        public bool Q_Is() { return this.__Is(this.Q_ASCII()); }
-        public PGMainMenu Q_Set_Background_White() { this.Btn32.Background = Brushes.White; return this; }
-        public PGMainMenu Q_Set_Background_Green() { this.Btn32.Background = Brushes.Green; return this; }
-        private void Btn32_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn32_Click"); }
-        //////////////////////////////////////////////////////
-        //(82,"R")
-        public System.String R_String() { return "R"; }
-        public System.Byte R_ASCII() { return 82; }
-        public PGMainMenu R() { return this; }
-        public PGMainMenu R_Down() { return this.__Down(this.R_ASCII()); }
-        public PGMainMenu R_Up() { return this.__Up(this.R_ASCII()); }
-        public bool R_Is() { return this.__Is(this.R_ASCII()); }
-        public PGMainMenu R_Set_Background_White() { this.Btn35.Background = Brushes.White; return this; }
-        public PGMainMenu R_Set_Background_Green() { this.Btn35.Background = Brushes.Green; return this; }
-        private void Btn35_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn35_Click"); }
-        //////////////////////////////////////////////////////
-        //(83,"S")
-        public System.String S_String() { return "S"; }
-        public System.Byte S_ASCII() { return 83; }
-        public PGMainMenu S() { return this; }
-        public PGMainMenu S_Down() { return this.__Down(this.S_ASCII()); }
-        public PGMainMenu S_Up() { return this.__Up(this.S_ASCII()); }
-        public bool S_Is() { return this.__Is(this.S_ASCII()); }
-        public PGMainMenu S_Set_Background_White() { this.Btn43.Background = Brushes.White; return this; }
-        public PGMainMenu S_Set_Background_Green() { this.Btn43.Background = Brushes.Green; return this; }
-        private void Btn43_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn43_Click"); }
-        //////////////////////////////////////////////////////
-        //(84,"T")
-        public System.String T_String() { return "T"; }
-        public System.Byte T_ASCII() { return 84; }
-        public PGMainMenu T() { return this; }
-        public PGMainMenu T_Down() { return this.__Down(this.T_ASCII()); }
-        public PGMainMenu T_Up() { return this.__Up(this.T_ASCII()); }
-        public bool T_Is() { return this.__Is(this.T_ASCII()); }
-        public PGMainMenu T_Set_Background_White() { this.Btn36.Background = Brushes.White; return this; }
-        public PGMainMenu T_Set_Background_Green() { this.Btn36.Background = Brushes.Green; return this; }
-        private void Btn36_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn36_Click"); }
-        //////////////////////////////////////////////////////
-        //(85,"U")
-        public System.String U_String() { return "U"; }
-        public System.Byte U_ASCII() { return 85; }
-        public PGMainMenu U() { return this; }
-        public PGMainMenu U_Down() { return this.__Down(this.U_ASCII()); }
-        public PGMainMenu U_Up() { return this.__Up(this.U_ASCII()); }
-        public bool U_Is() { return this.__Is(this.U_ASCII()); }
-        public PGMainMenu U_Set_Background_White() { this.Btn38.Background = Brushes.White; return this; }
-        public PGMainMenu U_Set_Background_Green() { this.Btn38.Background = Brushes.Green; return this; }
-        private void Btn38_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn38_Click"); }
-        //////////////////////////////////////////////////////
-        //(86,"V")
-        public System.String V_String() { return "V"; }
-        public System.Byte V_ASCII() { return 86; }
-        public PGMainMenu V() { return this; }
-        public PGMainMenu V_Down() { return this.__Down(this.V_ASCII()); }
-        public PGMainMenu V_Up() { return this.__Up(this.V_ASCII()); }
-        public bool V_Is() { return this.__Is(this.V_ASCII()); }
-        public PGMainMenu V_Set_Background_White() { this.Btn55.Background = Brushes.White; return this; }
-        public PGMainMenu V_Set_Background_Green() { this.Btn55.Background = Brushes.Green; return this; }
-        private void Btn55_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn55_Click"); }        
-        //////////////////////////////////////////////////////
-        //(87,"W")
-        public System.String W_String() { return "W"; }
-        public System.Byte W_ASCII() { return 87; }
-        public PGMainMenu W() { return this; }
-        public PGMainMenu W_Down() { return this.__Down(this.W_ASCII()); }
-        public PGMainMenu W_Up() { return this.__Up(this.W_ASCII()); }
-        public bool W_Is() { return this.__Is(this.W_ASCII()); }
-        public PGMainMenu W_Set_Background_White() { this.Btn33.Background = Brushes.White; return this; }
-        public PGMainMenu W_Set_Background_Green() { this.Btn33.Background = Brushes.Green; return this; }
-        private void Btn33_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn33_Click"); }
-        //////////////////////////////////////////////////////
-        //(88,"X")
-        public System.String X_String() { return "X"; }
-        public System.Byte X_ASCII() { return 88; }
-        public PGMainMenu X() { return this; }
-        public PGMainMenu X_Down() { return this.__Down(this.X_ASCII()); }
-        public PGMainMenu X_Up() { return this.__Up(this.X_ASCII()); }
-        public bool X_Is() { return this.__Is(this.X_ASCII()); }
-        public PGMainMenu X_Set_Background_White() { this.Btn53.Background = Brushes.White; return this; }
-        public PGMainMenu X_Set_Background_Green() { this.Btn53.Background = Brushes.Green; return this; }
-        private void Btn53_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn53_Click"); }
-        /////////////////////////////////////////////////////
-        //(89,"Y")
-        public System.String Y_String() { return "Y"; }
-        public System.Byte Y_ASCII() { return 89; }
-        public PGMainMenu Y() { return this; }
-        public PGMainMenu Y_Down() { return this.__Down(this.Y_ASCII()); }
-        public PGMainMenu Y_Up() { return this.__Up(this.Y_ASCII()); }
-        public bool Y_Is() { return this.__Is(this.Y_ASCII()); }
-        public PGMainMenu Y_Set_Background_White() { this.Btn37.Background = Brushes.White; return this; }
-        public PGMainMenu Y_Set_Background_Green() { this.Btn37.Background = Brushes.Green; return this; }
-        private void Btn37_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn37_Click"); }
-        //////////////////////////////////////////////////////
-        //(90,"Z")
-        public System.String Z_String() { return "Z"; }
-        public System.Byte Z_ASCII() { return 90; }
-        public PGMainMenu Z() { return this; }
-        public PGMainMenu Z_Down() { return this.__Down(this.Z_ASCII()); }
-        public PGMainMenu Z_Up() { return this.__Up(this.Z_ASCII()); }
-        public bool Z_Is() { return this.__Is(this.Z_ASCII()); }
-        public PGMainMenu Z_Set_Background_White() { this.Btn52.Background = Brushes.White; return this; }
-        public PGMainMenu Z_Set_Background_Green() { this.Btn52.Background = Brushes.Green; return this; }
-        private void Btn52_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn52_Click"); }
         //////////////////////////////////////////////////////
         //(48,"_0")
         public System.String _0_String() { return "_0"; }
@@ -774,15 +487,48 @@ namespace WpfDiplom.Pages
         public PGMainMenu Enter_Up() { return this.__Up(this.Enter_ASCII()); }
         public bool Enter_Is() { return this.__Is(this.Enter_ASCII()); }
 
+        /// <summary> Тестовый Мод Первый. Выводить в титульник название только что нажатой клациши</summary>
+        private System.Boolean p_TestMod_1 = true;
         private Thread thread = null;
+        private System.Boolean ExitFlag = true;
         public PGMainMenu()
         {
             InitializeComponent();
             thread = new Thread(A => {
-                while (true)
+                System.Boolean _wrewrew = true;
+                while (_wrewrew)
                 {
                     System.Threading.Thread.Sleep(50);
-                    if (this.A_Is()) { this.A_Set_Background_Green(); } else { this.A_Set_Background_Green(); }
+                    if (this.A_Is()) { this.A_Set_Background_Green(); } else { this.A_Set_Background_Gray(); }
+                    if (this.B_Is()) { this.B_Set_Background_Green(); } else { this.B_Set_Background_Gray(); }
+                    if (this.C_Is()) { this.C_Set_Background_Green(); } else { this.C_Set_Background_Gray(); }
+                    if (this.D_Is()) { this.D_Set_Background_Green(); } else { this.D_Set_Background_Gray(); }
+                    if (this.E_Is()) { this.E_Set_Background_Green(); } else { this.E_Set_Background_Gray(); }
+                    if (this.F_Is()) { this.F_Set_Background_Green(); } else { this.F_Set_Background_Gray(); }
+                    if (this.G_Is()) { this.G_Set_Background_Green(); } else { this.G_Set_Background_Gray(); }
+                    if (this.H_Is()) { this.H_Set_Background_Green(); } else { this.H_Set_Background_Gray(); }
+
+                    if (this.I_Is()) { this.I_Set_Background_Green(); } else { this.I_Set_Background_Gray(); }
+                    if (this.J_Is()) { this.J_Set_Background_Green(); } else { this.J_Set_Background_Gray(); }
+                    if (this.K_Is()) { this.K_Set_Background_Green(); } else { this.K_Set_Background_Gray(); }
+                    if (this.L_Is()) { this.L_Set_Background_Green(); } else { this.L_Set_Background_Gray(); }
+                    if (this.M_Is()) { this.M_Set_Background_Green(); } else { this.M_Set_Background_Gray(); }
+                    if (this.N_Is()) { this.N_Set_Background_Green(); } else { this.N_Set_Background_Gray(); }
+                    if (this.O_Is()) { this.O_Set_Background_Green(); } else { this.O_Set_Background_Gray(); }
+                    if (this.P_Is()) { this.P_Set_Background_Green(); } else { this.P_Set_Background_Gray(); }
+                    if (this.Q_Is()) { this.Q_Set_Background_Green(); } else { this.Q_Set_Background_Gray(); }
+                    if (this.R_Is()) { this.R_Set_Background_Green(); } else { this.R_Set_Background_Gray(); }
+                    if (this.S_Is()) { this.S_Set_Background_Green(); } else { this.S_Set_Background_Gray(); }
+                    if (this.T_Is()) { this.T_Set_Background_Green(); } else { this.T_Set_Background_Gray(); }
+                    if (this.U_Is()) { this.U_Set_Background_Green(); } else { this.U_Set_Background_Gray(); }
+                    if (this.V_Is()) { this.V_Set_Background_Green(); } else { this.V_Set_Background_Gray(); }
+                    if (this.W_Is()) { this.W_Set_Background_Green(); } else { this.W_Set_Background_Gray(); }
+                    if (this.X_Is()) { this.X_Set_Background_Green(); } else { this.X_Set_Background_Gray(); }
+                    if (this.Y_Is()) { this.Y_Set_Background_Green(); } else { this.Y_Set_Background_Gray(); }
+                    if (this.Z_Is()) { this.Z_Set_Background_Green(); } else { this.Z_Set_Background_Gray(); }
+                    
+
+                    Dispatcher.InvokeAsync(() => _wrewrew = this.ExitFlag);
                 }
             });
             thread.Start();
@@ -790,21 +536,23 @@ namespace WpfDiplom.Pages
             //пОДСВЕТИТЬ ПОДДЕРЖИВАЕМЫЕ КЛАВИШИ
 
 
-            if (!true)
-                this.A_Set_Background_Green().B_Set_Background_Green().C_Set_Background_Green().D_Set_Background_Green()
-                    .E_Set_Background_Green().F_Set_Background_Green().G_Set_Background_Green().H_Set_Background_Green()
-                    .I_Set_Background_Green().J_Set_Background_Green().K_Set_Background_Green().L_Set_Background_Green()
-                    .M_Set_Background_Green().N_Set_Background_Green().O_Set_Background_Green().P_Set_Background_Green()
-                    .Q_Set_Background_Green().R_Set_Background_Green().S_Set_Background_Green().T_Set_Background_Green()
-                    .U_Set_Background_Green().V_Set_Background_Green().W_Set_Background_Green().X_Set_Background_Green()
-                    .Y_Set_Background_Green().Z_Set_Background_Green()
-                    ._0_Set_Background_Green()._1_Set_Background_Green()._2_Set_Background_Green()._3_Set_Background_Green()
-                    ._4_Set_Background_Green()._5_Set_Background_Green()._6_Set_Background_Green()._7_Set_Background_Green()
-                    ._8_Set_Background_Green()._9_Set_Background_Green()
-                    .F1_Set_Background_Green().F2_Set_Background_Green().F3_Set_Background_Green().F4_Set_Background_Green()
-                    .F5_Set_Background_Green().F6_Set_Background_Green().F7_Set_Background_Green().F8_Set_Background_Green()
-                    .F9_Set_Background_Green().F10_Set_Background_Green().F11_Set_Background_Green().F12_Set_Background_Green()
-
+            if (true)
+                this
+                    .A_Set_Background_White().B_Set_Background_White().C_Set_Background_White().D_Set_Background_White()
+                    .E_Set_Background_White().F_Set_Background_White().G_Set_Background_White().H_Set_Background_White()
+                    
+                    .I_Set_Background_White().J_Set_Background_White().K_Set_Background_White().L_Set_Background_White()
+                    .M_Set_Background_White().N_Set_Background_White().O_Set_Background_White().P_Set_Background_White()
+                    .Q_Set_Background_White().R_Set_Background_White().S_Set_Background_White().T_Set_Background_White()
+                    .U_Set_Background_White().V_Set_Background_White().W_Set_Background_White().X_Set_Background_White()
+                    .Y_Set_Background_White().Z_Set_Background_White()
+                    ._0_Set_Background_White()._1_Set_Background_White()._2_Set_Background_White()._3_Set_Background_White()
+                    ._4_Set_Background_White()._5_Set_Background_White()._6_Set_Background_White()._7_Set_Background_White()
+                    ._8_Set_Background_White()._9_Set_Background_White()
+                    .F1_Set_Background_White().F2_Set_Background_White().F3_Set_Background_White().F4_Set_Background_White()
+                    .F5_Set_Background_White().F6_Set_Background_White().F7_Set_Background_White().F8_Set_Background_White()
+                    .F9_Set_Background_White().F10_Set_Background_White().F11_Set_Background_White().F12_Set_Background_White()
+                    
 
                 ;
         }
@@ -1147,7 +895,14 @@ namespace WpfDiplom.Pages
         private void MouseBtnLeft_Click(object sender, RoutedEventArgs e){}
         async private void btn_Test_Click(object sender, RoutedEventArgs e){}
 
-        /// <summary> Тестовый Мод Первый. Выводить в титульник название только что нажатой клациши</summary>
-        private System.Boolean p_TestMod_1 = true;
+     
+
+        private void Grid_ContextMenuClosing(object sender, ContextMenuEventArgs e)
+        {
+            this.ExitFlag = false;
+            System.Threading.Thread.Sleep(50);
+            this.thread.Abort();
+            //thread = null;
         }
+    }
 }

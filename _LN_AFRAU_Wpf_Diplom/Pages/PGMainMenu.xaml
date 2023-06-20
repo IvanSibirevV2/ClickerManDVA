@@ -8,7 +8,7 @@
       d:DesignHeight="450" d:DesignWidth="800" 
       Title="PGMainMenu">
 
-    <Grid Background="White">
+    <Grid Background="White" ContextMenuClosing="Grid_ContextMenuClosing">
         <Grid.RowDefinitions>
             <RowDefinition/><RowDefinition/><RowDefinition/><RowDefinition/><RowDefinition/><RowDefinition/><RowDefinition/><RowDefinition/>
         </Grid.RowDefinitions>
