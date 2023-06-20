@@ -107,7 +107,7 @@ Gett
 ("NumSlash",111,"Btn219")
 ("NumEnter",13,"Btn517")
 ("NUMLOCK",144,"Btn218")
-                                                        ("Slash",191,"Btn314")
+                
 ("Space",32,"Btn64")
 ("Enter",13,"Btn413")
 ("Escape",27,"Btn11")
@@ -136,16 +136,31 @@ Gett
 ("LeftWin",91,"Btn62")
 ("RightWin",92,"Btn66")
 ("PrintScreen",154,"Btn114")//  - очень спорная клавиша 
-//////////////////////////////////////////////////////
 ("ScrollLock",145,"Btn115")
+("LeftMouse",1,"MouseBtnLeft")
+("RightMouse",2,"MouseBtnRight")
+//////////////////////////////////////////////////////
+("Equally",187,"Btn213")
+("Minus",189,"Btn212")
+("Сomma",188,"Btn59")
+("Dot",190,"Btn510")
+("PeriodComma",186,"Btn411")
+("Tilda",192,"Btn21")
+("SquScobOtk",219,"Btn312")
+("SquScobZak",221,"Btn313")
+
+
+("Slash",191,"Btn511")
+("ObratSlash",220,"Btn314")
+
+	//222
+//314
+
 
 ;
 #>   
+private void Btn412_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn511_Click"); }
 
-
-
-        
-        
 
 
         

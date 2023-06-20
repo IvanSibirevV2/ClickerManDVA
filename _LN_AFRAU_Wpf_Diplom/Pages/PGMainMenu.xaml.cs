@@ -44,6 +44,13 @@ namespace WpfDiplom.Pages
         [DllImport("user32.dll")]
         private static extern void keybd_event(byte bVk, byte bScan, int dwFlags, int dwExtraInfo);
 
+        [StructLayout(LayoutKind.Sequential)]
+        public struct XY { public int X; public int Y; }
+        [DllImport("User32.Dll")]
+        private static extern bool GetCursorPos(out XY lpPoint);
+        public XY Get_CursorPos { get { XY _PointInter = new XY(); GetCursorPos(out _PointInter); return _PointInter; } }
+
+
         //WpfDiplom.Pages.PGMainMenu.p_DataContext
         private static ClickerManDVA_DVA.DataContext p_DataContext = new ClickerManDVA_DVA.DataContext();
         #region Библиотеки
@@ -153,7 +160,7 @@ namespace WpfDiplom.Pages
                     if (this.NumSlash_Is()) { this.NumSlash_Set_Background_Green(); } else { this.NumSlash_Set_Background_Gray(); }
                     if (this.NumEnter_Is()) { this.NumEnter_Set_Background_Green(); } else { this.NumEnter_Set_Background_Gray(); }
                     if (this.NUMLOCK_Is()) { this.NUMLOCK_Set_Background_Green(); } else { this.NUMLOCK_Set_Background_Gray(); }
-                    //if (this.Slash_Is()) { this.Slash_Set_Background_Green(); } else { this.Slash_Set_Background_Gray(); }
+                    if (this.Slash_Is()) { this.Slash_Set_Background_Green(); } else { this.Slash_Set_Background_Gray(); }
                     if (this.Space_Is()) { this.Space_Set_Background_Green(); } else { this.Space_Set_Background_Gray(); }
                     if (this.Enter_Is()) { this.Enter_Set_Background_Green(); } else { this.Enter_Set_Background_Gray(); }
                     if (this.Escape_Is()) { this.Escape_Set_Background_Green(); } else { this.Escape_Set_Background_Gray(); }
@@ -180,13 +187,23 @@ namespace WpfDiplom.Pages
                     if (this.LeftWin_Is()) { this.LeftWin_Set_Background_Green(); } else { this.LeftWin_Set_Background_Gray(); }
                     if (this.RightWin_Is()) { this.RightWin_Set_Background_Green(); } else { this.RightWin_Set_Background_Gray(); }
                     if (this.PrintScreen_Is()) { this.PrintScreen_Set_Background_Green(); } else { this.PrintScreen_Set_Background_Gray(); }
-                    //////////////////////////////////////////////////////
                     if (this.ScrollLock_Is()) { this.ScrollLock_Set_Background_Green(); } else { this.ScrollLock_Set_Background_Gray(); }
-
+                    if (this.LeftMouse_Is()) { this.LeftMouse_Set_Background_Green(); } else { this.LeftMouse_Set_Background_Gray(); }
+                    if (this.RightMouse_Is()) { this.RightMouse_Set_Background_Green(); } else { this.RightMouse_Set_Background_Gray(); }
+                    //////////////////////////////////////////////////////
+                    if (this.Equally_Is()) { this.Equally_Set_Background_Green(); } else { this.Equally_Set_Background_Gray(); }
+                    if (this.Minus_Is()) { this.Minus_Set_Background_Green(); } else { this.Minus_Set_Background_Gray(); }
+                    if (this.Сomma_Is()) { this.Сomma_Set_Background_Green(); } else { this.Сomma_Set_Background_Gray(); }
+                    if (this.Dot_Is()) { this.Dot_Set_Background_Green(); } else { this.Dot_Set_Background_Gray(); }
+                    if (this.PeriodComma_Is()) { this.PeriodComma_Set_Background_Green(); } else { this.PeriodComma_Set_Background_Gray(); }
+                    if (this.Tilda_Is()) { this.Tilda_Set_Background_Green(); } else { this.Tilda_Set_Background_Gray(); }
+                    if (this.SquScobOtk_Is()) { this.SquScobOtk_Set_Background_Green(); } else { this.SquScobOtk_Set_Background_Gray(); }
+                    if (this.ObratSlash_Is()) { this.ObratSlash_Set_Background_Green(); } else { this.ObratSlash_Set_Background_Gray(); }
+                    if (this.SquScobZak_Is()) { this.SquScobZak_Set_Background_Green(); } else { this.SquScobZak_Set_Background_Gray(); }
                     
-
                     //if (this.__Is(222)) System.Windows.MessageBox.Show("222");
-
+                    XY _XY = this.Get_CursorPos;
+                    Dispatcher.InvokeAsync(() => { this.lblXCoord.Content = _XY.X; this.lblYCoord.Content = _XY.Y; });
 
                     Dispatcher.InvokeAsync(() => _wrewrew = this.ExitFlag);
                 }
@@ -216,7 +233,7 @@ namespace WpfDiplom.Pages
                     .NumSix_Set_Background_White().NumSeven_Set_Background_White().NumEight_Set_Background_White().NumNine_Set_Background_White()
                     .NumStar_Set_Background_White().NumPlus_Set_Background_White().NumMinus_Set_Background_White()
                     .NumDot_Set_Background_White().NumSlash_Set_Background_White().NumEnter_Set_Background_White().NUMLOCK_Set_Background_White()
-                    //.Slash_Set_Background_White()
+                    .Slash_Set_Background_White()
                     .Space_Set_Background_White().Enter_Set_Background_White()
                     .Escape_Set_Background_White().LShift_Set_Background_White().RShift_Set_Background_White()
                     .BackSpace_Set_Background_White().Tab_Set_Background_White().LeftCTRL_Set_Background_White().RightCTRL_Set_Background_White()
@@ -226,118 +243,40 @@ namespace WpfDiplom.Pages
                     .Insert_Set_Background_White().Delete_Set_Background_White()
                     .LeftWin_Set_Background_White().RightWin_Set_Background_White()
                     .PrintScreen_Set_Background_White().ScrollLock_Set_Background_White()
-                    
+                    .LeftMouse_Set_Background_White()
+                    .RightMouse_Set_Background_White()
+                    .Equally_Set_Background_White()
+                    .Minus_Set_Background_White()
+                    .Сomma_Set_Background_White()
+                    .Dot_Set_Background_White()
+                    .PeriodComma_Set_Background_White()
+                    .Tilda_Set_Background_White()
+                    .SquScobOtk_Set_Background_White()
+                    .ObratSlash_Set_Background_White()
+                    .SquScobZak_Set_Background_White()
 
                 ;
         }
 
         
+
         private void Button_Click_1(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Button_Click_1"); }
         private void Button_Click_2(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Button_Click_2"); }
-        private void Btn21_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn21_Click"); }
-        private void Btn59_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn59_Click"); }
         
         
-        private void Btn212_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn212_Click"); }
-        private void Btn213_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn213_Click"); }
-        private void Btn312_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn312_Click"); }
-        private void Btn313_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn313_Click"); }
-        private void Btn411_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn411_Click"); }
-        private void Btn412_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn412_Click"); }
-        private void Btn510_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn510_Click"); }
-        private void Btn511_Click(object sender, RoutedEventArgs e) { if (this.p_TestMod_1) System.Windows.MessageBox.Show("Btn511_Click"); }
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
 
 
 
-
-        //////////////////////////////////////////////////////
-        //(186,"PeriodComma")
-        public System.String PeriodComma_String() { return "PeriodComma"; }
-        public System.Byte PeriodComma_ASCII() { return 186; }
-        public PGMainMenu PeriodComma() { return this; }
-        public PGMainMenu PeriodComma_Down() { return this.__Down(this.PeriodComma_ASCII()); }
-        public PGMainMenu PeriodComma_Up() { return this.__Up(this.PeriodComma_ASCII()); }
-        public bool PeriodComma_Is() { return this.__Is(this.PeriodComma_ASCII()); }
-        //////////////////////////////////////////////////////
-        //(187,"Equally")
-        public System.String Equally_String() { return "Equally"; }
-        public System.Byte Equally_ASCII() { return 187; }
-        public PGMainMenu Equally() { return this; }
-        public PGMainMenu Equally_Down() { return this.__Down(this.Equally_ASCII()); }
-        public PGMainMenu Equally_Up() { return this.__Up(this.Equally_ASCII()); }
-        public bool Equally_Is() { return this.__Is(this.Equally_ASCII()); }
-        //////////////////////////////////////////////////////
-        //(188,"Сomma")
-        public System.String Сomma_String() { return "Сomma"; }
-        public System.Byte Сomma_ASCII() { return 188; }
-        public PGMainMenu Сomma() { return this; }
-        public PGMainMenu Сomma_Down() { return this.__Down(this.Сomma_ASCII()); }
-        public PGMainMenu Сomma_Up() { return this.__Up(this.Сomma_ASCII()); }
-        public bool Сomma_Is() { return this.__Is(this.Сomma_ASCII()); }
-        //////////////////////////////////////////////////////
-        //(189,"Minus")
-        public System.String Minus_String() { return "Minus"; }
-        public System.Byte Minus_ASCII() { return 189; }
-        public PGMainMenu Minus() { return this; }
-        public PGMainMenu Minus_Down() { return this.__Down(this.Minus_ASCII()); }
-        public PGMainMenu Minus_Up() { return this.__Up(this.Minus_ASCII()); }
-        public bool Minus_Is() { return this.__Is(this.Minus_ASCII()); }
-        //////////////////////////////////////////////////////
-        //(190,"Dot")
-        public System.String Dot_String() { return "Dot"; }
-        public System.Byte Dot_ASCII() { return 190; }
-        public PGMainMenu Dot() { return this; }
-        public PGMainMenu Dot_Down() { return this.__Down(this.Dot_ASCII()); }
-        public PGMainMenu Dot_Up() { return this.__Up(this.Dot_ASCII()); }
-        public bool Dot_Is() { return this.__Is(this.Dot_ASCII()); }
-        //////////////////////////////////////////////////////
-        //(192,"Tilda")
-        public System.String Tilda_String() { return "NUMLOCK"; }
-        public System.Byte Tilda_ASCII() { return 192; }
-        public PGMainMenu Tilda() { return this; }
-        public PGMainMenu Tilda_Down() { return this.__Down(this.Tilda_ASCII()); }
-        public PGMainMenu Tilda_Up() { return this.__Up(this.Tilda_ASCII()); }
-        public bool Tilda_Is() { return this.__Is(this.Tilda_ASCII()); }
-        //////////////////////////////////////////////////////
-        //(219,"SquScobOtk")
-        public System.String SquScobOtk_String() { return "SquScobOtk"; }
-        public System.Byte SquScobOtk_ASCII() { return 219; }
-        public PGMainMenu SquScobOtk() { return this; }
-        public PGMainMenu SquScobOtk_Down() { return this.__Down(this.SquScobOtk_ASCII()); }
-        public PGMainMenu SquScobOtk_Up() { return this.__Up(this.SquScobOtk_ASCII()); }
-        public bool SquScobOtk_Is() { return this.__Is(this.SquScobOtk_ASCII()); }
-        //////////////////////////////////////////////////////
-        //(220,"ObratSlash")
-        public System.String ObratSlash_String() { return "NUMLOCK"; }
-        public System.Byte ObratSlash_ASCII() { return 220; }
-        public PGMainMenu ObratSlash() { return this; }
-        public PGMainMenu ObratSlash_Down() { return this.__Down(this.ObratSlash_ASCII()); }
-        public PGMainMenu ObratSlash_Up() { return this.__Up(this.ObratSlash_ASCII()); }
-        public bool ObratSlash_Is() { return this.__Is(this.ObratSlash_ASCII()); }
-        //////////////////////////////////////////////////////
-        //(221,"SquScobZak")
-        public System.String SquScobZak_String() { return "SquScobZak"; }
-        public System.Byte SquScobZak_ASCII() { return 221; }
-        public PGMainMenu SquScobZak() { return this; }
-        public PGMainMenu SquScobZak_Down() { return this.__Down(this.SquScobZak_ASCII()); }
-        public PGMainMenu SquScobZak_Up() { return this.__Up(this.SquScobZak_ASCII()); }
-        public bool SquScobZak_Is() { return this.__Is(this.SquScobZak_ASCII()); }
-        //////////////////////////////////////////////////////
-        //(1,"MouseL")
-        public System.String MouseL_String() { return "MouseL"; }
-        public System.Byte MouseL_ASCII() { return 1; }
-        public PGMainMenu MouseL() { return this; }
-        public PGMainMenu MouseL_Down() { return this.__Down(this.MouseL_ASCII()); }
-        public PGMainMenu MouseL_Up() { return this.__Up(this.MouseL_ASCII()); }
-        public bool MouseL_Is() { return this.__Is(this.MouseL_ASCII()); }
-        //////////////////////////////////////////////////////
-        //(2,"MouseR")
-        public System.String MouseR_String() { return "NUMLOCK"; }
-        public System.Byte MouseR_ASCII() { return 2; }
-        public PGMainMenu MouseR() { return this; }
-        public PGMainMenu MouseR_Down() { return this.__Down(this.MouseR_ASCII()); }
-        public PGMainMenu MouseR_Up() { return this.__Up(this.MouseR_ASCII()); }
-        public bool MouseR_Is() { return this.__Is(this.MouseR_ASCII()); }
         //////////////////////////////////////////////////////
         //(4,"MMouse")
         public System.String MMouse_String() { return "MMouse"; }
@@ -366,7 +305,7 @@ namespace WpfDiplom.Pages
         #endregion
         private void btn_AllDel_Click(object sender, RoutedEventArgs e){}
         private void btn_Read_Click(object sender, RoutedEventArgs e){}
-        private void MouseBtnLeft_Click(object sender, RoutedEventArgs e){}
+        
         async private void btn_Test_Click(object sender, RoutedEventArgs e){}
 
      
@@ -379,5 +318,6 @@ namespace WpfDiplom.Pages
             //thread = null;
         }
 
+        
     }
 }
