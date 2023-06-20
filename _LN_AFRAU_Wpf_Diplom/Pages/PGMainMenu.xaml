@@ -1,0 +1,575 @@
+﻿<Page x:Class="WpfDiplom.Pages.PGMainMenu"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:WpfDiplom.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800" 
+      Title="PGMainMenu">
+
+    <Grid Background="White" ContextMenuClosing="Grid_ContextMenuClosing">
+        <Grid.RowDefinitions>
+            <RowDefinition/><RowDefinition/><RowDefinition/><RowDefinition/><RowDefinition/><RowDefinition/><RowDefinition/><RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/><ColumnDefinition/><ColumnDefinition/><ColumnDefinition/><ColumnDefinition/><ColumnDefinition/>
+            <ColumnDefinition/><ColumnDefinition/><ColumnDefinition/><ColumnDefinition/><ColumnDefinition/><ColumnDefinition/>
+            <ColumnDefinition/><ColumnDefinition/><ColumnDefinition/><ColumnDefinition/><ColumnDefinition/><ColumnDefinition/>
+            <ColumnDefinition/><ColumnDefinition/><ColumnDefinition/><ColumnDefinition/><ColumnDefinition/><ColumnDefinition/><ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        
+        
+        <!--#region Первая строка-->
+        <Button Name="Btn11"  Grid.Column="0" Height="{Binding ElementName=wpRow1, Path=ActualHeight}"  Content="Esc" Click="Btn11_Click"/>
+        <Button Name="Btn12" Grid.Column="2" Content="F1" Click="Btn12_Click"/>
+        <Button Name="Btn13" Grid.Column="3" Content="F2" Click="Btn13_Click"/>
+        <Button Name="Btn14" Grid.Column="4" Content="F3" Click="Btn14_Click"/>
+        <Button Name="Btn15" Grid.Column="5" Content="F4" Click="Btn15_Click"/>
+        <Button Name="Btn16" Grid.Column="6" Content="F5" Click="Btn16_Click"/>
+        <Button Name="Btn17" Grid.Column="7" Content="F6" Click="Btn17_Click"/>
+        
+        <Button Name="Btn18" Grid.Column="8" Content="F7" Click="Btn18_Click"/>
+        <Button Name="Btn19" Grid.Column="9" Content="F8" Click="Btn19_Click"/>
+        <Button Name="Btn110" Grid.Column="10" Content="F9" Click="Btn110_Click"/>
+        <Button Name="Btn111" Grid.Column="11" Content="F10" Click="Btn111_Click"/>
+        <Button Name="Btn112" Grid.Column="12" Content="F11" Click="Btn112_Click"/>
+        <Button Name="Btn113" Grid.Column="13" Content="F12" Click="Btn113_Click"/>
+        <Button Name="Btn114" Grid.Column="14" Content="PrtSc" Click="Btn114_Click"/>
+        <Button Name="Btn115" Grid.Column="15" Content="ScrollLock" Click="Btn115_Click"/>
+        <Button Name="Btn116" Grid.Column="16" Content="PauseBreake" Click="Btn116_Click"/>
+        <!--#endregion-->
+
+        <!--#region Вторая строка-->
+        <Button Grid.Row="1" Grid.Column="0" Name="Btn21" Click="Btn21_Click">
+            <Grid>
+                <Grid.RowDefinitions><RowDefinition/><RowDefinition/></Grid.RowDefinitions>
+                <Grid.ColumnDefinitions><ColumnDefinition/><ColumnDefinition/></Grid.ColumnDefinitions>
+                <Label Content="~"/>
+                <Label Content="Ё" Grid.Column="1" Grid.RowSpan="2" VerticalContentAlignment="Center"/>
+                <Label Content="`" Grid.Row="1"/>
+            </Grid>
+        </Button>
+        <Button Grid.Row="1" Grid.Column="1" Name="Btn22" Click="Btn22_Click">
+            <Grid>
+                <Grid.RowDefinitions><RowDefinition/><RowDefinition/></Grid.RowDefinitions>
+                <Label Content="!"/><Label Content="1" Grid.Row="1"/>
+            </Grid>
+        </Button>
+        <Button Grid.Row="1" Grid.Column="2" Name="Btn23" Click="Btn23_Click">
+            <Grid>
+                <Grid.RowDefinitions><RowDefinition/><RowDefinition/></Grid.RowDefinitions>
+                <Grid.ColumnDefinitions><ColumnDefinition/><ColumnDefinition/></Grid.ColumnDefinitions>
+                <Label Content="@"/><Label Content="2" Grid.Row="1" /><Label Content="&quot;" Grid.Column="1"/>
+            </Grid>
+        </Button>
+        <Button Grid.Row="1" Grid.Column="3" Name="Btn24" Click="Btn24_Click">
+            <Grid>
+                <Grid.RowDefinitions><RowDefinition/><RowDefinition/></Grid.RowDefinitions>
+                <Grid.ColumnDefinitions><ColumnDefinition/><ColumnDefinition/></Grid.ColumnDefinitions>
+                <Label Content="#"/><Label Content="3" Grid.Row="1" /><Label Content="№" Grid.Column="1"/>
+            </Grid>
+        </Button>
+        <Button Grid.Row="1" Grid.Column="4" Name="Btn25" Click="Btn25_Click">
+            <Grid>
+                <Grid.RowDefinitions><RowDefinition/><RowDefinition/></Grid.RowDefinitions>
+                <Grid.ColumnDefinitions><ColumnDefinition/><ColumnDefinition/></Grid.ColumnDefinitions>
+                <Label Content="$"/><Label Content="4" Grid.Row="1" /><Label Content=";" Grid.Column="1"/>
+            </Grid>
+        </Button>
+        <Button Grid.Row="1" Grid.Column="5" Name="Btn26" Click="Btn26_Click">
+            <Grid>
+                <Grid.RowDefinitions><RowDefinition/><RowDefinition/></Grid.RowDefinitions>
+                <Grid.ColumnDefinitions><ColumnDefinition/><ColumnDefinition/></Grid.ColumnDefinitions>
+                <Label Content="%"/><Label Content="5" Grid.Row="1" />
+            </Grid>
+        </Button>
+        <Button Grid.Row="1" Grid.Column="6" Name="Btn27" Click="Btn27_Click">
+            <Grid>
+                <Grid.RowDefinitions><RowDefinition/><RowDefinition/></Grid.RowDefinitions>
+                <Grid.ColumnDefinitions><ColumnDefinition/><ColumnDefinition/></Grid.ColumnDefinitions>
+                <Label Content="^"/><Label Content="6" Grid.Row="1" /><Label Content=":" Grid.Column="1"/>
+            </Grid>
+        </Button>
+        <Button Grid.Row="1" Grid.Column="7" Name="Btn28" Click="Btn28_Click">
+            <Grid>
+                <Grid.RowDefinitions><RowDefinition/><RowDefinition/></Grid.RowDefinitions>
+                <Grid.ColumnDefinitions><ColumnDefinition/><ColumnDefinition/></Grid.ColumnDefinitions>
+                <Label Content="&amp;"/><Label Content="7" Grid.Row="1" /><Label Content="?" Grid.Column="1"/>
+            </Grid>
+        </Button>
+        <Button Grid.Row="1" Grid.Column="8" Name="Btn29" Click="Btn29_Click">
+            <Grid>
+                <Grid.RowDefinitions><RowDefinition/><RowDefinition/></Grid.RowDefinitions>
+                <Grid.ColumnDefinitions><ColumnDefinition/><ColumnDefinition/></Grid.ColumnDefinitions>
+                <Label Content="*"/><Label Content="8" Grid.Row="1" />
+            </Grid>
+        </Button>
+        <Button Grid.Row="1" Grid.Column="9" Name="Btn210" Click="Btn210_Click">
+            <Grid>
+                <Grid.RowDefinitions><RowDefinition/><RowDefinition/></Grid.RowDefinitions>
+                <Grid.ColumnDefinitions><ColumnDefinition/><ColumnDefinition/></Grid.ColumnDefinitions>
+                <Label Content="("/><Label Content="9" Grid.Row="1" />
+            </Grid>
+        </Button>
+        <Button Grid.Row="1" Grid.Column="10" Name="Btn211" Click="Btn211_Click">
+            <Grid>
+                <Grid.RowDefinitions><RowDefinition/><RowDefinition/></Grid.RowDefinitions>
+                <Grid.ColumnDefinitions><ColumnDefinition/><ColumnDefinition/></Grid.ColumnDefinitions>
+                <Label Content=")"/><Label Content="0" Grid.Row="1" />
+            </Grid>
+        </Button>
+        <Button Grid.Row="1" Grid.Column="11" Name="Btn212" Click="Btn212_Click">
+            <Grid>
+                <Grid.RowDefinitions><RowDefinition/><RowDefinition/></Grid.RowDefinitions>
+                <Grid.ColumnDefinitions><ColumnDefinition/><ColumnDefinition/></Grid.ColumnDefinitions>
+                <Label Content="_"/><Label Content="-" Grid.Row="1" />
+            </Grid>
+        </Button>
+        <Button Grid.Row="1" Grid.Column="12" Name="Btn213" Click="Btn213_Click">
+            <Grid>
+                <Grid.RowDefinitions><RowDefinition/><RowDefinition/></Grid.RowDefinitions>
+                <Grid.ColumnDefinitions><ColumnDefinition/><ColumnDefinition/></Grid.ColumnDefinitions>
+                <Label Content="+"/><Label Content="=" Grid.Row="1" />
+            </Grid>
+        </Button>
+        <Button Grid.Row="1" Grid.Column="13" Name="Btn214" Content="Backspace" Click="Btn214_Click"/>
+        <Button Grid.Row="1" Grid.Column="14" Name="Btn215" Content="Insert" Click="Btn215_Click"/>
+        <Button Grid.Row="1" Grid.Column="15" Name="Btn216" Content="Home" Click="Btn216_Click"/>
+        <Button Grid.Row="1" Grid.Column="16" Name="Btn217" Content="Page Up" Click="Btn217_Click"/>
+        <Button Grid.Row="1" Grid.Column="17" Name="Btn218" Content="NumLock" Click="Btn218_Click"/>
+        <Button Grid.Row="1" Grid.Column="18" Name="Btn219" Content="/" Click="Btn219_Click"/>
+        <Button Grid.Row="1" Grid.Column="19" Name="Btn220" Content="*" Click="Btn220_Click"/>
+        <Button Grid.Row="1" Grid.Column="20" Name="Btn221" Content="-" Click="Btn221_Click"/>
+        <!--#endregion-->
+
+        <!--#region Третья строка-->
+        <Button Grid.Row="2" Grid.Column="0" Name="Btn31" Content="Tab" Click="Btn31_Click"/>
+        <Button Grid.Row="2" Grid.Column="1" Name="Btn32" Click="Btn32_Click">
+            <Grid>
+                <Grid.RowDefinitions><RowDefinition/><RowDefinition/></Grid.RowDefinitions>
+                <Grid.ColumnDefinitions><ColumnDefinition/></Grid.ColumnDefinitions>
+                <Label Content="Q"/><Label Content="Й" Grid.Row="1" />
+            </Grid>
+        </Button>
+        <Button Grid.Row="2" Grid.Column="2" Name="Btn33" Click="Btn33_Click">
+            <Grid>
+                <Grid.RowDefinitions><RowDefinition/><RowDefinition/></Grid.RowDefinitions>
+                <Grid.ColumnDefinitions><ColumnDefinition/><ColumnDefinition/></Grid.ColumnDefinitions>
+                <Label Content="W"/><Label Content="Ц" Grid.Row="1" />
+            </Grid>
+        </Button>
+        <Button Grid.Row="2" Grid.Column="3" Name="Btn34" Click="Btn34_Click">
+            <Grid>
+                <Grid.RowDefinitions><RowDefinition/><RowDefinition/></Grid.RowDefinitions>
+                <Grid.ColumnDefinitions><ColumnDefinition/><ColumnDefinition/></Grid.ColumnDefinitions>
+                <Label Content="E"/><Label Content="У" Grid.Row="1" />
+            </Grid>
+        </Button>
+        <Button Grid.Row="2" Grid.Column="4" Name="Btn35"  Click="Btn35_Click">
+            <Grid>
+                <Grid.RowDefinitions><RowDefinition/><RowDefinition/></Grid.RowDefinitions>
+                <Grid.ColumnDefinitions><ColumnDefinition/><ColumnDefinition/></Grid.ColumnDefinitions>
+                <Label Content="R"/><Label Content="К" Grid.Row="1" />
+            </Grid>
+        </Button>
+        <Button Grid.Row="2" Grid.Column="5" Name="Btn36"  Click="Btn36_Click">
+            <Grid>
+                <Grid.RowDefinitions><RowDefinition/><RowDefinition/></Grid.RowDefinitions>
+                <Grid.ColumnDefinitions><ColumnDefinition/><ColumnDefinition/></Grid.ColumnDefinitions>
+                <Label Content="T"/><Label Content="Е" Grid.Row="1" />
+            </Grid>
+        </Button>
+        <Button Grid.Row="2" Grid.Column="6" Name="Btn37"  Click="Btn37_Click">
+            <Grid>
+                <Grid.RowDefinitions><RowDefinition/><RowDefinition/></Grid.RowDefinitions>
+                <Grid.ColumnDefinitions><ColumnDefinition/><ColumnDefinition/></Grid.ColumnDefinitions>
+                <Label Content="Y"/><Label Content="Н" Grid.Row="1" />
+            </Grid>
+        </Button>
+        <Button Grid.Row="2" Grid.Column="7" Name="Btn38"  Click="Btn38_Click">
+            <Grid>
+                <Grid.RowDefinitions><RowDefinition/><RowDefinition/></Grid.RowDefinitions>
+                <Grid.ColumnDefinitions><ColumnDefinition/><ColumnDefinition/></Grid.ColumnDefinitions>
+                <Label Content="U"/><Label Content="Г" Grid.Row="1" />
+            </Grid>
+        </Button>
+        <Button Grid.Row="2" Grid.Column="8" Name="Btn39"  Click="Btn39_Click">
+            <Grid>
+                <Grid.RowDefinitions><RowDefinition/><RowDefinition/></Grid.RowDefinitions>
+                <Grid.ColumnDefinitions><ColumnDefinition/></Grid.ColumnDefinitions>
+                <Label Content="I" HorizontalAlignment="Center"/><Label Content="Ш" Grid.Row="1" />
+            </Grid>
+        </Button>
+        <Button Grid.Row="2" Grid.Column="9" Name="Btn310"  Click="Btn310_Click">
+            <Grid>
+                <Grid.RowDefinitions><RowDefinition/><RowDefinition/></Grid.RowDefinitions>
+                <Grid.ColumnDefinitions><ColumnDefinition/><ColumnDefinition/></Grid.ColumnDefinitions>
+                <Label Content="O"/><Label Content="Щ" Grid.Row="1" />
+            </Grid>
+        </Button>
+        <Button Grid.Row="2" Grid.Column="10" Name="Btn311"  Click="Btn311_Click">
+            <Grid>
+                <Grid.RowDefinitions><RowDefinition/><RowDefinition/></Grid.RowDefinitions>
+                <Grid.ColumnDefinitions><ColumnDefinition/><ColumnDefinition/></Grid.ColumnDefinitions>
+                <Label Content="P"/><Label Content="З" Grid.Row="1" />
+            </Grid>
+        </Button>
+        <Button Grid.Row="2" Grid.Column="11" Name="Btn312"  Click="Btn312_Click">
+            <Grid>
+                <Grid.RowDefinitions><RowDefinition/><RowDefinition/></Grid.RowDefinitions>
+                <Grid.ColumnDefinitions><ColumnDefinition/><ColumnDefinition/></Grid.ColumnDefinitions>
+                <Label Content = "{}{"/><Label Content="[" Grid.Row="1" /><Label Content="Х" Grid.Column="1" Grid.Row="1"/>
+            </Grid>
+        </Button>
+        <Button Grid.Row="2" Grid.Column="12" Name="Btn313"  Click="Btn313_Click">
+            <Grid>
+                <Grid.RowDefinitions><RowDefinition/><RowDefinition/></Grid.RowDefinitions>
+                <Grid.ColumnDefinitions><ColumnDefinition/><ColumnDefinition/></Grid.ColumnDefinitions>
+                <Label Content="{}}"/><Label Content="]" Grid.Row="1" /><Label Content="Ъ" Grid.Row="1" Grid.Column="1"/>
+            </Grid>
+        </Button>
+        <Button Grid.Row="2" Grid.Column="13" Name="Btn314"  Click="Btn314_Click">
+            <Grid>
+                <Grid.RowDefinitions><RowDefinition/><RowDefinition/></Grid.RowDefinitions>
+                <Grid.ColumnDefinitions><ColumnDefinition/><ColumnDefinition/></Grid.ColumnDefinitions>
+                <Label Content="|"/><Label Content="\" Grid.Row="1" />
+            </Grid>
+        </Button>
+        <Button Grid.Row="2" Grid.Column="14" Name="Btn315" Content="Delete" Click="Btn315_Click"/>
+        <Button Grid.Row="2" Grid.Column="15" Name="Btn316" Content="End"  Click="Btn316_Click"/>
+        <Button Grid.Row="2" Grid.Column="16" Name="Btn317" Content="PageDown" Click="Btn317_Click"/>
+        <Button Grid.Row="2" Grid.Column="17" Name="Btn318" Click="Btn318_Click">
+            <Grid>
+                <Grid.RowDefinitions><RowDefinition/><RowDefinition/></Grid.RowDefinitions>
+                <Grid.ColumnDefinitions><ColumnDefinition/></Grid.ColumnDefinitions>
+                <Label Content="7" HorizontalAlignment="Center"/><Label Content="Home" Grid.Row="1" />
+            </Grid>
+        </Button>
+        <Button Grid.Row="2" Grid.Column="18" Name="Btn319" Click="Btn319_Click">
+            <Grid>
+                <Grid.RowDefinitions><RowDefinition/><RowDefinition/></Grid.RowDefinitions>
+                <Grid.ColumnDefinitions><ColumnDefinition/></Grid.ColumnDefinitions>
+                <Label Content="8"/><Label Content="↑" Grid.Row="1" />
+            </Grid>
+        </Button>
+        <Button Grid.Row="2" Grid.Column="19" Name="Btn320" Click="Btn320_Click">
+            <Grid>
+                <Grid.RowDefinitions><RowDefinition/><RowDefinition/></Grid.RowDefinitions>
+                <Grid.ColumnDefinitions><ColumnDefinition/></Grid.ColumnDefinitions>
+                <Label Content="9" HorizontalAlignment="Center"/><Label Content="Pg Up" Grid.Row="1" />
+            </Grid>
+        </Button>
+        <Button Grid.RowSpan="2" Grid.Row="2" Grid.Column="20" Name="Btn321" Content="+" Click="Btn321_Click"/>
+        <!--#endregion-->
+
+        <!--#region Четвёртая строка-->
+        <Button Grid.Row="3" Grid.Column="0" Name="Btn41" Content="CapsLock" Click="Btn41_Click"/>
+        <Button Grid.Row="3" Grid.Column="1" Name="Btn42" Click="Btn42_Click">
+            <Grid>
+                <Grid.RowDefinitions><RowDefinition/><RowDefinition/></Grid.RowDefinitions>
+                <Grid.ColumnDefinitions><ColumnDefinition/><ColumnDefinition/></Grid.ColumnDefinitions>
+                <Label Content="A"/><Label Content="Ф" Grid.Row="1" />
+            </Grid>
+        </Button>
+        <Button Grid.Row="3" Grid.Column="2" Name="Btn43" Click="Btn43_Click">
+            <Grid>
+                <Grid.RowDefinitions><RowDefinition/><RowDefinition/></Grid.RowDefinitions>
+                <Grid.ColumnDefinitions><ColumnDefinition/><ColumnDefinition/></Grid.ColumnDefinitions>
+                <Label Content="S"/><Label Content="Ы" Grid.Row="1" />
+            </Grid>
+        </Button>
+        <Button Grid.Row="3" Grid.Column="3" Name="Btn44" Click="Btn44_Click">
+            <Grid>
+                <Grid.RowDefinitions><RowDefinition/><RowDefinition/></Grid.RowDefinitions>
+                <Grid.ColumnDefinitions><ColumnDefinition/><ColumnDefinition/></Grid.ColumnDefinitions>
+                <Label Content="D"/><Label Content="В" Grid.Row="1" />
+            </Grid>
+        </Button>
+        <Button Grid.Row="3" Grid.Column="4" Name="Btn45" Click="Btn45_Click">
+            <Grid>
+                <Grid.RowDefinitions><RowDefinition/><RowDefinition/></Grid.RowDefinitions>
+                <Grid.ColumnDefinitions><ColumnDefinition/><ColumnDefinition/></Grid.ColumnDefinitions>
+                <Label Content="F"/><Label Content="А" Grid.Row="1" />
+            </Grid>
+        </Button>
+        <Button Grid.Row="3" Grid.Column="5" Name="Btn46" Click="Btn46_Click">
+            <Grid>
+                <Grid.RowDefinitions><RowDefinition/><RowDefinition/></Grid.RowDefinitions>
+                <Grid.ColumnDefinitions><ColumnDefinition/><ColumnDefinition/></Grid.ColumnDefinitions>
+                <Label Content="G"/><Label Content="П" Grid.Row="1" />
+            </Grid>
+        </Button>
+        <Button Grid.Row="3" Grid.Column="6" Name="Btn47" Click="Btn47_Click">
+            <Grid>
+                <Grid.RowDefinitions><RowDefinition/><RowDefinition/></Grid.RowDefinitions>
+                <Grid.ColumnDefinitions><ColumnDefinition/><ColumnDefinition/></Grid.ColumnDefinitions>
+                <Label Content="H"/><Label Content="Р" Grid.Row="1" />
+            </Grid>
+        </Button>
+        <Button Grid.Row="3" Grid.Column="7" Name="Btn48" Click="Btn48_Click">
+            <Grid>
+                <Grid.RowDefinitions><RowDefinition/><RowDefinition/></Grid.RowDefinitions>
+                <Grid.ColumnDefinitions><ColumnDefinition/><ColumnDefinition/></Grid.ColumnDefinitions>
+                <Label Content="J"/><Label Content="О" Grid.Row="1" />
+            </Grid>
+        </Button>
+        <Button Grid.Row="3" Grid.Column="8" Name="Btn49" Click="Btn49_Click">
+            <Grid>
+                <Grid.RowDefinitions><RowDefinition/><RowDefinition/></Grid.RowDefinitions>
+                <Grid.ColumnDefinitions><ColumnDefinition/><ColumnDefinition/></Grid.ColumnDefinitions>
+                <Label Content="K"/><Label Content="Л" Grid.Row="1" />
+            </Grid>
+        </Button>
+        <Button Grid.Row="3" Grid.Column="9" Name="Btn410" Click="Btn410_Click">
+            <Grid>
+                <Grid.RowDefinitions><RowDefinition/><RowDefinition/></Grid.RowDefinitions>
+                <Grid.ColumnDefinitions><ColumnDefinition/><ColumnDefinition/></Grid.ColumnDefinitions>
+                <Label Content="L"/><Label Content="Д" Grid.Row="1" />
+            </Grid>
+        </Button>
+        <Button Grid.Row="3" Grid.Column="10" Name="Btn411" Click="Btn411_Click">
+            <Grid>
+                <Grid.RowDefinitions><RowDefinition/><RowDefinition/></Grid.RowDefinitions>
+                <Grid.ColumnDefinitions><ColumnDefinition/><ColumnDefinition/></Grid.ColumnDefinitions>
+                <Label Content=":"/><Label Content=";" Grid.Row="1" /><Label Content="Ж" Grid.Row="1" Grid.Column="1"/>
+            </Grid>
+        </Button>
+        <Button Grid.Row="3" Grid.Column="11" Name="Btn412" Click="Btn412_Click">
+            <Grid>
+                <Grid.RowDefinitions><RowDefinition/><RowDefinition/></Grid.RowDefinitions>
+                <Grid.ColumnDefinitions><ColumnDefinition/><ColumnDefinition/></Grid.ColumnDefinitions>
+                <Label Content="&quot;"/><Label Content="'" Grid.Row="1" /><Label Content="Э" Grid.Row="1" Grid.Column="1"/>
+            </Grid>
+        </Button>
+        <Button Grid.Row="3" Grid.ColumnSpan="2" Grid.RowSpan="2" Grid.Column="12" Name="Btn413" Click="Btn413_Click">
+            <Grid Width="{Binding ElementName=Btn413, Path=ActualWidth}" Height="{Binding ElementName=Btn413, Path=ActualWidth}">
+                <Grid.RowDefinitions><RowDefinition/><RowDefinition/></Grid.RowDefinitions>
+                <Grid.ColumnDefinitions><ColumnDefinition/><ColumnDefinition/></Grid.ColumnDefinitions>
+                <Label Content="Enter" Grid.Row="0" Grid.ColumnSpan="2" HorizontalAlignment="Center"/>
+            </Grid>
+        </Button>
+        <Button Grid.Row="3" Grid.Column="17" Name="Btn414" Click="Btn414_Click">
+            <Grid>
+                <Grid.RowDefinitions><RowDefinition/><RowDefinition/></Grid.RowDefinitions>
+                <Grid.ColumnDefinitions><ColumnDefinition/></Grid.ColumnDefinitions>
+                <Label Content="4"/><Label Content="←" Grid.Row="1" />
+            </Grid>
+        </Button>
+        <Button Grid.Row="3" Grid.Column="18" Name="Btn415" Content="5" Click="Btn415_Click"/>
+        <Button Grid.Row="3" Grid.Column="19" Name="Btn416" Click="Btn416_Click">
+            <Grid>
+                <Grid.RowDefinitions><RowDefinition/><RowDefinition/></Grid.RowDefinitions>
+                <Grid.ColumnDefinitions><ColumnDefinition/><ColumnDefinition/></Grid.ColumnDefinitions>
+                <Label Content="6"/><Label Content="→" Grid.Row="1" />
+            </Grid>
+        </Button>
+        <!--#endregion-->
+
+        <!--#region Пятая строка-->
+        <Button Grid.Row="4" Grid.Column="0" Name="Btn51" Content="Shift" Click="Btn51_Click"/>
+        <Button Grid.Row="4" Grid.Column="1" Name="Btn52" Click="Btn52_Click">
+            <Grid>
+                <Grid.RowDefinitions><RowDefinition/><RowDefinition/></Grid.RowDefinitions>
+                <Grid.ColumnDefinitions><ColumnDefinition/><ColumnDefinition/></Grid.ColumnDefinitions>
+                <Label Content="Z"/><Label Content="Я" Grid.Row="1" />
+            </Grid>
+        </Button>
+        <Button Grid.Row="4" Grid.Column="2" Name="Btn53" Click="Btn53_Click">
+            <Grid>
+                <Grid.RowDefinitions><RowDefinition/><RowDefinition/></Grid.RowDefinitions>
+                <Grid.ColumnDefinitions><ColumnDefinition/><ColumnDefinition/></Grid.ColumnDefinitions>
+                <Label Content="X"/><Label Content="Ч" Grid.Row="1" />
+            </Grid>
+        </Button>
+        <Button Grid.Row="4" Grid.Column="3" Name="Btn54" Click="Btn54_Click">
+            <Grid>
+                <Grid.RowDefinitions><RowDefinition/><RowDefinition/></Grid.RowDefinitions>
+                <Grid.ColumnDefinitions><ColumnDefinition/><ColumnDefinition/></Grid.ColumnDefinitions>
+                <Label Content="C"/><Label Content="С" Grid.Row="1" />
+            </Grid>
+        </Button>
+        <Button Grid.Row="4" Grid.Column="4" Name="Btn55" Click="Btn55_Click">
+            <Grid>
+                <Grid.RowDefinitions><RowDefinition/><RowDefinition/></Grid.RowDefinitions>
+                <Grid.ColumnDefinitions><ColumnDefinition/><ColumnDefinition/></Grid.ColumnDefinitions>
+                <Label Content="V"/><Label Content="М" Grid.Row="1" />
+            </Grid>
+        </Button>
+        <Button Grid.Row="4" Grid.Column="5" Name="Btn56" Click="Btn56_Click">
+            <Grid>
+                <Grid.RowDefinitions><RowDefinition/><RowDefinition/></Grid.RowDefinitions>
+                <Grid.ColumnDefinitions><ColumnDefinition/><ColumnDefinition/></Grid.ColumnDefinitions>
+                <Label Content="B"/><Label Content="И" Grid.Row="1" />
+            </Grid>
+        </Button>
+        <Button Grid.Row="4" Grid.Column="6" Name="Btn57" Click="Btn57_Click">
+            <Grid>
+                <Grid.RowDefinitions><RowDefinition/><RowDefinition/></Grid.RowDefinitions>
+                <Grid.ColumnDefinitions><ColumnDefinition/><ColumnDefinition/></Grid.ColumnDefinitions>
+                <Label Content="N"/><Label Content="Т" Grid.Row="1" />
+            </Grid>
+        </Button>
+        <Button Grid.Row="4" Grid.Column="7" Name="Btn58" Click="Btn58_Click">
+            <Grid>
+                <Grid.RowDefinitions><RowDefinition/><RowDefinition/></Grid.RowDefinitions>
+                <Grid.ColumnDefinitions><ColumnDefinition/><ColumnDefinition/></Grid.ColumnDefinitions>
+                <Label Content="M"/><Label Content="Ь" Grid.Row="1" />
+            </Grid>
+        </Button>
+        <Button Grid.Row="4" Grid.Column="8" Name="Btn59" Click="Btn59_Click">
+            <Grid>
+                <Grid.RowDefinitions><RowDefinition/><RowDefinition/></Grid.RowDefinitions>
+                <Grid.ColumnDefinitions><ColumnDefinition/><ColumnDefinition/></Grid.ColumnDefinitions>
+                <Label Content="&lt;"/><Label Content="," Grid.Row="1" /><Label Content="Б" Grid.Row="1" Grid.Column="1"/>
+            </Grid>
+        </Button>
+        <Button Grid.Row="4" Grid.Column="9" Name="Btn510" Click="Btn510_Click">
+            <Grid>
+                <Grid.RowDefinitions><RowDefinition/><RowDefinition/></Grid.RowDefinitions>
+                <Grid.ColumnDefinitions><ColumnDefinition/><ColumnDefinition/></Grid.ColumnDefinitions>
+                <Label Content="&gt;"/><Label Content="." Grid.Row="1" /><Label Content="Ю" Grid.Row="1" Grid.Column="1"/>
+            </Grid>
+        </Button>
+        <Button Grid.Row="4" Grid.Column="10" Name="Btn511" Click="Btn511_Click">
+            <Grid>
+                <Grid.RowDefinitions><RowDefinition/><RowDefinition/></Grid.RowDefinitions>
+                <Grid.ColumnDefinitions><ColumnDefinition/><ColumnDefinition/></Grid.ColumnDefinitions>
+                <Label Content="?"/><Label Content="/" Grid.Row="1" />
+                <Label Content="," Grid.Row="0" Grid.Column="1"/><Label Content="." Grid.Row="1" Grid.Column="1"/>
+            </Grid>
+        </Button>
+        <Button Grid.Row="4" Grid.ColumnSpan="2" Grid.Column="11" Name="Btn512" Content="Shift" Click="Btn512_Click"/>
+        <Button Grid.Row="4" Grid.Column="15" Name="Btn513" Content="↑" Click="Btn513_Click"/>
+        <Button Grid.Row="4" Grid.Column="17" Name="Btn514" Click="Btn514_Click">
+            <Grid>
+                <Grid.RowDefinitions><RowDefinition/><RowDefinition/></Grid.RowDefinitions>
+                <Grid.ColumnDefinitions><ColumnDefinition/><ColumnDefinition/></Grid.ColumnDefinitions>
+                <Label Content="1" HorizontalAlignment="Center"/><Label Content="End" Grid.Row="1" />
+            </Grid>
+        </Button>
+        <Button Grid.Row="4" Grid.Column="18" Name="Btn515" Click="Btn515_Click">
+            <Grid>
+                <Grid.RowDefinitions><RowDefinition/><RowDefinition/></Grid.RowDefinitions>
+                <Grid.ColumnDefinitions><ColumnDefinition/><ColumnDefinition/></Grid.ColumnDefinitions>
+                <Label Content="2"/><Label Content="↓" Grid.Row="1" />
+            </Grid>
+        </Button>
+        <Button Grid.Row="4" Grid.Column="19" Name="Btn516" Click="Btn516_Click">
+            <Grid>
+                <Grid.RowDefinitions><RowDefinition/><RowDefinition/></Grid.RowDefinitions>
+                <Grid.ColumnDefinitions><ColumnDefinition/></Grid.ColumnDefinitions>
+                <Label Content="3" HorizontalAlignment="Center"/><Label Content="Pg Dn" Grid.Row="1" />
+            </Grid>
+        </Button>
+        <Button Grid.RowSpan="2" Grid.Row="4" Grid.Column="20" Name="Btn517" Content="Enter" Click="Btn517_Click"/>
+        <!--#endregion-->
+
+        <!--#region Шестая строка-->
+        <Button Grid.Row="5" Grid.Column="0" Name="Btn61" Content="Ctrl" Click="Btn61_Click"/>
+        <Button Grid.Row="5" Grid.Column="1" Name="Btn62" Content="Win" Click="Btn62_Click" />
+        <Button Grid.Row="5" Grid.Column="2" Name="Btn63" Content="Alt" Click="Btn63_Click"/>
+        <Button Grid.ColumnSpan="8" Grid.Row="5" Grid.Column="3" Name="Btn64" Content="Space" Click="Btn64_Click"/>
+        <Button Grid.Row="5" Grid.Column="11" Name="Btn65" Content="Alt" Click="Btn65_Click"/>
+        <Button Grid.Row="5" Grid.Column="12" Name="Btn66" Content="Win" Click="Btn66_Click"/>
+        <Button Grid.Row="5" Grid.Column="13" Name="Btn67" Content="Ctrl" Click="Btn67_Click"/>
+        <Button Grid.Row="5" Grid.Column="14" Name="Btn68" Content="←" Click="Btn68_Click"/>
+        <Button Grid.Row="5" Grid.Column="15" Name="Btn69" Content="↓" Click="Btn69_Click"/>
+        <Button Grid.Row="5" Grid.Column="16" Name="Btn610" Content="→" Click="Btn610_Click"/>
+        <Button Grid.ColumnSpan="2" Grid.Row="5" Grid.Column="17" Name="Btn611" Click="Btn611_Click">
+            <Grid>
+                <Grid.RowDefinitions><RowDefinition/><RowDefinition/></Grid.RowDefinitions>
+                <Grid.ColumnDefinitions><ColumnDefinition/></Grid.ColumnDefinitions>
+                <Label Content="0" HorizontalAlignment="Center"/><Label Content="Insert" Grid.Row="1" />
+            </Grid>
+        </Button>
+        <Button Grid.Row="5" Grid.Column="19" Name="Btn612" Click="Btn612_Click">
+            <Grid>
+                <Grid.RowDefinitions><RowDefinition/><RowDefinition/></Grid.RowDefinitions>
+                <Grid.ColumnDefinitions><ColumnDefinition/></Grid.ColumnDefinitions>
+                <Label Content="." HorizontalAlignment="Center"/><Label Content="Delete" Grid.Row="1" />
+            </Grid>
+        </Button>
+        <!--#endregion-->
+
+        <Button Name="MouseBtnLeft" Grid.Column="22" Grid.Row="2" Click="MouseBtnLeft_Click"/>
+        <Button Name="MouseBtnRight" Grid.Column="23" Grid.Row="2" Click="MouseBtnRight_Click"/>
+        <Rectangle Grid.Row="3" Grid.Column="22" Fill="LightGray" Grid.RowSpan="2" Grid.ColumnSpan="2"/>
+        <Rectangle Grid.Row="1" Grid.Column="22" Fill="Black" Grid.ColumnSpan="2" HorizontalAlignment="Center" Width="20"/>
+        <Rectangle Grid.Row="0" Grid.Column="23" Fill="Black" Grid.RowSpan="2" VerticalAlignment="Center" Height="20"/>
+        <Rectangle Grid.Row="0" Grid.Column="23" Fill="Black" Grid.ColumnSpan="2" HorizontalAlignment="Center" Width="20"/>
+
+        <WrapPanel Grid.Row="6" Grid.ColumnSpan="25" VerticalAlignment="Center" HorizontalAlignment="Center">
+            <Button Name="btn_StartRec" Width="auto" Content="Запись" Click="Button_Click" />
+            <Button Name="btn_StopRec" Width="auto" Content="Остановить запись" Click="btn_StopRec_Click" />
+            <Button Name="btn_StartWork" Width="auto" Content="Воспроизведение" Click="btn_StartWork_Click"/>
+            <Button Name="btn_Setings" Width="auto" Content="Настройки" Click="btn_Setings_Click"/>
+            <Button Name="btn_AllDel" Width="auto" Content="Очистка" Click="btn_AllDel_Click"/>
+            <Button Name="btn_Read" Width="auto" Content="Прочтение скрипта" Click="btn_Read_Click"/>
+            <Button Name="btn_Test" Width="auto" Content="Test" Click="btn_Test_Click"/>
+            <Button Width="auto" Content="Загрузить сценарий действий из файла" Click="Button_Click_2"/>
+            <Button Width="auto" Content="Сохранить сценарий действий в файл" Click="Button_Click_1"/>
+        </WrapPanel>
+        
+        <TextBox Name="lblProgVivod" Grid.Row="7" Grid.ColumnSpan="25"/>
+        <Grid Grid.Row="3" Grid.Column="22" Grid.ColumnSpan="2">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Label Content="X:" Grid.Row="0"/>
+        <Label Name="lblXCoord" Grid.Row="0" Grid.Column="1"/>
+        <Label Content="Y:" Grid.Row="1" Grid.Column="0"/>
+        <Label Name="lblYCoord" Grid.Row="1" Grid.Column="1"/>
+        </Grid>
+        <Grid Grid.Row="4" Grid.Column="22" Grid.ColumnSpan="2">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Button Grid.Row="0" Grid.Column="0">
+                <Image Source="/Pages/arrow.png" RenderTransformOrigin="0.5,0.5">
+                    <Image.RenderTransform>
+                        <TransformGroup>
+                            <RotateTransform Angle="90"/>
+                           
+                        </TransformGroup>
+                    </Image.RenderTransform>
+                </Image>
+            </Button>
+            <Button Grid.Row="1" Grid.Column="0">
+                <Image Source="/Pages/arrow.png" RenderTransformOrigin="0.5,0.5">
+                    <Image.RenderTransform>
+                        <TransformGroup>
+                            <RotateTransform Angle="-90"/>
+                        </TransformGroup>
+                    </Image.RenderTransform>
+
+                </Image>
+            </Button>
+            <Button Grid.Row="0" Grid.Column="1">
+                <Image Source="/Pages/arrow.png"/>
+                
+            </Button>
+            <Button Grid.Row="1" Grid.Column="1">
+                <Image Source="/Pages/arrow.png" RenderTransformOrigin="0.5,0.5">
+                    <Image.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform ScaleX="-1"/>
+                        </TransformGroup>
+                    </Image.RenderTransform>
+                </Image>
+            </Button>
+        </Grid>
+    </Grid>
+</Page>

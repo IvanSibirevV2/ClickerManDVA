@@ -1,0 +1,73 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="Klava1.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Klava1.tt</DependentUpon>
+    </None>
+    <None Include="Klava2.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Klava2.tt</DependentUpon>
+    </None>
+    <None Include="Klava_VK_.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Klava_VK_.tt</DependentUpon>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Service Include="{508349b6-6b84-4df5-91f0-309beebad82d}" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Klava1.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Klava1.tt</DependentUpon>
+    </Compile>
+    <Compile Update="Klava2.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Klava2.tt</DependentUpon>
+    </Compile>
+    <Compile Update="KlavaTT.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>KlavaTT.tt</DependentUpon>
+    </Compile>
+    <Compile Update="Klava_VK_.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Klava_VK_.tt</DependentUpon>
+    </Compile>
+    <Compile Update="TextTemplate1.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>TextTemplate1.tt</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Klava1.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>Klava1.cs</LastGenOutput>
+    </None>
+    <None Update="Klava2.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>Klava2.cs</LastGenOutput>
+    </None>
+    <None Update="Klava_VK_.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>Klava_VK_.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+
+</Project>
