@@ -111,7 +111,11 @@ namespace WpfDiplom.Pages
         /// <summary>Загрузить сценарий из файла</summary>
         private void Button_Click_2(object sender, RoutedEventArgs e) 
         {
-            
+            List<System.String> FileLines = File.ReadAllLines("Temp.txt", Encoding.UTF8).ToList<System.String>();
+            this.p_LLS_Record.Clear();
+            this.p_LLS_Record.Add(new List<string>());
+            foreach (string line in FileLines)
+                this.p_LLS_Record.Add(line.Split(';').ToList<System.String>());
         }
         
         //////////////////////////////////////////////////////
