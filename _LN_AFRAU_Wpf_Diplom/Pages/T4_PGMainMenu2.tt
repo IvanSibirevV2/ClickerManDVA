@@ -81,16 +81,16 @@ Gett
                     //////////////////////////////////////////////////////
                     this.GetCursorPos();
                     if (this.MouseMoveX_Is()) { this.MouseMoveX_Set_Background_Green();
-                        if (_Rec) LS_Rec.Add(this.MouseMoveX_String()+"_"+(this.p_Now_XY.X-this.p_Last_XY.X).ToString());
+                        if (_Rec) LS_Rec.Add(this.MouseMoveX_String()+"_"+(this.p_Now_XY.X).ToString());
                     } else { this.MouseMoveX_Set_Background_Gray(); }
                     if (this.MouseMoveNX_Is()) { this.MouseMoveNX_Set_Background_Green();
-                        if (_Rec) LS_Rec.Add(this.MouseMoveNX_String() + "_" + (this.p_Last_XY.X- this.p_Now_XY.X).ToString());
+                        if (_Rec) LS_Rec.Add(this.MouseMoveNX_String() + "_" + (this.p_Last_XY.X).ToString());
                     } else { this.MouseMoveNX_Set_Background_Gray(); }
                     if (this.MouseMoveY_Is()) { this.MouseMoveY_Set_Background_Green();
-                        if (_Rec) LS_Rec.Add(this.MouseMoveY_String() + "_" + (this.p_Now_XY.Y - this.p_Last_XY.Y).ToString());
+                        if (_Rec) LS_Rec.Add(this.MouseMoveY_String() + "_" + (this.p_Now_XY.Y).ToString());
                     } else { this.MouseMoveY_Set_Background_Gray(); }
                     if (this.MouseMoveNY_Is()) { this.MouseMoveNY_Set_Background_Green();
-                        if (_Rec) LS_Rec.Add(this.MouseMoveNY_String() + "_" + (this.p_Last_XY.Y- this.p_Now_XY.Y).ToString());
+                        if (_Rec) LS_Rec.Add(this.MouseMoveNY_String() + "_" + (this.p_Last_XY.Y).ToString());
                     } else { this.MouseMoveNY_Set_Background_Gray(); }
                     Dispatcher.InvokeAsync(() => {this.lblXCoord.Content = this.p_Now_XY.X; this.lblYCoord.Content = this.p_Now_XY.Y; });
 

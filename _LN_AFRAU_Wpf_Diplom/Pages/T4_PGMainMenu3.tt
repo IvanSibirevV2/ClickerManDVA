@@ -84,11 +84,24 @@ Gett
 
                     });
                     #endregion
-                foreach (System.String _Now in __Now)
-                {
+ __Now.Get__Copy().ForEach(_Now => 
+ {
                     //Обрабатываем спячки в порядке поступления
                     if (_Now == "Sleep50") { System.Threading.Thread.Sleep(50); }
                     //оБРАБАТЫВАЕМ ДВИЖЕНИЕ МЫШИ
+                       try
+                    {
+                        System.String _IfMouseStr = _Now.Split('_')[0];
+                        System.String _IfMouseStr_Value = _Now.Split('_')[1];
+                        int QWE = 0;
+                        System.Int32.TryParse(_IfMouseStr_Value,out QWE);
+                        this.GetCursorPos();
+                        if (_IfMouseStr == "MouseMoveX"){Set_CursorPos(new XY() { X=QWE, Y=this.p_Now_XY.Y });}
+                        if (_IfMouseStr == "MouseMoveNX") { Set_CursorPos(new XY() { X = QWE, Y = this.p_Now_XY.Y }); }
+                        if (_IfMouseStr == "MouseMoveY") { Set_CursorPos(new XY() { X = this.p_Now_XY.X, Y =QWE }); }
+                        if (_IfMouseStr == "MouseMoveNY") { Set_CursorPos(new XY() { X = this.p_Now_XY.X, Y =QWE }); }
+                    }
+                    catch { }
                     //оБРАБАТЫВАЕМ КЛАВИШИ
                     if (__Last.Where(_Last => _Now == _Last).ToList().Count() == 0)
                     {
@@ -119,7 +132,7 @@ Gettt
 ;
 #>
                     }
-                }
+                 });
 
             }
                     #region qweqwe

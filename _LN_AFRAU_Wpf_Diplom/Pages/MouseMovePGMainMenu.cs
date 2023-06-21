@@ -36,7 +36,9 @@ namespace WpfDiplom.Pages
 {
     public partial class PGMainMenu : System.Windows.Controls.Page
     {
-
+        [DllImport("User32.Dll")]
+        private static extern long SetCursorPos(int x, int y);
+        public PGMainMenu Set_CursorPos(XY _XY) { SetCursorPos(_XY.X, _XY.Y); return this; }
         [StructLayout(LayoutKind.Sequential)]
         public struct XY { public int X; public int Y; }
         [DllImport("User32.Dll")]

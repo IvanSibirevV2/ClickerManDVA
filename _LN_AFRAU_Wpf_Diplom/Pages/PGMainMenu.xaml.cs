@@ -82,6 +82,7 @@ namespace WpfDiplom.Pages
         /// <summary> Тестовый Мод Первый. Выводить в титульник название только что нажатой клациши</summary>
         private System.Boolean p_TestMod_1 = true;
         private Thread thread = null;
+        private Thread threadRun = null;
         private System.Boolean ExitFlag = true;
         public PGMainMenu()
         {
@@ -124,7 +125,17 @@ namespace WpfDiplom.Pages
         {
             this.p_Record = false;
         }
-        async private void btn_StartWork_Click(object sender, RoutedEventArgs e){}
+        /// <summary> Воспроизведения</summary>
+        async private void btn_StartWork_Click(object sender, RoutedEventArgs e)
+        {
+            if(threadRun!=null)threadRun.Abort();
+            threadRun = null;
+            threadRun = new Thread(A => {
+                this.Runn(this.p_LLS_Record);
+            });
+            threadRun.Start();
+
+        }
         #region Переход на страницу настроек
         private void btn_Setings_Click(object sender, RoutedEventArgs e)
         {NavigationService.Navigate(new PGSetings());}
