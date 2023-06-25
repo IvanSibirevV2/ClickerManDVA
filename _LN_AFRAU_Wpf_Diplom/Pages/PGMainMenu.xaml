@@ -513,7 +513,7 @@
             <Button Width="auto" Content="Сохранить сценарий действий в файл" Click="Button_Click_1"/>
         </WrapPanel>
         
-        <TextBox Name="lblProgVivod" Grid.Row="7" Grid.ColumnSpan="25"/>
+        <TextBox Name="lblProgVivod" Grid.Row="7" Grid.ColumnSpan="25" TextChanged="lblProgVivod_TextChanged"/>
         <Grid Grid.Row="3" Grid.Column="22" Grid.ColumnSpan="2">
             <Grid.RowDefinitions>
                 <RowDefinition/>

@@ -19,8 +19,15 @@ using WpfDiplom.Pages;
 using static WpfDiplom.Pages.PGMainMenu;
 using static WpfDiplom.Pages.PGSetings;
 
+
+
 namespace WpfDiplom
 {
+    public static class ThreadKran
+    {
+        public static System.Boolean _Flag = true;
+        public static System.Action StopKran = () => { };
+    }
     /// <summary>
     /// Логика взаимодействия для MainWindow.xaml
     /// </summary>
@@ -51,7 +58,10 @@ namespace WpfDiplom
 
         private void Window_Closed(object sender, EventArgs e)
         {
-           // UnregisterHotkey();
+            // UnregisterHotkey();
+            //System.Windows.Forms.MessageBox.Show("Do you want to close this window?");
+            WpfDiplom.ThreadKran._Flag = false;
+            WpfDiplom.ThreadKran.StopKran();
         }
 
         private void Frame_ContextMenuClosing(object sender, ContextMenuEventArgs e)

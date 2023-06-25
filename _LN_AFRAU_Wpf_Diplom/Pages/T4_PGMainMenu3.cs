@@ -34,8 +34,9 @@ namespace WpfDiplom.Pages
 {
     public partial class PGMainMenu : System.Windows.Controls.Page
     {
-        private PGMainMenu Runn(List<List<String>> _LLS)
+        private PGMainMenu Runn()
         {
+            List<List<String>> _LLS = this.p_LLS_Record.Get__Copy();
         _LLS.Add(new List<System.String>());
             for (int i = 1; i < _LLS.Count(); i++)
             {

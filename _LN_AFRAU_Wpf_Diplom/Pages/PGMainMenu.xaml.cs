@@ -83,11 +83,18 @@ namespace WpfDiplom.Pages
         private System.Boolean p_TestMod_1 = true;
         private Thread thread = null;
         private Thread threadRun = null;
-        private System.Boolean ExitFlag = true;
+        
         public PGMainMenu()
         {
             InitializeComponent();
             this.ForKeyIs();
+
+            WpfDiplom.ThreadKran.StopKran = () => {
+                Dispatcher.InvokeAsync(() => WpfDiplom.ThreadKran._Flag = false);
+                if(this.thread!=null)this.thread.Abort();
+                if (this.threadRun != null) this.threadRun.Abort();
+            };
+            
 
         }
         /// <summary>ФлагЗаписи</summary>
@@ -107,7 +114,9 @@ namespace WpfDiplom.Pages
                 foreach (List<System.String> ListString in this.p_LLS_Record)
                     textWriter.WriteLine(System.String.Join(";", ListString));
             }
-            System.Diagnostics.Process.Start("notepad.exe", "Temp.txt");
+            var process = System.Diagnostics.Process.Start("notepad.exe", "Temp.txt");
+
+            process.WaitForExit();
         }
         /// <summary>Загрузить сценарий из файла</summary>
         private void Button_Click_2(object sender, RoutedEventArgs e) 
@@ -131,7 +140,7 @@ namespace WpfDiplom.Pages
             if(threadRun!=null)threadRun.Abort();
             threadRun = null;
             threadRun = new Thread(A => {
-                this.Runn(this.p_LLS_Record);
+                this.Runn();
             });
             threadRun.Start();
 
@@ -141,8 +150,19 @@ namespace WpfDiplom.Pages
         {NavigationService.Navigate(new PGSetings());}
         
         #endregion
-        private void btn_AllDel_Click(object sender, RoutedEventArgs e){}
-        private void btn_Read_Click(object sender, RoutedEventArgs e){}
+        /// <summary>Очистка</summary>
+        private void btn_AllDel_Click(object sender, RoutedEventArgs e)
+        {
+            this.p_LLS_Record.Clear();
+            this.p_LLS_Record.Add(new List<string>()) ;
+        }
+        /// <summary>Читать скрипт</summary>
+        private void btn_Read_Click(object sender, RoutedEventArgs e)
+        {
+            var process =  System.Diagnostics.Process.Start("notepad.exe", "Temp.txt");
+            
+            process.WaitForExit();
+        }
         
         async private void btn_Test_Click(object sender, RoutedEventArgs e){}
 
@@ -150,12 +170,13 @@ namespace WpfDiplom.Pages
 
         private void Grid_ContextMenuClosing(object sender, ContextMenuEventArgs e)
         {
-            this.ExitFlag = false;
-            System.Threading.Thread.Sleep(50);
-            this.thread.Abort();
+            
             //thread = null;
         }
 
+        private void lblProgVivod_TextChanged(object sender, TextChangedEventArgs e)
+        {
 
+        }
     }
 }
