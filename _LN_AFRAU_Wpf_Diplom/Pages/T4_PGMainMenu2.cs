@@ -27,12 +27,11 @@ using System.Windows.Threading;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement.ToolBar;
 using Microsoft.Win32;
 using System.Runtime.CompilerServices;
-using ClickerManDVA_DVA;
+//using ClickerManDVA_DVA;
 using System.Threading;
 #endregion
 namespace WpfDiplom.Pages
 {
-    
     public partial class PGMainMenu : System.Windows.Controls.Page
     {
         private PGMainMenu ForKeyIs() 
@@ -40,7 +39,6 @@ namespace WpfDiplom.Pages
             if (this.ArrowLeft_Is()) { this.ArrowLeft_Set_Background_Green(); } else { this.ArrowLeft_Set_Background_Gray(); }
             if (this.ArrowRight_Is()) { this.ArrowRight_Set_Background_Green(); } else { this.ArrowRight_Set_Background_Gray(); }
             thread = new Thread(A => {
-                
                 while (WpfDiplom.ThreadKran._Flag)
                 {
                     System.Boolean _Rec = false;Dispatcher.InvokeAsync(() => _Rec = this.p_Record);List<System.String> LS_Rec = new List<System.String>();
@@ -169,7 +167,6 @@ if (this.Mark_Is()) { this.Mark_Set_Background_Green(); if (_Rec) LS_Rec.Add(thi
                     Dispatcher.InvokeAsync(() => {this.lblXCoord.Content = this.p_Now_XY.X; this.lblYCoord.Content = this.p_Now_XY.Y; });
 
                     //Во время воспроизведения происходит задержка в 50 милисекунд по дефолту
-                    
                     if (LS_Rec.Count != 0){ Dispatcher.InvokeAsync(() => { this.p_LLS_Record.Add(LS_Rec); }); }else
                     {
                         Dispatcher.InvokeAsync(() => { if (this.p_LLS_Record.Count == 0) this.p_LLS_Record.Add(new List<string>()); ; });

@@ -27,7 +27,7 @@ using System.Windows.Threading;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement.ToolBar;
 using Microsoft.Win32;
 using System.Runtime.CompilerServices;
-using ClickerManDVA_DVA;
+//using ClickerManDVA_DVA;
 using System.Threading;
 using System.Windows.Media.Media3D;
 using System.IO;
@@ -48,7 +48,7 @@ namespace WpfDiplom.Pages
 
 
         //WpfDiplom.Pages.PGMainMenu.p_DataContext
-        private static ClickerManDVA_DVA.DataContext p_DataContext = new ClickerManDVA_DVA.DataContext();
+        //private static ClickerManDVA_DVA.DataContext p_DataContext = new ClickerManDVA_DVA.DataContext();
         #region Библиотеки
         //Подключение библиотек
         /*

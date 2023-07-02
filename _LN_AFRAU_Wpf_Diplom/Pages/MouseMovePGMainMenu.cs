@@ -27,7 +27,7 @@ using System.Windows.Threading;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement.ToolBar;
 using Microsoft.Win32;
 using System.Runtime.CompilerServices;
-using ClickerManDVA_DVA;
+
 using System.Threading;
 using System.Windows.Media.Media3D;
 #endregion
